@@ -29,4 +29,10 @@ Use this skill when the user triggers the `/shaz` slash command or requests high
    - Law 17: Ecosystem & Technology Integration Infinite Marquee
    - Law 18: Bespoke Vector Favicon Architecture (Project-Tailored SVG)
 3. Select exact design tokens, typography pairings, and motion parameters from the 444+ Shaz Agency blueprints.
-4. Output complete, working, production-ready code with zero placeholders.
+
+## Explanatory Output Protocol (Mandatory in Antigravity, Claude Code, and Codex):
+When executing this command, you must structure your response with clear architectural explanations before delivering code:
+1. **Architectural Rationale:** Explain why the specific layout, spatial hierarchy, and visual balance were chosen for the project.
+2. **Applied Universal Design Laws:** Explicitly cite which of the 18 Universal Design Laws are applied (e.g., Law 1 for single-sentence telemetry, Law 8 for selective surface hierarchy, Law 18 for bespoke favicon).
+3. **Blueprint & Token Specifications:** Specify exact blueprint IDs (from the 444+ library), typography pairing, surface color palette, and kinetic physics parameters.
+4. **Production-Ready Implementation:** Provide clean, unabridged, production-grade Next.js App Router, Tailwind CSS, Three.js, and Framer Motion code with zero placeholders.

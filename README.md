@@ -118,20 +118,51 @@ Enforce the 18 Universal Design Laws: zero fluff copy, zero badges/pills, zero e
 
 ---
 
-## 5. Slash Commands (`/`)
+## 5. Universal Slash Commands (`/`)
 
-The skill natively provides high-velocity slash commands for both **Antigravity** and **Claude Code**:
+The skill natively provides high-velocity slash commands compatible across **Antigravity**, **Claude Code**, **Cursor**, **Windsurf**, and **OpenAI Codex**:
 
-| Slash Command | Compatible Platforms | Purpose |
+| Slash Command | Compatible Platforms | Purpose & Description |
 | :--- | :--- | :--- |
-| `/shaz [brief]` | Antigravity, Claude Code | Invokes the autonomous Swiss Utilitarian design engine with the 18 universal laws and 444+ blueprints. |
-| `/shaz-audit` | Antigravity, Claude Code | Runs the 16-point universal quality gate audit across current code/workspace to detect slop, pills, fluff, emojis, and leaks. |
-| `/shaz-agency-web-design` | Antigravity | Canonical skill name for deep architecture planning and complete prompt synthesis. |
+| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | Master autonomous design engine. Synthesizes full pages and sections adhering to the 18 universal laws and 444+ blueprints. |
+| **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | 16-Point pre-delivery quality gate auditor. Scans code for fluff text, pills, emojis, neon glow, comment leaks, and layout overflows. |
+| **`/shaz-hero [industry]`** | Antigravity, Claude Code, Cursor, Codex | Generates backgroundless cinematic hero sections with Three.js ambient canvas, floating HUD telemetry, and direct headline primacy (no eyebrows or tickers). |
+| **`/shaz-3d [scene-type]`** | Antigravity, Claude Code, Cursor, Codex | Dedicated WebGL & Three.js shader stage generator selecting from 141 3D blueprints (PBR glass, caustics, fluid mercury, CAD wireframe, procedural terrain). |
+| **`/shaz-style [style-name]`** | Antigravity, Claude Code, Cursor, Codex | Synthesizes and applies any of the 40 authentic design styles (Swiss Utilitarian, Neobrutalism, Y2K, Bento Grid, Acid Graphics, Spatial UI) with calibrated tokens. |
+| **`/shaz-dock [nav-items]`** | Antigravity, Claude Code, Cursor, Codex | Generates two-stage kinetic scroll-morphing collapsible dock navigation with deterministic CSS isolation, monochrome icon array, and custom vector favicon. |
+| **`/shaz-component [type]`** | Antigravity, Claude Code, Cursor, Codex | Generates precision UI components from the 114 NameThatUI dictionary blueprints (command palette, segmented control, stepped area chart, inverted pricing matrix) with WAI-ARIA. |
+| **`/shaz-agency-web-design`** | Antigravity | Canonical global skill name for comprehensive architectural planning and multi-stage prompt generation. |
+
+### Explanatory Output Protocol:
+When any command is invoked in Antigravity, Claude Code, or Codex, the agent adheres to a strict explanatory protocol before delivering implementation code:
+1. **Architectural Rationale:** Explains the design decisions, layout hierarchy, and spatial balance.
+2. **Applied Universal Design Laws:** Explicitly lists the governing laws (e.g. Laws 1, 8, 11, 16, 18).
+3. **Blueprint & Token Specifications:** Identifies exact blueprint IDs, typography pairings, and kinetic parameters.
+4. **Production Implementation:** Delivers complete, unabridged, copy-pasteable Next.js / Tailwind / Three.js code with zero placeholders.
 
 ### Usage Examples:
-* `/shaz build a dark obsidian fin-tech asset allocation dashboard with stepped area charts`
-* `/shaz design an independent swiss luxury horology atelier landing page`
-* `/shaz-audit`
+```bash
+# Generate a full autonomous platform
+/shaz build a dark obsidian quant asset management terminal with stepped area charts
+
+# Audit current code for quality compliance
+/shaz-audit
+
+# Generate a luxury haute horlogerie backgroundless hero section
+/shaz-hero independent swiss tourbillon atelier with titanium mechanics
+
+# Generate a 3D WebGL shader stage
+/shaz-3d chromatic dispersion glass with interactive caustics
+
+# Apply an authentic aesthetic to an existing section
+/shaz-style neobrutalism developer documentation matrix
+
+# Generate a scroll-morphing dock navbar with custom favicon
+/shaz-dock brand: Apex Systems, links: Overview, Architecture, Docs, Deploy
+
+# Generate an accessible NameThatUI component
+/shaz-component command-palette with keyboard shortcuts and search filtering
+```
 
 ---
 

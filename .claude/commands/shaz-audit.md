@@ -18,4 +18,9 @@ Verify compliance with:
 16. Bespoke Vector Favicon Architecture
 
 Run `powershell -ExecutionPolicy Bypass -File .\tests\run-quality-audit.ps1` if available.
-Report any anti-pattern violations and supply ready-to-use code fixes.
+
+## Explanatory Audit Protocol:
+Structure your response as follows:
+1. Audit Summary Table: Pass/Fail status for all 16 checkpoints.
+2. Detailed Findings: Technical explanation of any anti-pattern detected.
+3. Drop-In Remediation Diffs: Exact, verified code replacement to fix violations.

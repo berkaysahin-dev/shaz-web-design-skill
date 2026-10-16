@@ -7,8 +7,13 @@ description: Runs the Shaz Agency 16-point universal quality gate audit on the c
 
 Use this skill when the user runs the `/shaz-audit` slash command or asks to audit code quality, design compliance, or anti-slop rules.
 
-## Audit Protocol:
-Perform an automated or manual scan across the workspace against the **16-Point Universal Quality Gate**:
+## Explanatory Audit Protocol (Mandatory in Antigravity, Claude Code, and Codex):
+When executing this command, you must structure your audit report with thorough explanations:
+1. **Audit Summary Table:** Report Pass/Fail status across all 16 checkpoints.
+2. **Detailed Findings & Anti-Pattern Analysis:** For any failing checkpoint, state the exact line, component, or anti-pattern detected with technical explanation.
+3. **Drop-In Remediation Diffs:** Provide copy-pasteable, verified code fixes that bring the component to 100% compliance.
+
+## The 16 Quality Gate Criteria:
 1. **Zero Fluff Text:** Scan for marketing filler paragraphs or repetitive text.
 2. **Zero Badges, Pills & Eyebrows:** Inspect for `rounded-full` pills, status chips, and eyebrow kicker labels.
 3. **Zero Blinking & Neon Strobes:** Check for `animate-pulse`, pulsing dots, or neon glow shadows.
@@ -30,4 +35,4 @@ If running inside the `shaz-web-design-skill` repository, execute:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tests\run-quality-audit.ps1
 ```
-Output the audit results clearly and provide drop-in code fixes for any failing points.
+Output the audit results clearly with explanatory remediation.

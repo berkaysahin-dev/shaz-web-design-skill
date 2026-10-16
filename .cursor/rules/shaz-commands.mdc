@@ -1,0 +1,35 @@
+---
+description: Shaz Agency Web Design AI commands and universal design laws for Cursor and Windsurf
+globs: **/*.{tsx,jsx,ts,js,html,css}
+alwaysApply: true
+---
+
+# Shaz Agency Web Design Commands & Directives
+
+When invoked with `/shaz`, `/shaz-audit`, `/shaz-hero`, `/shaz-3d`, `/shaz-style`, `/shaz-dock`, or `/shaz-component`, or when engineering UI interfaces, adhere strictly to the 18 Universal Design Laws:
+
+1. Zero Fluff Text (High-Density Editorial Copy)
+2. Zero Badges, Pills, Eyebrows, or Fake Coordinates
+3. Category-Driven Color Freedom (Strict Neon Prohibition)
+4. Zero Generic Templates, AI Clichés, or Dry Wireframes
+5. Zero Third-Party Branding
+6. Zero Emojis & Mandatory Monochrome Vector Icons
+7. Zero Comment Leaks, Zero Text-Polluted Backgrounds & Authentic Imagery
+8. Selective Surface Hierarchy (Never Force Universal Double-Bezel)
+9. Zero Post-Hero Telemetry Ticker Strips
+10. Seamless Atmospheric Section Transitions (Zero Razor Cuts)
+11. Hero Elements Purity (Strictly Backgroundless & Calm)
+12. Bespoke Non-Classic Footers
+13. Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter
+14. Isolated Transparent Imagery (Zero Boxed Photo Frames)
+15. Page Architecture Modality (One-Page vs Multi-Page Routing)
+16. Scroll-Morphing Collapsible Dock Navigation (Deterministic CSS Isolation)
+17. Ecosystem & Technology Integration Infinite Marquee
+18. Bespoke Vector Favicon Architecture (Project-Tailored SVG)
+
+## Explanatory Output Protocol:
+Structure responses with clear architectural explanations:
+1. Architectural Rationale: Design intent, spatial balance, and layout reasoning.
+2. Applied Universal Design Laws: List of governing laws.
+3. Blueprint & Design Tokens: Specific blueprint IDs, fonts, and motion parameters.
+4. Production Implementation: Full, unabridged Next.js / Tailwind CSS / Three.js code.
