@@ -1,0 +1,1359 @@
+﻿[
+  {
+    "id": "neobrutalism",
+    "name": "Neobrutalism",
+    "emoji": "⚡",
+    "desc": "Kalın 3-4px siyah kenarlıklar, canlı kontrastlı renkler, sert 90 derece gölgeler (box-shadow: 4px 4px 0px #000) ve cesur sans-serif tipografi.",
+    "tags": [
+      "3px Siyah Border",
+      "Sert Gölgeler",
+      "Canlı Sarı/Pembe",
+      "Yüksek Kontrast"
+    ],
+    "accent": "#F0F070",
+    "colors": [
+      "#F0F070",
+      "#FAFAFA",
+      "#00F0F0",
+      "#A0C0D0",
+      "#70F0F0"
+    ],
+    "typography": "Lexend Mega, Space Grotesk, Archivo Black",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#09090b\"/>\n  <g transform=\"translate(60, 40)\">\n    <rect x=\"12\" y=\"12\" width=\"680\" height=\"400\" rx=\"4\" fill=\"#000\" stroke=\"#000\" stroke-width=\"4\"/>\n    <rect x=\"0\" y=\"0\" width=\"680\" height=\"400\" rx=\"4\" fill=\"#FFE600\" stroke=\"#000\" stroke-width=\"4\"/>\n    <rect x=\"0\" y=\"0\" width=\"680\" height=\"50\" fill=\"#000\"/>\n    <circle cx=\"30\" cy=\"25\" r=\"8\" fill=\"#FF5E5E\"/>\n    <circle cx=\"55\" cy=\"25\" r=\"8\" fill=\"#FFE600\"/>\n    <circle cx=\"80\" cy=\"25\" r=\"8\" fill=\"#00F0FF\"/>\n    <text x=\"340\" y=\"32\" font-family=\"monospace\" font-size=\"16\" font-weight=\"900\" fill=\"#FFF\" text-anchor=\"middle\">NEOBRUTALISM.CORE_v2.4</text>\n    <g transform=\"translate(40, 80)\">\n      <rect x=\"8\" y=\"8\" width=\"280\" height=\"260\" rx=\"2\" fill=\"#000\"/>\n      <rect x=\"0\" y=\"0\" width=\"280\" height=\"260\" rx=\"2\" fill=\"#FF5E5E\" stroke=\"#000\" stroke-width=\"4\"/>\n      <text x=\"25\" y=\"50\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"28\" fill=\"#000\">RAW IMPACT</text>\n      <text x=\"25\" y=\"85\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"14\" fill=\"#000\">NO GRADIENTS • HIGH CONTRAST</text>\n      <rect x=\"25\" y=\"120\" width=\"230\" height=\"8\" fill=\"#000\"/>\n      <rect x=\"25\" y=\"140\" width=\"180\" height=\"8\" fill=\"#000\"/>\n      <rect x=\"25\" y=\"180\" width=\"140\" height=\"45\" fill=\"#00F0FF\" stroke=\"#000\" stroke-width=\"3\"/>\n      <text x=\"95\" y=\"208\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"14\" fill=\"#000\" text-anchor=\"middle\">CLICK ME ➔</text>\n    </g>\n    <g transform=\"translate(360, 80)\">\n      <rect x=\"8\" y=\"8\" width=\"280\" height=\"120\" fill=\"#000\"/>\n      <rect x=\"0\" y=\"0\" width=\"280\" height=\"120\" fill=\"#00F0FF\" stroke=\"#000\" stroke-width=\"4\"/>\n      <text x=\"25\" y=\"45\" font-family=\"monospace\" font-weight=\"900\" font-size=\"20\" fill=\"#000\">BOX-SHADOW: 8px 8px #000</text>\n      <text x=\"25\" y=\"80\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"13\" fill=\"#000\">Zero Blur • Maximum Definition</text>\n    </g>\n    <g transform=\"translate(360, 220)\">\n      <rect x=\"8\" y=\"8\" width=\"280\" height=\"120\" fill=\"#000\"/>\n      <rect x=\"0\" y=\"0\" width=\"280\" height=\"120\" fill=\"#FFF\" stroke=\"#000\" stroke-width=\"4\"/>\n      <text x=\"25\" y=\"50\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"22\" fill=\"#000\">STRICT BOLDNESS</text>\n      <text x=\"25\" y=\"85\" font-family=\"sans-serif\" font-weight=\"600\" font-size=\"14\" fill=\"#666\">Black 3px stroke everywhere.</text>\n    </g>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/neobrutalism.jpg",
+    "title": "Neobrutalism",
+    "brand": "NEO*LABS",
+    "tagline": "UNLEASH CREATIVITY — RADICAL WEB SOLUTIONS",
+    "description": "Yüksek kontrastlı, cesur ve ödüllü Neobrutalist web sitesi tasarımı. 4px kalınlığında sert siyah kenarlıklar, canlı neon sarı (#FFFF55) ve elektrik camgöbeği (#00FFFF) arka plan blokları, 'UNLEASH CREATIVITY' devasa başlığı, eğik çıkartma etiketleri ('AWARDS 2024 WINNER', 'HOT', 'NEW!', 'FEATURED') ve asimetrik proje ızgarası.",
+    "prompt": "Build an award-winning, high-conversion modern website homepage in pure Neobrutalism style exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"NEO*LABS\"\n- Primary Headline: \"UNLEASH CREATIVITY\" enclosed in a thick bordered high-voltage pastel yellow (#FFFF55) banner.\n- Subtitle: \"RADICAL WEB SOLUTIONS.\" in bold uppercase sans-serif.\n- Header Navigation: Top navbar with dark capsule tabs: [Home], [Works], [About], [Contact], [Services].\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Borders: Heavy 4px solid pure black borders (#000000) on all cards, buttons, badges, and containers.\n- Shadows: Hard 90-degree offset drop shadows (box-shadow: 6px 6px 0px #000000; no blur).\n- Color Palette:\n  * Primary Accent: High-voltage pastel yellow (#FFFF55)\n  * Secondary Accent: Electric Cyan (#00FFFF)\n  * Base Background: Crisp White (#FFFFFF) with high-contrast black gridlines\n  * Warning/Hot Badge: Bright Coral Red (#FF5555)\n- Typography: Heavy, bold sans-serif display typography (Lexend Mega or Archivo Black) with tight letter-spacing.\n\n=== COMPONENT ARCHITECTURE ===\n1. Hero Showcase: Asymmetric split layout. Left side features the massive \"UNLEASH CREATIVITY\" banner, star badge \"AWARDS 2024 WINNER\", and an abstract geometric graphic block.\n2. Selected Projects Grid:\n   - \"PROJECT: ALPHA\" card: Electric cyan background (#00FFFF), bold typography, custom geometric artwork, \"AWWWARDS\" tilted sticker badge.\n   - \"PROJECT: BETA\" card: Pastel yellow background (#FFFF55), code editor window illustration with </> icons, \"HOT\" tag.\n   - \"PROJECT: GAMMA\" card: Modern UI/UX graphic container with pill buttons.\n   - Right Feature Card: High-contrast dark viewport preview showing a sleek monitor mockup with \"DIGITAL BRANDING\".\n3. Interactive Badges & Stickers: Tilted sticker chips scattered across borders (\"NEW!\", \"AWARD WINNING\", \"FEATURED\", \"HOT\") rotated between -8deg and 12deg.\n4. Action Buttons & Footer: Chunky rectangular buttons with hard black drop shadows (\"VIEW WORKS\", \"GET STARTED\"), social media circle icons (Facebook, YouTube, X), and clean copyright footer.",
+    "features": [
+      "Kalın 4px Siyah Kenarlıklar",
+      "Sert 90° Gölgeler",
+      "Canlı Sarı ve Camgöbeği Bloklar",
+      "Çıkartma Rozetler"
+    ]
+  },
+  {
+    "id": "y2k",
+    "name": "Y2K",
+    "emoji": "🪩",
+    "desc": "2000'ler retro-fütürizmi, krom metalik elementler, parlayan yıldızlar, neon gradientler ve transparan plastik dokular.",
+    "tags": [
+      "Krom Yıldızlar",
+      "Metalik Gradient",
+      "Retro-Fütürizm",
+      "Siber Parlaklık"
+    ],
+    "accent": "#202040",
+    "colors": [
+      "#202040",
+      "#0A0529",
+      "#504070",
+      "#004070",
+      "#707090"
+    ],
+    "typography": "Liquid Chrome Script, Orbitron, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <defs>\n    <linearGradient id=\"y2k-bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0a0520\"/>\n      <stop offset=\"50%\" stop-color=\"#1b0042\"/>\n      <stop offset=\"100%\" stop-color=\"#05142b\"/>\n    </linearGradient>\n    <linearGradient id=\"chrome\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#ffffff\"/>\n      <stop offset=\"25%\" stop-color=\"#d4e5ff\"/>\n      <stop offset=\"49%\" stop-color=\"#5a71a0\"/>\n      <stop offset=\"51%\" stop-color=\"#1a1c3b\"/>\n      <stop offset=\"75%\" stop-color=\"#80a7d9\"/>\n      <stop offset=\"100%\" stop-color=\"#ffffff\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"500\" fill=\"url(#y2k-bg)\"/>\n  <path d=\"M 0 320 L 800 320 M 0 350 L 800 350 M 0 390 L 800 390 M 0 440 L 800 440\" stroke=\"#00f0ff\" stroke-width=\"1\" opacity=\"0.3\"/>\n  <path d=\"M 400 300 L 0 500 M 400 300 L 200 500 M 400 300 L 600 500 M 400 300 L 800 500\" stroke=\"#ff00ea\" stroke-width=\"1\" opacity=\"0.3\"/>\n  <g transform=\"translate(400, 200)\">\n    <circle cx=\"0\" cy=\"0\" r=\"130\" fill=\"none\" stroke=\"url(#chrome)\" stroke-width=\"8\" opacity=\"0.8\"/>\n    <path d=\"M 0 -100 Q 0 0 100 0 Q 0 0 0 100 Q 0 0 -100 0 Q 0 0 0 -100 Z\" fill=\"url(#chrome)\" stroke=\"#fff\" stroke-width=\"2\"/>\n    <circle cx=\"0\" cy=\"0\" r=\"22\" fill=\"#fff\"/>\n  </g>\n  <path d=\"M 160 100 Q 160 120 180 120 Q 160 120 160 140 Q 160 120 140 120 Q 160 120 160 100 Z\" fill=\"#00f0ff\"/>\n  <path d=\"M 640 120 Q 640 145 665 145 Q 640 145 640 170 Q 640 145 615 145 Q 640 145 640 120 Z\" fill=\"#ff00ea\"/>\n  <text x=\"400\" y=\"380\" font-family=\"'Arial Black', sans-serif\" font-weight=\"900\" font-size=\"56\" fill=\"url(#chrome)\" text-anchor=\"middle\" letter-spacing=\"8\">CYBERSPACE 2000</text>\n  <rect x=\"250\" y=\"410\" width=\"300\" height=\"28\" rx=\"14\" fill=\"rgba(0,240,255,0.15)\" stroke=\"#00f0ff\" stroke-width=\"1.5\"/>\n  <text x=\"400\" y=\"429\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"12\" fill=\"#00f0ff\" text-anchor=\"middle\" letter-spacing=\"4\">HOLOGRAPHIC // AESTHETIC</text>\n</svg>",
+    "image": "05_Web_Stilleri/y2k.jpg",
+    "title": "Y2K",
+    "brand": "CYBER MILLENNIUM (CM)",
+    "tagline": "CYBER MILLENNIUM — EXPLORE THE FUTURE-PAST",
+    "description": "2000'lerin milenyum retro-fütürizmini yansıtan otantik Y2K web tasarımı. Likit cıva krom kabartmalı 'CYBER MILLENNIUM' başlığı, uzay moru ve neon fuşya gradyan zemin, havada duran 3D yansımalı krom küreler, ışıltılı dört köşeli yıldızlar ve parıltılı camgöbeği müzik etkinlik kartları.",
+    "prompt": "Build an authentic, high-end retro-futuristic Y2K aesthetic website homepage exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"CYBER MILLENNIUM\" (CM Monogram in top left).\n- Primary Headline: \"CYBER MILLENNIUM\" in ultra-glossy, liquid mercury chrome script typography with multi-layered specular reflections and embossed 3D volume.\n- Subtitle: \"EXPLORE THE FUTURE-PAST\" in tracked-out cyber sans-serif.\n- Header Navigation: Pill-shaped frosted glass bar with rounded glossy tabs: [Home], [Music], [Events], [Community], [Shop], plus a rounded search bar on the top right.\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Deep millennium cyber indigo (#0d0526) with radial aura glows of electric magenta (#ff00aa) and luminous cyan (#00ffff). Subtle perspective cyber grid overlay.\n- 3D Chrome Elements: Floating photorealistic 3D liquid silver chrome spheres with iridescent reflections positioned around the hero card.\n- Sparkle Motifs: 4-pointed glitter cross-stars (✦ ✧) and holographic metallic iconography.\n- Color Tokens: Cyber Deep Indigo (#0d0526), Chrome Silver (#E0E5EC), Neon Magenta (#FF00AA), Electric Cyan (#00FFFF), Cosmic Violet (#7928CA).\n- Left & Right Icon Rails: Vertical cyber dock with retro icons (profile, starburst, sparkle, pixel heart, at-sign, music, arrow, x, pinterest, discord).\n\n=== COMPONENT ARCHITECTURE ===\n1. Featured Event Card: Dark glassmorphic container with neon borders featuring \"FEATURED EVENT: NEON REVELATION 2024\" (OCT 26), live concert crowd with violet laser lights, and glowing pink gradient pill button \"GET TICKETS →\".\n2. Sidebar Widgets:\n   - \"LATEST TRACKS\" card: \"Latest Orbitron\" track card with glowing purple play button.\n   - \"ARTIST SPOTLIGHT\" card: Futuristic cyber girl avatar portrait with teal neon glasses and digital sans-serif tags.\n3. Footer Strip: Minimalist tracked text \"© 2004 CYBER MILLENNIUM. ALL RIGHTS RESERVED.\" with cyber icons.",
+    "features": [
+      "Likit Metal Krom Tipografi",
+      "Parlayan Yıldızlar",
+      "3D Krom Küreler",
+      "Fütüristik Gece Kulübü Kartları"
+    ]
+  },
+  {
+    "id": "cyber-pop",
+    "name": "Cyber Pop",
+    "emoji": "⚡",
+    "desc": "Canlı neon pembe ve camgöbeği, siberpunk enerjisi, pop-art kültürü, glitch efektleri ve holografik kartlar.",
+    "tags": [
+      "Neon Magenta",
+      "Cyber Cyan",
+      "Glitch Scanlines",
+      "Pop Art Enerjisi"
+    ],
+    "accent": "#003050",
+    "colors": [
+      "#003050",
+      "#040924",
+      "#20E0F0",
+      "#F000F0",
+      "#305090"
+    ],
+    "typography": "Cyberpunk Display, Bold Anime Pop, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#080312\"/>\n  <rect x=\"0\" y=\"70\" width=\"800\" height=\"2\" fill=\"#00f0ff\" opacity=\"0.4\"/>\n  <rect x=\"0\" y=\"76\" width=\"800\" height=\"1\" fill=\"#ff007f\" opacity=\"0.5\"/>\n  <g transform=\"translate(90, 80)\">\n    <rect x=\"-10\" y=\"-10\" width=\"300\" height=\"340\" fill=\"#00f0ff\" opacity=\"0.6\"/>\n    <rect x=\"0\" y=\"0\" width=\"300\" height=\"340\" fill=\"#120c1f\" stroke=\"#ff007f\" stroke-width=\"3\"/>\n    <rect x=\"20\" y=\"20\" width=\"260\" height=\"180\" fill=\"#ff007f\"/>\n    <circle cx=\"150\" cy=\"110\" r=\"60\" fill=\"#ffe600\"/>\n    <polygon points=\"150,70 165,100 200,105 175,130 180,165 150,150 120,165 125,130 100,105 135,100\" fill=\"#000\"/>\n    <text x=\"20\" y=\"245\" font-family=\"'Arial Black', sans-serif\" font-size=\"28\" fill=\"#fff\" font-weight=\"900\">NEON BLITZ</text>\n    <text x=\"20\" y=\"275\" font-family=\"monospace\" font-size=\"14\" fill=\"#00f0ff\">LEVEL_99 // OVERDRIVE</text>\n    <rect x=\"20\" y=\"295\" width=\"120\" height=\"28\" fill=\"#ffe600\"/>\n    <text x=\"80\" y=\"314\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"12\" fill=\"#000\" text-anchor=\"middle\">LAUNCH ⚡</text>\n  </g>\n  <g transform=\"translate(430, 110)\">\n    <text x=\"0\" y=\"70\" font-family=\"'Impact', sans-serif\" font-size=\"76\" fill=\"#00f0ff\" letter-spacing=\"4\">CYBER</text>\n    <text x=\"6\" y=\"66\" font-family=\"'Impact', sans-serif\" font-size=\"76\" fill=\"#ff007f\" letter-spacing=\"4\" opacity=\"0.8\">CYBER</text>\n    <text x=\"0\" y=\"150\" font-family=\"'Impact', sans-serif\" font-size=\"82\" fill=\"#ffe600\" letter-spacing=\"6\">POP!</text>\n    <rect x=\"0\" y=\"180\" width=\"280\" height=\"8\" fill=\"#ff007f\"/>\n    <text x=\"0\" y=\"220\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#e0e0e0\" font-weight=\"600\">JAPANESE STREET TECH + GLITCH VIBES</text>\n    <text x=\"0\" y=\"250\" font-family=\"monospace\" font-size=\"13\" fill=\"#00f0ff\">サイバーポップ // 東京 2026</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/cyber-pop.jpg",
+    "title": "Cyber Pop",
+    "brand": "NEON PUNK",
+    "tagline": "UNLEASH THE CYBER POP REVOLUTION!",
+    "description": "Canlı pop-art enerjisi ve distopik siberpunk estetiğini birleştiren Cyber Pop web tasarımı. 'UNLEASH THE CYBER POP REVOLUTION!' başlığı, omzunda katana taşıyan neon pembe saçlı anime kadın karakteri, parlayan siber maske donanım kartları ve canlı ağ gecikme telemetry paneli.",
+    "prompt": "Build an ultra-vibrant, high-energy Cyber Pop website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"NEON PUNK\" in glowing dual-tone cyan/magenta typography.\n- Primary Headline: \"UNLEASH THE CYBER POP REVOLUTION!\" in bold, slanted futuristic display font.\n- Subtitle: \"Dive into the vibrant world of NEON PUNK. Explore unique gear, missions & art!\"\n- Top Navigation: [EXPLORE], [GEAR], [MISSION], [SHOP], [SEARCH], and a vibrant magenta pill button \"magentic neon\".\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Deep obsidian noir (#090A10) layered with halftone comic pop dots and glowing circuit grid lines.\n- Color Palette:\n  * Hot Neon Pink / Magenta: #FF007F\n  * Electric Laser Cyan: #00F0FF\n  * Cyber Lime / Green: #39FF14\n  * Dark Techno Violet: #1A0B2E\n- Visual Assets: Central illustrated cyberpunk anime heroine with twin neon magenta ponytails, high-collar tactical combat jacket, and glowing cyan cyber katana resting on her shoulder.\n\n=== COMPONENT ARCHITECTURE ===\n1. Hero Action Area: Primary CTA buttons \"[JOIN THE VIBE]\" with neon magenta border glow, and \"[EXPLORE THE CYBERVERSE]\" with electric cyan border.\n2. [FEATURED GEAR] Grid:\n   - \"NEON MASK\" item card: Glowing magenta oni cyberpunk mask with tech specs.\n   - \"CYBER KATANA\" item card: Luminous cyan energy blade with weapon telemetry.\n3. [MISSIONS] Carousel:\n   - \"NEON CITY HEIST\" card with glowing skull and star achievement badges.\n   - \"CYBER BREACH\" card with tactical defense badge and completion progress meter.\n4. Telemetry & Crew Sidebar:\n   - \"NETWORK STATUS\" widget: Glowing green dot \"● Online\", \"12ms Ping\".\n   - \"THE CREW\": \"NEON_KID\" user card (Level 32, Badges, stat bars).\n5. Footer Strip: Laurel wreath \"Awwwards & Dribbble Trending\", social media circle icons, copyright 2024.",
+    "features": [
+      "Neon Fuşya ve Camgöbeği",
+      "Anime Siber Kahraman",
+      "Parıltılı UI Widget'ları",
+      "Ağ Durum Monitörü"
+    ]
+  },
+  {
+    "id": "maximalism",
+    "name": "Maximalism (Karışık)",
+    "emoji": "💥",
+    "desc": "Daha fazlası daha iyidir felsefesi; katmanlı zengin içerik, cesur desen çarpışmaları, tipografi çeşitliliği ve doymuş renkler.",
+    "tags": [
+      "Katmanlı Kaos",
+      "Zengin Doku",
+      "Desen Çarpışması",
+      "Daha Fazlası İyi"
+    ],
+    "accent": "#C5A059",
+    "colors": [
+      "#C5A059",
+      "#070405",
+      "#604020",
+      "#D0A090",
+      "#A07040"
+    ],
+    "typography": "High-Contrast Luxury Serif, Playfair Display, Ogg",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#18002e\"/>\n  <path d=\"M -50 0 L 850 500 L 750 500 L -150 0 Z\" fill=\"#ff4500\" opacity=\"0.6\"/>\n  <circle cx=\"180\" cy=\"150\" r=\"140\" fill=\"#f72585\" opacity=\"0.8\"/>\n  <circle cx=\"620\" cy=\"360\" r=\"180\" fill=\"#00a896\" opacity=\"0.7\"/>\n  <g transform=\"translate(100, 100) rotate(-4)\">\n    <rect x=\"0\" y=\"0\" width=\"400\" height=\"90\" fill=\"#ffd60a\" stroke=\"#000\" stroke-width=\"4\"/>\n    <text x=\"200\" y=\"62\" font-family=\"'Impact', sans-serif\" font-size=\"54\" fill=\"#000\" text-anchor=\"middle\">MORE IS MORE</text>\n  </g>\n  <g transform=\"translate(280, 210) rotate(5)\">\n    <rect x=\"0\" y=\"0\" width=\"440\" height=\"90\" fill=\"#000\" stroke=\"#f72585\" stroke-width=\"4\"/>\n    <text x=\"220\" y=\"62\" font-family=\"'Arial Black', sans-serif\" font-size=\"44\" fill=\"#f72585\" text-anchor=\"middle\">MAXIMALISM</text>\n  </g>\n  <g transform=\"translate(140, 310) rotate(-2)\">\n    <rect x=\"0\" y=\"0\" width=\"380\" height=\"80\" fill=\"#ff4500\" stroke=\"#fff\" stroke-width=\"4\"/>\n    <text x=\"190\" y=\"55\" font-family=\"'Impact', sans-serif\" font-size=\"42\" fill=\"#fff\" text-anchor=\"middle\">PATTERN COLLISION</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/maximalism.jpg",
+    "title": "Maximalism (Karışık)",
+    "brand": "CHIMERA",
+    "tagline": "THE ART OF CURATED EXCESS — UNAPOLOGETIC OPULENCE",
+    "description": "Daha fazlası daha iyidir felsefesini kusursuz bir lüks zarafetle sunan Maximalist e-ticaret web tasarımı. 'THE ART OF CURATED EXCESS' editoryal başlığı, yaldızlı barok altın çerçeveler, leopar ve kraliyet kadifesi doku katmanları, pırlanta küpe ve kadife koltuk ürün kartları ile kayan vitrin bandı.",
+    "prompt": "Build an ultra-luxurious, visually opulent Maximalist website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"CHIMERA\" in regal high-contrast serif lettering.\n- Primary Headline: \"THE ART OF CURATED EXCESS\" dominating the hero section in classic Roman serif capitals.\n- Subtitle: \"DISCOVER THE CHIMERA CURATION | UNAPOLOGETIC OPULENCE\" in tracked gold letters.\n- Header Elements: Top left [MENU] burger with gold accents, top right search input with magnifying glass, gold rounded pill button \"CART (3)\".\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Design Philosophy: \"More is more\" — rich visual density without chaos. Baroque grandeur colliding with modern haute couture editorial e-commerce.\n- Layered Textures: Ornate gilded baroque filigree frames, leopard print fur pattern, shimmering iridescent holographic silk, royal midnight blue velvet, and crushed crimson fabrics colliding seamlessly.\n- Color Tokens: Gilded 24K Antique Gold (#C5A059), Royal Burgundy (#8B0000), Deep Sapphire (#1A237E), Pure Obsidian (#000000).\n- Typography: Prestigious high-contrast serif for headings (Playfair Display / Ogg), combined with clean gold-accented luxury sans-serif for prices and details.\n\n=== COMPONENT ARCHITECTURE ===\n1. Central Curated Gallery: Three prominent baroque gold-framed showcase cards:\n   - Left Card: \"VELVET BAROQUE CHAIR\" (£3,450, 'ANTIQUE MEETS AVANT-GARDE') with deep purple velvet armchair and \"SHOP NOW\" gold button.\n   - Center Portrait: Classical haute couture renaissance muse wearing a towering gold pearl crown, ornate emerald necklace, and dramatic editorial makeup.\n   - Right Card: \"SILK CLASHING SCARF\" (£520, 'PATTERN CHAOS') showcasing vibrant folded leopard and striped silks with \"SHOP NOW\" button.\n2. Ticker Tape Marquee: Running gold and black marquee strip across the bottom: \"★ LATEST ARRIVALS... ★ NEW ARRIVALS! ★ LATEST ARRIVALS...\".\n3. Sidebar & Live Feed:\n   - Bottom left: \"LIVE FEED\" thumbnail of runway model in golden frame.\n   - Top right: \"TRENDING NOW\" mini vertical feed with lookbook shots.\n   - Bottom right: Cursive script signature \"Curated Overload\" with social media icons (Twitter, Facebook, YouTube).",
+    "features": [
+      "Barok Altın Çerçeveler",
+      "Leopar & İpek Doku Kolajı",
+      "Lüks Mücevher & Koltuk Kartları",
+      "Marquee Bant"
+    ]
+  },
+  {
+    "id": "acid-graphics",
+    "name": "Acid Graphics / Acid Web Design",
+    "emoji": "🧪",
+    "desc": "90'lar rave ve yeraltı tekno kültürü, trippy krom formlar, distorte tipografi ve aşırı doygun asit yeşili/mor tonları.",
+    "tags": [
+      "Asit Yeşili #39FF14",
+      "Rave Afişleri",
+      "Bozulmuş Tipografi",
+      "Tekno Grid"
+    ],
+    "accent": "#B0F030",
+    "colors": [
+      "#B0F030",
+      "#0A0A09",
+      "#F030A0",
+      "#B04080",
+      "#F0F0F0"
+    ],
+    "typography": "Liquid Chrome Gothic, Monospace Sci-Fi, Helvetica Neue",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#040405\"/>\n  <circle cx=\"400\" cy=\"250\" r=\"300\" fill=\"#39ff14\" opacity=\"0.15\"/>\n  <g stroke=\"#39ff14\" stroke-width=\"1\" opacity=\"0.35\" fill=\"none\">\n    <ellipse cx=\"400\" cy=\"250\" rx=\"350\" ry=\"180\"/>\n    <ellipse cx=\"400\" cy=\"250\" rx=\"280\" ry=\"140\"/>\n    <line x1=\"50\" y1=\"250\" x2=\"750\" y2=\"250\"/>\n    <line x1=\"400\" y1=\"70\" x2=\"400\" y2=\"430\"/>\n  </g>\n  <path d=\"M 400 130 C 460 210 520 180 500 270 C 480 340 420 310 400 370 C 380 310 320 340 300 270 C 280 180 340 210 400 130 Z\" fill=\"none\" stroke=\"#d600ff\" stroke-width=\"8\"/>\n  <circle cx=\"400\" cy=\"250\" r=\"30\" fill=\"#39ff14\"/>\n  <text x=\"400\" y=\"220\" font-family=\"'Impact', monospace\" font-size=\"64\" fill=\"#39ff14\" text-anchor=\"middle\" letter-spacing=\"12\">ACID RAVE</text>\n  <text x=\"400\" y=\"280\" font-family=\"monospace\" font-size=\"20\" fill=\"#d600ff\" text-anchor=\"middle\" letter-spacing=\"8\">UNDERGROUND_AUDIO_SYSTEM</text>\n</svg>",
+    "image": "05_Web_Stilleri/acid-graphics.jpg",
+    "title": "Acid Graphics / Acid Web Design",
+    "brand": "TECHNO PHENOMENA",
+    "tagline": "TECHNO PHENOMENA — UNDERGROUND ACID RAVE EXPERIENCE // LONDON 2024",
+    "description": "90'lar yeraltı rave ve tekno kültürünün sert asit grafik dili. Eriyen likit cıva krom 'TECHNO PHENOMENA' logosu, fosforlu asit yeşili (#91FE01) ve sıcak pembe konser duyuru şeritleri, dikenli tel kabile amblemleri ve Drumcell & DVS1 DJ kadrosu paneli.",
+    "prompt": "Build an authentic, high-impact Acid Graphics underground rave website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"TECHNO PHENOMENA\" in dripping, melting liquid mercury chrome typography with organic tribal thorns and specular gleams.\n- Primary Headline: \"TECHNO PHENOMENA\" centered prominently in molten metal style.\n- Subtitle: \"— UNDERGROUND ACID RAVE EXPERIENCE // LONDON 2024 —\" in tracked neon green uppercase.\n- Header Navigation: Top bar with [EVENTS], [ARTISTS], [GALLERY], [SHOP], [INFO], and search input.\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Pitch black warehouse club darkness with green laser haze, crowd silhouettes, and metallic mesh textures.\n- Color Palette:\n  * Toxic Acid Green: #91FE01 / #84FF00\n  * Hot Rave Magenta: #FF007F\n  * Molten Liquid Chrome: #D0D7DE\n  * Deep Abyss Black: #000000\n- Iconic Tribal Elements: Symmetrical Y2K acid tribal barbed wire glyphs flanking both sides of the hero banner.\n\n=== COMPONENT ARCHITECTURE ===\n1. Festival Event Tape Strips: Two skewed, high-contrast tape banners:\n   - Magenta Tape: \"MAR 15 // ACID ATTACK // DRUMCELL\" (Event details 25:00).\n   - Acid Lime Green Tape: \"APR 05 // NEON WASTELAND // DVS1\" (Event details 23:00).\n2. Primary CTA: Chunky pill-shaped molten chrome button with neon magenta center: \"BUY TICKETS\".\n3. Bottom Information Panels:\n   - Left Sci-Fi Panel: Angular neon-bordered box labeled \"LINEUP\" featuring: \"SHDW & Obscure Shape\", \"D.Dan\", \"VTSS\", \"SPFDJ\".\n   - Right \"LIVE GRAPHIC\" Panel: Perspective 3D wireframe grid with neon magenta floor and floating chrome tribal star insignia.\n4. Footer: Monospace links \"SC  IG  FB\", \"Privacy\", \"Contact\", \"© 2024 Techno Phenomena\".",
+    "features": [
+      "Eriyen Likit Krom Tipografi",
+      "Asit Yeşili Kaset Bantları",
+      "Dikenli Tel & Tribal Vektörler",
+      "Rave Lineup"
+    ]
+  },
+  {
+    "id": "kinetic-typography",
+    "name": "Kinetic Typography",
+    "emoji": "🔤",
+    "desc": "Hareketli, devasa ve dinamik tipografi odaklı tasarım; metnin birincil görsel obje haline geldiği dev harfler ve kayan yazılar.",
+    "tags": [
+      "Dev Tipografi",
+      "Kayan Yazılar",
+      "Perspektif Akış",
+      "Görsel Metin"
+    ],
+    "accent": "#C0F0F0",
+    "colors": [
+      "#202030",
+      "#020204",
+      "#C0F0F0",
+      "#405060",
+      "#004050"
+    ],
+    "typography": "Monument Extended, Syne ExtraBold, JetBrains Mono",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0a0a0d\"/>\n  <text x=\"-50\" y=\"110\" font-family=\"'Impact', sans-serif\" font-size=\"110\" fill=\"#222228\" letter-spacing=\"4\">KINETIC TYPE KINETIC</text>\n  <text x=\"40\" y=\"210\" font-family=\"'Impact', sans-serif\" font-size=\"105\" fill=\"#ffffff\" letter-spacing=\"2\">DYNAMIC MOTION</text>\n  <text x=\"-20\" y=\"310\" font-family=\"'Impact', sans-serif\" font-size=\"110\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" letter-spacing=\"4\">VELOCITY • SPEED</text>\n  <text x=\"80\" y=\"410\" font-family=\"'Impact', sans-serif\" font-size=\"105\" fill=\"#ff3366\" letter-spacing=\"2\">TYPOGRAPHIC ART</text>\n  <line x1=\"0\" y1=\"230\" x2=\"800\" y2=\"230\" stroke=\"#ff3366\" stroke-width=\"2\"/>\n</svg>",
+    "image": "05_Web_Stilleri/kinetic-typography.jpg",
+    "title": "Kinetic Typography",
+    "brand": "VOLT KINETIC",
+    "tagline": "WE ARE VOLT — UNLEASHING MOVEMENT THROUGH TYPE",
+    "description": "Ekranı kaplayan devasa hareketli harflerin başrolde olduğu Kinetic Typography web tasarımı. 'VOLT' ve dalgalı 'KINETIC TYPOGRAPHY STUDIO' dev metinleri, mavi/kırmızı kromatik sapma ışıltıları, 'AWWWARDS SITE OF THE DAY' puan kartı ve şık minimalist siyah grid arka planı.",
+    "prompt": "Build an award-winning modern Kinetic Typography website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"VOLT KINETIC\" with stylized neon cyan bolt icon.\n- Tagline: \"WE ARE VOLT — UNLEASHING MOVEMENT THROUGH TYPE\" centered above the monumental typography.\n- Subtitle: \"PUSHING THE BOUNDARIES OF DIGITAL MOTION\" positioned above the primary CTA button.\n- Header Navigation: Clean monospace studio links: [STUDIO], [WORKS], [MANIFESTO], [PLAYGROUND], [CONTACT].\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Minimalist obsidian black (#050507) with faint dark architectural grid lines.\n- Kinetic Typography Treatment:\n  * Giant, monumental letterforms dominating the screen viewport.\n  * Massive bold white wordmark \"VOLT\" with dynamic perspective tilt and kinetic energy waves.\n  * Curved ribbon typography \"KINETIC TYPOGRAPHY STUDIO\" arcing across the screen with cyan and magenta chromatic aberration glow edges.\n  * Foreground kinetic text elements: \"MOVE\" (bottom left) and \"CREATE\" (bottom right).\n- Color Palette: Pure Obsidian (#050507), Crisp White (#FFFFFF), Neon Cyan Glow (#00FFFF), Neon Magenta Accent (#FF0055).\n\n=== COMPONENT ARCHITECTURE ===\n1. Primary Call-to-Action: Glowing cyan bordered pill button \"EXPLORE SHOWREEL\" with subtle hover aura.\n2. Floating Recognition Badge: Bottom right floating dark glass card: \"AWWWARDS SITE OF THE DAY\" featuring the official laurel icon, date \"2018, 07-20\", and \"SCORE\" badge.\n3. Interactive Motion Metadata:\n   - Bottom Left: Vertical \"LOADING BAR\" with segmented progress line.\n   - Left Margin: Tracked vertical text \"02. OUR METHOD | 03. FEATURED WORK\".\n   - Bottom Navigation: \"01. THE AGENCY | 02. OUR METHOD | 03. FEATURED WORK\" accompanied by filter chips \"[UI/UX DESIGN]\" and \"[MOTION GRAPHICS]\".",
+    "features": [
+      "Devasa Dalgalı 3D Harfler",
+      "Kromatik Aberasyon Glow",
+      "Awwwards Rozeti",
+      "Etkileşimli Video Oynatıcı Barı"
+    ]
+  },
+  {
+    "id": "claymorphism",
+    "name": "Claymorphism",
+    "emoji": "🫧",
+    "desc": "Şişirilmiş 3D hamur ve kil görünümü; yumuşak çift iç gölgeler (inner shadow) ve kabarık yuvarlak köşeli dostane kartlar.",
+    "tags": [
+      "Şişirilmiş 3D",
+      "Çift İç Gölge",
+      "Kabarık Köşeler",
+      "Plastik Kil"
+    ],
+    "accent": "#C3E6FB",
+    "colors": [
+      "#F0E0B0",
+      "#C3E6FB",
+      "#60A0F0",
+      "#202030",
+      "#F0F0F0"
+    ],
+    "typography": "Plus Jakarta Sans, Fredoka, Quicksand",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <defs>\n    <linearGradient id=\"c-blue\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#8ec5fc\"/><stop offset=\"100%\" stop-color=\"#e0c3fc\"/></linearGradient>\n    <linearGradient id=\"c-pink\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#ff9a9e\"/><stop offset=\"100%\" stop-color=\"#fecfef\"/></linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"500\" fill=\"#12131a\"/>\n  <g transform=\"translate(100, 80)\">\n    <rect x=\"0\" y=\"0\" width=\"340\" height=\"340\" rx=\"40\" fill=\"url(#c-blue)\"/>\n    <rect x=\"10\" y=\"10\" width=\"320\" height=\"320\" rx=\"34\" fill=\"none\" stroke=\"#fff\" stroke-width=\"6\" opacity=\"0.6\"/>\n    <circle cx=\"170\" cy=\"140\" r=\"60\" fill=\"url(#c-pink)\"/>\n    <text x=\"170\" y=\"250\" font-family=\"'Nunito', sans-serif\" font-weight=\"900\" font-size=\"28\" fill=\"#1e2238\" text-anchor=\"middle\">SOFT CLAY</text>\n    <text x=\"170\" y=\"285\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"14\" fill=\"#3a4263\" text-anchor=\"middle\">Inflated 3D Pillows</text>\n  </g>\n  <g transform=\"translate(480, 140)\">\n    <rect x=\"0\" y=\"0\" width=\"220\" height=\"100\" rx=\"50\" fill=\"url(#c-pink)\"/>\n    <rect x=\"8\" y=\"8\" width=\"204\" height=\"84\" rx=\"42\" fill=\"none\" stroke=\"#fff\" stroke-width=\"5\" opacity=\"0.6\"/>\n    <text x=\"110\" y=\"58\" font-family=\"'Nunito', sans-serif\" font-weight=\"900\" font-size=\"18\" fill=\"#fff\" text-anchor=\"middle\">TOUCH ME</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/claymorphism.jpg",
+    "title": "Claymorphism",
+    "brand": "FlowPay",
+    "tagline": "Seamless Payments. Simple Growth.",
+    "description": "Yumuşak, şişirilmiş 3D oyun hamuru ve kil estetiğini sunan modern fintech SaaS tasarımı. 'Seamless Payments. Simple Growth.' başlığı, sevimli 3D kil kumbara domuzcuk, altın paralar ve bulut illüstrasyonu, çift iç gölgeli (inner shadow) pastel renkli kabarık kartlar.",
+    "prompt": "Build a delightful, modern Claymorphism SaaS fintech website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"FlowPay\" with a cute 3D clay wallet icon.\n- Primary Headline: \"Seamless Payments. Simple Growth.\" in clean, friendly rounded sans-serif.\n- Subtitle: \"Manage your business finances effortlessly with FlowPay's all-in-one platform.\"\n- Header Navigation: [Features], [Pricing], [Resources ∨], [Log In], and a puffy 3D sky-blue pill button \"Get Started\".\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Claymorphic Visual Treatment:\n  * Soft, rounded, inflated 3D clay cards and buttons.\n  * Multi-layer shadows: Deep soft drop shadow combined with two opposing inner shadows (highlight top-left, shadow bottom-right) creating a tactile extruded clay look:\n    `box-shadow: inset 4px 4px 8px rgba(255,255,255,0.8), inset -4px -4px 8px rgba(0,0,0,0.1), 0 12px 24px rgba(0,0,0,0.06);`\n- Background: Gentle diffused warm beige to pastel sky gradient (#FFF5EB to #E0F2FE).\n- 3D Clay Illustration: Central cluster of adorable 3D matte clay objects:\n  * Soft pink clay piggy bank with floating gold coin.\n  * Smiling white clay cloud with rosy cheeks.\n  * Turquoise rounded clay credit card with pastel yellow chip.\n  * Stack of clay peach/gold coins and a 3D pastel bar chart.\n\n=== COMPONENT ARCHITECTURE ===\n1. Primary Call-to-Action: Puffy clay pill button \"Start Free Trial\" in soft sky blue (#38BDF8), accompanied by a soft grey clay button \"Request Demo\".\n2. Trio of Inflated Clay Feature Cards:\n   - \"Instant Invoicing\" card: Soft blush pink clay (#FFE4E6), 3D clay laptop icon, \"Manage your business effortlessly...\", puffy \"Learn More\" clay pill.\n   - \"Global Payments\" card: Mint green clay (#D1FAE5), 3D clay globe icon, \"Engage your business finance...\", puffy \"Explore\" clay pill.\n   - \"Real-Time Analytics\" card: Pastel buttery yellow clay (#FEF3C7), 3D clay chart icon, \"Improve your time...\", puffy \"Explore\" clay pill.\n3. Micro Carousel Dots: Three pastel pill dots at the bottom indicating card slider pagination.",
+    "features": [
+      "Şişirilmiş 3D Kil Butonlar",
+      "Sevimli Kil Domuzcuk & Kart İllüstrasyonu",
+      "Çift İç Gölge",
+      "Pastel Kartlar"
+    ]
+  },
+  {
+    "id": "brutalism",
+    "name": "Brutalism",
+    "emoji": "🧱",
+    "desc": "Ham, filtresiz ve işlevsel web estetiği; cilasız sistem fontları, monokrom/keskin gridler ve dürüst anti-design ruhu.",
+    "tags": [
+      "Ham HTML",
+      "Filtresiz Görünüm",
+      "Monokrom Grid",
+      "Anti-Design"
+    ],
+    "accent": "#9090F0",
+    "colors": [
+      "#C0C0F0",
+      "#F3F3F3",
+      "#9090F0",
+      "#303070",
+      "#4040C0"
+    ],
+    "typography": "Courier New, Space Mono, System Monospace",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#000000\"/>\n  <line x1=\"0\" y1=\"60\" x2=\"800\" y2=\"60\" stroke=\"#fff\" stroke-width=\"2\"/>\n  <line x1=\"0\" y1=\"440\" x2=\"800\" y2=\"440\" stroke=\"#fff\" stroke-width=\"2\"/>\n  <line x1=\"260\" y1=\"60\" x2=\"260\" y2=\"440\" stroke=\"#fff\" stroke-width=\"2\"/>\n  <text x=\"30\" y=\"42\" font-family=\"monospace\" font-size=\"18\" fill=\"#fff\" font-weight=\"bold\">ROOT://INDEX.HTML [READ_ONLY]</text>\n  <g transform=\"translate(30, 90)\">\n    <text x=\"0\" y=\"30\" font-family=\"'Times New Roman', serif\" font-size=\"36\" fill=\"#fff\" font-weight=\"bold\">BRUTALISM</text>\n    <text x=\"0\" y=\"70\" font-family=\"monospace\" font-size=\"13\" fill=\"#aaa\">FUNCTION FIRST</text>\n    <rect x=\"0\" y=\"120\" width=\"200\" height=\"150\" fill=\"none\" stroke=\"#fff\" stroke-dasharray=\"4,4\"/>\n  </g>\n  <g transform=\"translate(290, 90)\">\n    <rect x=\"0\" y=\"0\" width=\"210\" height=\"40\" fill=\"#0000ff\"/>\n    <text x=\"105\" y=\"26\" font-family=\"monospace\" font-size=\"14\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">&lt;A HREF=&quot;#&quot;&gt;LINK&lt;/A&gt;</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/brutalism.jpg",
+    "title": "Brutalism",
+    "brand": "ARCHITEKTUR KOLLEKTIV 01",
+    "tagline": "RAW ARCHITECTURE: THE ANTI-DESIGN MANIFESTO",
+    "description": "Filtresiz, saf işlevsellik ve mimari dürüstlük üzerine kurulu radikal Brutalist web tasarımı. 'RAW ARCHITECTURE: THE ANTI-DESIGN MANIFESTO' başlığı, ham betonarme bina fotoğrafı, klasik altı çizili mavi linkler (BLUE LINK), monospaced sistem daktilo fontu ve sıfır gradyanlı katı ızgara.",
+    "prompt": "Build an uncompromising, authentic Brutalist architecture studio website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand / Studio Name: \"ARCHITEKTUR KOLLEKTIV 01\" (Top left in bold uppercase monospace).\n- Top Right Tag: \"RAW TEXT\" indicating radical unstyled digital philosophy.\n- Sub-Navigation Bar: \"BERLIN. BASEL. LONDON. | MANIFESTO / PROJECTS / STUDIO / CONTACT\" separated by harsh 1px black architectural dividing lines.\n- Main Manifesto Headline: \"RAW ARCHITECTURE: THE ANTI-DESIGN MANIFESTO\" spanning the full grid width in heavy monospace lettering.\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Philosophy: Radical Anti-Design. Total rejection of decorative gradients, rounded corners, drop shadows, and aesthetic sugar-coating. Pure functional structural honesty.\n- Color Palette:\n  * Pure Paper White: #FFFFFF\n  * Heavy Structure Black: #000000\n  * Classic Unvisited Hyperlink Blue: #0000EE\n  * Raw Cement Grey: #767676\n- Borders: Crisp, harsh 1px and 2px solid black architectural partition lines forming a strict blueprint grid.\n- Typography: Standard Courier New or Space Mono, uniform letter spacing, harsh uppercase titles.\n\n=== COMPONENT ARCHITECTURE ===\n1. Left Visual Column: High-contrast black and white architectural photograph of a raw brutalist concrete building with exposed modular cubist cantilevers, labeled \"FIGURE 01: BRUTALIST STRUCTURE\".\n2. Right Manifesto Column:\n   - \"01. REJECTION OF ORNAMENTATION\": Paragraph stating advocacy for raw materiality and structural honesty without decorative layers.\n   - \"02. MATERIALITY & EXPOSURE\": Paragraph emphasizing exposed utility.\n   - \"CURRENT PROJECTS /\" Section: Raw bulleted list with classic blue underlined links:\n     * `* [UN_TITLED] SOCIAL HOUSING - ZURICH (BLUE LINK)`\n     * `* [OFFICE] COMPLEX - LONDON (BLUE LINK)`\n     * `* [CULTURAL] CENTER - PRAGUE (BLUE LINK)`\n3. Footer Contact Block: Architectural site coordinates \"52° 31' 12.1\" N, 13° 23' 51.5\" E / STUDIO@AK01.DE / +49 30 1234567\" with blueprint alignment crosshair symbol (+) in the bottom right corner.",
+    "features": [
+      "Stark Siyah-Beyaz",
+      "Ham Beton Mimari Fotoğrafı",
+      "Klasik Mavi Hyperlinkler",
+      "Sıfır Gradyan Anti-Design"
+    ]
+  },
+  {
+    "id": "spatial-ui",
+    "name": "Spatial UI",
+    "emoji": "🥽",
+    "desc": "Apple Vision Pro ve karma gerçeklik hissi; derinlik katmanları (Z-axis), gerçekçi ortam ışığı yansıması ve yüzen cam paneller.",
+    "tags": [
+      "Vision Pro",
+      "Z-Ekseni Derinlik",
+      "Buzlu Cam",
+      "Ortam Işığı"
+    ],
+    "accent": "#64D2FF",
+    "colors": [
+      "#64D2FF",
+      "#080B1C",
+      "#305070",
+      "#705080",
+      "#603050"
+    ],
+    "typography": "SF Pro Display, Plus Jakarta Sans, Inter",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#06070a\"/>\n  <g transform=\"translate(140, 70)\">\n    <rect x=\"0\" y=\"20\" width=\"520\" height=\"340\" rx=\"36\" fill=\"#000\" opacity=\"0.6\"/>\n    <rect x=\"0\" y=\"0\" width=\"520\" height=\"340\" rx=\"36\" fill=\"rgba(255, 255, 255, 0.08)\" stroke=\"rgba(255, 255, 255, 0.25)\" stroke-width=\"1.5\"/>\n    <path d=\"M 36 1.5 L 484 1.5\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.6\"/>\n    <rect x=\"170\" y=\"24\" width=\"180\" height=\"36\" rx=\"18\" fill=\"rgba(0,0,0,0.4)\" stroke=\"rgba(255,255,255,0.15)\"/>\n    <circle cx=\"195\" cy=\"42\" r=\"6\" fill=\"#64d2ff\"/>\n    <text x=\"260\" y=\"47\" font-family=\"-apple-system, sans-serif\" font-size=\"13\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"600\">Spatial Canvas</text>\n    <rect x=\"40\" y=\"85\" width=\"200\" height=\"150\" rx=\"20\" fill=\"rgba(255,255,255,0.06)\" stroke=\"rgba(255,255,255,0.12)\"/>\n    <text x=\"140\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#fff\" font-weight=\"600\" text-anchor=\"middle\">Eye Tracking</text>\n    <rect x=\"270\" y=\"85\" width=\"210\" height=\"150\" rx=\"20\" fill=\"rgba(255,255,255,0.06)\" stroke=\"rgba(255,255,255,0.12)\"/>\n    <text x=\"375\" y=\"165\" font-family=\"sans-serif\" font-size=\"28\" fill=\"#64d2ff\" font-weight=\"700\" text-anchor=\"middle\">Z: +120px</text>\n    <rect x=\"210\" y=\"315\" width=\"100\" height=\"5\" rx=\"2.5\" fill=\"rgba(255,255,255,0.5)\"/>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/spatial-ui.jpg",
+    "title": "Spatial UI",
+    "brand": "NOVA SPATIAL",
+    "tagline": "EXPERIENCE THE FUTURE OF SPATIAL COMPUTING",
+    "description": "Apple VisionOS arayüz standartlarından ilham alan gelecek nesil Spatial UI web tasarımı. 'EXPERIENCE THE FUTURE OF SPATIAL COMPUTING' başlığı, çok renkli ambiyans ışığı kırılımlı buzlu cam (frosted glass) kartlar, Z ekseninde süzülen 3D varlık kütüphanesi, analitik grafiği ve takım sohbet penceresi.",
+    "prompt": "Build a cutting-edge, ultra-polished Spatial UI website landing page inspired by VisionOS exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"NOVA\" featuring an iridescent multi-color gradient glow.\n- Primary Headline: \"EXPERIENCE THE FUTURE OF SPATIAL COMPUTING\" in pristine white typography with subtle optical kerning.\n- Subtitle: \"Navigate, create, and collaborate in an immersive 3D workspace. Step beyond the screen.\"\n- Browser Window Frame: Modern dark macOS/Chrome browser mockup with clean title bar, URL `nova.spatial.com`, profile avatar, and search bar.\n- Top Navbar: Frosted navigation capsule with tabs [Features], [Solutions], [Blog], [Community].\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Deep cosmic space (#08090E) with radiant multi-color ambient lighting: vibrant magenta, cyan, amber, and indigo light glows radiating behind spatial panels. Subtle 3D perspective floor grid.\n- Spatial Glassmorphism (VisionOS depth):\n  * Ultra-clear frosted glass panels with dynamic light refraction and specular border highlights:\n    `background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(24px); border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 20px;`\n  * Multi-plane Z-axis layering: cards physically floating in front of and beside each other with distinct soft ambient drop shadows.\n- Floating Glass Orbs: Iridescent, translucent glass cubes and spheres floating freely in 3D space with colored reflections.\n\n=== COMPONENT ARCHITECTURE ===\n1. Primary Call-to-Action: Centered frosted pill button \"GET STARTED\" with subtle inner highlight, paired with a clean text link \"Learn More\".\n2. Floating Spatial Cards (Z-Plane Layering):\n   - Card 1 (Top Right): \"3D Assets\" library showcase displaying floating 3D geometric meshes (wireframe cube, geometric faceted gem, chrome reflective sphere, crystal pyramid).\n   - Card 2 (Mid Right): \"Analytics\" card with real-time green/cyan area spline graph, \"+129%\" badge, and active metric \"15.92k\".\n   - Card 3 (Bottom Right): \"Team Chat\" floating widget with member avatars, speech bubble, and input field with send arrow.\n   - Card 4 (Left): \"Projects\" launcher with [Design], [Develop], [Launch] glass tiles, and user badge \"Profile: Alex Chen\".",
+    "features": [
+      "VisionOS Derinlik Katmanları",
+      "Buzlu Cam (Glassmorphism)",
+      "Çok Renkli Ortam Işığı",
+      "3D Varlık Kartları"
+    ]
+  },
+  {
+    "id": "bento-grid",
+    "name": "Bento Grid",
+    "emoji": "🍱",
+    "desc": "Apple ve modern SaaS standartı bento kutusu düzeni; farklı en-boy oranlarında pürüzsüz yuvarlatılmış kartlar ve modüler düzen.",
+    "tags": [
+      "Modüler Kartlar",
+      "Farklı Oranlar",
+      "SaaS Standardı",
+      "Kusursuz Hiyerarşi"
+    ],
+    "accent": "#00F0FF",
+    "colors": [
+      "#00F0FF",
+      "#090A0E",
+      "#204060",
+      "#4080E0",
+      "#3060A0"
+    ],
+    "typography": "Plus Jakarta Sans, JetBrains Mono, Inter",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#09090b\"/>\n  <g transform=\"translate(60, 50)\">\n    <g transform=\"translate(0, 0)\">\n      <rect width=\"320\" height=\"260\" rx=\"20\" fill=\"#141418\" stroke=\"rgba(255,255,255,0.1)\" stroke-width=\"1\"/>\n      <circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"rgba(168,85,247,0.2)\"/>\n      <text x=\"50\" y=\"56\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#a855f7\" text-anchor=\"middle\">✦</text>\n      <text x=\"30\" y=\"115\" font-family=\"sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#fff\">BENTO GRID</text>\n      <text x=\"30\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#888\">Modular high-density content cards.</text>\n    </g>\n    <g transform=\"translate(340, 0)\">\n      <rect width=\"340\" height=\"120\" rx=\"20\" fill=\"#141418\" stroke=\"rgba(255,255,255,0.1)\" stroke-width=\"1\"/>\n      <text x=\"25\" y=\"45\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#fff\">Real-time Metrics</text>\n      <text x=\"25\" y=\"85\" font-family=\"sans-serif\" font-size=\"32\" font-weight=\"900\" fill=\"#10b981\">+99.4%</text>\n    </g>\n    <g transform=\"translate(340, 140)\">\n      <rect width=\"160\" height=\"120\" rx=\"20\" fill=\"#141418\" stroke=\"rgba(255,255,255,0.1)\" stroke-width=\"1\"/>\n      <text x=\"20\" y=\"40\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#888\">Stack</text>\n      <text x=\"20\" y=\"75\" font-family=\"sans-serif\" font-size=\"24\" font-weight=\"800\" fill=\"#3b82f6\">Next.js</text>\n    </g>\n    <g transform=\"translate(520, 140)\">\n      <rect width=\"160\" height=\"120\" rx=\"20\" fill=\"#141418\" stroke=\"rgba(255,255,255,0.1)\" stroke-width=\"1\"/>\n      <text x=\"20\" y=\"40\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#888\">Security</text>\n      <text x=\"20\" y=\"75\" font-family=\"sans-serif\" font-size=\"24\" font-weight=\"800\" fill=\"#a855f7\">Zero-Trust</text>\n    </g>\n    <g transform=\"translate(0, 280)\">\n      <rect width=\"680\" height=\"110\" rx=\"20\" fill=\"#141418\" stroke=\"rgba(255,255,255,0.1)\" stroke-width=\"1\"/>\n      <text x=\"30\" y=\"50\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#fff\">Modular Architecture</text>\n      <text x=\"30\" y=\"75\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#888\">Bento boxes provide balanced spatial grouping.</text>\n    </g>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/bento-grid.jpg",
+    "title": "Bento Grid",
+    "brand": "QUANTUM FLUX",
+    "tagline": "Real-Time Telemetry. Peak Performance.",
+    "description": "Apple ve modern SaaS ürünlerinin standart bento kutusu düzeni. 'Real-Time Telemetry. Peak Performance.' başlığı, 1x1 ve 1x2 oranlarında kusursuz modüler kartlar, canlı sunucu sağlığı ECG dalgası, 48ms API gecikmesi, 12,492 aktif kullanıcı grafiği ve 35% CPU hız göstergesi.",
+    "prompt": "Build a state-of-the-art dark mode Bento Grid SaaS dashboard website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"QUANTUM FLUX\" with a luminous cyan orb icon.\n- Primary Headline: \"Real-Time Telemetry. Peak Performance.\" inside the prominent 2x2 hero card.\n- Subtitle: \"Quantify growth. Optimize workflows. Gain instantaneous visibility.\"\n- Header Navigation: Top navbar with dark tabs [Products ∨], [Platform], [Pricing], [docs], [Login], and glowing pill button \"Get Started\".\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Layout Structure: Strict mathematical Bento Box Grid with 16px gutters, rounded 20px corners, and subtle 1px border highlights:\n  `background: #0E1117; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 20px; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);`\n- Background: Pitch obsidian black (#08090C).\n- Color Accents:\n  * Telemetry Green: #39FF14 (Server Health, operational indicators)\n  * Cyan Neon: #00F0FF (Latency graphs, active curves)\n  * Electric Violet: #A855F7 (Memory progress, user statistics)\n  * Alert Amber & Coral: #F59E0B / #EF4444 (Severity bars)\n- Typography: Plus Jakarta Sans for UI titles, JetBrains Mono for numeric telemetry and milliseconds.\n\n=== BENTO MODULES SPECIFICATION ===\n1. Module 1 (2x2 Large Hero): Headline, descriptive paragraph, buttons [Start Free Trial] and [Request Demo], beside a 3D interconnected wireframe constellation globe.\n2. Module 2 (1x1): \"Server Health\" displaying \"89% Active\", live glowing green ECG pulse wave, status \"All Systems Operational\".\n3. Module 3 (1x1): \"API Latency\" displaying \"48ms Avg\" with sharp blue frequency waveform.\n4. Module 4 (1x1): \"Active Users\" displaying \"12,492\" (+1.2% live counter badge) with multi-color cyan/emerald vertical bar chart.\n5. Module 5 (1x2 Wide): \"User Engagement\" with dual smooth area curves (79% Active Users, 22,492 Interactive Users).\n6. Module 6 (1x1): \"Database Load\" displaying \"35%\" with an illuminated radial speedometer gauge.\n7. Module 7 (1x1): \"Memory Usage\" displaying \"18.5 GB / 32 GB\" with segmented neon progress pill.\n8. Module 8 (1x1): \"Project Milestones\" displaying circular radial completion gauge \"4/10\".\n9. Module 9 (1x2 Wide): \"Security Events\" with timeline alert pips and 3D Low/Mid/High severity bars.\n10. Module 10 (1x1): \"Data Flow\" showing a fiber-optic radial burst visualization.\n11. Module 11 (1x1): \"Subscription Metrics\" displaying \"MRR $89K\" with smooth ascending emerald area curve.",
+    "features": [
+      "Apple SaaS Standartı Bento Kutuları",
+      "1x1 ve 1x2 Modüler Kartlar",
+      "Canlı Telemetri & ECG Dalgaları",
+      "Hız Göstergesi"
+    ]
+  },
+  {
+    "id": "surrealism",
+    "name": "Surrealism",
+    "emoji": "🌀",
+    "desc": "Gerçek dışı objeler, havada duran nesneler, imkânsız perspektifler ve rüya benzeri metafizik kompozisyonlar.",
+    "tags": [
+      "Havada Nesneler",
+      "İmkânsız Perspektif",
+      "Metafizik",
+      "Rüya Mantığı"
+    ],
+    "accent": "#80A0B0",
+    "colors": [
+      "#203030",
+      "#05090C",
+      "#405060",
+      "#608090",
+      "#80A0B0"
+    ],
+    "typography": "Playfair Display, Cormorant Garamond, Cinzel",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <defs>\n    <linearGradient id=\"sur-sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#0a001a\"/><stop offset=\"50%\" stop-color=\"#3c096c\"/><stop offset=\"100%\" stop-color=\"#ff9e00\"/></linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"500\" fill=\"url(#sur-sky)\"/>\n  <path d=\"M 0 380 Q 200 350 400 370 T 800 350 L 800 500 L 0 500 Z\" fill=\"#240046\"/>\n  <polygon points=\"400,100 460,250 400,320 340,250\" fill=\"#e0aaff\" stroke=\"#fff\" stroke-width=\"2\" opacity=\"0.9\"/>\n  <ellipse cx=\"400\" cy=\"440\" rx=\"90\" ry=\"16\" fill=\"#10002b\" opacity=\"0.7\"/>\n  <circle cx=\"600\" cy=\"180\" r=\"50\" fill=\"#00b4d8\"/>\n  <circle cx=\"600\" cy=\"180\" r=\"20\" fill=\"#03045e\"/>\n  <circle cx=\"608\" cy=\"172\" r=\"6\" fill=\"#fff\"/>\n  <text x=\"400\" y=\"470\" font-family=\"'Cinzel', serif\" font-size=\"24\" fill=\"#ff9e00\" text-anchor=\"middle\" letter-spacing=\"8\">SURREAL REALITY 🌀</text>\n</svg>",
+    "image": "05_Web_Stilleri/surrealism.jpg",
+    "title": "Surrealism 🌀",
+    "brand": "ÆTHERIS",
+    "tagline": "ÆTHERIS: EXPLORE THE REALMS OF THE IMPOSSIBLE",
+    "description": "Gerçek dışı nesneler ve yer çekimsiz mimarinin büyüleyici dijital sanat galerisi. 'ÆTHERIS: EXPLORE THE REALMS OF THE IMPOSSIBLE' başlığı, havada asılı duran gotik şato, parlayan kadranlı antika guguklu saat, antik Roma heykeli büstü, göksel göz ve derin uzaya inen spiral taş merdivenler.",
+    "prompt": "Build a spellbinding, award-winning Surrealist avant-garde digital art exhibition website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand Name: \"ÆTHERIS\" in refined, tracked-out serif capitals.\n- Header Navigation: Top bar with hamburger icon on the left, and exhibition links on the right: [EXHIBITIONS], [ARTISTS], [ABOUT], [JOURNAL].\n- Primary Headline: \"ÆTHERIS: EXPLORE THE REALMS OF THE IMPOSSIBLE\" in elegant, classical Roman serif display typography.\n- Subtitle: \"A curated digital journey through surrealist landscapes and avant-garde visions.\"\n- Exhibition Metadata: \"CURRENT EXHIBITION: 'FRAGMENTED DIMENSIONS' | OCT 15 - NOV 30, 2024\".\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Background: Dark, stormy atmospheric celestial void with deep teal-grey nebula clouds, glowing crescent moon, and distant spiral galaxies.\n- Surrealist 3D Scene Elements:\n  * A monumental gothic stone castle and spiral turret floating weightlessly on a shattered asteroid in zero gravity.\n  * An ornate antique gold grandfather clock floating in mid-air with an illuminated dial.\n  * A fractured classical Roman marble statue bust and broken classical columns suspended in space.\n  * A giant mystical floating eye orb watching silently from the storm clouds.\n  * A standalone spiral stone staircase curving impossible into the infinite dark abyss below.\n- Color Tokens: Deep Obsidian Cosmos (#06080E), Pale Ethereal Cyan (#88D0D0), Antique Gold (#D4AF37), Marble White (#FFFFFF).\n\n=== COMPONENT ARCHITECTURE ===\n1. Primary Call-to-Action: Clean glassmorphic rectangular button \"ENTER THE EXHIBITION\" with subtle cyan border glow.\n2. Narrative Scroll Cue: Centered bottom prompt \"SCROLL TO DESCEND ↓\" with an arrow pointing downward.\n3. Exhibition Index Footer: Minimalist pagination strip: \"01 | INTRODUCTION   03 | HISTORY   04 | CONTENT   05 | ARTISTS\".\n4. Technical Spec Line (Bottom Right): \"High fidelity, (8k, cinematic effects, Natural grains.. Typography\".",
+    "features": [
+      "Havada Duran Gotik Şato",
+      "Yer Çekimsiz Antik Saat & Büst",
+      "İmkânsız Perspektif Merdivenler",
+      "Kozmik Boşluk"
+    ]
+  },
+  {
+    "id": "dreamcore",
+    "name": "Dreamcore",
+    "emoji": "☁️",
+    "desc": "Rüya gibi, bulanık, pastel, hafif garip atmosfer; liminal alanlar, buğulu geçişler ve nostaljik hayal hissi.",
+    "tags": [
+      "Liminal Alan",
+      "Bulanık Pastel",
+      "Buğulu Sis",
+      "Rüya Atmosferi"
+    ],
+    "accent": "#E09070",
+    "colors": [
+      "#A0A0C0",
+      "#F0C0B0",
+      "#E09070",
+      "#A05040",
+      "#E0D0E0"
+    ],
+    "typography": "Plus Jakarta Sans, Quicksand, Outfit",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <defs>\n    <linearGradient id=\"dc-sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#2d224d\"/><stop offset=\"50%\" stop-color=\"#694d75\"/><stop offset=\"100%\" stop-color=\"#c8b6ff\"/></linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"500\" fill=\"url(#dc-sky)\"/>\n  <circle cx=\"200\" cy=\"200\" r=\"150\" fill=\"#ffc6ff\" opacity=\"0.25\"/>\n  <circle cx=\"600\" cy=\"250\" r=\"180\" fill=\"#caffbf\" opacity=\"0.2\"/>\n  <path d=\"M 100 360 Q 280 300 480 340 T 800 350 L 800 500 L 0 500 Z\" fill=\"#e7c6ff\" opacity=\"0.8\"/>\n  <rect x=\"360\" y=\"160\" width=\"80\" height=\"150\" rx=\"40\" fill=\"#fff\" opacity=\"0.85\"/>\n  <circle cx=\"415\" cy=\"240\" r=\"4\" fill=\"#000\"/>\n  <text x=\"400\" y=\"110\" font-family=\"'Italiana', serif\" font-size=\"32\" fill=\"#fff\" text-anchor=\"middle\" letter-spacing=\"4\">HAVE YOU BEEN HERE BEFORE?</text>\n  <text x=\"400\" y=\"460\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#4a3e68\" text-anchor=\"middle\" letter-spacing=\"2\">DREAMCORE ☁️ LIMINAL HORIZON</text>\n</svg>",
+    "image": "05_Web_Stilleri/dreamcore.jpg",
+    "title": "Dreamcore ☁️",
+    "brand": "DREAMS & LIMINAL",
+    "tagline": "WANDER THROUGH THE BLURRY HALLWAYS OF MEMORY.",
+    "description": "Rüya gibi liminal atmosferi ve nostaljik çocukluk anılarını yansıtan Dreamcore web tasarımı. 'WANDER THROUGH THE BLURRY HALLWAYS OF MEMORY.' başlığı, günbatımı renkli pastel rüya bulutları, statik parazitli eski tüplü CRT televizyon ('VHS RECALL'), flu otel koridoru ve gece tren istasyonu hafıza kartları.",
+    "prompt": "Build an ethereal, nostalgic Dreamcore aesthetic website homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Brand / Category Navigation: Top bar with [DREAMS], [LIMINAL], [NOSTALGIA], [EXPLORE], [ARCHIVE], search icon, and user avatar.\n- Primary Headline: \"WANDER THROUGH THE BLURRY HALLWAYS OF MEMORY.\" centered in elegant, luminous sans-serif.\n- Subtitle: \"A digital sanctuary for lost thoughts, fleeting moments, and the beauty of liminal spaces.\"\n- Primary Action: Centered glowing lavender pill button \"BEGIN YOUR JOURNEY\" with ethereal halo light.\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Atmosphere: Dreamlike, soft-focus liminal aesthetic. Hazy pastel clouds blending lavender (#C4B5FD), soft peach (#FDBA74), blush pink (#FBCFE8), and gentle sky blue.\n- Lighting: Diffused god rays, soft chromatic rainbow lens flares, sparCinematic Video 4-pointed stars (✦) drifting through the atmosphere.\n- Glassmorphism: Ultra-smooth frosted translucent cards with milky white borders and soft diffused drop shadows:\n  `background: rgba(255, 255, 255, 0.45); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.7); border-radius: 20px;`\n\n=== COMPONENT ARCHITECTURE ===\n1. Interactive Memory Carousel (Floating Translucent Cards):\n   - Card 1: \"AFTERGLOW GARDEN\" with soft-focus pink wildflower path at sunset.\n   - Card 2: \"EMPTY HALLWAY\" with eerie, warm blurred fluorescent orange corridor and vanishing stairs.\n   - Card 3: \"CLOUD MEMORIES\" with fuzzy cotton clouds in pastel sky.\n   - Card 4: \"VHS RECALL\" featuring a vintage 90s CRT television set displaying flickering white static noise.\n   - Card 5: \"MIDNIGHT STATION\" showcasing an empty subway carriage with soft blue interior lighting.\n2. Bottom Strip & Footer:\n   - Left Label: \"LATEST RECOLLECTIONS\" with preview thumbnails.\n   - Right Menu: Minimalist links [ABOUT], [CONTACT], [LEGAL] beside dream sparkle icons.",
+    "features": [
+      "Bulanık Liminal Koridor",
+      "Nostaljik CRT TV (VHS)",
+      "Rüya Gibi Pastel Bulutlar",
+      "Ethereal Cam Kartlar"
+    ]
+  },
+  {
+    "id": "nostalgic-web",
+    "name": "Nostalgic Web",
+    "emoji": "📺",
+    "desc": "Eski internet, 2000'ler forumları, eski medya oynatıcıları, pencereli UI ve nostaljik piksel dokuları.",
+    "tags": [
+      "Win98 Pencereler",
+      "2000 Forumları",
+      "Eski Medya Player",
+      "Piksel İkonlar"
+    ],
+    "accent": "#008080",
+    "colors": [
+      "#008080",
+      "#B8B9B8",
+      "#505070",
+      "#B02020",
+      "#7070A0"
+    ],
+    "typography": "MS Sans Serif, Pixelated Courier, Comic Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#008080\"/>\n  <g transform=\"translate(120, 60)\">\n    <rect x=\"0\" y=\"0\" width=\"560\" height=\"360\" fill=\"#c0c0c0\" stroke=\"#fff\" stroke-width=\"2\"/>\n    <rect x=\"4\" y=\"4\" width=\"552\" height=\"28\" fill=\"#000080\"/>\n    <text x=\"16\" y=\"23\" font-family=\"Tahoma, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#fff\">📺 NetConnect 2000 — [Online Media Player]</text>\n    <rect x=\"20\" y=\"50\" width=\"340\" height=\"200\" fill=\"#000\" stroke=\"#808080\" stroke-width=\"2\"/>\n    <text x=\"190\" y=\"145\" font-family=\"monospace\" font-size=\"18\" fill=\"#00ff00\" text-anchor=\"middle\">&gt; BUFFERING TRACK 01... [64%]</text>\n    <g transform=\"translate(380, 50)\">\n      <rect x=\"0\" y=\"0\" width=\"150\" height=\"35\" fill=\"#c0c0c0\" stroke=\"#fff\" stroke-width=\"2\"/>\n      <text x=\"75\" y=\"23\" font-family=\"Tahoma, sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#000\" text-anchor=\"middle\">▶ PLAY</text>\n      <rect x=\"0\" y=\"45\" width=\"150\" height=\"35\" fill=\"#c0c0c0\" stroke=\"#fff\" stroke-width=\"2\"/>\n      <text x=\"75\" y=\"68\" font-family=\"Tahoma, sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#000\" text-anchor=\"middle\">⏹ STOP</text>\n    </g>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/nostalgic-web.jpg",
+    "title": "Nostalgic Web 📺",
+    "brand": "NETNOSTALGIA.COM",
+    "tagline": "NETNOSTALGIA.COM — Your Portal to Y2K Web Culture!",
+    "description": "2000'ler başı internet ve forum kültürünün birebir kopyası olan Nostalgic Web arayüzü. 'NETNOSTALGIA.COM' 3D pikselli başlığı, Vengaboys çalan çalışan Winamp 2.7 oynatıcısı, kayan kırmızı marquee haber şeridi, retro forum konuları tablosu ve tüplü CRT monitör ziyaretçi defteri.",
+    "prompt": "Build an authentic, high-fidelity early 2000s Nostalgic Web (Web 1.0 / early Web 2.0) portal homepage UI exactly matching the reference design:\n\n=== CORE IDENTITY & BRANDING ===\n- Browser Shell: Authentic Netscape / Internet Explorer 5 browser frame with classic navigational buttons [Back], [Forward], [Stop], [Home], and address bar `http://www.netnostalgia.com`.\n- Site Header: Monumental 3D red pixelated wordmark \"NETNOSTALGIA.COM\", subtitle \"NETNOSTALGIA.COM - Your Portal to Y2K Web Culture! | Established 1999\".\n- Top Icon Navigation: Classic 90s pixel art icons with labels [Home] (house), [Chat] (speech bubble), [Forum] (smiley), [Gallery] (picture), [Links] (chain).\n\n=== VISUAL LANGUAGE & DESIGN SYSTEM ===\n- Operating System & Web Aesthetic: Windows 98 / early 2000s desktop GUI.\n- Bevel & Emboss: Classic 3D beveled grey buttons (#C0C0C0) with 2px white highlight on top/left and 2px dark grey (#404040) shadow on bottom/right.\n- Marquee Ticker: Eye-catching red scrolling marquee banner:\n  `* * WELCOME TO NETNOSTALGIA.COM! * LATEST FORUM ACTIVITY! * WINAMP SKINS ADDED! * SIGN OUR GUESTBOOK! * *`\n- Typography: Authentic pixelated MS Sans Serif, Times New Roman, and Courier.\n\n=== COMPONENT ARCHITECTURE ===\n1. Left Navigation Rail: Beveled grey button stack: [Forum], [Winamp Skins], [Guestbook], [Webring], [Member Login], [About Us], with search input and beveled [Go] button.\n2. Center Content - Retro Media Forum: Classic HTML table with blue header and categories:\n   - \"General Chat\" (Topic: Latest Y2K Gear!, 34 posts, author: RetroFan01).\n   - \"Music\" (Topic: 90s vs 00s, 35 posts, author: pixelMaster).\n   - \"Y2K Nostalgia\" (Topic: Best Blink-182 Album?, 18 posts).\n3. Bottom-Left Interactive Winamp 2.7 Player:\n   - Detailed Winamp skin with green digital LCD readout: \"Vengaboys - We're Going to Ibiza! 128kbps 3:38\".\n   - Active graphic equalizer visualizer with green-to-red frequency bars and sliders.\n   - Playlist window displaying tracks: 1. Daft Punk, 2. Eiffel 65, 3. ATB. Transport buttons (Play, Pause, Stop, Prev, Next).\n4. Right Sidebar: \"Top Winamp Skins\", \"Recent Members\", embossed 3D button \"Sign Our Guestbook!\", and a retro CRT desktop monitor with blinking terminal prompt.",
+    "features": [
+      "Winamp 2.7 Medya Oynatıcı",
+      "Kayan Kırmızı Ticker Bandı",
+      "2000'ler Forum Tablosu",
+      "Kabartmalı Gri Butonlar"
+    ]
+  },
+  {
+    "id": "luxury-editorial",
+    "name": "Luxury Editorial",
+    "emoji": "🥂",
+    "desc": "Moda dergisi gibi; zarif serif fontlar, dev fotoğraflar, altın detaylar ve çok kaliteli boşluk kullanımı.",
+    "tags": [
+      "Zarif Serif Font",
+      "Dev Fotoğraflar",
+      "Kaliteli Boşluk",
+      "Altın Vurgular"
+    ],
+    "accent": "#00B090",
+    "colors": [
+      "#00B090",
+      "#08080A",
+      "#008070",
+      "#005040",
+      "#00E0C0"
+    ],
+    "typography": "Cormorant Garamond, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#08080a\"/>\n  <rect x=\"40\" y=\"40\" width=\"720\" height=\"420\" fill=\"none\" stroke=\"#d4af37\" stroke-width=\"1\" opacity=\"0.6\"/>\n  <text x=\"400\" y=\"110\" font-family=\"'Bodoni Moda', serif\" font-size=\"14\" fill=\"#d4af37\" text-anchor=\"middle\" letter-spacing=\"8\">AUTUMN / WINTER COLLECTION • VOL. IV</text>\n  <text x=\"400\" y=\"180\" font-family=\"'Playfair Display', serif\" font-size=\"52\" fill=\"#ffffff\" text-anchor=\"middle\" font-weight=\"400\" letter-spacing=\"2\">L’ÉLÉGANCE PURE</text>\n  <line x1=\"320\" y1=\"205\" x2=\"480\" y2=\"205\" stroke=\"#d4af37\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"240\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\" fill=\"#a1a1aa\" text-anchor=\"middle\">A study in silence, negative space, and gold materiality.</text>\n</svg>",
+    "image": "05_Web_Stilleri/luxury-editorial.jpg",
+    "title": "Luxury Editorial 🥂",
+    "brand": "LUMIÈRE",
+    "tagline": "Poetry in Silhouettes & Void.",
+    "description": "Vogue ve lüks moda evlerinin editoryal zarafetini yansıtan web tasarımı. 'Poetry in Silhouettes & Void.' başlığı, zümrüt yeşili neon odada poz veren yüksek moda modeli fotoğrafı, Cormorant Garamond serif fontu, 24K altın vurgular ve asimetrik Paris-Milano mizanpajı.",
+    "prompt": "Build an ultra-luxurious, minimalist high-fashion Luxury Editorial website homepage UI exactly matching the reference design:\n- Browser Shell: Dark macOS title bar with red/yellow/green dots and URL `https://maison-couture.paris/editorial`.\n- Brand Name: \"ÉLÉGANCE\" with subtitle \"N° 48 / AUTUMN 2026\".\n- Primary Headline: \"The Art of\\nSovereign Void.\" with \"Sovereign\" in golden italic serif (`#c5a059`).\n- Hero Copy: \"Mastering architectural negative space, timeless serif hierarchy, and haute couture photographic pacing. Designed for prestigious luxury maisons.\"\n- Primary Action: Gold bordered button \"DISCOVER COLLECTION\" with letter-spacing.\n- Visual Asset: Right column showcases a high-fashion editorial portrait of a model in a vibrant emerald-green room with neon script glow.\n- Floating Gold Badge: \"01 / 18 | EDITORIAL VOL. VII\" in dark glassmorphic box.\n- Footer Strip: \"PARIS • MILAN • NEW YORK | AWWWARDS HONORABLE MENTION\".",
+    "features": [
+      "Haute Couture Fotoğrafçılığı",
+      "Zümrüt Yeşili Arka Plan",
+      "24K Altın Detaylar",
+      "Negatif Alan Disiplini"
+    ]
+  },
+  {
+    "id": "art-deco",
+    "name": "Art Deco",
+    "emoji": "🏛️",
+    "desc": "Altın, siyah ve geometrik desenler; 1920'lerin Gatsby ihtişamı, simetrik çizgiler ve lüks detaylar.",
+    "tags": [
+      "Altın ve Siyah",
+      "1920 Havası",
+      "Geometrik Çizgiler",
+      "Gatsby Lüksü"
+    ],
+    "accent": "#C5A059",
+    "colors": [
+      "#C5A059",
+      "#070607",
+      "#B0A060",
+      "#302020",
+      "#807060"
+    ],
+    "typography": "Cinzel, Marcellus, Playfair Display",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0a0a0c\"/>\n  <g stroke=\"#ffd700\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.8\">\n    <path d=\"M 40 40 L 140 40 M 40 40 L 40 140\"/>\n    <path d=\"M 760 40 L 660 40 M 760 40 L 760 140\"/>\n    <polygon points=\"400,160 520,250 400,340 280,250\" stroke=\"#ffd700\" stroke-width=\"2\"/>\n  </g>\n  <text x=\"400\" y=\"245\" font-family=\"'Poiret One', sans-serif\" font-size=\"34\" font-weight=\"900\" fill=\"#ffd700\" text-anchor=\"middle\" letter-spacing=\"8\">ART DECO</text>\n  <text x=\"400\" y=\"275\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c5a059\" text-anchor=\"middle\" letter-spacing=\"4\">THE GOLDEN AGE • 1920</text>\n</svg>",
+    "image": "05_Web_Stilleri/art-deco.jpg",
+    "title": "Art Deco 🏛️",
+    "brand": "THE CHRYSLER",
+    "tagline": "THE GOLDEN AGE OF OPULENCE",
+    "description": "1920'lerin Gatsby ihtişamını ve Chrysler binasının geometrik zarafetini taşıyan Art Deco web tasarımı. 'THE GOLDEN AGE OF OPULENCE' başlığı, köşelerde altın şevron motifleri, çift ince altın çerçeve, siyah mermer arka plan ve Rooftop Salon & Imperial Suites kartları.",
+    "prompt": "Build a breathtaking 1920s Great Gatsby inspired Art Deco luxury website homepage UI exactly matching the reference design:\n- Browser Shell: Dark window bar with gold border and URL `https://the-grand-deco.com/hotel`.\n- Geometric Gold Frame: Dual concentric 2px and 1px borders in polished gold (#c5a059) with decorative L-shaped chevron corner inlays.\n- Brand Name: \"THE CHRYSLER\" with golden glow, and links [HERITAGE], [SALONS], [SUITES], [CONCIERGE].\n- Badge: Centered gold badge \"ESTABLISHED 1928 • NEW YORK\".\n- Primary Headline: \"THE GOLDEN AGE OF OPULENCE\" in monumental Cinzel serif typography with gold drop shadow.\n- Description: \"Geometric symmetry, sunburst motifs, chevron inlays, and gilded black marble architecture.\"\n- Trio of Architectural Cards:\n  * \"ROOFTOP SALON\" (Gilded Jazz & Speakeasy Nights)\n  * \"IMPERIAL SUITES\" (Black Marble & Polished Brass)\n  * \"GRAND BALLROOM\" (Crystal Chandeliers & 1920s Glamour)\n- Footer: \"CHEVRON SYMMETRY • 24K GOLD TOKENS | RESERVATIONS OPEN // WINTER 2026\".",
+    "features": [
+      "1920'ler Geometrik Simetrisi",
+      "Çift Altın Bordürler",
+      "Şevron Köşe İşlemeleri",
+      "Siyah Mermer Zemin"
+    ]
+  },
+  {
+    "id": "psychedelic",
+    "name": "Psychedelic",
+    "emoji": "🌈",
+    "desc": "Dalgalanan yazılar, renk patlamaları, optik illüzyonlar, 60'lar ve 70'ler saykodelik çiçek çocuk enerjisi.",
+    "tags": [
+      "Dalgalanan Yazılar",
+      "Renk Patlamaları",
+      "Optik İllüzyon",
+      "Gökkuşağı Akışı"
+    ],
+    "accent": "#00D0D0",
+    "colors": [
+      "#B010A0",
+      "#140023",
+      "#8020C0",
+      "#5050C0",
+      "#00D0D0"
+    ],
+    "typography": "Shrikhand, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#15002b\"/>\n  <g fill=\"none\" stroke-width=\"14\">\n    <ellipse cx=\"400\" cy=\"250\" rx=\"360\" ry=\"220\" stroke=\"#ff007f\"/>\n    <ellipse cx=\"400\" cy=\"250\" rx=\"310\" ry=\"190\" stroke=\"#ff7700\"/>\n    <ellipse cx=\"400\" cy=\"250\" rx=\"260\" ry=\"160\" stroke=\"#ffee00\"/>\n    <ellipse cx=\"400\" cy=\"250\" rx=\"210\" ry=\"130\" stroke=\"#00ff66\"/>\n  </g>\n  <text x=\"400\" y=\"260\" font-family=\"'Impact', sans-serif\" font-size=\"44\" font-weight=\"900\" fill=\"#ffffff\" text-anchor=\"middle\">PSYCHEDELIC</text>\n  <text x=\"400\" y=\"440\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"16\" fill=\"#ffee00\" text-anchor=\"middle\" letter-spacing=\"6\">EXPAND YOUR MIND 🌈</text>\n</svg>",
+    "image": "05_Web_Stilleri/psychedelic.jpg",
+    "title": "Psychedelic 🌈",
+    "brand": "LUCID DREAM",
+    "tagline": "MIND MELTING WAVES OF COLOR",
+    "description": "1970'lerin psychedelic müzik festivalleri ve optik illüzyonlarından esinlenen renk patlamalı web tasarımı. Dalgalanan 'MIND MELTING WAVES OF COLOR' başlığı, pembe-mor-turkuaz kaleydoskopik gradyan zemin, parlak sarı hap biçimli 'ENTER THE PORTAL' butonu ve transandantal ses-görsel portalı.",
+    "prompt": "Build an authentic 70s-inspired Psychedelic festival website homepage UI exactly matching the reference design:\n- Browser Shell: Dark violet browser bar with URL `https://lucid-mind.festival/2026`.\n- Brand Name: \"LUCID DREAM\" in curvy Shrikhand font with offset 3D magenta/cyan shadows, tilted at -2 degrees.\n- Top Menu: Bold uppercase links [LINEUP], [EXPERIENCES], [VISUAL ART], [TICKETS].\n- Tag: White rounded pill badge \"★ VIBRANT OPTICAL EXPANSION • 70S REIMAGINED\".\n- Primary Headline: \"MIND MELTING\\nWAVES OF COLOR\" in giant undulating Shrikhand typography with multi-color 3D offset drops (magenta, yellow, cyan).\n- Description: \"Undulating fluid typography, kaleidoscopic chromatic waves, and hypnotic optical illusions built for transcendental sensory experiences.\"\n- Action Button: Chunky sun-yellow button \"ENTER THE PORTAL\" with white border and yellow aura glow, paired with \"EXPLORE AUDIO VISUALS →\".\n- Footer Strip: \"CALIFORNIA SUNSET • AUG 18-22 | AWWWARDS EXPERIMENTAL SITE OF THE DAY\".",
+    "features": [
+      "70'ler Kaleydoskopik Renk Dalgaları",
+      "Dalgalı Shrikhand Fontu",
+      "Güneş Sarısı Hap Buton",
+      "Festival Portalı"
+    ]
+  },
+  {
+    "id": "kinetic-motion-design",
+    "name": "Kinetic / Motion Design",
+    "emoji": "🎬",
+    "desc": "Tasarımın kendisinden çok hareketler ön planda; yay fizikleri (springs), ivmelenen geçişler ve akıcı animasyonlar.",
+    "tags": [
+      "Hareket Odaklı",
+      "Yay Fizikleri",
+      "İvmelenme",
+      "60 FPS Akıcı"
+    ],
+    "accent": "#F03020",
+    "colors": [
+      "#F03020",
+      "#030203",
+      "#B04030",
+      "#302020",
+      "#801010"
+    ],
+    "typography": "Syne ExtraBold, Space Grotesk, Monospace",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0a0a12\"/>\n  <path d=\"M 50 350 C 200 450 300 100 500 200 S 700 100 750 250\" fill=\"none\" stroke=\"#00f5d4\" stroke-width=\"4\"/>\n  <g transform=\"translate(500, 200)\">\n    <circle cx=\"0\" cy=\"0\" r=\"36\" fill=\"#00f5d4\"/>\n    <polygon points=\"-8,-12 12,0 -8,12\" fill=\"#0a0a12\"/>\n  </g>\n  <text x=\"100\" y=\"120\" font-family=\"'Space Grotesk', sans-serif\" font-weight=\"700\" font-size=\"44\" fill=\"#ffffff\">KINETIC MOTION 🎬</text>\n  <text x=\"100\" y=\"160\" font-family=\"monospace\" font-size=\"16\" fill=\"#00f5d4\">SPRING_TENSION: 180 | DAMPING: 12</text>\n</svg>",
+    "image": "05_Web_Stilleri/kinetic-motion-design.jpg",
+    "title": "Kinetic / Motion Design 🎬",
+    "brand": "KINETIC LAB",
+    "tagline": "PURE VELOCITY. 60FPS CHOREOGRAPHY.",
+    "description": "Hareket ve kinetik hızın ön planda olduğu motion design stüdyosu web tasarımı. 'PURE VELOCITY. 60FPS CHOREOGRAPHY.' dev harfleri, transparan konturlu metinler, kırmızı oynatıcı butonu ve 01:42 / 02:30 süreli interaktif video scrubber zaman çizelgesi barı.",
+    "prompt": "Build a high-performance modern Motion Design studio website homepage UI exactly matching the reference design:\n- Browser Shell: Dark obsidian bar with URL `https://kinetic-motion.studio/showreel`.\n- Brand Name: \"KINETIC LAB\" with a pulsing glowing red recording dot.\n- Top Menu: Uppercase tracked links [WORKS (24)], [EXPERIMENTS], [STUDIO], [CONTACT].\n- Header Subtitle: \"MOTION-FIRST DIGITAL EXPERIENCES\" in tracked neon red text.\n- Monumental Headline: \"PURE VELOCITY.\\n60FPS CHOREOGRAPHY.\" in massive Syne 800 letterforms, where \"VELOCITY\" is rendered in hollow white wireframe outline, and \"60FPS\" in vivid racing red (#ff3b30).\n- Interactive Video Player Timeline Bar:\n  * Circular red play button with play triangle glyph.\n  * Linear scrubber track with red progress line filled to 68%.\n  * Monospace time indicator: \"01:42 / 02:30 [HQ]\".\n- Footer Bar: \"PHYSICS-BASED EASING • WEBGL SHADERS | SITE OF THE DAY • FWA OF THE MONTH\".",
+    "features": [
+      "Devasa Transparan Kontur Harfler",
+      "60FPS Video Oynatma Zaman Çizelgesi",
+      "Kırmızı Lazer Nokta",
+      "WebGL Hızı"
+    ]
+  },
+  {
+    "id": "paper-tactile",
+    "name": "Paper / Tactile",
+    "emoji": "📜",
+    "desc": "Kağıt, karton, yırtık kenarlar, fiziksel materyal hissi; katlanmış gölgeler ve dokunsal gerçekçilik.",
+    "tags": [
+      "Kağıt ve Karton",
+      "Yırtık Kenarlar",
+      "Fiziksel Doku",
+      "Pullar ve Kıvrımlar"
+    ],
+    "accent": "#902020",
+    "colors": [
+      "#F0E0C0",
+      "#1D1916",
+      "#902020",
+      "#706050",
+      "#F0F0F0"
+    ],
+    "typography": "DM Serif Display, Space Mono",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#2b1d0f\"/>\n  <g transform=\"translate(100, 50)\">\n    <rect x=\"12\" y=\"12\" width=\"600\" height=\"380\" rx=\"4\" fill=\"#000\" opacity=\"0.6\"/>\n    <rect x=\"0\" y=\"0\" width=\"600\" height=\"380\" rx=\"4\" fill=\"#ede0d4\"/>\n    <path d=\"M 0 0 L 50 12 L 100 0 L 150 15 L 200 2 L 250 14 L 300 0 L 350 12 L 400 4 L 450 16 L 500 0 L 550 10 L 600 0 L 600 380 L 0 380 Z\" fill=\"#e6ccb2\"/>\n    <circle cx=\"500\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"#7f5539\" stroke-width=\"3\" stroke-dasharray=\"6,4\"/>\n    <text x=\"500\" y=\"105\" font-family=\"monospace\" font-weight=\"900\" font-size=\"11\" fill=\"#7f5539\" text-anchor=\"middle\">APPROVED 1974</text>\n    <text x=\"60\" y=\"90\" font-family=\"'Courier Prime', monospace\" font-size=\"28\" font-weight=\"bold\" fill=\"#7f5539\">TACTILE ARCHIVE 📜</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/paper-tactile.jpg",
+    "title": "Paper / Tactile 📜",
+    "brand": "KRAFT & PULP PRESS",
+    "tagline": "FIBER, INK & PHYSICAL TEXTURE.",
+    "description": "Fiziksel kağıt, mukavva ve tipo baskı dokusunu ekrana getiren Paper Tactile web tasarımı. 'FIBER, INK & PHYSICAL TEXTURE.' başlığı, üstte asılı duran metal ataş klipsi, kırmızı 'OFFICIAL EDITION 2026' mührü, 300gsm pamuklu kağıt dokulu kart ve daktilo fontlu arşiv bileti.",
+    "prompt": "Build an authentic tactile, handcrafted Paper & Print Press website homepage UI exactly matching the reference design:\n- Browser Shell: Deep brown vintage bar with URL `https://atelier-tactile.press/archive`.\n- Paper Sheet Container: Central card styled like real 300gsm cotton paper (#f3ede2) with subtle fiber shadows and depth.\n- Physical Paper Clip: Metal silver paper clip realistically clipped to the top-left edge of the sheet.\n- Brand & Wax Stamp: \"KRAFT & PULP PRESS\" in DM Serif Display, paired with a tilted red ink stamp \"OFFICIAL EDITION 2026\".\n- Primary Headline: \"FIBER, INK & PHYSICAL TEXTURE.\" in rich letterpress ink black.\n- Description: \"Tactile web experiences that evoke handcrafted paper stocks, vintage letterpress indentations, and warm organic materiality.\"\n- Perforated Ticket Card: Dashed border ticket \"LIMITED BATCH SPECIMEN - No. 00482 // COTTON FIBER\" with dark button \"INSPECT →\".\n- Tilted Swatch Card: Rotated white card detailing tactile attributes (300gsm cotton, blind stamps, torn edge masking).\n- Footer: \"PRINTED ON 100% POST-CONSUMER DIGITAL CELLULOSE | ISSUE IV • TOKYO / BASEL\".",
+    "features": [
+      "300gsm Pamuklu Kağıt Dokusu",
+      "Metalik Ataş Klipsi",
+      "Kırmızı Mum Mühür Damgası",
+      "Vintage Tipobaskı Kartı"
+    ]
+  },
+  {
+    "id": "handmade",
+    "name": "Handmade",
+    "emoji": "✏️",
+    "desc": "El çizimi, boya izleri, düzensiz şekiller; dijital kusursuzluğa karşı organik, samimi ve insani tasarım dokunuşu.",
+    "tags": [
+      "El Çizimi",
+      "Boya İzleri",
+      "Düzensiz Şekiller",
+      "Samimi Dokunuş"
+    ],
+    "accent": "#D07000",
+    "colors": [
+      "#F0F0C0",
+      "#191512",
+      "#D07000",
+      "#703010",
+      "#A05010"
+    ],
+    "typography": "Caveat, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#1a1c23\"/>\n  <path d=\"M 80 120 Q 250 80 500 130 T 720 100\" stroke=\"#f4a261\" stroke-width=\"28\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.75\"/>\n  <text x=\"400\" y=\"300\" font-family=\"'Caveat', cursive, sans-serif\" font-size=\"52\" fill=\"#ffffff\" text-anchor=\"middle\">HANDMADE ✏️</text>\n  <text x=\"400\" y=\"350\" font-family=\"'Patrick Hand', cursive, sans-serif\" font-size=\"22\" fill=\"#e9c46a\" text-anchor=\"middle\">El çizimi, boya izleri ve düzensiz şekiller</text>\n</svg>",
+    "image": "05_Web_Stilleri/handmade.jpg",
+    "title": "Handmade ✏️",
+    "brand": "Terracotta & Clay",
+    "tagline": "Warm, imperfect, human design.",
+    "description": "Dijital sterilliğe karşı insan elinin sıcak kusurlarını kutlayan zanaatkar Handmade web tasarımı. 'Warm, imperfect, human design.' başlığı, Caveat el yazısı tipografisi, pişmiş toprak (terracotta) tonları, düzensiz asimetrik kartlar ve Kyoto seramik atölyesi vitrini.",
+    "prompt": "Build a charming, artisanal Handmade pottery studio website homepage UI exactly matching the reference design:\n- Browser Shell: Dark espresso bar with URL `https://studio-terracotta.craft/works`.\n- Warm Linen Artboard: Soft cream handcrafted paper container (#fcf9f2) with organic shadow.\n- Brand Name: \"Terracotta & Clay\" in fluid, artistic Caveat script lettering.\n- Menu: Earthy brown navigation [CERAMICS], [STUDIO], [WORKSHOPS], [SHOP].\n- Handcrafted Badge: Tilted script badge \"~ 100% Handcrafted with patience\".\n- Primary Headline: \"Warm, imperfect, human design.\" in grounded, organic charcoal typography.\n- Description: \"Celebrating artisanal pottery, organic brushstrokes, irregular lines, and authentic crafted textures that digital perfection cannot replicate.\"\n- Irregular Action Button: Asymmetrically rounded warm amber button \"Explore Studio Pieces →\".\n- Tactile Clay Card: Tilted warm yellow card with dashed border: \"Wheel Thrown Pottery - Every vessel is formed by hand using local wild clay...\".\n- Footer: \"LOCALLY FORMED IN KYOTO • EARTHEN MATERIALS | AWWWARDS CRAFT NOMINEE\".",
+    "features": [
+      "El Yapımı Seramik Atölyesi",
+      "Organik Düzensiz Hatlar",
+      "Terracotta Toprak Tonları",
+      "El Çizimi Rozet"
+    ]
+  },
+  {
+    "id": "fashion-editorial",
+    "name": "Fashion Editorial",
+    "emoji": "👠",
+    "desc": "Moda sitesi gibi; dev tipografi + fotoğraf + asimetrik grid; podyum zarafeti ve yüksek moda kompozisyonu.",
+    "tags": [
+      "Moda Dergisi",
+      "Dev Tipografi",
+      "Fotoğraf Odaklı",
+      "Asimetrik Grid"
+    ],
+    "accent": "#F03030",
+    "colors": [
+      "#F03030",
+      "#060606",
+      "#202020",
+      "#B05050",
+      "#A02020"
+    ],
+    "typography": "Bodoni Moda, Montserrat",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#000000\"/>\n  <text x=\"40\" y=\"160\" font-family=\"'Italiana', serif\" font-size=\"110\" fill=\"#ffffff\" letter-spacing=\"2\">MODA</text>\n  <g transform=\"translate(480, 50)\">\n    <rect x=\"0\" y=\"0\" width=\"260\" height=\"380\" fill=\"#141414\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n    <text x=\"130\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#888\" text-anchor=\"middle\">EDITORIAL</text>\n  </g>\n  <text x=\"40\" y=\"420\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"14\" fill=\"#c41e3a\" letter-spacing=\"6\">FASHION EDITORIAL 👠</text>\n</svg>",
+    "image": "05_Web_Stilleri/fashion-editorial.jpg",
+    "title": "Fashion Editorial 👠",
+    "brand": "NOIR",
+    "tagline": "MONOCHROME RUNWAY EDIT.",
+    "description": "Vogue Runway ve Paris Moda Haftası standartlarında monokrom Fashion Editorial web tasarımı. Devasa transparan '26' rakamı arkasında yükselen 'MONOCHROME RUNWAY EDIT.' başlığı, siyah-beyaz yüksek kontrastlı podyum mankeni fotoğrafı ve kırmızı dikiş vurguları.",
+    "prompt": "Build an ultra-chic, high-fashion Monochrome Fashion Editorial website homepage UI exactly matching the reference design:\n- Browser Shell: Deep black minimalist bar with URL `https://vogue-runway.atelier/fw26`.\n- Split Screen Grid: High-fashion 1.1fr to 0.9fr asymmetric editorial layout.\n- Brand Name: \"NOIR\" in tracked Bodoni Moda capitals, paired with \"ISSUE 09\".\n- Background Numeral: Massive, semi-transparent Bodoni numeral \"26\" towering behind the headline.\n- Primary Headline: \"MONOCHROME\\nRUNWAY EDIT.\" with \"RUNWAY\" rendered in dramatic italic serif and red accent.\n- Description: \"Asymmetric crop compositions, dramatic high-contrast couture portraiture, and unapologetic brutal typography for fashion authorities.\"\n- Primary Action: Stark high-contrast white button \"VIEW RUNWAY LOOKS\" in tracked bold uppercase.\n- Visual Showcase: Full-height black and white photography of a runway fashion model with dark sunglasses and striped couture pants.\n- Red Ribbon Tag: Overlay tag \"LOOK 04 • VELVET SILK\" anchored by a red accent border.\n- Footer: \"PARIS FASHION WEEK | EDITORIAL DIRECTION: VISION\".",
+    "features": [
+      "Siyah-Beyaz Podyum Modeli",
+      "Devasa '26' Bodoni Numarası",
+      "Yüksek Kontrastlı Moda Mizanpajı",
+      "Kırmızı Detay"
+    ]
+  },
+  {
+    "id": "museum-gallery",
+    "name": "Museum / Gallery",
+    "emoji": "🖼️",
+    "desc": "Sanat galerisi hissi; çok kontrollü ve sofistike, sakin ve eseri merkezine alan küratörlük yaklaşımı.",
+    "tags": [
+      "Sanat Galerisi",
+      "Kontrollü ve Sofistike",
+      "Küratörlük",
+      "Spot Işığı"
+    ],
+    "accent": "#B06030",
+    "colors": [
+      "#202020",
+      "#505030",
+      "#707050",
+      "#B06030",
+      "#F0F0F0"
+    ],
+    "typography": "Cinzel, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0d0d10\"/>\n  <g transform=\"translate(260, 80)\">\n    <rect x=\"-10\" y=\"-10\" width=\"280\" height=\"240\" fill=\"#18181d\" stroke=\"#c0a080\" stroke-width=\"2\"/>\n    <rect x=\"0\" y=\"0\" width=\"260\" height=\"220\" fill=\"#070709\"/>\n    <circle cx=\"130\" cy=\"110\" r=\"60\" fill=\"none\" stroke=\"#c0a080\" stroke-width=\"1.5\"/>\n  </g>\n  <text x=\"400\" y=\"400\" font-family=\"'Cinzel', serif\" font-size=\"22\" fill=\"#fff\" text-anchor=\"middle\">MUSEUM / GALLERY 🖼️</text>\n</svg>",
+    "image": "05_Web_Stilleri/museum-gallery.jpg",
+    "title": "Museum / Gallery 🖼️",
+    "brand": "PALAIS DES ARTS",
+    "tagline": "Classical Mastery in the Digital Sphere.",
+    "description": "Dünya standartlarında bir sanat müzesinin prestijli dijital sergi salonu. 'Classical Mastery in the Digital Sphere.' başlığı, zarif ahşap çerçeveli klasik Rönesans yağlıboya tablosu, 'ROOM 04: OIL ON CANVAS' küratör etiketleri ve şık rezervasyon arayüzü.",
+    "prompt": "Build a prestigious, museum-grade classical art gallery website homepage UI exactly matching the reference design:\n- Browser Shell: Deep obsidian frame with URL `https://national-gallery.art/renaissance`.\n- Brand Header: \"PALAIS DES ARTS\" in Roman Cinzel capitals, with badge \"EXHIBITIONS • WING D • AUDIO TOUR ACTIVE\".\n- Primary Headline: \"Classical Mastery in the Digital Sphere.\" in dignified Cinzel serif typography.\n- Subtitle: \"Curated white cube digital exhibition space. Calibrated lighting, reverent quietude, and rigorous spatial spacing designed for world-class fine art collections.\"\n- Curator Metadata Block: Dual gold-accented entries \"ROOM 04: OIL ON CANVAS\" and \"CURATED BY H. LAURENT\".\n- Primary Action: Minimalist transparent bordered button \"Reserve Timed Tickets →\".\n- Masterpiece Art Frame: Deep-set museum frame showcasing a classical fine art oil painting of floral still life with dramatic chiaroscuro lighting.\n- Museum Plaque: Floating dark plaque below the painting: \"LOT 104 • CIRCA 1640 • OIL ON CANVAS\".",
+    "features": [
+      "Klasik Yağlıboya Tablo Çerçevesi",
+      "Beyaz Küp Müze Mizanpajı",
+      "Küratör Notları",
+      "Zamanlı Biletleme"
+    ]
+  },
+  {
+    "id": "comic-manga",
+    "name": "Comic / Manga",
+    "emoji": "💥",
+    "desc": "Konuşma balonları, çizimler, panel sistemi ve aksiyon dolu dinamik çizgi roman ritmi.",
+    "tags": [
+      "Konuşma Balonları",
+      "Panel Sistemi",
+      "Çizimler",
+      "Manga Efektleri"
+    ],
+    "accent": "#F0C000",
+    "colors": [
+      "#F0C000",
+      "#131313",
+      "#900030",
+      "#D00040",
+      "#203040"
+    ],
+    "typography": "Bangers, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#ffffff\"/>\n  <g stroke=\"#000\" stroke-width=\"6\" fill=\"#fff\">\n    <rect x=\"40\" y=\"40\" width=\"420\" height=\"240\"/>\n    <rect x=\"480\" y=\"40\" width=\"280\" height=\"240\" fill=\"#ffd600\"/>\n    <rect x=\"40\" y=\"300\" width=\"720\" height=\"160\" fill=\"#ff0055\"/>\n  </g>\n  <text x=\"250\" y=\"170\" font-family=\"'Impact', sans-serif\" font-size=\"52\" fill=\"#000\">POW! 💥</text>\n  <text x=\"400\" y=\"400\" font-family=\"'Impact', sans-serif\" font-size=\"44\" fill=\"#fff\" text-anchor=\"middle\">COMIC / MANGA PANEL</text>\n</svg>",
+    "image": "05_Web_Stilleri/comic-manga.jpg",
+    "title": "Comic / Manga 💥",
+    "brand": "SHONEN STRIKE",
+    "tagline": "CHAPTER 42: THE DIGITAL AWAKENING",
+    "description": "Aksiyon dolu Japon shonen mangası ve Amerikan çizgi roman estetiğini yansıtan dinamik web tasarımı. 'CHAPTER 42: THE DIGITAL AWAKENING' başlığı, 'THE SPEED LINES ARE REAL!' konuşma balonu, patlayan sarı 'DONNN!!' ses efekti, özel saldırı paneli ve çizgi roman ızgarası.",
+    "prompt": "Build an explosive, action-packed Comic / Manga website homepage UI exactly matching the reference design:\n- Browser Shell: Dark comic bar with yellow border and URL `https://shonen-strike.comic/chapter-42`.\n- Comic Panel Grid: Authentic multi-panel black and white comic layout with thick 4px borders and dynamic gutters.\n- Sound Effect (SFX): Giant tilted sound effect in Bangers font: \"DONNN!!\" in bright comic yellow (#ffcc00) with thick black 3D shadow.\n- Speech Bubble: Classic white comic dialogue bubble with pointer tail: \"“THE SPEED LINES ARE REAL! READY FOR THE NEXT ARC?!”\"\n- Chapter Headline: \"CHAPTER 42: THE DIGITAL AWAKENING\" in bold Bangers display font.\n- Primary Action: Tilted comic yellow button \"READ CHAPTER NOW →\" with hard 4px black drop shadow.\n- Right Multi-Panels:\n  * Upper Panel: Crimson aura radial burst with \"SPECIAL ATTACK: ULTRA IMPACT\" and \"POWER LEVEL OVER 9000\".\n  * Lower Panel: High-contrast yellow panel detailing \"MANGA PANEL ARCHITECTURE\" with \"CONTINUED IN VOL 43 >>\".",
+    "features": [
+      "Manga Panel Grid Düzeni",
+      "Konuşma Balonu",
+      "Japon Ses Efekti (DONNN!!)",
+      "Özel Saldırı Güç Paneli"
+    ]
+  },
+  {
+    "id": "sticker-bomb",
+    "name": "Sticker Bomb",
+    "emoji": "🏷️",
+    "desc": "Her yerde sticker, emoji, küçük grafikler, nostaljik pul ve yapıştırma kolaj estetiği.",
+    "tags": [
+      "Her Yerde Sticker",
+      "Emojiler",
+      "Küçük Grafikler",
+      "Sokak Kültürü"
+    ],
+    "accent": "#F00050",
+    "colors": [
+      "#F00050",
+      "#131318",
+      "#F0D000",
+      "#00E0F0",
+      "#70F000"
+    ],
+    "typography": "Bungee, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#121217\"/>\n  <g transform=\"translate(140, 120) rotate(-12)\">\n    <rect x=\"0\" y=\"0\" width=\"200\" height=\"120\" rx=\"16\" fill=\"#ffcc00\" stroke=\"#fff\" stroke-width=\"4\"/>\n    <text x=\"100\" y=\"65\" font-family=\"'Arial Black', sans-serif\" font-size=\"26\" fill=\"#000\" text-anchor=\"middle\">★ VERIFIED ★</text>\n  </g>\n  <g transform=\"translate(320, 180) rotate(8)\">\n    <rect x=\"0\" y=\"0\" width=\"240\" height=\"140\" rx=\"20\" fill=\"#ff3366\" stroke=\"#fff\" stroke-width=\"4\"/>\n    <text x=\"120\" y=\"60\" font-family=\"'Impact', sans-serif\" font-size=\"36\" fill=\"#fff\" text-anchor=\"middle\">STICKER BOMB</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/sticker-bomb.jpg",
+    "title": "Sticker Bomb 🏷️",
+    "brand": "STICKER BOMB",
+    "tagline": "LAYERED CHAOS • DIGITAL DECAL MANIA",
+    "description": "Sokak ve kaykay kültürünün katmanlı çıkartma çılgınlığını yansıtan Sticker Bomb web tasarımı. 'LAYERED CHAOS • DIGITAL DECAL MANIA' başlığı, '★ 100% VINYL ★', 'HEAVYWEIGHT DECAL', 'NO RULES', 'HOLOGRAPHIC' renkli vinil stickerları ve yüksek voltajlı gençlik enerjisi.",
+    "prompt": "Build a chaotic, vibrant Sticker Bomb street culture website homepage UI exactly matching the reference design:\n- Browser Shell: Dark urban bar with magenta accent URL `https://stickerbomb-club.xyz/drop-24`.\n- Brand Name: \"STICKER BOMB\" in heavy Bungee font with magenta 3D drop shadow.\n- Scattered Vinyl Decal Stickers: Multi-layered, tilted physical sticker elements with white borders and drop shadows:\n  * Top Right: Red angled badge \"★ 100% VINYL ★\" (rotated 14deg).\n  * Center-Right: Big yellow circular pill \"HEAVYWEIGHT DECAL\" (rotated -8deg).\n  * Bottom Right: Cyan sticker \"NO RULES // ONLY VIBES\" and lime green sticker \"NEW DROP NOW LIVE\".\n  * Left Edge: Purple holographic decal \"HOLOGRAPHIC\".\n- Primary Headline: \"LAYERED CHAOS • DIGITAL DECAL MANIA\" in giant Bungee uppercase with cyan shadow.\n- Action Button: Tilted magenta button \"SHOP STICKER PACKS →\" with thick white border and black shadow.\n- Footer: \"HAND-CUT VINYL ARCHIVES • ALL WEATHER PROOF | TRENDING ON DRIBBBLE // AWWWARDS\".",
+    "features": [
+      "Katmanlı Vinil Çıkartmalar",
+      "Holografik Rozetler",
+      "Skater Kültürü",
+      "Bungee Kalın Tipografi"
+    ]
+  },
+  {
+    "id": "newspaper-tabloid",
+    "name": "Newspaper / Tabloid",
+    "emoji": "🗞️",
+    "desc": "Gazete düzeni ama modern animasyonlarla; çok sütunlu mizanpaj, sansasyonel büyük manşetler ve baskı hissi.",
+    "tags": [
+      "Gazete Düzeni",
+      "Büyük Manşetler",
+      "Çok Sütunlu",
+      "Modern Animasyon"
+    ],
+    "accent": "#8B0000",
+    "colors": [
+      "#8B0000",
+      "#E7E3D8",
+      "#A08060",
+      "#304050",
+      "#302020"
+    ],
+    "typography": "Playfair Display, Newsreader",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#f4efea\"/>\n  <text x=\"400\" y=\"70\" font-family=\"'Playfair Display', serif\" font-weight=\"900\" font-size=\"44\" fill=\"#1a1a1a\" text-anchor=\"middle\">THE DAILY CHRONICLE 🗞️</text>\n  <line x1=\"40\" y1=\"90\" x2=\"760\" y2=\"90\" stroke=\"#1a1a1a\" stroke-width=\"3\"/>\n  <text x=\"40\" y=\"180\" font-family=\"'Impact', sans-serif\" font-size=\"52\" fill=\"#8b0000\">BREAKING: THE NEW DIGITAL ERA</text>\n  <text x=\"40\" y=\"240\" font-family=\"Georgia, serif\" font-size=\"16\" fill=\"#333\">Klasik gazete mizanpajı modern etkileşimlerle buluşuyor.</text>\n</svg>",
+    "image": "05_Web_Stilleri/newspaper-tabloid.jpg",
+    "title": "Newspaper / Tabloid 🗞️",
+    "brand": "THE DAILY BROADSHEET",
+    "tagline": "HISTORIC ARCHITECTURAL BREAKTHROUGH ANNOUNCED IN MODERN CAPITAL",
+    "description": "Geleneksel matbaa gazeteciliği ve modern animasyonlu gazete mizanpajı. 'THE DAILY BROADSHEET' devasa serif başlığı, 'HISTORIC ARCHITECTURAL BREAKTHROUGH' manşeti, daktilo ve matbaa arşiv fotoğrafı, 3 sütunlu haber gridi ve piyasa/hava durumu yan paneli.",
+    "prompt": "Build an authentic, prestigious vintage Newspaper / Tabloid broadsheet website homepage UI exactly matching the reference design:\n- Browser Shell: Vintage dark leather bar with URL `https://the-daily-broadsheet.press/frontpage`.\n- Paper Stock Canvas: Authentic aged newsprint texture tone (#e8e3d9) with double black dividing lines.\n- Masthead Header:\n  * Top Metadata: \"WEATHER: FAIR 18°C • NEW YORK CITY | VOL. CLVIII • NO. 54,210 | PRICE: $1.50 DAILY\".\n  * Main Broadsheet Title: \"THE DAILY BROADSHEET\" in monumental Playfair Display Black serif typography.\n- Frontpage 3-Column Grid:\n  * Column 1 (Lead Story): Headline \"HISTORIC ARCHITECTURAL BREAKTHROUGH ANNOUNCED IN MODERN CAPITAL\" with justified serif paragraphs.\n  * Column 2 (Photo & Commentary): Black and white newsprint photograph of historic linotype print machinery, captioned \"Figure 1.2: Typewriters and linotype machinery...\", with \"EDITORIAL NOTEBOOK\".\n  * Column 3 (Sidebar Gazette): Briefs for \"MARKETS RALLY\", \"CULTURE GAZETTE\", and \"WEATHER OUTLOOK\".\n- Footer Strip: \"PRINTED ON NEWSPRINT ARCHIVE REPLICA | DESIGNED FOR EDITORIAL NEWSROOMS // VISION WEB DESIGNER\".",
+    "features": [
+      "Çok Sütunlu Gazete Mizanpajı",
+      "Tarihi Linotip Fotoğrafı",
+      "Piyasa Verileri",
+      "Hava Durumu Widget'ı"
+    ]
+  },
+  {
+    "id": "bohemian",
+    "name": "Bohemian",
+    "emoji": "🌻",
+    "desc": "El yapımı, sıcak, vintage, doğal renkler; terracotta, adaçayı yeşili, güneşte solmuş tonlar.",
+    "tags": [
+      "El Yapımı Sıcaklık",
+      "Vintage Ruh",
+      "Doğal Toprak",
+      "Bohem Çiçek"
+    ],
+    "accent": "#A05030",
+    "colors": [
+      "#A05030",
+      "#1A1512",
+      "#60B0B0",
+      "#C0B090",
+      "#F0F0F0"
+    ],
+    "typography": "Cormorant Infant, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#3d2b1f\"/>\n  <g transform=\"translate(400, 260)\">\n    <path d=\"M -160 180 L -160 0 A 160 160 0 0 1 160 0 L 160 180 Z\" fill=\"#e9d8a6\"/>\n    <circle cx=\"0\" cy=\"30\" r=\"70\" fill=\"#c86d51\"/>\n  </g>\n  <text x=\"400\" y=\"100\" font-family=\"'Lora', serif\" font-size=\"38\" fill=\"#e9d8a6\" text-anchor=\"middle\">BOHEMIAN 🌻</text>\n</svg>",
+    "image": "05_Web_Stilleri/bohemian.jpg",
+    "title": "Bohemian 🌻",
+    "brand": "SÔL BOHÈME",
+    "tagline": "Embrace the Sun-Drenched Hearth.",
+    "description": "Sıcak güneş ışığı, doğal rattan ve bohem iç mekanların ruhunu yansıtan lifestyle web tasarımı. 'Embrace the Sun-Drenched Hearth.' başlığı, üstü kemerli ahşap çerçevede kurutulmuş çiçekler ve bohem oturma odası fotoğrafı, terracotta (#a25f38) renk paleti.",
+    "prompt": "Build a warm, organic Bohemian lifestyle brand website homepage UI exactly matching the reference design:\n- Browser Shell: Dark walnut wood bar with URL `https://sol-boheme.atelier/lifestyle`.\n- Cream Canvas Card: Natural ivory linen card container (#fdfaf5) with gentle shadow.\n- Brand Name: \"SÔL BOHÈME\" in graceful Cormorant Infant serif with subtitle links [COLLECTIONS], [BOTANICAL], [JOURNAL].\n- Sub-Badge: \"~ ORGANIC WARMTH • EARTHEN SOUL\".\n- Primary Headline: \"Embrace the\\nSun-Drenched Hearth.\" with \"Sun-Drenched\" in warm terracotta italic serif (#a25f38).\n- Description: \"Terracotta palettes, natural rattan textures, dried florals, and effortless free-spirited warmth for authentic lifestyle sanctuaries.\"\n- Action Button: Rounded organic terracotta pill button \"Explore Living Spaces →\".\n- Arched Visual Showcase: Tall arched window frame (curved top, flat bottom) displaying a sun-drenched bohemian living space with dried pampas grass and woven rattan ceramics.",
+    "features": [
+      "Kemerli Bohem Botanik Fotoğraf Çerçevesi",
+      "Terracotta & Adaçayı Tonları",
+      "Doğal Rattan Dokusu"
+    ]
+  },
+  {
+    "id": "kawaii",
+    "name": "Kawaii",
+    "emoji": "🐱",
+    "desc": "Japon sevimliliği, pastel renkler, tatlı anime/maskot karakterleri ve pembe yanaklar.",
+    "tags": [
+      "Japon Sevimliliği",
+      "Pastel Renkler",
+      "Tatlı Karakterler",
+      "Şeker Pembe"
+    ],
+    "accent": "#F05090",
+    "colors": [
+      "#F05090",
+      "#FEE2F0",
+      "#F0B0D0",
+      "#B0F0D0",
+      "#F080B0"
+    ],
+    "typography": "Fredoka, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#ffe5ec\"/>\n  <g transform=\"translate(400, 230)\">\n    <circle cx=\"0\" cy=\"0\" r=\"110\" fill=\"#ffffff\" stroke=\"#ff85a1\" stroke-width=\"5\"/>\n    <ellipse cx=\"-50\" cy=\"20\" rx=\"16\" ry=\"10\" fill=\"#ff70a6\" opacity=\"0.6\"/>\n    <ellipse cx=\"50\" cy=\"20\" rx=\"16\" ry=\"10\" fill=\"#ff70a6\" opacity=\"0.6\"/>\n  </g>\n  <text x=\"400\" y=\"420\" font-family=\"'Fredoka', sans-serif\" font-weight=\"700\" font-size=\"36\" fill=\"#ff70a6\" text-anchor=\"middle\">KAWAII 🐱</text>\n</svg>",
+    "image": "05_Web_Stilleri/kawaii.jpg",
+    "title": "Kawaii 🐱",
+    "brand": "Mochi Neko Bakery",
+    "tagline": "Sweet, Soft & Full of Joy!",
+    "description": "Japon sevimliliği ve pastel şekerleme estetiğini yansıtan neşeli Kawaii web tasarımı. 'Sweet, Soft & Full of Joy!' başlığı, sevimli kedi avatarı (🐱), çilekli mochi rulosu ürün kartı, nane yeşili rozetler, sakız pembesi (#ff529a) kabarık butonlar.",
+    "prompt": "Build an irresistibly cute, joyful Japanese Kawaii bakery website homepage UI exactly matching the reference design:\n- Browser Shell: Pastel pink browser bar with URL `https://mochi-neko.kawaii/bakery`.\n- Main Card Container: Cloud-soft white card with 36px rounded corners and a vibrant pink border (#ffb6db).\n- Brand Header: \"✨ Mochi Neko Bakery ✨\" in bouncy Fredoka font, with menu [SWEETS], [CAFE MENU], [MERCH], [REVIEWS].\n- Badge: Mint green pill badge \"♥ SUPER ADORABLE PASTEL PARADISE\".\n- Primary Headline: \"Sweet, Soft &\\nFull of Joy!\" in cheerful candy pink (#ff529a).\n- Description: \"Playful marshmallow curves, pastel candy palettes, cheerful rounded buttons, and heartwarming mascot charm for joyful brands.\"\n- Primary Action: Puffy candy pink button \"Order Fresh Mochis →\" with soft drop shadow.\n- Cute Product Card: Rounded card featuring a cute illustrated cat avatar emoji (🐱), \"Strawberry Purr Roll\", cute description, and price tag \"¥650\".\n- Footer: \"TOKYO • SHIBUYA SWEETS LANE | 100% KAWAII CERTIFIED AESTHETIC\".",
+    "features": [
+      "Sevimli Japon Kedi Maskotu",
+      "Çilekli Mochi Kartı",
+      "Sakız Pembesi Yuvarlak Hatlar",
+      "Shibuya Tatlıları"
+    ]
+  },
+  {
+    "id": "gothic-dark-romance",
+    "name": "Gothic / Dark Romance",
+    "emoji": "🕯️",
+    "desc": "Siyah, bordo, serif, eski kitap/gravür estetiği; şamdan ışığında gizemli ve zarif karanlık tonlar.",
+    "tags": [
+      "Siyah & Bordo",
+      "Zarif Serif",
+      "Eski Gravür",
+      "Karanlık Romantizm"
+    ],
+    "accent": "#B03050",
+    "colors": [
+      "#605040",
+      "#0B0408",
+      "#302020",
+      "#B03050",
+      "#807060"
+    ],
+    "typography": "Cinzel Decorative, Playfair Display",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#070406\"/>\n  <text x=\"400\" y=\"240\" font-family=\"'Cinzel', serif\" font-size=\"44\" fill=\"#ffffff\" text-anchor=\"middle\" letter-spacing=\"6\">GOTHIC / DARK ROMANCE 🕯️</text>\n  <text x=\"400\" y=\"290\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\" fill=\"#d4af37\" text-anchor=\"middle\">Siyah, bordo ve eski gravür estetiği</text>\n</svg>",
+    "image": "05_Web_Stilleri/gothic-dark-romance.jpg",
+    "title": "Gothic / Dark Romance 🕯️",
+    "brand": "NOCTURNE",
+    "tagline": "Dark Romance & Victorian Lore.",
+    "description": "Karanlık romantizm, mum ışığı ve Viktorya dönemi gotik edebiyatının büyüleyici estetiği. 'Dark Romance & Victorian Lore.' başlığı, sisli mum ışıklı katedral koridoru fotoğrafı, bordo kadife (#9c2e4e) ışıltılar ve Cinzel Decorative oymalı gotik fontlar.",
+    "prompt": "Build an atmospheric, mysterious Gothic / Dark Romance literary boutique website homepage UI exactly matching the reference design:\n- Browser Shell: Deep velvet black bar with crimson border and URL `https://crimson-nocturne.cathedral/tales`.\n- Brand Header: \"NOCTURNE\" in ornate Cinzel Decorative font with crimson glow, paired with \"CHAPTER VIII\".\n- Tag: \"† CANDLELIT SHADOWS • CRIMSON VELVET\".\n- Primary Headline: \"Dark Romance\\n& Victorian Lore.\" with \"& Victorian\" in romantic italic serif (#b83358).\n- Description: \"Deep burgundy accents, brooding cathedral atmosphere, antique bookplate engravings, and melancholic romantic elegance.\"\n- Primary Action: Velvet bordered button \"Enter the Crypt →\" with subtle crimson glow.\n- Visual Asset: Right column displays a moody, mist-shrouded gothic stone cathedral interior with candlelit vaulted arches and antique shadows.\n- Footer: \"SEALED IN BLACK WAX | AWWWARDS DARK NOMINEE\".",
+    "features": [
+      "Karanlık Katedral Kemerleri",
+      "Bordo Kadife Işıltısı",
+      "Gotik Viktorya Tipografisi",
+      "Mum Işığı Atmosferi"
+    ]
+  },
+  {
+    "id": "vintage-americana",
+    "name": "Vintage Americana",
+    "emoji": "🥤",
+    "desc": "50'ler reklamları, retro posterler, diner estetiği; kiraz kırmızısı, vanilya ve retro neon tabelalar.",
+    "tags": [
+      "50'ler Reklamı",
+      "Retro Posterler",
+      "Diner Estetiği",
+      "Neon Tabela"
+    ],
+    "accent": "#E01040",
+    "colors": [
+      "#E01040",
+      "#150906",
+      "#604030",
+      "#806050",
+      "#F0F0F0"
+    ],
+    "typography": "Lobster, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#1e1e24\"/>\n  <text x=\"400\" y=\"240\" font-family=\"'Impact', sans-serif\" font-size=\"52\" fill=\"#d62246\" text-anchor=\"middle\">VINTAGE AMERICANA 🥤</text>\n  <text x=\"400\" y=\"290\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#f4d06f\" text-anchor=\"middle\">50'ler reklamları ve retro diner estetiği</text>\n</svg>",
+    "image": "05_Web_Stilleri/vintage-americana.jpg",
+    "title": "Vintage Americana 🥤",
+    "brand": "Golden Diner • 1955",
+    "tagline": "Real Shakes, Burgers & Rock 'n' Roll!",
+    "description": "1950'ler Amerikan yol kenarı diner ve rock'n'roll kültürünü yaşatan Vintage Americana web tasarımı. 'Real Shakes, Burgers & Rock 'n' Roll!' başlığı, neon ışıklı klasik diner fotoğrafı, Route 66 neon amblemi, damalı zemin ve kırmızı/sarı retro butonlar.",
+    "prompt": "Build a nostalgic, authentic 1950s Vintage Americana roadside diner website homepage UI exactly matching the reference design:\n- Browser Shell: Retro brown and red bar with URL `https://route66-diner.classic/menu`.\n- Brand Name: \"Golden Diner • 1955\" in retro cursive Lobster font with drop shadow, labeled \"OPEN 24 HOURS\".\n- Neon Badge: Glowing cyan neon bordered tag \"ROUTE 66 • ORIGINAL CLASSIC\" with neon sign glow.\n- Primary Headline: \"Real Shakes, Burgers\\n& Rock ’n’ Roll!\" in friendly, bold retro script with red 3D extrusion.\n- Description: \"Chrome countertops, neon signs, checkerboard floors, vintage Americana advertising, and mid-century diner nostalgia.\"\n- Primary Action: Chunky retro red button \"VIEW DINER SPECIALS →\" with mustard yellow border and hard shadow.\n- Visual Showcase: Right column displays a photograph of an authentic 1950s American diner with glowing neon signage and chrome counter stools.\n- Footer: \"CHICAGO TO LOS ANGELES • HIGHWAY HERITAGE | CLASSIC 50S ROADSIDE DINER\".",
+    "features": [
+      "Route 66 Neon Diner Tabelası",
+      "Krom Tezgahlar",
+      "Retro Kırmızı & Hardal Sarısı Palet",
+      "50'ler Rock'n'Roll"
+    ]
+  },
+  {
+    "id": "organic-biomorphic",
+    "name": "Organic / Biomorphic",
+    "emoji": "🌿",
+    "desc": "Yuvarlak formlar, doğal şekiller, yumuşak gradientler; modern ama robotik olmayan yaşayan arayüzler.",
+    "tags": [
+      "Yuvarlak Formlar",
+      "Doğal Şekiller",
+      "Yumuşak Gradient",
+      "Modern & Organik"
+    ],
+    "accent": "#30D090",
+    "colors": [
+      "#203030",
+      "#091B15",
+      "#406050",
+      "#00A070",
+      "#30D090"
+    ],
+    "typography": "Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#081c15\"/>\n  <circle cx=\"300\" cy=\"220\" r=\"140\" fill=\"#2d6a4f\" opacity=\"0.6\"/>\n  <circle cx=\"500\" cy=\"260\" r=\"120\" fill=\"#52b788\" opacity=\"0.5\"/>\n  <text x=\"400\" y=\"260\" font-family=\"'Outfit', sans-serif\" font-weight=\"700\" font-size=\"44\" fill=\"#d8f3dc\" text-anchor=\"middle\">ORGANIC / BIOMORPHIC 🌿</text>\n</svg>",
+    "image": "05_Web_Stilleri/organic-biomorphic.jpg",
+    "title": "Organic / Biomorphic 🌿",
+    "brand": "FLUIDA • BIOMORPHIC",
+    "tagline": "Architecture in Symbiosis with Life.",
+    "description": "Doğanın biyolojik büyüme formları ve organik mimariden ilham alan Biomorphic web tasarımı. 'Architecture in Symbiosis with Life.' başlığı, amorf damla (blob) biçimli çerçevede yemyeşil yağmur ormanı yaprakları fotoğrafı, zümrüt yeşili yumuşak gradyanlar ve sağlıklı yaşam arayüzü.",
+    "prompt": "Build a serene, high-end Organic / Biomorphic architecture and wellness website homepage UI exactly matching the reference design:\n- Browser Shell: Deep forest green bar with emerald border and URL `https://biomorphic-sanctuary.nature/architecture`.\n- Brand Name: \"FLUIDA • BIOMORPHIC\" with navigation [WELLNESS], [ECOSYSTEM], [BOTANY].\n- Sub-Tag: \"LIVING GEOMETRY • BIOPHILIC DESIGN\" in luminous mint green.\n- Primary Headline: \"Architecture in\\nSymbiosis with Life.\" with \"Symbiosis\" highlighted in vibrant emerald (#34d399).\n- Description: \"Metabolic curves, flowing metaball structures, soothing sage greens, and organic natural forms inspired by biological growth.\"\n- Primary Action: Organically shaped asymmetrical pill button \"Explore Biophilic Spaces →\".\n- Biomorphic Blob Frame: Amorphous organically curved container (`border-radius: 60% 40% 70% 30% / 40% 50% 60% 50%;`) containing a lush, high-resolution botanical rainforest photograph.",
+    "features": [
+      "Akışkan Metaball Amorf Çerçeve",
+      "Yağmur Ormanı Botanik Fotoğrafı",
+      "Biyofilik Zümrüt Gradyanlar"
+    ]
+  },
+  {
+    "id": "artistic-experimental",
+    "name": "Artistic / Experimental",
+    "emoji": "🎨",
+    "desc": "Kuralları çok umursamayan, asimetrik layout, büyük görseller ve sıra dışı tipografi.",
+    "tags": [
+      "Kurallara Meydan Okuyan",
+      "Asimetrik Layout",
+      "Büyük Görseller",
+      "Sıra Dışı Tipografi"
+    ],
+    "accent": "#00F060",
+    "colors": [
+      "#00F060",
+      "#060606",
+      "#D0A060",
+      "#E0C090",
+      "#B08040"
+    ],
+    "typography": "Syne ExtraBold, Space Mono",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0f0f14\"/>\n  <polygon points=\"120,40 680,80 580,440 80,380\" fill=\"none\" stroke=\"#ff0055\" stroke-width=\"2\"/>\n  <circle cx=\"480\" cy=\"220\" r=\"140\" fill=\"#00e5ff\" opacity=\"0.8\"/>\n  <text x=\"400\" y=\"270\" font-family=\"'Impact', sans-serif\" font-size=\"46\" fill=\"#fff\" text-anchor=\"middle\">ARTISTIC / EXPERIMENTAL 🎨</text>\n</svg>",
+    "image": "05_Web_Stilleri/artistic-experimental.jpg",
+    "title": "Artistic / Experimental 🎨",
+    "brand": "BIENNIAL 26",
+    "tagline": "RADICAL DISRUPTION OF SPACE.",
+    "description": "Klasik web kurallarını yıkan cesur ve radikal Artistic / Experimental çağdaş sanat bienali web tasarımı. 'RADICAL DISRUPTION OF SPACE.' başlığı, beyaz konturlu içi boş harfler, çağdaş soyut sanat heykeli fotoğrafı, neon yeşil (#00ff66) telemetry etiketleri ve asimetrik düzen.",
+    "prompt": "Build a fearless, boundary-pushing Artistic / Experimental contemporary art biennial website homepage UI exactly matching the reference design:\n- Browser Shell: Pitch black minimalist bar with neon green URL `https://biennale-experimental.art/2026`.\n- Brand Name: \"BIENNIAL 26\" with subtitle \"AVANT-GARDE CURATION • BASEL\".\n- Telemetry Header: Monospace tag \"SYSTEM_GRID: BROKEN • MANIFESTO: UNBOUND\" in electric neon green (#00ff66).\n- Deconstructed Headline: \"RADICAL\\nDISRUPTION\\nOF SPACE.\" in massive Syne 800 letterforms, with \"DISRUPTION\" rendered in hollow 1px white wireframe stroke.\n- Description: \"Asymmetrical anti-layouts, non-standard scroll kinetics, raw architectural clashes, and fearless experimental digital expression.\"\n- Action Button: Raw neon green rectangular block button \"ENTER EXPERIMENTAL ARCHIVE →\".\n- Visual Asset: Right side displays a contemporary abstract fine art sculpture with dramatic gallery spotlighting.\n- Coordinates Tag: Monospace coordinates and system status in bottom left margin.",
+    "features": [
+      "Kırılmış Anti-Izgara (Broken Grid)",
+      "Transparan İskelet Tipografi",
+      "Çağdaş Heykel Fotoğrafı",
+      "Koordinatlar"
+    ]
+  },
+  {
+    "id": "playful-toy-like",
+    "name": "Playful / Toy-like",
+    "emoji": "🧸",
+    "desc": "Renkli butonlar, sticker'lar, 3D oyuncak objeler; eğlenceli, sıcak ve dokunma isteği uyandıran arayüzler.",
+    "tags": [
+      "Renkli Butonlar",
+      "3D Oyuncak Obje",
+      "Eğlenceli ve Sıcak",
+      "Neşeli Dokunuş"
+    ],
+    "accent": "#F0B000",
+    "colors": [
+      "#102040",
+      "#F0B000",
+      "#E03040",
+      "#900000",
+      "#F0F0F0"
+    ],
+    "typography": "Fredoka, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#241b35\"/>\n  <g transform=\"translate(260, 200)\">\n    <rect x=\"0\" y=\"0\" width=\"280\" height=\"70\" rx=\"35\" fill=\"#ffbe0b\" stroke=\"#000\" stroke-width=\"4\"/>\n    <text x=\"140\" y=\"46\" font-family=\"'Impact', sans-serif\" font-size=\"28\" fill=\"#000\" text-anchor=\"middle\">PLAYFUL / TOY 🧸</text>\n  </g>\n</svg>",
+    "image": "05_Web_Stilleri/playful-toy-like.jpg",
+    "title": "Playful / Toy-like 🧸",
+    "brand": "TOYBOX STUDIO",
+    "tagline": "Build, Snap & Play with Joy!",
+    "description": "Oyun hamuru, LEGO blokları ve çocuksu yaratıcılığı yetişkin kalitesinde sunan Playful / Toy-like web tasarımı. 'Build, Snap & Play with Joy!' başlığı, parlak sarı 3D oyuncak kutusu kartı, kalın beyaz kenarlıklı şişirilmiş kırmızı buton ve eğlenceli fizik sandbox arayüzü.",
+    "prompt": "Build an infectious, high-energy Playful / Toy-like creative sandbox website homepage UI exactly matching the reference design:\n- Browser Shell: Dark navy bar with bright yellow trim and URL `https://toyblock-studio.fun/play`.\n- Brand Header: \"🧱 TOYBOX STUDIO\" in chunky Fredoka font, with menu [BLOCKS], [KITS], [CHALLENGES], [COMMUNITY].\n- Primary Headline: \"Build, Snap &\\nPlay with Joy!\" with \"Play with Joy!\" in bright sunny yellow (#ffbb00).\n- Description: \"Bold chunky primary colors, bouncy tactile 3D buttons, delightful physics, and joyful building blocks for imaginative digital playgrounds.\"\n- Chunky Action Button: Bouncy primary red button \"START BUILDING NOW →\" with 4px white border and 8px extruded shadow.\n- Interactive Toy Card: Bright yellow rounded card with 4px white border, tilted at 2deg:\n  * Icon: Rocket emoji (🚀).\n  * Title: \"3D Creative Sandbox\".\n  * Subtext: \"Over 400 physics-enabled building bricks ready to snap...\".\n  * CTA: \"DOWNLOAD ENGINE (FREE)\".\n- Footer: \"COLORFUL PRIMARY PALETTE • TACTILE FEEDBACK | AWWWARDS PLAYFUL NOMINEE\".",
+    "features": [
+      "Canlı LEGO Ana Renkleri",
+      "Şişirilmiş 3D Blok Kartı",
+      "Bouncy Kırmızı Buton",
+      "Yaratıcı Fizik Sandbox'ı"
+    ]
+  },
+  {
+    "id": "candy-pastel",
+    "name": "Candy / Pastel",
+    "emoji": "🍬",
+    "desc": "Pembe, lila, mint, sarı, açık mavi; tatlı ve renkli şekerleme tonları.",
+    "tags": [
+      "Pembe & Lila",
+      "Mint & Sarı",
+      "Tatlı & Renkli",
+      "Pastel Şeker"
+    ],
+    "accent": "#F090C0",
+    "colors": [
+      "#F090C0",
+      "#E7F7FC",
+      "#D07090",
+      "#F0C0E0",
+      "#606080"
+    ],
+    "typography": "Fredoka, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#201a2c\"/>\n  <circle cx=\"200\" cy=\"200\" r=\"70\" fill=\"#ffadad\"/>\n  <circle cx=\"340\" cy=\"200\" r=\"70\" fill=\"#caffbf\"/>\n  <circle cx=\"480\" cy=\"200\" r=\"70\" fill=\"#ffc6ff\"/>\n  <text x=\"400\" y=\"340\" font-family=\"'Comfortaa', sans-serif\" font-weight=\"900\" font-size=\"34\" fill=\"#ffc6ff\" text-anchor=\"middle\">CANDY / PASTEL 🍬</text>\n</svg>",
+    "image": "05_Web_Stilleri/candy-pastel.jpg",
+    "title": "Candy / Pastel 🍬",
+    "brand": "BONBON PASTELS",
+    "tagline": "Sweet, Fluffy & Pastel Dreams.",
+    "description": "Pastel renklerin huzurlu ve tatlı uyumunu kutlayan Candy / Pastel e-ticaret web tasarımı. 'Sweet, Fluffy & Pastel Dreams.' başlığı, Cotton Cloud, Matcha Mint, Lavender Sky ve Lemon Glaze şekerleme kartları, pamuk şekeri pembesi yumuşak butonlar.",
+    "prompt": "Build a delicious, comforting Candy / Pastel confectionery website homepage UI exactly matching the reference design:\n- Browser Shell: Pastel candy pink bar with URL `https://cotton-candy.pastels/shop`.\n- Background: Soft iridescent gradient blending cotton candy pink, gentle lavender, and airy mint green.\n- Brand Header: \"🍬 BONBON PASTELS\" with navigation links [MACARONS], [SUGAR CLOUDS], [GIFT BOXES].\n- Primary Headline: \"Sweet, Fluffy &\\nPastel Dreams.\" in elegant dusty rose (#d87093).\n- Description: \"Marshmallow soft hues, baby pinks, mint greens, rounded confectionery cards, and gentle comforting micro-interactions.\"\n- Action Button: Fluffy pink pill button \"EXPLORE SWEET BOXES →\" with white border and soft aura glow.\n- 4-Card Confectionery Bento Grid:\n  * \"Cotton Cloud\" (Strawberry Sugar, soft pink card)\n  * \"Matcha Mint\" (Green Tea Essence, mint green card)\n  * \"Lavender Sky\" (Blueberry Swirl, baby blue card)\n  * \"Lemon Glaze\" (Citrus Meringue, buttercup yellow card)\n- Footer: \"HAND-CRAFTED SWEETS • PASTEL HARMONY | AWWWARDS SWEET NOMINEE\".",
+    "features": [
+      "Pastel Makaron & Şekerleme Kartları",
+      "Pamuk Şeker Gradyanı",
+      "Marshmallow Hatlar",
+      "Çilek & Nane Tonları"
+    ]
+  },
+  {
+    "id": "editorial-magazine",
+    "name": "Editorial / Magazine",
+    "emoji": "📰",
+    "desc": "Büyük başlıklar, fotoğraflar, dergi düzeni; premium ve karakterli görsel anlatım.",
+    "tags": [
+      "Büyük Başlıklar",
+      "Dergi Düzeni",
+      "Premium & Karakterli",
+      "Görsel Anlatım"
+    ],
+    "accent": "#80A0C0",
+    "colors": [
+      "#203040",
+      "#0A0A0C",
+      "#80A0C0",
+      "#F0E0C0",
+      "#C0D0F0"
+    ],
+    "typography": "Playfair Display, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0a0a0c\"/>\n  <text x=\"400\" y=\"240\" font-family=\"'Playfair Display', serif\" font-size=\"44\" fill=\"#ffffff\" text-anchor=\"middle\">EDITORIAL / MAGAZINE 📰</text>\n  <text x=\"400\" y=\"280\" font-family=\"serif\" font-size=\"16\" fill=\"#888\" text-anchor=\"middle\">Büyük başlıklar, fotoğraflar ve dergi düzeni</text>\n</svg>",
+    "image": "05_Web_Stilleri/editorial-magazine.jpg",
+    "title": "Editorial / Magazine 📰",
+    "brand": "PROPORTION",
+    "tagline": "Concrete, Glass & Unbroken Light.",
+    "description": "Architectural Digest ve Monocle standartlarında sofistike Editorial Magazine web tasarımı. 'Concrete, Glass & Unbroken Light.' başlığı, uçurum kenarındaki modern beton villa vaka analizi fotoğrafı, altın sarısı (#e2b774) detaylar ve derin editoryal mizanpaj.",
+    "prompt": "Build a sophisticated, architectural Editorial Magazine website homepage UI exactly matching the reference design:\n- Browser Shell: Deep charcoal bar with URL `https://architectural-review.magazine/issue-84`.\n- Split Editorial Grid: 1.1fr to 0.9fr ratio separated by a subtle 1px border.\n- Brand Name: \"PROPORTION\" in heavy Playfair Display serif capitals, labeled \"QUARTERLY • ISSUE 84\".\n- Essay Tag: \"ESSAY ON MONOLITHIC RESIDENCES\" in warm gold (#e2b774).\n- Primary Headline: \"Concrete, Glass &\\nUnbroken Light.\" with \"Unbroken\" rendered in elegant italic serif.\n- Description: \"Carefully calibrated negative space, multi-story grid hierarchies, pull quote callouts, and refined architectural photo essays.\"\n- Action Button: Minimalist outlined rectangular button \"READ FULL FEATURE →\".\n- Visual Asset: Right side displays a large photograph of an ultra-modern luxury concrete residence with floor-to-ceiling glass on a dramatic cliffside.\n- Case Study Plaque: Floating glass badge on the photo: \"CASE STUDY 04 | THE CLIFFSIDE RESIDENCE • 2026\".",
+    "features": [
+      "Mimari Monolitik Konut Fotoğrafı",
+      "Zarif Serif Başlıklar",
+      "Altın İnce Çizgiler",
+      "Çift Sütunlu Dergi Grid'i"
+    ]
+  },
+  {
+    "id": "digital-art-gallery",
+    "name": "Digital Art / Gallery",
+    "emoji": "🖼️",
+    "desc": "Siteyi bir sanat galerisi gibi tasarlamak; büyük görseller + animasyonlar ve etkileyici çağdaş sergi alanı.",
+    "tags": [
+      "Sanat Galerisi",
+      "Büyük Görseller",
+      "Animasyonlar",
+      "Dijital Sergi"
+    ],
+    "accent": "#00F0C0",
+    "colors": [
+      "#00B0E0",
+      "#05060A",
+      "#00F0C0",
+      "#8000D0",
+      "#A030D0"
+    ],
+    "typography": "Space Grotesk, JetBrains Mono",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#000000\"/>\n  <polygon points=\"100,500 700,500 550,300 250,300\" fill=\"#0e0e14\"/>\n  <circle cx=\"400\" cy=\"200\" r=\"70\" fill=\"none\" stroke=\"#4cc9f0\" stroke-width=\"4\"/>\n  <text x=\"400\" y=\"380\" font-family=\"sans-serif\" font-weight=\"900\" font-size=\"32\" fill=\"#ffffff\" text-anchor=\"middle\">DIGITAL ART / GALLERY 🖼️</text>\n</svg>",
+    "image": "05_Web_Stilleri/digital-art-gallery.jpg",
+    "title": "Digital Art / Gallery 🖼️",
+    "brand": "CANVAS_3D.EXE",
+    "tagline": "DIGITAL ART IN ZERO-G.",
+    "description": "Sanal gerçeklik ve WebGL 3D uzayında konumlanan Digital Art Gallery web tasarımı. 'DIGITAL ART IN ZERO-G.' başlığı, 3D soyut metalik sıvı sanat eseri vitrini, parlayan camgöbeği (#00ffc8) telemetri etiketleri ('VERTEX_COUNT: 128,400') ve fütüristik sergi salonu.",
+    "prompt": "Build an immersive, futuristic WebGL Digital Art Gallery website homepage UI exactly matching the reference design:\n- Browser Shell: Dark sci-fi bar with glowing cyan border and URL `https://virtual-canvas.gallery/exhibit-01`.\n- Brand Name: \"CANVAS_3D.EXE\" in JetBrains Mono, tagged \"WEBGL IMMERSIVE SPACE • ROOM #09\".\n- Telemetry Header: \"CURATED GENERATIVE ARTWORK\" in luminous cyan.\n- Primary Headline: \"DIGITAL ART\\nIN ZERO-G.\" with \"IN ZERO-G.\" in glowing cyan with volumetric drop shadow.\n- Description: \"Immersive virtual gallery rooms, interactive WebGL lighting, cryptographic provenance tags, and dark responsive architectural frames.\"\n- Primary Action: Glowing cyan block button \"LAUNCH 3D WALKTHROUGH →\".\n- 3D Art Cube Showcase: Deep-set geometric frame containing an abstract 3D metallic fluid sculpture with dynamic reflections and volumetric lighting.\n- Telemetry Badge: Floating dark pill badge: \"VERTEX_COUNT: 128,400 // SHADER: PBR_METAL\".",
+    "features": [
+      "Sıfır Yerçekimli WebGL 3D Sergi",
+      "Parlayan Camgöbeği Telemetri",
+      "Geometrik Soyut Heykel",
+      "Karanlık Galeri"
+    ]
+  },
+  {
+    "id": "japanese-web-design",
+    "name": "Japanese Web Design",
+    "emoji": "🌸",
+    "desc": "Minimal ama renkli, sevimli grafikler, ilginç tipografi ve bolca detay; Tokyo estetiği.",
+    "tags": [
+      "Minimal & Renkli",
+      "Sevimli Grafikler",
+      "İlginç Tipografi",
+      "Bolca Detay"
+    ],
+    "accent": "#F03060",
+    "colors": [
+      "#F03060",
+      "#14151A",
+      "#501020",
+      "#B03050",
+      "#F0B0D0"
+    ],
+    "typography": "Noto Sans JP, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#f8f9fa\"/>\n  <circle cx=\"400\" cy=\"250\" r=\"140\" fill=\"#e63946\" opacity=\"0.9\"/>\n  <text x=\"400\" y=\"270\" font-family=\"'Noto Sans JP', sans-serif\" font-weight=\"900\" font-size=\"44\" fill=\"#ffffff\" text-anchor=\"middle\">東京美学</text>\n  <text x=\"400\" y=\"440\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#1d3557\" font-weight=\"bold\" text-anchor=\"middle\">JAPANESE WEB DESIGN 🌸</text>\n</svg>",
+    "image": "05_Web_Stilleri/japanese-web-design.jpg",
+    "title": "Japanese Web Design 🌸",
+    "brand": "TOKYO DESIGN LAB",
+    "tagline": "Minimalism with Playful Soul.",
+    "description": "Tokyo'nun modern dijital stüdyolarının sade ve ruhlu tasarım dili. Dikey yazılmış Japonca '東京デザイン・現代美術工房' tipografisi, 'Minimalism with Playful Soul.' başlığı, geleneksel kırmızı hanko mührü (判子), iki dilli [EN/JP] geçişi ve Kyoto Bienali kartı.",
+    "prompt": "Build an authentic, refined contemporary Japanese Web Design studio homepage UI exactly matching the reference design:\n- Browser Shell: Minimalist dark bar with crimson URL `https://tokyo-craft-studio.jp/design`.\n- Asymmetric Layout: 3-column architecture [Vertical Kanji Column | Hero Content | Feature Card].\n- Vertical Kanji Typography: Left column features authentic vertical Japanese text (`writing-mode: vertical-rl`): \"東京デザイン・現代美術工房\" with clean red dividing accent line.\n- Brand Name: \"TOKYO DESIGN LAB\" accompanied by a red square Hanko seal stamp (判子) with kanji character \"港\".\n- Language & Menu Switcher: Top right navigation [WORKS], [STUDIO], [EN/JP].\n- Primary Headline: \"Minimalism with\\nPlayful Soul.\" with \"Playful Soul.\" in soft crimson sakura pink (#ff3366).\n- Description: \"Harmonious duality: pristine Swiss grid discipline combined with lively vertical kanji typography, hanko red seals, and delicate cherry blossom accents.\"\n- Action Button: Minimalist crimson button \"作品を見る (VIEW PROJECTS) →\".\n- Feature Card: Dark charcoal container with tag \"KYOTO BIENNALE 2026\" and essay on \"Harmonic Balance\".",
+    "features": [
+      "Dikey Kanji Tipografisi (東京デザイン)",
+      "Kırmızı Hanko Mührü (判子)",
+      "Çift Dilli [EN/JP]",
+      "Minimalist Tokyo Grid'i"
+    ]
+  },
+  {
+    "id": "y2k-pop",
+    "name": "Y2K Pop",
+    "emoji": "🪩",
+    "desc": "Teknolojik olmak zorunda değil; krom, çiçek, yıldız, renkli gradient ve retro objeler.",
+    "tags": [
+      "Krom & Çiçek",
+      "Yıldızlar",
+      "Renkli Gradient",
+      "Retro Objeler"
+    ],
+    "accent": "#B000E0",
+    "colors": [
+      "#7000F0",
+      "#16002C",
+      "#B000E0",
+      "#5000C0",
+      "#F000C0"
+    ],
+    "typography": "Shrikhand, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#2a0845\"/>\n  <text x=\"400\" y=\"240\" font-family=\"'Impact', sans-serif\" font-size=\"48\" fill=\"#00f5d4\" text-anchor=\"middle\">Y2K POP 🪩</text>\n  <text x=\"400\" y=\"290\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#ff00aa\" text-anchor=\"middle\">Krom, çiçek, yıldız ve renkli gradientler</text>\n</svg>",
+    "image": "05_Web_Stilleri/y2k-pop.jpg",
+    "title": "Y2K Pop 🪩",
+    "brand": "GLITTER POP 2000",
+    "tagline": "SPARKLE, CHROME & POP ANTHEMS!",
+    "description": "2000'lerin Britney ve pop diva CD kapakları, simli parıltılar ve disko enerjisi. 'SPARKLE, CHROME & POP ANTHEMS!' başlığı, Shrikhand retro fontu, parlayan turkuaz baloncuk rozeti ('CD-ROM • LIQUID CHROME'), likit pembe/turuncu gradyanlı 'GET VIP ACCESS' butonu.",
+    "prompt": "Build a sparCinematic Video, high-energy Y2K Pop diva music fan club website homepage UI exactly matching the reference design:\n- Browser Shell: Purple glitter bar with pink URL `https://pop-glitter.y2k/star-club`.\n- Brand Header: \"✨ GLITTER POP 2000 ✨\" in bubbly Shrikhand cursive, with menu [TRACKS], [CLIPS], [SPARKLES], [GUESTBOOK].\n- Bubble Tag: Cyan rounded pill tag \"★ CD-ROM • LIQUID CHROME • POP DIVA\" with soft glow.\n- Primary Headline: \"SPARKLE, CHROME\\n& POP ANTHEMS!\" in joyful Shrikhand typography with dual-tone pink and violet 3D drop shadow.\n- Description: \"Early 2000s glossy bubblegum textures, iridescent butterfly decals, sparCinematic Video stars, and vibrant high-octane pop diva aesthetic.\"\n- Primary Action: Pill-shaped gradient button (neon magenta to tangerine orange) \"GET VIP ACCESS →\" with 3px white border.\n- Footer: \"MILLENNIUM BUBBLE SOUNDS • WINAMP COMPATIBLE | AWWWARDS Y2K POP NOMINEE\".",
+    "features": [
+      "2000'ler CD-ROM Pop Diva Estetiği",
+      "Parıltılı Yıldızlar",
+      "Likit Pembe-Turuncu Gradyan",
+      "VIP Erişim Butonu"
+    ]
+  },
+  {
+    "id": "juicy-colorful-ui",
+    "name": "Juicy / Colorful UI",
+    "emoji": "🧃",
+    "desc": "Çok canlı renkler, büyük yuvarlak kartlar, gradientler ve eğlenceli mikro animasyonlar.",
+    "tags": [
+      "Çok Canlı Renkler",
+      "Büyük Yuvarlak Kartlar",
+      "Gradientler",
+      "Eğlenceli Mikro Animasyon"
+    ],
+    "accent": "#FF5400",
+    "colors": [
+      "#FF5400",
+      "#160D25",
+      "#6000A0",
+      "#C03040",
+      "#F0E000"
+    ],
+    "typography": "Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#170a1c\"/>\n  <rect x=\"150\" y=\"120\" width=\"220\" height=\"220\" rx=\"40\" fill=\"#ff5e5b\"/>\n  <rect x=\"430\" y=\"120\" width=\"220\" height=\"220\" rx=\"40\" fill=\"#00cecb\"/>\n  <text x=\"400\" y=\"410\" font-family=\"'Impact', sans-serif\" font-size=\"38\" fill=\"#ffed66\" text-anchor=\"middle\">JUICY / COLORFUL UI 🧃</text>\n</svg>",
+    "image": "05_Web_Stilleri/juicy-colorful-ui.jpg",
+    "title": "Juicy / Colorful UI 🧃",
+    "brand": "TROPICAL CRUSH",
+    "tagline": "BURSTING WITH JUICY ENERGY!",
+    "description": "Limon, mango ve tropikal meyvelerin canlandırıcı enerjisini yansıtan Juicy Colorful UI tasarımı. 'BURSTING WITH JUICY ENERGY!' dev başlığı, buzlu cam efektli 'Mango Passionfruit' içecek kartı, parlak sarı (#ffea00) kabarcıklı buton ve yüksek doygunluklu meyve gradyanları.",
+    "prompt": "Build an ultra-vibrant, hyper-saturated Juicy / Colorful UI beverage brand website homepage UI exactly matching the reference design:\n- Browser Shell: Dark grape violet bar with orange URL `https://tropical-crush.soda/energy`.\n- Background: Dynamic radial burst blending blood orange (#ff5400), electric purple (#7209b7), and deep berry black (#0c0814).\n- Brand Header: \"🍎 TROPICAL CRUSH\" in bold typography, with navigation [FLAVORS], [NUTRITION], [FIND STORES].\n- Category Tag: \"ULTRA-VIBRANT FLAVOR REVOLUTION\" in electric yellow.\n- Primary Headline: \"BURSTING WITH\\nJUICY ENERGY!\" in massive 800 sans-serif, with \"JUICY ENERGY!\" illuminated in glowing neon yellow (#ffea00).\n- Description: \"Lush fruit gradients, hyper-saturated energetic palettes, pillowy glossy buttons, and thirst-quenching visual excitement.\"\n- Primary Action: Chunky rounded sun-yellow button \"TASTE THE ENERGY →\" with yellow drop shadow glow.\n- Glassmorphic Fruit Card: Frosted glass panel with giant mango emoji (🥭), title \"Mango Passionfruit\", and subtext on cold-pressed botanical sparCinematic Video elixir.",
+    "features": [
+      "Tropikal Meyve Patlaması",
+      "Mango Tutku Meyvesi Cam Kartı",
+      "Parlak Sarı Hap Buton",
+      "Canlı Enerji Gradyanı"
+    ]
+  },
+  {
+    "id": "collage-scrapbook",
+    "name": "Collage / Scrapbook",
+    "emoji": "🧩",
+    "desc": "Fotoğraf, sticker, el yazısı, bant, kağıt parçaları gibi elementlerin sanatsal birleşimi.",
+    "tags": [
+      "Fotoğraf & Sticker",
+      "Bant & Kağıt",
+      "El Yazısı",
+      "Anı Albümü"
+    ],
+    "accent": "#B45309",
+    "colors": [
+      "#B45309",
+      "#1A1614",
+      "#F0D040",
+      "#80A0B0",
+      "#F0E0C0"
+    ],
+    "typography": "Space Mono, Caveat",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#1f2421\"/>\n  <g transform=\"translate(200, 100) rotate(-8)\">\n    <rect x=\"0\" y=\"0\" width=\"180\" height=\"220\" fill=\"#fff\"/>\n    <rect x=\"10\" y=\"10\" width=\"160\" height=\"150\" fill=\"#2a9d8f\"/>\n  </g>\n  <g transform=\"translate(420, 120) rotate(8)\">\n    <rect x=\"0\" y=\"0\" width=\"180\" height=\"220\" fill=\"#fff\"/>\n    <rect x=\"10\" y=\"10\" width=\"160\" height=\"150\" fill=\"#e76f51\"/>\n  </g>\n  <text x=\"400\" y=\"420\" font-family=\"'Caveat', cursive, sans-serif\" font-size=\"44\" fill=\"#e9c46a\" text-anchor=\"middle\">COLLAGE / SCRAPBOOK 🧩</text>\n</svg>",
+    "image": "05_Web_Stilleri/collage-scrapbook.jpg",
+    "title": "Collage / Scrapbook 🧩",
+    "brand": "Scrapbook & Tape",
+    "tagline": "ANALOG SCRAPS & TORN EDGES.",
+    "description": "Fiziksel anı defteri, yırtık dergi kupürleri ve el yazısı notların samimi indie zine estetiği. Üstten bantlanmış yarı saydam koli bandı, polaroid çerçevede 'Summer tour 2026' fotoğrafı, sarı vurgulu 'ANALOG SCRAPS & TORN EDGES.' daktilo başlığı ve kırmızı karalama notlar.",
+    "prompt": "Build an authentic, intimate Indie Zine Collage / Scrapbook website homepage UI exactly matching the reference design:\n- Browser Shell: Dark cardboard bar with amber URL `https://analog-scrapbook.zine/memories`.\n- Scrapbook Canvas: Soft textured cream paper artboard (#f5f0e6) with tactile drop shadow.\n- Realistic Masking Tape: Translucent white-frosted washi tape strip physically taped across the top border with torn zigzag edges.\n- Brand Header: \"Scrapbook & Tape\" in expressive Caveat cursive, tagged \"ISSUE #03 • INDIE ARCHIVE\".\n- Hand-Scrawled Scribble: Red handwriting note \"~ taped together with love & memories ~\".\n- Primary Headline: \"ANALOG SCRAPS & TORN EDGES.\" in bold typewriter Space Mono, with \"SCRAPS\" highlighted in a yellow marker box.\n- Description: \"Washi tape, polaroid frames, scrawled marginalia, layered paper cuts, and authentic indie zine storytelling.\"\n- Primary Action: Dark paper stamp button \"BROWSE THE ZINE →\".\n- Physical Polaroid Photo: Tilted glossy polaroid frame containing a candid summer road trip photo, with handwritten caption \"Summer tour 2026 // Polaroid 600\".",
+    "features": [
+      "Yarı Saydam Maskeleme Bandı (Washi Tape)",
+      "Polaroid Fotoğraf ('Summer tour 2026')",
+      "Yırtık Kraft Kağıt"
+    ]
+  },
+  {
+    "id": "handdrawn-doodle",
+    "name": "Hand-drawn / Doodle",
+    "emoji": "✏️",
+    "desc": "El çizimi ikonlar, karalamalar, oklar ve organik animasyonlar; not defteri samimiyeti.",
+    "tags": [
+      "El Çizimi İkonlar",
+      "Karalamalar & Oklar",
+      "Organik Animasyon",
+      "Not Defteri"
+    ],
+    "accent": "#40B0E0",
+    "colors": [
+      "#D04060",
+      "#18171A",
+      "#40B0E0",
+      "#601020",
+      "#303040"
+    ],
+    "typography": "Caveat, Plus Jakarta Sans",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#121214\"/>\n  <path d=\"M 160 320 Q 240 220 350 250\" fill=\"none\" stroke=\"#ffeaa7\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <text x=\"400\" y=\"250\" font-family=\"'Kalam', cursive, sans-serif\" font-size=\"44\" fill=\"#ffffff\" text-anchor=\"middle\">HAND-DRAWN / DOODLE ✏️</text>\n  <text x=\"400\" y=\"300\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#55efc4\" text-anchor=\"middle\">El çizimi ikonlar, karalamalar ve organik animasyonlar</text>\n</svg>",
+    "image": "05_Web_Stilleri/handdrawn-doodle.jpg",
+    "title": "Hand-drawn / Doodle ✏️",
+    "brand": "Sketchpad Notes",
+    "tagline": "Ideas sketched directly with your hands!",
+    "description": "Kurumsal soğukluğu kıran, el çizimi sıcak karalamalar ve samimi eskizler içeren Hand-drawn Doodle web tasarımı. 'Ideas sketched directly with your hands!' el yazısı başlığı, dalgalı kırmızı altı çizili vurgular, elle çizilmiş asimetrik 'Instant Doodle Notes' paneli.",
+    "prompt": "Build a charming, approachable Hand-drawn / Doodle SaaS product website homepage UI exactly matching the reference design:\n- Browser Shell: Charcoal bar with hand-dashed border line and cyan URL `https://sketchpad-ideas.app/draw`.\n- Background: Dark sketch canvas (#18181b) with faint pencil grid paper texture.\n- Brand Header: \"✏️ Sketchpad Notes\" in handwritten Caveat script, with links [FEATURES], [PRICING], [DOODLES].\n- Primary Headline: \"Ideas sketched directly\\nwith your hands!\" in natural Caveat handwriting, with \"with your hands!\" underlined by a wavy hand-drawn red scribble.\n- Description: \"Rough hand-drawn outlines, sketchy arrows, playful underline doodles, and charming imperfect personality for friendly software products.\"\n- Sketch Button: Asymmetric hand-sketched outlined button \"Start Sketching (Free) →\" with irregular border-radius.\n- Hand-Drawn Feature Box: Sketchy red pen container with hand-drawn star: \"★ Instant Doodle Notes - Turn your messy handwriting and quick whiteboard sketches into organized digital task cards...\".\n- Footer: \"✔ 100% VECTOR SKETCH • NO CORPORATE STERILITY | AWWWARDS DOODLE SPECIAL MENTION\".",
+    "features": [
+      "El Çizimi Dalgalı Çizgiler",
+      "Karalama Oklar & Çerçeveler",
+      "Samimi Daktilo & El Yazısı",
+      "Taslak Not Kartı"
+    ]
+  },
+  {
+    "id": "soft-3d",
+    "name": "Soft 3D",
+    "emoji": "🫧",
+    "desc": "Robotik 3D yerine baloncuk, jel, plastik, cam ve oyuncak benzeri objeler; yumuşak ve şeffaf materyaller.",
+    "tags": [
+      "Baloncuk & Jel",
+      "Cam & Plastik",
+      "Oyuncak Objeler",
+      "Yumuşak 3D"
+    ],
+    "accent": "#7060F0",
+    "colors": [
+      "#301050",
+      "#0C0C14",
+      "#7060F0",
+      "#C0B0F0",
+      "#9090F0"
+    ],
+    "typography": "Plus Jakarta Sans, Inter",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\" width=\"100%\" height=\"100%\">\n  <rect width=\"800\" height=\"500\" fill=\"#0d0d14\"/>\n  <circle cx=\"300\" cy=\"220\" r=\"110\" fill=\"#a0c4ff\" opacity=\"0.8\"/>\n  <circle cx=\"480\" cy=\"250\" r=\"90\" fill=\"#ffc6ff\" opacity=\"0.8\"/>\n  <text x=\"400\" y=\"420\" font-family=\"'Plus Jakarta Sans', sans-serif\" font-weight=\"900\" font-size=\"36\" fill=\"#ffffff\" text-anchor=\"middle\">SOFT 3D 🫧</text>\n  <text x=\"400\" y=\"455\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#bdb2ff\" text-anchor=\"middle\">Robotik 3D yerine baloncuk, jel, plastik ve cam objeler</text>\n</svg>",
+    "image": "05_Web_Stilleri/soft-3d.jpg",
+    "title": "Soft 3D 🫧",
+    "brand": "VELVET 3D",
+    "tagline": "Tactile Depth in Silken Matte 3D.",
+    "description": "Dokunma hissi uyandıran yumuşak 3D silikon, jelatin cam ve hacimsel ışıklandırmalı Soft 3D web tasarımı. 'Tactile Depth in Silken Matte 3D.' başlığı, buzlu cam ve jel dokulu 'Volumetric Cloud Engine' kartı, lavanta-gök mavisi ipeksi gradyanlar ve modern SaaS hissi.",
+    "prompt": "Build an ultra-modern, futuristic Soft 3D SaaS website homepage UI exactly matching the reference design:\n- Browser Shell: Dark velvet bar with soft lavender URL `https://velvet-spatial.saas/platform`.\n- Background: Deep cosmic velvet noir (#0c0d14) illuminated by a soft radial purple/indigo ambient light dome.\n- Brand Header: \"🪐 VELVET 3D\" in crisp typography, with navigation [FEATURES], [WORKSPACES], [PRICING].\n- Pill Tag: Translucent pill badge \"✨ MATTE SILICONE • JELLY GLASS • SOFT 3D\".\n- Primary Headline: \"Tactile Depth in\\nSilken Matte 3D.\" with \"Silken Matte 3D.\" rendered in a silky metallic gradient (soft lavender to sky cyan).\n- Description: \"Translucent jelly glass, soft inflatable silicone shapes, volumetric ambient lighting, and delicate futuristic SaaS interaction design.\"\n- Action Button: Pillowed gradient button (lavender to royal indigo) \"GET STARTED FREE →\" with soft purple aura glow.\n- Translucent Jelly Glass Card: Frosted acrylic container with sub-surface scattering reflection, floating 3D cube emoji (🧊), headline \"Volumetric Cloud Engine\", and description on real-time PBR shaders.",
+    "features": [
+      "Yarı Saydam Jelatin Cam Kartı",
+      "İpeksi Mat Silikon Gradyan",
+      "Hacimsel 3D Bulut Motoru",
+      "Gelecek Nesil SaaS"
+    ]
+  }
+]

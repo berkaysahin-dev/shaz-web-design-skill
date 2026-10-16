@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="dialGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#181920"/>
+      <stop offset="85%" stop-color="#0A0B0F"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </radialGradient>
+    <linearGradient id="goldBezel" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#E5C158"/>
+      <stop offset="50%" stop-color="#9E8131"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <!-- Circular Watch Bezel -->
+  <circle cx="60" cy="60" r="56" fill="url(#dialGrad)" stroke="url(#goldBezel)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Hour Markers -->
+  <line x1="60" y1="14" x2="60" y2="22" stroke="#E5C158" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="98" x2="60" y2="106" stroke="#E5C158" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14" y1="60" x2="22" y2="60" stroke="#E5C158" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98" y1="60" x2="106" y2="60" stroke="#E5C158" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Watch Hands -->
+  <line x1="60" y1="60" x2="60" y2="28" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="60" x2="82" y2="60" stroke="#E5C158" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="60" cy="60" r="3.5" fill="#E5C158"/>
+  <circle cx="60" cy="60" r="1.5" fill="#0A0B0F"/>
+</svg>

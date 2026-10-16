@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRONOS &middot; Manufacture de Haute Horlogerie Geneve</title>
+    <meta name="description" content="Independent Swiss Haute Horlogerie Atelier. Handcrafted titanium tourbillons regulated to observatory chronometer standards in Geneva, Switzerland.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Three.js CDN for Real-Time Background Simulation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        obsidian: '#070709',
+                        champagne: '#C5A880',
+                        titanium: '#A1A1AA',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #070709;
+            color: #F4F4F6;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .liquid-glass {
+            background: rgba(14, 15, 20, 0.75);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Continuous Tourbillon & Balance Wheel Oscillations */
+        @keyframes tourbillonSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes balanceOscillate {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(240deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-240deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .tourbillon-cage {
+            animation: tourbillonSpin 60s linear infinite;
+            transform-origin: center center;
+        }
+
+        .balance-wheel {
+            animation: balanceOscillate 0.25s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+            transform-origin: center center;
+        }
+
+        .dial-guilloche {
+            background: radial-gradient(circle at center, #15161E 0%, #0D0E14 45%, #070709 100%);
+            box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body class="selection:bg-[#C5A880] selection:text-[#070709]">
+
+    <!-- 1. FLOATING NAVIGATION BAR (Clean, no badges, no status pills) -->
+    <header class="fixed top-6 inset-x-0 z-50 flex justify-center px-4 pointer-events-none">
+        <div class="pointer-events-auto liquid-glass rounded-[16px] max-w-5xl w-full p-2">
+            <nav aria-label="Atelier Navigation" class="flex items-center justify-between px-6 py-2.5">
+                <a href="#hero" class="flex items-center gap-2 group">
+                    <span class="font-bold tracking-tight text-sm uppercase text-white font-sans group-hover:text-[#C5A880] transition-colors">
+                        KRONOS
+                    </span>
+                    <span class="font-serif italic text-base text-[#A1A1AA] font-normal">
+                        Geneve
+                    </span>
+                </a>
+
+                <div class="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-wider text-[#A1A1AA]">
+                    <a href="#calibre" class="hover:text-white transition-colors py-1">Calibre VII</a>
+                    <a href="#atelier" class="hover:text-white transition-colors py-1">Craftsmanship</a>
+                    <a href="#editions" class="hover:text-white transition-colors py-1">Allocations</a>
+                    <a href="#inquiry" class="hover:text-white transition-colors py-1">Private Suite</a>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <a href="#inquiry" class="inline-flex items-center gap-2 bg-[#C5A880] text-[#070709] px-4 py-2 font-mono text-xs uppercase tracking-widest font-semibold hover:bg-[#d4b993] transition-colors">
+                        <span>Inquire Allocation</span>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION: ZERO EYEBROWS, ZERO TOP/BOTTOM LABELS, PURE BACKGROUNDLESS WATCH -->
+    <section id="hero" class="relative min-h-screen w-full flex flex-col justify-center p-6 sm:p-12 lg:p-16 pt-32 sm:pt-40 overflow-hidden">
+        <!-- Interactive 3D WebGL Background Canvas (Text-free, pure ambient micro-particles) -->
+        <div class="absolute inset-0 z-0">
+            <canvas id="webglCanvas" class="w-full h-full block"></canvas>
+            <div class="absolute inset-0 bg-gradient-to-t from-[#070709] via-transparent to-[#070709]/80 pointer-events-none"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-[#070709]/90 via-transparent to-[#070709]/90 pointer-events-none"></div>
+        </div>
+
+        <!-- Clean Hero Grid: Naked Headline, Zero Overlines, Pure Backgroundless Timepiece -->
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center my-auto py-12 max-w-7xl mx-auto w-full">
+            <div class="lg:col-span-6 flex flex-col gap-8">
+                <!-- Direct, authoritative headline leading without any eyebrow or overline prefix -->
+                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[0.92]">
+                    CHRONOMETRIC <br>
+                    <span class="font-serif italic font-normal text-[#C5A880]">Permanence</span> IN <br>
+                    GRADE 5 TITANIUM.
+                </h1>
+
+                <p class="text-base sm:text-lg text-[#A1A1AA] max-w-xl leading-relaxed">
+                    Hand-finished transverse tourbillons regulated to observatory chronometer standards, encased in monocoque aerospace titanium.
+                </p>
+
+                <div class="flex items-center gap-6 pt-2">
+                    <a href="#calibre" class="inline-flex items-center gap-3 bg-[#C5A880] text-[#070709] px-6 py-3.5 text-xs font-mono uppercase tracking-widest font-semibold hover:bg-[#d4b993] transition-colors">
+                        <span>Explore Calibre VII</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pure Backgroundless Haute Horlogerie Timepiece with Autonomous Precision (No boxed card, no background box, no mouse tilt) -->
+            <div class="lg:col-span-6 flex items-center justify-center py-6 select-none">
+                <div class="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 flex items-center justify-center filter drop-shadow-[0_25px_50px_rgba(0,0,0,0.85)]">
+                    
+                    <!-- Outer Titanium Bezel with 8 Precision Screws (Completely backgroundless) -->
+                    <div class="relative w-full h-full rounded-full border-2 border-white/20 flex items-center justify-center shadow-2xl bg-gradient-to-tr from-[#161722] via-[#0E0F16] to-[#1A1C28]">
+                        
+                        <!-- Radial Sapphire Sheen -->
+                        <div class="absolute inset-0 rounded-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent pointer-events-none"></div>
+
+                        <!-- 8 Bezel Screws -->
+                        <div class="absolute top-2 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute bottom-2 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute left-2 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute right-2 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute top-10 left-10 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute top-10 right-10 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute bottom-10 left-10 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+                        <div class="absolute bottom-10 right-10 w-1.5 h-1.5 rounded-full bg-white/40 border border-black/40"></div>
+
+                        <!-- Inner Chapter Ring with Guilloche Texture -->
+                        <div class="relative w-[82%] h-[82%] rounded-full border border-white/10 flex items-center justify-center dial-guilloche">
+                            
+                            <!-- Applied Warm Gold Hour Indices -->
+                            <div class="absolute top-3 w-[3px] h-4 bg-[#C5A880] shadow-sm"></div>
+                            <div class="absolute bottom-3 w-[3px] h-4 bg-[#C5A880] shadow-sm"></div>
+                            <div class="absolute left-3 h-[3px] w-4 bg-[#C5A880] shadow-sm"></div>
+                            <div class="absolute right-3 h-[3px] w-4 bg-[#C5A880] shadow-sm"></div>
+
+                            <!-- Hour Indices Marks -->
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(30deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(60deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(120deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(150deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(210deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(240deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(300deg) translateY(-105px);"></div>
+                            <div class="absolute w-[2px] h-3 bg-white/40 origin-bottom bottom-1/2 left-[calc(50%-1px)]" style="transform: rotate(330deg) translateY(-105px);"></div>
+
+                            <!-- Dial Inscription -->
+                            <div class="absolute top-12 font-bold tracking-widest text-[10px] text-white/80 uppercase font-sans">
+                                KRONOS
+                            </div>
+                            <div class="absolute top-16 font-serif italic text-[10px] text-[#C5A880]">
+                                Geneve
+                            </div>
+
+                            <!-- Autonomous Live Watch Hands (Continuous 60fps mechanical sweep) -->
+                            <div id="hourHand" class="absolute w-[4px] h-20 bg-gradient-to-t from-white/90 to-white/70 rounded-full origin-bottom bottom-1/2 left-[calc(50%-2px)] shadow-lg" style="transform: rotate(240deg);"></div>
+                            <div id="minuteHand" class="absolute w-[3px] h-28 bg-gradient-to-t from-white to-white/80 rounded-full origin-bottom bottom-1/2 left-[calc(50%-1.5px)] shadow-xl" style="transform: rotate(70deg);"></div>
+                            <div id="secondHand" class="absolute w-[1px] h-32 bg-[#C5A880] origin-bottom bottom-1/2 left-[calc(50%-0.5px)] shadow-md" style="transform: rotate(180deg);">
+                                <div class="w-3 h-3 rounded-full bg-[#C5A880] absolute -bottom-1.5 -left-[5px]"></div>
+                            </div>
+
+                            <!-- Center Cap -->
+                            <div class="w-4 h-4 rounded-full bg-[#C5A880] border-2 border-[#070709] z-20 shadow-md"></div>
+
+                            <!-- Flying Tourbillon Escapement at 6 o'clock -->
+                            <div class="absolute bottom-6 w-20 h-20 rounded-full border border-[#C5A880]/40 bg-black/95 backdrop-blur-md flex items-center justify-center overflow-hidden shadow-inner">
+                                <div class="tourbillon-cage w-16 h-16 rounded-full border border-white/20 relative flex items-center justify-center">
+                                    <div class="absolute w-full h-[1px] bg-white/30"></div>
+                                    <div class="absolute h-full w-[1px] bg-white/30"></div>
+                                    <div class="balance-wheel w-10 h-10 rounded-full border-2 border-[#C5A880] flex items-center justify-center">
+                                        <div class="w-2.5 h-2.5 rounded-full bg-white shadow-sm"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. CALIBRE VII: NAKED HEADLINE & BACKGROUNDLESS TRANSPARENT MECHANICAL CUTOUT -->
+    <section id="calibre" class="w-full bg-gradient-to-b from-[#070709] via-[#0A0B10] to-[#070709] text-[#F4F4F6] py-36 px-6 sm:px-12 lg:px-16 relative overflow-hidden">
+        <div aria-hidden="true" class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-32 bg-white/[0.02] blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto flex flex-col gap-20">
+            
+            <div class="w-full border-b border-white/10 pb-8 flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+                <!-- Pure naked headline leading directly -->
+                <h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
+                    CALIBRE VII <br>
+                    <span class="font-serif italic font-normal text-[#C5A880]">Transverse</span> ARCHITECTURE.
+                </h2>
+                <p class="font-mono text-xs text-[#A1A1AA] max-w-sm leading-relaxed">
+                    Every bridge is hand-beveled with diamond paste, anthracite coated, and regulated across five positions in our Geneva atelier.
+                </p>
+            </div>
+
+            <!-- Asymmetric Grid: Backgroundless Transparent Movement Asset & Clean Spec Table -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Backgroundless / Transparent Movement Display (No rectangular photo frame, no photo background) -->
+                <div class="lg:col-span-7 flex flex-col items-center justify-center p-6 relative">
+                    <!-- Pure isolated mechanical escapement render floating directly on obsidian canvas with drop-shadow -->
+                    <div class="relative w-full max-w-lg aspect-square flex items-center justify-center filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.9)]">
+                        <!-- Intricate transparent horology gear train and skeletonized bridges -->
+                        <svg class="w-full h-full text-[#C5A880]" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Outer escapement chassis -->
+                            <circle cx="200" cy="200" r="170" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-dasharray="4 4" />
+                            <circle cx="200" cy="200" r="140" stroke="#C5A880" stroke-opacity="0.3" stroke-width="1.5" />
+                            
+                            <!-- Hand-beveled transverse bridges -->
+                            <path d="M 60 200 L 340 200" stroke="#A1A1AA" stroke-width="8" stroke-linecap="round" />
+                            <path d="M 200 60 L 200 340" stroke="#A1A1AA" stroke-width="6" stroke-linecap="round" />
+                            
+                            <!-- Mainspring Twin Barrels -->
+                            <circle cx="140" cy="140" r="48" fill="#101117" stroke="#C5A880" stroke-width="3" />
+                            <circle cx="140" cy="140" r="28" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+                            <circle cx="140" cy="140" r="6" fill="#C5A880" />
+
+                            <circle cx="260" cy="140" r="48" fill="#101117" stroke="#C5A880" stroke-width="3" />
+                            <circle cx="260" cy="140" r="28" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+                            <circle cx="260" cy="140" r="6" fill="#C5A880" />
+
+                            <!-- Center Gear & Jewels -->
+                            <circle cx="200" cy="200" r="32" fill="#161720" stroke="#A1A1AA" stroke-width="2.5" />
+                            <circle cx="200" cy="200" r="10" fill="#E11D48" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="1" />
+
+                            <!-- Lower Flying Tourbillon Carriage -->
+                            <circle cx="200" cy="285" r="52" fill="#0A0B0E" stroke="#C5A880" stroke-width="2" />
+                            <g class="tourbillon-cage" style="transform-origin: 200px 285px;">
+                                <circle cx="200" cy="285" r="44" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" />
+                                <line x1="160" y1="285" x2="240" y2="285" stroke="#C5A880" stroke-width="2" />
+                                <line x1="200" y1="245" x2="200" y2="325" stroke="#C5A880" stroke-width="2" />
+                                <circle cx="200" cy="285" r="14" fill="#C5A880" fill-opacity="0.4" stroke="#FFF" stroke-width="1.5" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="flex items-center justify-center gap-8 pt-6 font-mono text-xs text-[#A1A1AA]">
+                        <span>Breguet Overcoil Hairspring</span>
+                        <span class="text-white/30">&middot;</span>
+                        <span>Solid 22k Gold Micro-Rotor</span>
+                    </div>
+                </div>
+
+                <!-- Matrix Specifications (5 cols) - Naked Title, Clean Single Border Panel -->
+                <div class="lg:col-span-5 p-8 bg-[#0B0C10] border border-white/10 rounded-[14px] flex flex-col justify-between gap-6 shadow-xl">
+                    <h3 class="text-2xl font-bold tracking-tight text-white font-sans border-b border-white/10 pb-4">
+                        Tested to &plusmn;0.8s Daily Stability
+                    </h3>
+
+                    <div class="divide-y divide-white/10 font-mono text-xs">
+                        <div class="py-3.5 flex items-center justify-between">
+                            <span class="text-[#A1A1AA]">Escapement</span>
+                            <span class="text-white font-medium">60-Second Flying Tourbillon</span>
+                        </div>
+                        <div class="py-3.5 flex items-center justify-between">
+                            <span class="text-[#A1A1AA]">Frequency</span>
+                            <span class="text-white font-medium">28,800 VPH (4 Hz)</span>
+                        </div>
+                        <div class="py-3.5 flex items-center justify-between">
+                            <span class="text-[#A1A1AA]">Power Reserve</span>
+                            <span class="text-white font-medium">72 Hours Twin-Barrel</span>
+                        </div>
+                        <div class="py-3.5 flex items-center justify-between">
+                            <span class="text-[#A1A1AA]">Jewels</span>
+                            <span class="text-white font-medium">32 Functional Rubies</span>
+                        </div>
+                        <div class="py-3.5 flex items-center justify-between">
+                            <span class="text-[#A1A1AA]">Total Components</span>
+                            <span class="text-white font-medium">248 Individual Parts</span>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <a href="#inquiry" class="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 py-3.5 font-mono text-xs uppercase tracking-widest transition-colors">
+                            <span>Request Technical Dossier</span>
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ATELIER CRAFTSMANSHIP: ZERO BOXED PHOTO BACKGROUNDS -->
+    <section id="atelier" class="w-full bg-gradient-to-b from-[#070709] via-[#090A0E] to-[#070709] text-[#F4F4F6] py-36 px-6 sm:px-12 lg:px-16 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col gap-20">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end border-b border-white/10 pb-12">
+                <div class="lg:col-span-8">
+                    <h2 class="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+                        FOUR MONTHS OF <br>
+                        <span class="font-serif italic font-normal text-[#C5A880]">Benchwork</span> PER SPECIMEN.
+                    </h2>
+                </div>
+                <div class="lg:col-span-4">
+                    <p class="text-base text-[#A1A1AA] leading-relaxed">
+                        Every KRONOS timepiece is assembled, finished, and regulated by a single master watchmaker from raw titanium billet to final chronometer casing.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 Pillars: Isolated Backgroundless Icons & Architecture (Zero rectangular boxed stock photo cards) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Pillar 1 -->
+                <div class="p-8 bg-[#090A0E] border border-white/10 rounded-[14px] flex flex-col gap-6 hover:border-white/25 transition-colors">
+                    <!-- Backgroundless Isolated Silhouette Representation -->
+                    <div class="w-16 h-16 rounded-full border border-[#C5A880]/30 flex items-center justify-center bg-white/[0.02]">
+                        <svg class="w-8 h-8 text-[#C5A880]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white tracking-tight">Grade 5 Monocoque</h3>
+                    <p class="text-sm text-[#A1A1AA] leading-relaxed">
+                        Milled from solid bar stock of Ti-6Al-4V, delivering twice the tensile strength of stainless steel at 40% less mass.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="p-8 bg-[#090A0E] border border-white/10 rounded-[14px] flex flex-col gap-6 hover:border-white/25 transition-colors">
+                    <div class="w-16 h-16 rounded-full border border-[#C5A880]/30 flex items-center justify-center bg-white/[0.02]">
+                        <svg class="w-8 h-8 text-[#C5A880]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white tracking-tight">Diamond Anglage</h3>
+                    <p class="text-sm text-[#A1A1AA] leading-relaxed">
+                        Internal angles and perimeter flanks are chamfered by hand using boxwood laps and progressive micron diamond paste.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="p-8 bg-[#090A0E] border border-white/10 rounded-[14px] flex flex-col gap-6 hover:border-white/25 transition-colors">
+                    <div class="w-16 h-16 rounded-full border border-[#C5A880]/30 flex items-center justify-center bg-white/[0.02]">
+                        <svg class="w-8 h-8 text-[#C5A880]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white tracking-tight">Observatory Tuning</h3>
+                    <p class="text-sm text-[#A1A1AA] leading-relaxed">
+                        Regulated across 360 hours in 5 spatial positions and 3 temperatures before Geneva Seal hallmarking.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. NUMBERED EDITIONS: NAKED HEADINGS & PURE HIERARCHY -->
+    <section id="editions" class="w-full bg-gradient-to-b from-[#070709] via-[#0C0D13] to-[#070709] text-[#F4F4F6] py-36 px-6 sm:px-12 lg:px-16 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col gap-16">
+            
+            <div class="border-b border-white/10 pb-8">
+                <!-- Pure naked heading without overlines -->
+                <h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
+                    ANNUAL ALLOCATIONS.
+                </h2>
+            </div>
+
+            <!-- Two Editions: Zero Eyebrows, Clean Dominant Names -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+                
+                <!-- Edition 1 -->
+                <div class="p-8 bg-[#0A0B0F] border border-white/10 rounded-[16px] flex flex-col justify-between gap-8 shadow-xl">
+                    <div class="flex flex-col gap-3">
+                        <h3 class="text-2xl sm:text-3xl font-bold text-white">Chronometre Monolith</h3>
+                        <p class="text-sm text-[#A1A1AA] leading-relaxed">
+                            Solid anthracite dial with hand-applied white gold indices, cased in satin bead-blasted Grade 5 titanium.
+                        </p>
+                    </div>
+
+                    <div class="divide-y divide-white/10 font-mono text-xs text-[#A1A1AA]">
+                        <div class="py-3 flex justify-between">
+                            <span>Diameter / Thickness</span>
+                            <span class="text-white">39.5mm &middot; 9.2mm</span>
+                        </div>
+                        <div class="py-3 flex justify-between">
+                            <span>Escapement</span>
+                            <span class="text-white">Transverse Tourbillon</span>
+                        </div>
+                        <div class="py-3 flex justify-between">
+                            <span>Reserve</span>
+                            <span class="text-white">72 Hours Twin Barrel</span>
+                        </div>
+                        <div class="py-3 flex justify-between">
+                            <span>Allocation Price</span>
+                            <span class="text-white font-semibold">&euro; 68,000 Excl. VAT</span>
+                        </div>
+                    </div>
+
+                    <a href="#inquiry" class="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white py-3.5 font-mono text-xs uppercase tracking-widest border border-white/15 transition-colors">
+                        <span>Request Allocation</span>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    </a>
+                </div>
+
+                <!-- Edition 2: Flagship Squelette with Selective Double-Bezel -->
+                <div class="p-[7px] bg-[#16171E] border border-[#C5A880]/30 rounded-[16px] shadow-2xl">
+                    <div class="h-full p-8 rounded-[11px] bg-[#070709] border border-[#C5A880]/20 flex flex-col justify-between gap-8">
+                        <div class="flex flex-col gap-3">
+                            <h3 class="text-2xl sm:text-3xl font-bold text-white">Tourbillon Squelette</h3>
+                            <p class="text-sm text-[#A1A1AA] leading-relaxed">
+                                Fully openworked titanium bridges with hand-polished bevels, revealing the full gear train under double anti-reflective box sapphire.
+                            </p>
+                        </div>
+
+                        <div class="divide-y divide-white/10 font-mono text-xs text-[#A1A1AA]">
+                            <div class="py-3 flex justify-between">
+                                <span>Diameter / Thickness</span>
+                                <span class="text-white">41.0mm &middot; 9.8mm</span>
+                            </div>
+                            <div class="py-3 flex justify-between">
+                                <span>Escapement</span>
+                                <span class="text-white font-medium text-[#C5A880]">60s Flying Tourbillon</span>
+                            </div>
+                            <div class="py-3 flex justify-between">
+                                <span>Reserve</span>
+                                <span class="text-white">72 Hours Twin Barrel</span>
+                            </div>
+                            <div class="py-3 flex justify-between">
+                                <span>Allocation Price</span>
+                                <span class="text-white font-semibold">&euro; 94,000 Excl. VAT</span>
+                            </div>
+                        </div>
+
+                        <a href="#inquiry" class="w-full inline-flex items-center justify-center gap-2 bg-[#C5A880] hover:bg-[#d4b993] text-[#070709] py-3.5 font-mono text-xs uppercase tracking-widest font-semibold transition-colors">
+                            <span>Inquire Flagship Squelette</span>
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PRIVATE SUITE INQUIRY: NAKED HEADINGS -->
+    <section id="inquiry" class="w-full bg-gradient-to-b from-[#070709] via-[#090A0E] to-[#050507] text-[#F4F4F6] py-36 px-6 sm:px-12 lg:px-16 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+            
+            <div class="lg:col-span-7 flex flex-col gap-10">
+                <div>
+                    <h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
+                        PRIVATE ATELIER <br>
+                        <span class="font-serif italic font-normal text-[#C5A880]">Commission</span> INQUIRY.
+                    </h2>
+                    <p class="text-base text-[#A1A1AA] mt-4 max-w-lg leading-relaxed">
+                        Private consultations and physical movement viewings are conducted by appointment only at our Geneva atelier or private suites in Zurich, London, and Tokyo.
+                    </p>
+                </div>
+
+                <form class="flex flex-col gap-6 font-mono text-xs" onsubmit="event.preventDefault(); alert('Allocation inquiry registered. Our master horologist will contact you within 24 hours.');">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="flex flex-col gap-2">
+                            <label for="fullName" class="text-[#A1A1AA] uppercase tracking-wider">Full Name</label>
+                            <input id="fullName" type="text" required placeholder="Collector Name" class="bg-[#121318] border border-white/10 px-4 py-3.5 text-white placeholder-white/20 focus:outline-none focus:border-[#C5A880] transition-colors">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label for="email" class="text-[#A1A1AA] uppercase tracking-wider">Direct Email</label>
+                            <input id="email" type="email" required placeholder="client@domain.com" class="bg-[#121318] border border-white/10 px-4 py-3.5 text-white placeholder-white/20 focus:outline-none focus:border-[#C5A880] transition-colors">
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <label for="editionPref" class="text-[#A1A1AA] uppercase tracking-wider">Desired Reference</label>
+                        <select id="editionPref" class="bg-[#121318] border border-white/10 px-4 py-3.5 text-white focus:outline-none focus:border-[#C5A880] transition-colors">
+                            <option value="monolith">Ref. 701-TI &middot; Chronometre Monolith (39.5mm)</option>
+                            <option value="squelette">Ref. 702-SQ &middot; Tourbillon Squelette (41.0mm)</option>
+                            <option value="bespoke">Bespoke Unique Commission</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#C5A880] text-[#070709] py-4 text-xs font-mono uppercase tracking-widest font-semibold hover:bg-[#d4b993] transition-colors cursor-pointer">
+                        <span>Submit Allocation Inquiry</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </button>
+                </form>
+            </div>
+
+            <div class="lg:col-span-5 p-8 bg-[#0C0D12] border border-white/10 rounded-[14px] flex flex-col gap-8 shadow-xl">
+                <h3 class="text-xl font-bold text-white tracking-tight border-b border-white/10 pb-4">
+                    Viewing Salons by Appointment
+                </h3>
+
+                <div class="flex flex-col gap-6 font-mono text-xs text-[#A1A1AA]">
+                    <div class="border-l border-white/20 pl-4 flex flex-col gap-1">
+                        <span class="text-white font-medium uppercase">Geneva Workshop</span>
+                        <span>Rue du Rhone 42, 1204 Geneve</span>
+                        <span class="text-[#71717A]">Atelier Bench &amp; Master Horologist</span>
+                    </div>
+
+                    <div class="border-l border-white/20 pl-4 flex flex-col gap-1">
+                        <span class="text-white font-medium uppercase">Zurich Private Salon</span>
+                        <span>Bahnhofstrasse 18, 8001 Zurich</span>
+                        <span class="text-[#71717A]">Private Chronometry Suite</span>
+                    </div>
+
+                    <div class="border-l border-white/20 pl-4 flex flex-col gap-1">
+                        <span class="text-white font-medium uppercase">London Appointment Suite</span>
+                        <span>New Bond Street 14, Mayfair W1S 3SS</span>
+                        <span class="text-[#71717A]">Collector Presentation Gallery</span>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-white/10 flex items-center justify-between font-mono text-xs text-[#71717A]">
+                    <span>Geneva Seal Register</span>
+                    <span class="text-white">Serial No. 2026-VII</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 7. BESPOKE FOOTER: ZERO EYEBROWS, DIRECT HEADINGS, LIVE GENEVA CLOCK -->
+    <footer class="w-full bg-[#050507] text-[#F4F4F6] pt-24 pb-16 px-6 sm:px-12 lg:px-16 border-t border-white/10 relative overflow-hidden">
+        <div aria-hidden="true" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-[#C5A880]/5 blur-[160px] pointer-events-none rounded-full"></div>
+
+        <div class="max-w-7xl mx-auto flex flex-col gap-16 relative z-10">
+            
+            <!-- Live Geneva Clock (Directly leading, zero overline label) -->
+            <div class="flex items-center justify-between pb-8 border-b border-white/10">
+                <div class="text-sm font-semibold text-white tracking-wide">
+                    Geneve Manufacture &middot; Switzerland
+                </div>
+
+                <div class="flex items-center gap-3 font-mono text-xs text-[#C5A880]">
+                    <svg class="w-4 h-4 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span id="genevaClockText" class="font-semibold tracking-wider text-white text-sm">12:00:00</span>
+                    <span class="text-white/60 text-[11px]">CET</span>
+                </div>
+            </div>
+
+            <!-- Salons & Verification Form: Zero Eyebrows -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                
+                <div class="lg:col-span-6 flex flex-col gap-6">
+                    <h3 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">
+                        Private Viewing Appointments
+                    </h3>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 font-mono text-xs">
+                        <div class="flex flex-col gap-1 p-5 bg-white/[0.02] border border-white/10 rounded-[8px]">
+                            <span class="text-white font-semibold">Geneva Workshop</span>
+                            <span class="text-[#A1A1AA]">Rue du Rhone 42</span>
+                        </div>
+
+                        <div class="flex flex-col gap-1 p-5 bg-white/[0.02] border border-white/10 rounded-[8px]">
+                            <span class="text-white font-semibold">Zurich Salon</span>
+                            <span class="text-[#A1A1AA]">Bahnhofstrasse 18</span>
+                        </div>
+
+                        <div class="flex flex-col gap-1 p-5 bg-white/[0.02] border border-white/10 rounded-[8px]">
+                            <span class="text-white font-semibold">London Salon</span>
+                            <span class="text-[#A1A1AA]">14 New Bond Street</span>
+                        </div>
+
+                        <div class="flex flex-col gap-1 p-5 bg-white/[0.02] border border-white/10 rounded-[8px]">
+                            <span class="text-white font-semibold">Tokyo Ginza</span>
+                            <span class="text-[#A1A1AA]">6-10-1 Ginza</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 flex flex-col justify-between gap-6 p-8 bg-[#0A0B0F] border border-white/10 rounded-[12px]">
+                    <div class="flex flex-col gap-3">
+                        <h4 class="text-xl font-bold text-white tracking-tight">
+                            Observatory Ledger Check
+                        </h4>
+                        <p class="text-xs text-[#A1A1AA] leading-relaxed">
+                            Enter reference serial to verify testing stability certificates and master signature archives.
+                        </p>
+
+                        <form id="verifyForm" class="flex items-center gap-2 pt-2" onsubmit="event.preventDefault(); document.getElementById('verifyOutput').classList.remove('hidden');">
+                            <input
+                                type="text"
+                                required
+                                placeholder="e.g. KRN-701-084"
+                                class="bg-black/60 border border-white/15 px-4 py-3 text-xs font-mono text-white placeholder-white/20 focus:outline-none focus:border-[#C5A880] flex-1"
+                            >
+                            <button
+                                type="submit"
+                                class="bg-[#C5A880] text-[#070709] px-5 py-3 font-mono text-xs uppercase tracking-widest font-semibold hover:bg-[#d4b993] transition-colors inline-flex items-center gap-1.5 cursor-pointer"
+                            >
+                                <span>Verify</span>
+                                <svg class="w-3.5 h-3.5 stroke-[2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </button>
+                        </form>
+
+                        <div id="verifyOutput" class="hidden p-3 bg-[#C5A880]/10 border border-[#C5A880]/30 font-mono text-[11px] text-[#C5A880]">
+                            AUTHENTICATED: Specimen registered in Geneva Seal Observatory Ledger.
+                        </div>
+                    </div>
+
+                    <div class="border-t border-white/10 pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 font-mono text-xs">
+                        <span class="text-white font-medium">+41 22 819 00 24 &middot; VIP@kronos-atelier.ch</span>
+                        <a href="#inquiry" class="inline-flex items-center gap-2 text-[#C5A880] hover:underline">
+                            <span>Request Showing</span>
+                            <svg class="w-4 h-4 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Monumental Architectural Signature -->
+            <div class="pt-8 border-t border-white/10 flex flex-col gap-8">
+                <div class="w-full select-none overflow-hidden text-center">
+                    <span class="font-bold tracking-[-0.04em] text-[11vw] leading-none uppercase text-white/[0.04] font-sans block whitespace-nowrap">
+                        KRONOS &middot; GENEVE
+                    </span>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-6 font-mono text-xs text-[#71717A]">
+                    <div>&copy; 2026 KRONOS MANUFACTURE HORLOGERE &middot; Suisse</div>
+                    <div class="flex items-center gap-6 text-[#A1A1AA]">
+                        <a href="#hero" class="hover:text-white transition-colors">Return to Top &uarr;</a>
+                        <a href="#calibre" class="hover:text-white transition-colors">Calibre VII</a>
+                        <a href="#editions" class="hover:text-white transition-colors">Allocations</a>
+                        <a href="#inquiry" class="hover:text-white transition-colors">Private Atelier</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE KINEMATICS & AUTONOMOUS CHRONOMETRY SCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Three.js Background (Ambient floating micro-particles, zero camera wobble)
+            const canvas = document.getElementById('webglCanvas');
+            if (canvas && window.THREE) {
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+                camera.position.z = 25;
+
+                const renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+                const particleCount = 180;
+                const geometry = new THREE.BufferGeometry();
+                const positions = new Float32Array(particleCount * 3);
+                const colors = new Float32Array(particleCount * 3);
+
+                const goldColor = new THREE.Color('#C5A880');
+                const titaniumColor = new THREE.Color('#71717A');
+
+                for (let i = 0; i < particleCount; i++) {
+                    positions[i * 3] = (Math.random() - 0.5) * 45;
+                    positions[i * 3 + 1] = (Math.random() - 0.5) * 35;
+                    positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
+
+                    const color = Math.random() > 0.6 ? goldColor : titaniumColor;
+                    colors[i * 3] = color.r;
+                    colors[i * 3 + 1] = color.g;
+                    colors[i * 3 + 2] = color.b;
+                }
+
+                geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+                geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+                const material = new THREE.PointsMaterial({
+                    size: 0.18,
+                    vertexColors: true,
+                    transparent: true,
+                    opacity: 0.6,
+                    blending: THREE.AdditiveBlending
+                });
+
+                const particles = new THREE.Points(geometry, material);
+                scene.add(particles);
+
+                function animateThree() {
+                    requestAnimationFrame(animateThree);
+                    particles.rotation.y += 0.0006;
+                    particles.rotation.x += 0.0003;
+                    renderer.render(scene, camera);
+                }
+                animateThree();
+
+                window.addEventListener('resize', () => {
+                    camera.aspect = window.innerWidth / window.innerHeight;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(window.innerWidth, window.innerHeight);
+                });
+            }
+
+            // Real Continuous Watch Hand Kinematics
+            const secondHand = document.getElementById('secondHand');
+            const minuteHand = document.getElementById('minuteHand');
+            const hourHand = document.getElementById('hourHand');
+
+            function updateClockHands() {
+                const now = new Date();
+                const ms = now.getMilliseconds();
+                const sec = now.getSeconds() + ms / 1000;
+                const min = now.getMinutes() + sec / 60;
+                const hr = (now.getHours() % 12) + min / 60;
+
+                if (secondHand) secondHand.style.transform = `rotate(${sec * 6}deg)`;
+                if (minuteHand) minuteHand.style.transform = `rotate(${min * 6}deg)`;
+                if (hourHand) hourHand.style.transform = `rotate(${hr * 30}deg)`;
+
+                requestAnimationFrame(updateClockHands);
+            }
+            requestAnimationFrame(updateClockHands);
+
+            // Live Geneva Clock in Footer
+            const genevaClockText = document.getElementById('genevaClockText');
+            function updateGenevaTime() {
+                const now = new Date();
+                const options = {
+                    timeZone: "Europe/Zurich",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    second: "2-digit",
+                    hour12: false
+                };
+                if (genevaClockText) {
+                    genevaClockText.textContent = new Intl.DateTimeFormat("en-GB", options).format(now);
+                }
+            }
+            updateGenevaTime();
+            setInterval(updateGenevaTime, 1000);
+        });
+    </script>
+</body>
+</html>
