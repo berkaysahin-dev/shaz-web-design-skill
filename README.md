@@ -124,7 +124,7 @@ The skill natively provides high-velocity slash commands compatible across **Ant
 
 | Slash Command | Compatible Platforms | Purpose & Description |
 | :--- | :--- | :--- |
-| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | Master autonomous design engine. Synthesizes full pages and sections adhering to the 18 universal laws and 444+ blueprints. |
+| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | Master autonomous design engine with 100% full skill activation. Executes all 18 universal design laws, the contextual activation matrix, and 444+ blueprints across all 16 architectural modules. |
 | **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | 16-Point pre-delivery quality gate auditor. Scans code for fluff text, pills, emojis, neon glow, comment leaks, and layout overflows. |
 | **`/shaz-hero [industry]`** | Antigravity, Claude Code, Cursor, Codex | Generates backgroundless cinematic hero sections with Three.js ambient canvas, floating HUD telemetry, and direct headline primacy (no eyebrows or tickers). |
 | **`/shaz-3d [scene-type]`** | Antigravity, Claude Code, Cursor, Codex | Dedicated WebGL & Three.js shader stage generator selecting from 141 3D blueprints (PBR glass, caustics, fluid mercury, CAD wireframe, procedural terrain). |
