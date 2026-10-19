@@ -229,14 +229,16 @@ if ($c10Violations -eq 0) {
 Write-Host "[CHECK 11] Scanning for forbidden post-hero ticker strips in UI code..." -NoNewline
 $c11Violations = 0
 $tickerPatterns = @('Daily Rate: &plusmn;0.8s', 'DAILY RATE: ±0.8S')
-$demoFiles = Get-ChildItem -Path (Join-Path $rootDir "demos") -Recurse -File -Include "*.html", "*.tsx"
-foreach ($f in $demoFiles) {
-    $content = Get-Content -Path $f.FullName -Raw
-    if ($content -match '<section id="hero"[\s\S]*?</section>') {
-        $heroContent = [regex]::Match($content, '<section id="hero"[\s\S]*?</section>').Value
-        foreach ($pat in $tickerPatterns) {
-            if ($heroContent -match [regex]::Escape($pat)) {
-                $c11Violations++
+$demoFiles = Get-ChildItem -Path (Join-Path $rootDir "demos") -Recurse -File -Include "*.html", "*.tsx" -ErrorAction SilentlyContinue
+if ($demoFiles) {
+    foreach ($f in $demoFiles) {
+        $content = Get-Content -Path $f.FullName -Raw
+        if ($content -match '<section id="hero"[\s\S]*?</section>') {
+            $heroContent = [regex]::Match($content, '<section id="hero"[\s\S]*?</section>').Value
+            foreach ($pat in $tickerPatterns) {
+                if ($heroContent -match [regex]::Escape($pat)) {
+                    $c11Violations++
+                }
             }
         }
     }
@@ -248,6 +250,24 @@ if ($c11Violations -eq 0) {
     $totalViolations += $c11Violations
 }
 
+# Check 12: Scanning for forbidden synthetic slashes (//) in UI strings
+Write-Host "[CHECK 12] Scanning for forbidden synthetic slashes (//)..." -NoNewline
+$c12Violations = 0
+foreach ($f in $filesToAudit) {
+    $content = Get-Content -Path $f.FullName -Raw
+    if ($f.Extension -eq ".tsx") {
+        if ($content -match '>[\s\S]*?//[\s\S]*?<') {
+            $c12Violations++
+        }
+    }
+}
+if ($c12Violations -eq 0) {
+    Write-Host " PASS (0 violations in UI strings)"
+} else {
+    Write-Host " FAIL ($c12Violations violations)"
+    $totalViolations += $c12Violations
+}
+
 Write-Host "=========================================================="
 if ($totalViolations -eq 0) {
     Write-Host "   AUDIT RESULT: 100% PASS - ZERO VIOLATIONS CONFIRMED    "
@@ -256,3 +276,4 @@ if ($totalViolations -eq 0) {
     Write-Host "   AUDIT RESULT: FAILED ($totalViolations VIOLATIONS)     "
 }
 Write-Host "=========================================================="
+

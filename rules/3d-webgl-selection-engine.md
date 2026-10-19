@@ -50,3 +50,19 @@ Every 3D implementation must comply with the **16.6ms frame budget (60 FPS)**:
 2. **Lifecycle Discipline:** Complete geometry, material, and RAF loop disposal inside `useEffect` cleanup.
 3. **Power Preference:** Declare `powerPreference: "high-performance"` on WebGLRenderer.
 4. **Graceful Degradation:** Check `gl` context availability before mounting canvas; render a semantic SVG or CSS fallback if WebGL is disabled or crashes.
+
+---
+
+## 5. Absolute Ban on Rudimentary Toy 3D Meshes & Toy Confetti
+
+> **STRICT BAN ON AMATEUR TOY 3D:** Under NO circumstances should an agent generate naive 10-line Three.js primitive shapes (such as a low-poly cylinder/cone bottle with floating confetti squares, basic unshaded wireframe cubes, or rotating spheres).
+
+### Forbidden Anti-Patterns:
+* Primitive Three.js shapes with default phong/lambert materials and zero environment maps.
+* Floating decorative "confetti" cubes or unshaded geometry particles rotating haphazardly around an object.
+* Blinking status dots (`animate-pulse`) placed in the 3D stage telemetry.
+
+### Authorized Standards:
+* **Verified Blueprint Mounting:** Directly mount production-grade scenes from `library/05-3d-webgl/` (e.g., `pbr-dispersion-glass-stage.md`, `caustic.md`, `wave-galaxy.md`, `spectral-warp.md`, `liquid-aurora.md`) with authentic PBR transmission (`MeshPhysicalMaterial`, `roughness: 0.04`, `ior: 1.52`, `dispersion: 0.04`), studio softbox illumination, and GLSL mathematical shaders.
+* **Mandatory Zero-WebGL Alternative:** If authentic, production-grade 3D assets or shaders cannot be implemented cleanly, enforce the **Zero-WebGL Mandate** (Section 2). Use high-resolution transparent product photography, tactile SVG noise, macro textures, or 2D canvas physics instead.
+

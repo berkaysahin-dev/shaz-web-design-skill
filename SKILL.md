@@ -11,9 +11,9 @@ When invoked for any web design, landing page, section, or component development
 
 ---
 
-## 1. The 18 Universal Design Laws (Applied Across ALL Categories & Sectors)
+## 1. The 20 Universal Design Laws (Applied Across ALL Categories & Sectors)
 
-Every component, section, landing page, and design prompt you produce must comply with these 18 non-negotiable laws. **These rules are completely universal and never restricted to a single industry or style.** They govern every domain you design for:
+Every component, section, landing page, and design prompt you produce must comply with these 20 non-negotiable laws. **These rules are completely universal and never restricted to a single industry or style.** They govern every domain you design for:
 - **Haute Horlogerie & Luxury Manufactures** (e.g. obsidian, titanium, warm champagne, calm mechanical autonomy)
 - **High-End SaaS, Cloud & Developer Tools** (e.g. monolithic typography, zero pills, high-density data matrices, clean CLI aesthetics)
 - **Architectural & Industrial Design Studios** (e.g. raw concrete, basalt, paper beiges, generous negative space)
@@ -24,30 +24,30 @@ Every component, section, landing page, and design prompt you produce must compl
 
 ### Law 1: Zero Fluff Text (High-Density Editorial Copy)
 - **Banned:** Long descriptive marketing paragraphs, decorative filler text, generic value propositions, and repetitive slogan blocks.
-- **Enforced:** Concise, sharp, intentional statements. Headlines must be authoritative and precise. Body copy must never exceed 1–2 dense, high-impact sentences. If a section can communicate its purpose with typography, structural layout, and data, eliminate the paragraph entirely.
+- **Enforced:** Concise, sharp, intentional statements. Headlines must be authoritative and precise. Body copy must never exceed 1 dense, high-impact sentence per section. If a section can communicate its purpose with typography, structural layout, or data, eliminate the paragraph entirely (0 sentences).
 
 ### Law 2: Zero Badges, Pills, Eyebrows, or Fake Coordinates
 - **Banned:** Floating pills above headings, "NEW", "AI POWERED", "BETA", "BEST SELLER" badges, status tags, rounded capsule labels, **eyebrow / kicker sub-labels above headings** (e.g. `SECTION 03`, `CATEGORY · SUB`), and **fake GPS telemetry / coordinates** (e.g. `46°12'09"N · 6°08'44"E`).
 - **Enforced:** Headings lead directly and authoritatively. Hierarchy is established exclusively through typographic scale, optical weight, negative space, and architectural borders without decorative micro-labels.
 
-### Law 3: Category-Driven Color Freedom with Strict Neon Prohibition
-- **Universal Palette Freedom:** There is no arbitrary limitation to a single color list. Any color family is permitted, provided it authentically matches the project's industry, physical materiality, and emotional context (e.g., Haute Horlogerie = Obsidian, titanium, warm champagne/gold; Architecture = Raw concrete, basalt, paper beiges; Biotech = Deep petroleum, clinical white, calm sage).
-- **Strict Neon Prohibition:** Blinking indicator dots, pulsing circles, neon strobe animations, electric pink/lime/fuchsia colors, glowing neon halos, neon drop-shadows (`drop-shadow-[0_0_15px_#00ff00]`), and artificial laser effects are permanently banned. All colors must be optical, matte, balanced, and glare-free. Motion is smooth and physics-governed.
+### Law 3: Category-Driven Color Freedom with Strict Neon & Blinking Light Prohibition
+- **Universal Palette Freedom:** There is no arbitrary limitation to a single color list. Any color family is permitted, provided it authentically matches the project's industry, physical materiality, and emotional context.
+- **Strict Neon & Blinking Light Prohibition:** Blinking indicator dots, pulsing circles (`animate-pulse`), radar pings, neon strobe animations, electric pink/lime/fuchsia colors, glowing neon halos, neon drop-shadows (`drop-shadow-[0_0_15px_#00ff00]`), and artificial laser effects are permanently banned across all UI components, telemetry boxes, and 3D stages. All colors must be optical, matte, balanced, and glare-free. Motion is smooth and physics-governed.
 
-### Law 4: Zero Generic Templates, AI Clichés, or Dry Wireframes
-- **Banned:** Default purple-to-cyan radial gradients, identical cookie-cutter 3-card bento grids, rounded corners applied without structural logic, interchangeable SaaS templates, **complex AI-fluff jargon** (e.g., "zero synthetic escapements", "algorithmic permanence"), and **dry wireframes** using concentric SVG circles instead of real visuals.
-- **Enforced:** Real visual assets (macro photography, 4K video textures like `abyss.mp4`) paired with active cinematic motion from `shaz-agency-web-design` (60fps lerp scroll-scrubbing, GSAP watch-hand kinematics, spring physics). Copy is natural, confident, and written like human luxury editorial.
+### Law 4: Zero Generic Templates, AI Clichés, or Cloned Instrument Curves
+- **Banned:** Default purple-to-cyan radial gradients, identical cookie-cutter 3-card bento grids, rounded corners applied without structural logic, interchangeable SaaS templates, **complex AI-fluff jargon**, and **the repetitive "3-KPI + 2D canvas curve + range slider" instrument formula**.
+- **Enforced:** Bespoke interactive mechanics extracted from `library/10-interactive-animations/` (e.g., 3D coverflow with inertia, faceted sliding drawers, liquid caustics, kinetic glyph scrubbers) paired with real visual assets. Copy is natural, confident, and written like human luxury editorial.
 
 ### Law 5: Zero Third-Party Branding
 - **Banned:** References to external scraper catalogs, clone sites, or third-party web archives.
 - **Enforced:** 100% original, proprietary Shaz Agency engineering standards and prompt specifications.
 
-### Law 6: Zero Emojis & Mandatory Monochrome Vector Icons
-- **Banned:** Emojis anywhere in UI (buttons, headings, feature cards, tags). Never use emojis (🚀, ✨, 🎉, ⌚, etc.) as substitute icons.
-- **Enforced:** Vector monochrome icons only (Lucide React or inline SVG, `stroke-current`, 1.5px–1.75px uniform weight).
+### Law 6: Zero Emojis, Zero Graphic Logo Emblems & Mandatory Monochrome Vector Icons
+- **Banned:** Emojis anywhere in UI (buttons, headings, feature cards, tags). **Graphic logo emblems, circular/square logo badges, or company mascot icons in the navigation or header** (e.g., `<svg className="logo-icon"...>` or app icon boxes next to the title).
+- **Enforced:** Pure typographic wordmarks (e.g., `VORTEX`, `EPURA`, `KRONOS` set in display font) or clean coordinates. Vector monochrome utility icons only (Lucide React or inline SVG, `stroke-current`, 1.5px–1.75px uniform weight) strictly for navigational actions, never as corporate logo emblems.
 
 ### Law 7: Zero Comment Leaks, Zero Text-Polluted Backgrounds & Authentic Media
-- **Banned:** JSX comment syntax (`{/* ... */}`) in raw HTML files where it renders as text; background videos/images with burned-in text or logos; irrelevant stock photography (e.g. cosmetics/coffee on luxury watch sites); simplistic demo wireframe diagrams.
+- **Banned:** JSX comment syntax (`{/* ... */}`) in raw HTML files where it renders as text; background videos/images with burned-in text or logos; irrelevant stock photography; simplistic demo wireframe diagrams.
 - **Enforced:** Clean code execution without comment leaks; atmospheric text-free background media or real-time Three.js WebGL canvas; 100% verified, authentic, high-resolution product photography; and complete editorial fidelity.
 
 ### Law 8: Selective Surface Hierarchy (Never Force Universal Double-Bezel)
@@ -55,20 +55,20 @@ Every component, section, landing page, and design prompt you produce must compl
 - **Enforced:** Deep lower-page accent only. Double-Bezel is reserved for deep lower-page containers (such as flagship tier pricing matrices or settings sheets). It is NEVER permitted in hero sections. Secondary cards, telemetry dossiers, and media modules must feature clean single hairline borders (`1px solid rgba(255, 255, 255, 0.08)`), flat obsidian panels, borderless floating layouts with divider rules, or subtle surface tonal shifts.
 
 ### Law 9: Zero Post-Hero Telemetry Ticker Strips
-- **Banned:** Placing a horizontal monospace stat bar / ticker band (e.g. `DAILY RATE: ±0.8S / 24H · 72-HOUR POWER RESERVE...`) directly underneath the hero banner.
+- **Banned:** Placing a horizontal monospace stat bar / ticker band directly underneath the hero banner.
 - **Enforced:** The hero concludes cleanly with cinematic breathing space. Detailed specifications and tolerances belong inside dedicated technical sections or interactive dossiers.
 
 ### Law 10: Seamless Atmospheric Section Transitions (Zero Razor Cuts)
 - **Banned:** Slicing consecutive sections with heavy 1px full-bleed horizontal borders (`border-b border-white/10`) that make the webpage look like severed stacked boxes.
 - **Enforced:** Smooth atmospheric transitions using deep background color gradients (`bg-gradient-to-b from-[#070709] via-[#0A0B10] to-[#070709]`), subtle radial illumination, and generous vertical negative space (120px–180px).
 
-### Law 11: Hero Elements Purity (Strictly Backgroundless & Never Double-Layered)
-- **Banned:** Enclosing hero elements (watch dials, 3D models, live execution engines, HUDs, telemetry boxes) inside double-layered card trays (`.bezel-tray` -> `.bezel-core`), double-bezel borders, or dark boxed backgrounds with corner telemetry labels; chaotic mouse-tilt scripts or reactive camera wobbling.
-- **Enforced:** All hero elements, HUDs, and visual specimens float strictly backgroundless (`bg-transparent`) directly on open space or ambient gradients with delicate hairline dividers, zero double layers, and zero dark background boxes. Kinematics operate with calm, serene mechanical precision (continuous sweeping hands, smooth 60s tourbillon rotation) without tilting or reacting hysterically to mouse coordinates.
+### Law 11: Hero Elements Purity & Anti-50/50 Cliché Mandate
+- **Banned:** Defaulting to a 50/50 two-column split where headlines and text are stacked on the left, and a 3D model or card is placed in a box on the right. Enclosing hero elements inside double-layered card trays, double-bezel borders, or dark boxed backgrounds with corner telemetry labels; chaotic mouse-tilt scripts or reactive camera wobbling.
+- **Enforced:** Varied hero compositions (Full-bleed ambient canvas with centered title; asymmetric monumental typography; kinetic horizontal strips; monolithic editorial curtains; or zero-specimen typographic stages). All hero visual elements float strictly backgroundless (`bg-transparent`) directly on open space or ambient gradients with delicate hairline dividers. Kinematics operate with calm, serene mechanical precision.
 
 ### Law 12: Bespoke Contextual Footers (Never Universal Swiss Clocks)
 - **Banned:** Generic 4-column corporate sitemaps ("About / Careers / Legal / Privacy"), social media vanity clutter, and **dogmatically copying the Geneva CET clock or Swiss coordinates to non-horological brands**.
-- **Enforced:** Footers must be derived from the 5 Navigation/Footer Archetypes (`rules/navigation-footer-archetypes.md`): monumental typographic brand wordmarks, authentic operational timekeeping/telemetry (e.g. Geneva CET for Swiss watch ateliers, Tokyo JST for architectural studios, UTC/uptime SLA for FinTech, or zero-clock editorial colophons for agriculture/fashion), verified physical salon/studio coordinates with direct VIP concierge action, or live system latency meters.
+- **Enforced:** Footers must be derived from the 5 Navigation/Footer Archetypes (`rules/navigation-footer-archetypes.md`): monumental typographic brand wordmarks, authentic operational timekeeping/telemetry, verified physical salon/studio coordinates with direct VIP concierge action, or live system latency meters.
 
 ### Law 13: Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter
 - **Banned:** Any text above headings ("Eyebrows", "Kickers", "Overlines" such as `HAUTE HORLOGERIE MANUFACTURE`, `PHYSICAL SALONS & BENCHES`, `TESTING PROTOCOL`, `SECTION 01`); corner labels, status chips, or micro-telemetry strings along borders (`Movement Architecture · 39.5mm · Monocoque`, `FLYING TOURBILLON`).
@@ -80,27 +80,38 @@ Every component, section, landing page, and design prompt you produce must compl
 
 ### Law 15: Page Architecture Modality (One-Page vs Multi-Page Routing Optionality)
 - **Banned:** Dogmatically forcing every project into a monolithic single-page infinite scroll with in-page hash anchors (`#about`, `#features`) when the brief warrants a comprehensive multi-page application.
-- **Enforced:** Strict modality selection:
-  * **One-Page Mode:** Single-objective launch pages, campaign teasers, or compact atelier showrooms.
-  * **Multi-Page Mode:** SaaS platforms, enterprise hubs, multi-product catalogs, and documentation portals using Next.js App Router multi-page routing (`app/(marketing)/about/page.tsx`, `app/(marketing)/features/page.tsx`, `app/(marketing)/pricing/page.tsx`, `app/(docs)/docs/[...slug]/page.tsx`) with layout persistence and smooth sub-pixel page transitions.
+- **Enforced:** Strict modality selection: One-Page Mode for single-objective launch pages/teasers; Multi-Page Mode for enterprise hubs, multi-product catalogs, and documentation portals using Next.js App Router.
 
 ### Law 16: Dynamic Navigation Archetypes (Contextual Selection, Never Blind Capsule Default)
 - **Banned:** Static bulky headers that occlude viewports, abrupt vanishing headers, CSS responsive leaks, and **blindly defaulting to the floating scroll-morphing capsule dock on every single project regardless of sector ergonomics**.
-- **Enforced:** The navigation system must be explicitly chosen from the 5 Archetypes (`rules/navigation-footer-archetypes.md`):
-  * **Archetype 1: Full-Bleed Editorial Horizon** (Magazines, Fashion, Luxury Monographs)
-  * **Archetype 2: Kinetic Two-Stage Scroll-Morphing Dock** (Ateliers, WebGL Showcases, Interactive Tools)
-  * **Archetype 3: Minimal Corner Telemetry & Canvas Anchors** (Architecture, Industrial Design, Spatial Art)
-  * **Archetype 4: Dual-Tier Precision Utility Header** (FinTech, Quant Dashboards, Enterprise Infrastructure)
-  * **Archetype 5: Asymmetric Brutalist Split & Fullscreen Drawer** (Experimental Festivals, Underground Media)
-  When the Scroll-Morphing Dock is selected, its two-stage state machine strictly uses deterministic CSS scoping (`display: none !important` on text links) to prevent desktop link spillover.
+- **Enforced:** The navigation system must be explicitly chosen from the 5 Archetypes (`rules/navigation-footer-archetypes.md`): Full-Bleed Editorial Horizon, Kinetic Two-Stage Scroll-Morphing Dock, Minimal Corner Telemetry & Canvas Anchors, Dual-Tier Precision Utility Header, or Asymmetric Brutalist Split & Fullscreen Drawer.
 
 ### Law 17: Ecosystem & Technology Integration Infinite Marquee
 - **Banned:** Clunky static sponsor grids, disparate multi-color brand clashes, or stuttering marquee belts with visible seam breaks.
-- **Enforced:** Dual-track continuous sub-pixel infinite marquee belt (`animation: ecosystemMarquee 35s linear infinite`), pause-on-hover, bilateral edge alpha feathering masks, and precision monochromatic SVGs (Claude, Google, OpenAI/ChatGPT, Shopify, Meta, Stripe, Amazon, Supabase, Apple) with subtle individual brand hover luminescence.
+- **Enforced:** Dual-track continuous sub-pixel infinite marquee belt (`animation: ecosystemMarquee 35s linear infinite`), pause-on-hover, bilateral edge alpha feathering masks, and precision monochromatic SVGs.
 
 ### Law 18: Bespoke Vector Favicon Architecture (Every Project Demands Tailored Brand Identity)
 - **Banned:** Generic browser defaults, missing favicons, emojis used as favicons, low-resolution raster `.ico` files, or reusing identical favicons across unrelated websites.
-- **Enforced:** Every website, product, and application must feature a custom, vector SVG favicon designed specifically for its brand identity, material palette, and sector motif (e.g. obsidian squircle with electric cyan node and geometric monogram for Shaz Agency / technology; gold bezel chronometer dial with sapphire depth for Haute Horlogerie; architectural compass/monolith for industrial design). Linked via `<link rel="icon" type="image/svg+xml" href="favicon.svg">` and provided as standalone root `favicon.svg`.
+- **Enforced:** Every website, product, and application must feature a custom, vector SVG favicon designed specifically for its brand identity, material palette, and sector motif. Linked via `<link rel="icon" type="image/svg+xml" href="favicon.svg">` and provided as standalone root `favicon.svg`.
+
+### Law 19: Tactile Material Depth, Anti-Caricature & Zero Synthetic Slashes (`//`)
+- **Banned:** Watered-down CSS approximations (`transition: all 0.2s`, `hover:translate-x-1`); synthetic double slashes (`//`) in titles, tags, headings, or navigation; flat caricature aesthetics (e.g. treating Neobrutalism as a childish yellow box with a 4px black border).
+- **Enforced:** Direct extraction of living interactive mechanics from `library/10-interactive-animations/` with real mathematical physics (`stiffness: 280, damping: 24, mass: 0.8`); mandatory procedural tactile noise layer (`<feTurbulence>` SVG overlay) on all surfaces; clean editorial punctuation (`01. PROJECT`, thin hyphens, or pure negative space) strictly without `//`.
+
+### Law 20: Mandatory Anti-Template Layout & Component Diversity
+- **Banned:**
+  * Replicating the **50/50 Left-Text / Right-Specimen Hero Cliché** (Image 1 failure).
+  * Replicating the **"3-KPI + 2D Canvas Curve + Range Slider" Instrument Formula** (Image 2 failure).
+  * Generating **rudimentary toy 3D meshes** (e.g. low-poly cylinders, spinning cubes, or confetti particles).
+  * Displaying **blinking/pulsing status dots** (`animate-pulse`) in 3D stages or telemetry.
+  * Adding **graphic brand logos or emblem badges** into headers/navs.
+- **Enforced:**
+  * Mandatory rotation across the **6 Hero Composition Archetypes** (`rules/section-composition-engine.md`).
+  * Mandatory rotation across the **125 Code & Chill interactive mechanics** (`library/10-interactive-animations/`: 3D coverflow monolith, faceted spring drawer, kinetic glyph scrubber, optical caustic refraction, micro-spring tabs, acoustic decibel meter).
+  * Verified production-grade 3D scenes from `library/05-3d-webgl/` with PBR transmission, dispersion, and studio softbox lighting—or the **Zero-WebGL Mandate** with macro photography and tactile noise.
+  * Pure typographic brand wordmarks or raw coordinates (strictly zero graphic logos).
+  * Static, calm matte status markers with zero blinking or pulsing.
+
 
 ---
 

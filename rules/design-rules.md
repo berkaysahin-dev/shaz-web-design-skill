@@ -291,5 +291,94 @@ Every website, digital product, or client application must possess an original, 
   * Explicit HTML head declaration: `<link rel="icon" type="image/svg+xml" href="favicon.svg">`.
   * Optional inline SVG Data URI fallback for self-contained single-file demos.
 
+---
+
+## 19. Strict Logo Prohibition (Zero Graphic Logos or Emblems in Headers & Nav)
+
+### Philosophy & Requirement:
+In high-end Swiss Utilitarian and editorial web design, decorative brand icons, graphic emblems, cartoon mascots, or badge shapes posing as logos clutter the apex and destroy editorial purity. High-end ateliers, architectural practices, and premier technology studios let typography and architectural presence lead.
+
+### Forbidden Anti-Patterns:
+- **Graphic Logo Emblems:** Placing SVG icons, shield badges, circular emblems, or decorative company glyphs next to the brand name in the navigation header.
+- **App Icon Boxes:** Enclosing brand letters inside rounded app icon squares (`w-8 h-8 rounded-lg bg-emerald-500`) masquerading as a logo.
+- **Logo Watermarks in Hero:** Stamping corporate logo marks onto hero canvases or section headers.
+
+### Authorized Patterns:
+- **Pure Typographic Wordmark:** The brand name is set exclusively in naked, unadorned typography using the project's display or monospace typeface (e.g., `VORTEX`, `EPURA BOTANICA`, `KRONOS ATELIER`, `SHAZ`).
+- **Raw Monogram or Coordinates:** If a brand anchor is needed in compact states, use a naked typographic single-letter glyph (e.g. `K·01`) or raw studio coordinates (`ZURICH · 47.3769° N`), with zero graphic emblems or border badges.
+
+---
+
+## 20. Strict Prohibition of the 50/50 Left-Text / Right-Specimen Hero Cliché
+
+### Philosophy & Requirement:
+The repetitive AI pattern of placing a headline and paragraph in the left 50% column and a 3D model or graphic card in the right 50% column creates immediate visual fatigue and looks like a generic website template. Hero section compositions must vary radically and authentically from project to project.
+
+### Forbidden Anti-Patterns:
+- **The Reflexive 50/50 Split:** Stacking headline, paragraph, buttons, and metrics in a left column, and dropping a 3D canvas or product box into the right column.
+- **Side-by-Side 3D Box Hero:** Wrapping a 3D specimen in a rigid square on the right side of the screen.
+
+### Authorized Patterns:
+Every project must deploy one of the **6 Hero Composition Archetypes**:
+1. **Full-Bleed Ambient Canvas Hero:** The 3D canvas, shader field, or particle simulation spans the entire viewport background (`fixed` or `absolute inset-0`). The authoritative headline sits centered or in the lower-third directly over the ambient space. Zero separate right-column box.
+2. **Asymmetric Monumental Typography Hero:** The typographic headline spans 80–90% of the viewport width with commanding optical weight. The interactive specimen or technical dossier is placed below or along an off-center asymmetric axis.
+3. **Kinetic Horizontal Strip Hero:** Panoramic, scroll-scrubbed or drag-inertia viewports spanning edge-to-edge across the horizontal plane.
+4. **Fullscreen Editorial Curtain Hero:** Sticky vertical narrative with a large-scale visual monograph or video texture curtain, followed by an editorial index below it.
+5. **Split Typography Hero:** Left and right columns hold contrasting typographic statements or editorial dialogues, with the specimen acting as an ambient center particle field or absent entirely.
+6. **Zero-Specimen Typographic Stage Hero:** No 3D model or specimen whatsoever. The hero's visual drama is carried 100% by kinetic letterforms, glyph scrubbers (`library/10-interactive-animations/components/glyph.md`), and tactile print typography.
+
+---
+
+## 21. Strict Prohibition of the "3-KPI + 2D Canvas Curve + Range Slider" Formula
+
+### Philosophy & Requirement:
+Copy-pasting the exact same interactive layout—consisting of 3 KPI metric tiles at the top, a 2D `<canvas>` curve with a single dot in the middle, and a horizontal range slider track with min/max labels at the bottom—across multiple client websites is completely unacceptable. Digital craftsmanship requires bespoke interaction mechanics tailored to the unique domain.
+
+### Forbidden Anti-Patterns:
+- **The "Instrument Box" Cliché:** Creating an identical card with 3 metric tiles, a 2D canvas curve, and an `<input type="range">` slider for cranes, botanicals, AI models, and watches alike.
+- **Formulaic 4-Button Altitudes/Toggles:** Adding a row of 4 pills below the slider as a repetitive secondary control.
+
+### Authorized Patterns:
+Every project must extract a distinct, living mechanical architecture from the **125 Code & Chill blueprints in `library/10-interactive-animations/`**:
+1. **3D Coverflow Monolith (`templates/monolith.md`, `templates/deck.md`):** Tilted 3D cards with drag inertia, mouse wheel scrubbing, and word-by-word rising captions.
+2. **Faceted Sliding Drawer (`components/cart.md`, `templates/den.md`):** Spring-physics sliding drawer with layered architectural specification disclosure.
+3. **Interactive Glyph Scrubber (`components/glyph.md`, `templates/nero.md`):** Kinetic character scrub responding dynamically to cursor coordinates.
+4. **Liquid Refraction & Optical Caustics (`components/aurelia.md`, `components/caustic.md`):** Procedural SVG displacement filter and WebGL caustic wave equations responding to cursor interaction.
+5. **Acoustic Decibel & Frequency Meter (`components/decibel.md`, `components/axis.md`):** Logarithmic decibel meter with Web Audio API physics and dynamic drag resistance.
+6. **Micro-Spring Mechanical Tabs (`components/atelier.md`, `components/ember.md`):** Physical tactile button depression with damped bounce-back and sub-pixel spring return.
+7. **Swipeable Card Deck (`templates/deck.md`, `components/deck.md`):** Physics-based card swipe stack with velocity flick and momentum decay.
+
+---
+
+## 22. Strict Prohibition of Rudimentary Toy 3D Meshes
+
+### Philosophy & Requirement:
+Generating naive, low-poly 10-line Three.js meshes (such as a simplistic cylinder bottle with rotating confetti cubes, a primitive wireframe box, or a generic spinning sphere) cheapens the experience and looks like amateur homework. 
+
+### Forbidden Anti-Patterns:
+- **Rudimentary Toy Meshes:** Quick, low-effort 3D geometries (e.g. basic cylinder + cone + rotating confetti squares) posing as luxury product models.
+- **Untextured Low-Poly Shapes:** Primitive unshaded geometries rotating mechanically in a void.
+
+### Authorized Patterns:
+- **Verified Library 3D Extraction:** Directly mount production-grade scenes from `library/05-3d-webgl/` (e.g. `pbr-dispersion-glass-stage.md`, `wave-galaxy.md`, `caustic.md`, `spectral-warp.md`, `liquid-aurora.md`) with authentic PBR transmission (`MeshPhysicalMaterial`, `roughness: 0.04`, `ior: 1.52`, `dispersion: 0.04`), studio softbox lighting, and mathematical GLSL shaders.
+- **Mandatory Zero-WebGL Alternative:** If authentic, production-grade 3D assets or shaders cannot be implemented cleanly, enforce the **Zero-WebGL Mandate** (`rules/3d-webgl-selection-engine.md`). Use high-resolution transparent product photography, tactile SVG noise, macro textures, or 2D canvas physics instead.
+
+---
+
+## 23. Zero Blinking / Pulsing Lights Anywhere in Telemetry or Stages
+
+### Philosophy & Requirement:
+Pulsating colored dots, flashing radar pings, or blinking lights (such as `<span class="animate-pulse ...">` inside 3D stage telemetry or header status tags) distract the user's eye, trigger sensory fatigue, and violate high-end editorial calm.
+
+### Forbidden Anti-Patterns:
+- **Pulsing Telemetry Dots:** `<span class="w-2 h-2 rounded-full bg-... animate-pulse" />` placed next to labels like "3D FLACON", "LIVE EXECUTION", or "SYSTEM ONLINE".
+- **Radar Pings / Beacon Rings:** CSS `@keyframes ping` or expanding concentric radar circles.
+- **Strobe / Blinking Animations:** Any CSS or Tailwind rule that pulses opacity or scale continuously without user interaction.
+
+### Authorized Patterns:
+- **Static, Matte Status Markers:** If a status indicator is required, use a solid, calm, non-pulsing dot (`w-1.5 h-1.5 rounded-full bg-stone-400 opacity-60`) that remains perfectly still.
+- **Interactive Micro-Interactions Only:** Visual feedback occurs strictly upon explicit user interaction (click, hover, drag) governed by spring physics, never as autonomous flashing lights.
+
+
 
 
