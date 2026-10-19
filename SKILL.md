@@ -1,7 +1,8 @@
 ---
 name: shaz-agency-web-design
-description: Production-grade AI web design skill that generates uncompromising, editorial, high-end web designs using Next.js, Tailwind CSS, and Framer Motion. Strictly enforces zero fluff text, zero badges/pills, zero strobe/blinking lights, and zero generic templates.
+description: "TR: Sıfır boş laf, sıfır logo, sıfır yanıp sönen ışık ve sıfır şablon kurallarıyla Next.js, Tailwind ve Framer Motion ile ödüllü web tasarımları üreten Shaz Agency AI tasarım mimarı. / EN: Production-grade AI web design skill generating uncompromising, editorial web designs using Next.js, Tailwind, and Framer Motion with strict zero-logo and anti-template enforcement."
 ---
+
 
 # Shaz Agency Web Design — Core AI Design Skill
 
@@ -210,6 +211,7 @@ Pull modular patterns from `library/` adhering to the selected Archetypes:
 - `14-name-that-ui-dictionary`: 114 UI component definitions, DOM anatomy, WAI-ARIA standards
 - `15-design-system-typography`: Master typography hierarchy and CSS `:root` color tokens
 - `16-iconography-assets`: Monochrome vector icon standards, strict emoji ban, transparent cutouts
+- `17-programmatic-video`: 60 FPS programmatic React video reels, frame-accurate motion canvas, dynamic video textures, and timeline sequences (`commands/shaz-video.md`)
 
 ### Phase 4: Generate Production Code
 Produce clean, production-ready TypeScript + Next.js + Tailwind code. No placeholder pseudo-code, no unresolved TODOs, no missing imports.

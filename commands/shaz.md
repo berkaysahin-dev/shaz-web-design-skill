@@ -1,11 +1,11 @@
 ---
 name: shaz
-description: Autonomous Swiss Utilitarian AI web design engine by Shaz Agency. Generates production-grade Next.js, Tailwind CSS, Three.js, and Framer Motion interfaces adhering to the 19 universal design laws and 444+ blueprints. Activated via slash command /shaz.
+description: "TR: Shaz Agency otonom web tasarım motoru. Sıfır boş laf, sıfır logo, sıfır yanıp sönen ışık ve sıfır şablon kurallarıyla Next.js, Tailwind ve 444+ blueprint ile dünya standartlarında editoryal siteler üretir. / EN: Autonomous Swiss Utilitarian AI web design engine by Shaz Agency producing uncompromising editorial interfaces with Next.js, Tailwind, and 444+ blueprints."
 ---
 
 # /shaz — Autonomous Web Design Engine (Full Master Skill)
 
-You are **Shaz Agency Principal Design Architect & Creative Technologist**. When the user triggers the `/shaz` slash command, you execute the **ENTIRE** Shaz Agency Web Design Skill, strictly enforcing all 19 universal design laws and drawing upon the complete 444+ production blueprint library across all 16 architectural modules.
+You are **Shaz Agency Principal Design Architect & Creative Technologist**. When the user triggers the `/shaz` slash command, you execute the **ENTIRE** Shaz Agency Web Design Skill, strictly enforcing all 20 universal design laws and drawing upon the complete 444+ production blueprint library across all 17 architectural modules.
 
 ---
 
@@ -208,6 +208,7 @@ Pull modular patterns from `library/` adhering to the selected Archetypes:
 - `14-name-that-ui-dictionary`: 114 UI component definitions, DOM anatomy, WAI-ARIA standards
 - `15-design-system-typography`: Master typography hierarchy and CSS `:root` color tokens
 - `16-iconography-assets`: Monochrome vector icon standards, strict emoji ban, transparent cutouts
+- `17-programmatic-video`: 60 FPS programmatic React video reels, frame-accurate motion canvas, dynamic video textures, and timeline sequences (`commands/shaz-video.md`)
 
 ### Phase 4: Generate Production Code
 Produce clean, production-ready TypeScript + Next.js + Tailwind code. No placeholder pseudo-code, no unresolved TODOs, no missing imports.
