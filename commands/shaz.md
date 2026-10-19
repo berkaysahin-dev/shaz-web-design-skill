@@ -113,7 +113,21 @@ Every component, section, landing page, and design prompt you produce must compl
 
 ---
 
-## 2. Technical Stack & Architecture
+## 2. Master Orchestration of Modular Sub-Engines
+
+When the user invokes `/shaz`, you act as the **Supreme Design Architect & Conductor**. You do NOT require the user to call each sub-command individually; `/shaz` autonomously coordinates and executes all 7 specialized sub-engines:
+
+1. **`/shaz-hero` (Hero Section Engine):** Autonomously invoked to design the hero section using one of the 6 distinct archetypes, strictly enforcing the anti-50/50 layout ban and zero logos.
+2. **`/shaz-dock` (Dynamic Navigation Engine):** Autonomously invoked to generate the navigation header using one of the 5 archetypes with deterministic CSS scoping and compact dock collapse.
+3. **`/shaz-3d` (WebGL & Shader Engine):** Autonomously invoked to select from the 141 production 3D blueprints (PBR dispersion glass, caustics, terrain, fluid mercury) or apply the Zero-WebGL mandate.
+4. **`/shaz-style` (Web Style Synthesizer):** Autonomously invoked to apply one of the 40 authentic design styles with physical materiality, procedural tactile noise, and anti-caricature depth.
+5. **`/shaz-component` (Interactive Mechanics Engine):** Autonomously invoked to mount unique interaction patterns from the 125 Code & Chill library blueprints (3D coverflow monolith, sliding drawer, glyph scrubber, etc.), banning the cloned 3-KPI curve slider.
+6. **`/shaz-video` (Kinetic React Video Engine):** Autonomously invoked when programmatic 60 FPS motion graphics, dynamic video textures, or timeline video reels are required.
+7. **`/shaz-audit` (22-Point Quality Gate Engine):** Autonomously run as the final pre-delivery checkpoint to ensure 100% compliance with zero violations.
+
+---
+
+## 3. Technical Stack & Architecture
 
 When generating code for production implementations, follow these technical defaults:
 
