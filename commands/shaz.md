@@ -64,9 +64,9 @@ Every component, section, landing page, and design prompt you produce must compl
 - **Banned:** Enclosing hero elements (watch dials, 3D models, live execution engines, HUDs, telemetry boxes) inside double-layered card trays (`.bezel-tray` -> `.bezel-core`), double-bezel borders, or dark boxed backgrounds with corner telemetry labels; chaotic mouse-tilt scripts or reactive camera wobbling.
 - **Enforced:** All hero elements, HUDs, and visual specimens float strictly backgroundless (`bg-transparent`) directly on open space or ambient gradients with delicate hairline dividers, zero double layers, and zero dark background boxes. Kinematics operate with calm, serene mechanical precision (continuous sweeping hands, smooth 60s tourbillon rotation) without tilting or reacting hysterically to mouse coordinates.
 
-### Law 12: Bespoke Non-Classic Luxury Footers
-- **Banned:** Generic 4-column corporate sitemaps ("About / Careers / Legal / Privacy") and social media vanity clutter.
-- **Enforced:** Monumental typographic brand wordmarks, live atelier timekeeping telemetries (e.g. Geneva CET real-time clock with running seconds and active workbench status), physical salon coordinates with direct appointment concierge, and cryptographic archive/hallmark verification checks.
+### Law 12: Bespoke Contextual Footers (Never Universal Swiss Clocks)
+- **Banned:** Generic 4-column corporate sitemaps ("About / Careers / Legal / Privacy"), social media vanity clutter, and **dogmatically copying the Geneva CET clock or Swiss coordinates to non-horological brands**.
+- **Enforced:** Footers must be derived from the 5 Navigation/Footer Archetypes (`rules/navigation-footer-archetypes.md`): monumental typographic brand wordmarks, authentic operational timekeeping/telemetry (e.g. Geneva CET for Swiss watch ateliers, Tokyo JST for architectural studios, UTC/uptime SLA for FinTech, or zero-clock editorial colophons for agriculture/fashion), verified physical salon/studio coordinates with direct VIP concierge action, or live system latency meters.
 
 ### Law 13: Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter
 - **Banned:** Any text above headings ("Eyebrows", "Kickers", "Overlines" such as `HAUTE HORLOGERIE MANUFACTURE`, `PHYSICAL SALONS & BENCHES`, `TESTING PROTOCOL`, `SECTION 01`); corner labels, status chips, or micro-telemetry strings along borders (`Movement Architecture · 39.5mm · Monocoque`, `FLYING TOURBILLON`).
@@ -82,9 +82,15 @@ Every component, section, landing page, and design prompt you produce must compl
   * **One-Page Mode:** Single-objective launch pages, campaign teasers, or compact atelier showrooms.
   * **Multi-Page Mode:** SaaS platforms, enterprise hubs, multi-product catalogs, and documentation portals using Next.js App Router multi-page routing (`app/(marketing)/about/page.tsx`, `app/(marketing)/features/page.tsx`, `app/(marketing)/pricing/page.tsx`, `app/(docs)/docs/[...slug]/page.tsx`) with layout persistence and smooth sub-pixel page transitions.
 
-### Law 16: Scroll-Morphing Collapsible Dock Navigation
-- **Banned:** Static bulky headers that persistently occlude reading viewports during downward scroll, or abrupt vanishing headers that abandon the user without access; CSS responsive leaks where desktop media queries spill text links out of the collapsed pill.
-- **Enforced:** Kinetic two-stage header state machine. At page apex (`scrollY <= 80px`), presents a full-width luxury navigation bar. Upon downward scroll (`scrollY > 80px`), smoothly collapses into a centered, compact floating dock (`width: auto !important; max-width: fit-content !important;`, `rounded-full`, backdrop blur, hairline border), using deterministic CSS scoping (`display: none !important` on text links and actions) to gracefully morph into clean monochrome SVG icons with an on-demand expandable menu drawer.
+### Law 16: Dynamic Navigation Archetypes (Contextual Selection, Never Blind Capsule Default)
+- **Banned:** Static bulky headers that occlude viewports, abrupt vanishing headers, CSS responsive leaks, and **blindly defaulting to the floating scroll-morphing capsule dock on every single project regardless of sector ergonomics**.
+- **Enforced:** The navigation system must be explicitly chosen from the 5 Archetypes (`rules/navigation-footer-archetypes.md`):
+  * **Archetype 1: Full-Bleed Editorial Horizon** (Magazines, Fashion, Luxury Monographs)
+  * **Archetype 2: Kinetic Two-Stage Scroll-Morphing Dock** (Ateliers, WebGL Showcases, Interactive Tools)
+  * **Archetype 3: Minimal Corner Telemetry & Canvas Anchors** (Architecture, Industrial Design, Spatial Art)
+  * **Archetype 4: Dual-Tier Precision Utility Header** (FinTech, Quant Dashboards, Enterprise Infrastructure)
+  * **Archetype 5: Asymmetric Brutalist Split & Fullscreen Drawer** (Experimental Festivals, Underground Media)
+  When the Scroll-Morphing Dock is selected, its two-stage state machine strictly uses deterministic CSS scoping (`display: none !important` on text links) to prevent desktop link spillover.
 
 ### Law 17: Ecosystem & Technology Integration Infinite Marquee
 - **Banned:** Clunky static sponsor grids, disparate multi-color brand clashes, or stuttering marquee belts with visible seam breaks.
@@ -138,29 +144,67 @@ On dark themes:
 
 ---
 
-## 4. Execution Workflow Across the 16 Master Modules (444+ Blueprints)
+## 4. Execution Workflow (Design Diversity & Dual Quality Gate)
 
-When tasked with generating a web design or code implementation:
+When tasked with generating a web design, section, or complete implementation via `/shaz`:
 
-1. **Deconstruct Brief:** Identify industry, focal action, and visual tone (Swiss Utilitarian, Editorial Luxury, Technical Minimal).
-2. **Consult Rules & Matrix:** Verify compliance against `rules/design-rules.md`, `rules/tech-standards.md`, `rules/accessibility-standards.md`, `rules/multi-platform-adaptivity.md`, and **`rules/contextual-activation-matrix.md`** (which maps exact sector fonts, colors, 3D scenes, animations, and icons).
-3. **Select or Adapt Prompt:** Pull modular patterns from `library/`:
-   - `01-hero-sections`: Split heroes, cinematic editorial, monolithic type
-   - `02-navigation`: Double-bezel floating navbars & minimal overlays
-   - `03-typography`: Kinetic text orchestration & glyph scrubbers
-   - `04-motion`: Parallax timeline scrubbers & spring dynamics
-   - `05-3d-webgl`: 141 production 3D scenes & WebGL sections (PBR dispersion glass, caustics, mercury liquid metals, procedural elevation shaders, DNA helices, galaxy meshes, CAD wireframe inspectors)
-   - `06-product-showcase`: Kinetic hardware layer switchers
-   - `07-pricing-features`: Inverted surface core capability matrices
-   - `08-ecommerce`: Monolithic luxury cards & faceted sliding drawers
-   - `09-forms-footers`: Asymmetric editorial footers, bespoke luxury footers & concierge inquiry forms
-   - `10-interactive-animations`: 125 curated Code & Chill mechanics (82 components + 43 templates with GSAP, springs, drag inertia, and liquid glass)
-   - `11-dashboards-data-viz`: High-density financial telemetry matrices, stepped SVG area charts, and double-bezel KPI cards
-   - `12-forms-validation-wcag`: Multi-step progressive disclosure allocation wizards with inline WCAG 2.1 AA/AAA validation and screen reader live regions
-   - `13-web-styles`: 40 complete web design styles (Acid Graphics, Brutalism, Neobrutalism, Bento Grid, Claymorphism, Cyber Pop, Editorial Magazine, Japanese Web Design, Kinetic Typography, Luxury Editorial, Maximalism, Spatial UI, Surrealism, Y2K)
-   - `14-name-that-ui-dictionary`: 114 comprehensive UI component definitions, interaction patterns, DOM anatomy, WAI-ARIA standards, and architectural VS comparisons
-   - `15-design-system-typography`: Master typography hierarchy (Druk Wide, Tilt Warp, Neue Haas Grotesk, Spline Sans, Plus Jakarta Sans, JetBrains Mono, Outfit), Google Fonts embed, and CSS `:root` color tokens
-   - `16-iconography-assets`: Monochrome vector icon standards (Lucide React, inline SVG, 1.5px–1.75px), strict emoji ban, 3D transparent asset cutouts, and cinematic video prompt formula
+### Phase 0: Project Topology Analysis (Design Diversity Engine)
+Analyze the brief across the 10 topology dimensions (`rules/design-diversity-engine.md`):
+1. **Audience & Sophistication Level** (Ultra-High-Net-Worth, Engineers, Cult Creatives, Retail Consumers)
+2. **Sector & Materiality** (Basalt/Titanium, Brutalist Print, Monolithic Concrete, Liquid Glass, Organic Soil)
+3. **Brand Persona** (Sacred Atelier, Rebel Underground, Silent Monolith, Clinical Vanguard, Biodynamic Earth)
+4. **Emotional Tone & Resonance** (Solemn & Reverent, High-Voltage Chaos, Calm Clarity, Earthy Tactility)
+5. **Information Density** (Ultra-Sparse Editorial, High-Density Telemetry Matrix, Asymmetric Rhythms)
+6. **Visual Gravity** (Center Monumental, Left Monolith, Fragmented Multi-Plane, Horizontal Axis)
+7. **Motion Cadence** (Stately Kinematic, Glitch/Inertia, Micro Spring Physics, Static Print Purity)
+8. **3D/WebGL Purpose** (Functional CAD Inspection, Real-Time Audio Canvas, Organic Simulation, or **Mandatory Zero-WebGL**)
+9. **Viewport Modality** (One-Page Precision Showcase vs. Multi-Page Enterprise / App Hub)
+10. **Chromatic Polarity** (Obsidian Void, Warm Editorial Paper, Clinical Bone, Verdant Soil, Acid Contrast)
+
+### Phase 1: 3-Direction Exploration Gate
+Formulate 3 fundamentally distinct design directions (varying in layout archetype, typography, chromatic polarity, 3D strategy, navigation, and footer architecture). Select the winning direction and justify eliminations before writing code (`checklists/diversity-gate.md`).
+
+### Phase 2: Compile Mandatory Project Design Signature
+Explicitly output the Project Design Signature:
+```markdown
+### Project Design Signature
+- **Project Archetype:** [e.g., Tactile Editorial & Soil Provenance / Minimal Monolith / Haute Horlogerie]
+- **Chromatic Polarity:** [e.g., Warm Alabaster & Forest Soil / Monochromatic Basalt / Obsidian Champagne]
+- **Palette Tokens:** Background: `[hex]`, Surface: `[hex]`, Accent: `[hex]`, Border: `[hex]`
+- **Typography Pairing:** Display: `[Font]`, Body: `[Font]`, Telemetry: `[Font]`
+- **Hero Composition Archetype:** [Archetype 1-8 from rules/design-diversity-engine.md]
+- **Section Narrative Flow:** [Section 1] -> [Section 2] -> [Section 3] -> [Section 4] -> [Section 5]
+- **3D / WebGL Approach:** [Specific blueprint ID / Technical Category / or ZERO-WEBGL]
+- **Navigation Archetype:** [Archetype 1-5 from rules/navigation-footer-archetypes.md]
+- **Footer Archetype & Telemetry:** [Archetype 1-5 from rules/navigation-footer-archetypes.md]
+```
+
+### Phase 3: Select & Adapt Blueprints
+Pull modular patterns from `library/` adhering to the selected Archetypes:
+- `01-hero-sections`: Split heroes, cinematic editorial, monolithic type
+- `02-navigation`: Dynamic navigation archetypes (Full-Bleed, Scroll-Dock, Corner Telemetry, Dual-Tier, Split)
+- `03-typography`: Kinetic text orchestration & glyph scrubbers
+- `04-motion`: Parallax timeline scrubbers & spring dynamics
+- `05-3d-webgl`: 141 production 3D scenes categorized across 9 technical families (`rules/3d-webgl-selection-engine.md`) or Zero-WebGL
+- `06-product-showcase`: Kinetic hardware layer switchers
+- `07-pricing-features`: Inverted surface core capability matrices
+- `08-ecommerce`: Monolithic luxury cards & faceted sliding drawers
+- `09-forms-footers`: Bespoke footers across 5 architectural archetypes (`rules/navigation-footer-archetypes.md`)
+- `10-interactive-animations`: 125 curated Code & Chill mechanics (GSAP, springs, drag inertia)
+- `11-dashboards-data-viz`: High-density telemetry matrices, stepped SVG charts, and double-bezel KPI cards
+- `12-forms-validation-wcag`: Multi-step progressive disclosure allocation wizards with inline WCAG 2.1 AA/AAA
+- `13-web-styles`: 40 complete web design styles
+- `14-name-that-ui-dictionary`: 114 UI component definitions, DOM anatomy, WAI-ARIA standards
+- `15-design-system-typography`: Master typography hierarchy and CSS `:root` color tokens
+- `16-iconography-assets`: Monochrome vector icon standards, strict emoji ban, transparent cutouts
+
+### Phase 4: Generate Production Code
+Produce clean, production-ready TypeScript + Next.js + Tailwind code. No placeholder pseudo-code, no unresolved TODOs, no missing imports.
+
+### Phase 5: Dual Quality & Diversity Gate Audit
+Run the mandatory dual audit:
+1. **Diversity Gate Audit** (`checklists/diversity-gate.md`): Verify chromatic polarity, layout variety, section narrative derivation, 3D justification, navigation fit, footer authenticity, typography pairing, and anti-bento component variety.
+2. **Universal Quality Gate Audit** (`checklists/quality-gate.md`): Verify zero fluff, zero badges/pills/eyebrows, zero blinking/pulse lights, zero emojis, zero post-hero ticker strips, selective double-bezel, and clean media.
 
 ---
 
