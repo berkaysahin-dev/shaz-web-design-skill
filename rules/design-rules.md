@@ -155,35 +155,52 @@ There is no arbitrary restriction to a fixed set of colors. Any color family may
 
 ---
 
-## 12. Bespoke Non-Classic Luxury Footers
+## 12. The Architectural Master Horizon Footer (Zero Corporate Micro-Columns & Zero Cliché Ghost Watermarks)
+
+### Philosophy & Requirement:
+The footer is the architectural closing of the digital sanctuary. Generic 4-column corporate sitemaps, fake serial number query forms, status dots, and giant low-opacity ghost watermarks dumped at the bottom destroy luxury perception. The footer must deploy the **Architectural Horizon Footer Architecture**: a quiet, commanding dialogue horizon, clean symmetrical navigation deck without micro-labels, and a balanced horizon baseline.
 
 ### Forbidden Anti-Patterns:
-- **Generic 4-Column Corporate Sitemaps:** Slicing the footer into standard boring columns of "Company / About / Careers / Legal / Privacy".
-- **Social Media Vanity Grids & Clutter:** Placing colorful social buttons or generic newsletter signup pills at the bottom of a high-end luxury site.
+- **Corporate Micro-Columns & Kicker Titles:** Slicing the footer into 3 or 4 columns crowned by uppercase micro-labels (e.g. `PHYSICAL ATELIERS`, `LABORATORY STATUS`, `DIRECT DESK`, `RESOURCES`, `COMPANY`).
+- **Tacky Status Markers & Colored Dots:** Flashing or solid green/amber status dots paired with cockpit status text (e.g. `• CHAMBERS ACTIVE · ALLOCATION OPEN`, `6 MASTER HOROLOGISTS ON DUTY`).
+- **Serial Number Query Inputs:** Adding fake verification forms (`Enter Serial Number`, `Observatory Ledger Query`) that clutter the footer with toy inputs.
+- **Cheap Ghost-Text Watermarks:** Stamping giant 15vw–20vw faint text (`opacity-[0.03]`) at the very bottom just to fill empty space.
+- **Social Media Vanity Grids:** Colorful icons, badge pills, or generic newsletter subscribe inputs.
 
 ### Authorized Patterns:
-- **Monumental Typographic Brand Seal:** A grand, architectural brand mark spanning the container with subdued opacity.
-- **Live Atelier Timekeeper & Bench Status:** Displaying the real-time local clock of the manufacture (e.g., Geneva CET with live ticking seconds) and master craftsman workbench status.
-- **Physical Salons & Private Viewing Concierge:** Physical salon addresses (Geneva, Zurich, London, Tokyo) presented as architectural destinations with direct appointment triggers.
-- **Cryptographic Archive Verification:** An interactive serial number check allowing collectors to query observatory testing stability certificates and master watchmaker signature archives.
+- **The Architectural Horizon Dialogue:** Opens with an authoritative, quiet editorial invitation sentence (e.g., *"Initiating dialogue for private commissions, acoustic architecture, and institutional installations worldwide."*) paired with a direct, minimalist single-line inquiry action (`inquire@valence.ch →` or `Schedule Private Consultation →` with a delicate sub-pixel hover underline).
+- **Clean Symmetrical Navigation Deck (Zero Micro-Labels):** High-contrast editorial text links (`Architecture`, `Acoustic Physics`, `Private Commissions`, `Journal`, `Archive`) positioned cleanly without category header tags.
+- **Global Presence Horizon:** Physical ateliers and destinations listed in dignified, quiet typography (`Zürich · Seefeldstrasse 48`, `Kyoto · Gion South`, `New York · Tribeca`) without uppercase `LOCATIONS` or `PHYSICAL ATELIERS` prefixes.
+- **The Horizon Baseline:** Separated by a single 1px hairline border (`rgba(255, 255, 255, 0.08)`):
+  * **Left:** Pure typographic copyright (`© 2026 VALENCE ATELIER. SWISS ARCHITECTURAL ACOUSTICS.`).
+  * **Center:** Quiet legal and ethics links (`Privacy · Terms · Provenance · Colophon`).
+  * **Right:** Discrete local atelier time (`Zürich 20:15 CET`) without status dots, colored markers, or blinking indicators.
+- **Crisp Sculpted Brand Insignia:** An authoritative, perfectly kerned display typographic wordmark integrated with optical balance.
 
 ---
 
-## 13. Absolute Ban on Eyebrows, Overlines & Micro-Telemetry Clutter
+## 13. Absolute Ban on Eyebrows, Overlines & Micro-Telemetry Clutter (Zero "Üst Küçük Yazılar")
 
 ### Terminology & Nature:
-- **Eyebrow (Kaş Metni) / Overline / Kicker:** The small, decorative labels placed directly above headlines or section dividers (e.g. `HAUTE HORLOGERIE MANUFACTURE`, `PHYSICAL SALONS & BENCHES`, `TESTING PROTOCOL`, `SECTION 03`).
-- **Telemetry / Metadata Clutter (Mikro Bilgi Kirliliği):** Small micro-labels, status snippets, and dimension tags scattered along borders, corners, or divider lines (e.g. `Movement Architecture · 39.5mm · Monocoque`, `FLYING TOURBILLON · SWISS CHRONOMETER`, `6 MASTER WATCHMAKERS ACTIVE`).
-- **Why It Is Banned:** AI tools and generic templates habitually clutter every empty space with eyebrows and corner micro-copy to look "technical." In true luxury, architectural, and editorial design, this creates visual noise, looks like an amateur tech cockpit, and dilutes typographic authority.
+- **Eyebrow / Overline / Kicker:** Small uppercase labels placed directly above headlines or section dividers (e.g. `HAUTE HORLOGERIE MANUFACTURE`, `PHYSICAL SALONS & BENCHES`, `TESTING PROTOCOL`, `SECTION 03`).
+- **Corner Micro-Labels (Köşe Küçük Yazıları):** Monospace corner annotations stamped onto card or canvas edges (e.g. `ZÜRICH BENCH 04`, `CHAMBER 01`, `NODE B`, `COORDINATE 47.37°N`).
+- **Canvas / Stage Floating Telemetry Lines (Yüzen Telemetri Şeritleri):** Horizontal monospace status lines floating at the top or bottom of canvases/visual stages (e.g. `• REAL-TIME ISO-ACOUSTIC WAVEFIELD DISPERSION · 0.001% THD`).
+- **Card-Header Micro-Strips (Kart Üstü Küçük Yazı Barları):** Monospace subtitle strips running across the top of cards or containers (e.g. `SERIES 01               Solid Volcanic Basalt` or `SPECIFICATION · METRIC`).
+
+### Why It Is Banned:
+AI tools and generic templates habitually clutter every empty corner and card top with small uppercase micro-texts to look "technical." In true luxury, architectural, and editorial design, this creates visual noise, looks like an amateur sci-fi cockpit, and dilutes typographic authority. Surfaces, canvases, and cards must breathe with pure visual clarity.
 
 ### Forbidden Anti-Patterns:
-- Placing any uppercase eyebrow, overline, kicker, or category tag above main section headings.
-- Placing header bar labels, subtitle strips, or status strings at the top of a hero section or footer.
-- Scattering corner coordinates, dimension tags, or technical sub-labels along card edges and divider lines.
+- **Corner Micro-Labels:** Placing labels like `ZÜRICH BENCH 04`, `STAGE 02`, `NODE 01`, or coordinates in the top-left, top-right, or corners of any canvas, card, or container.
+- **Floating Stage Telemetry Lines:** Stamping lines like `• REAL-TIME ISO-ACOUSTIC... · 0.001% THD` at the bottom or top of visual stages or 3D viewports.
+- **Card-Header Micro-Strips:** Placing header strips like `SERIES 01` / `Solid Volcanic Basalt` across the top of cards.
+- **Section Eyebrows & Overlines:** Placing any uppercase eyebrow, kicker, or category tag above main section headings.
+- **Footer Micro-Kickers:** Placing micro-kicker titles (`PHYSICAL ATELIERS`, `LABORATORY STATUS`, `DIRECT DESK`) above footer content.
 
 ### Authorized Patterns:
 - **Naked, Authoritative Headlines:** Headings lead directly and commandingly with optical scale, negative space, and typographic contrast. Zero eyebrow prefixes.
-- **Clean Content Flow:** Let the headline and purposeful body text carry the narrative without decorative micro-annotations.
+- **Uncluttered Visual Canvases:** 3D canvases, shader viewports, and wavefields float completely pure and uncluttered, without corner text stamps or floating telemetry status lines.
+- **Clean Card Content Flow:** Cards lead directly with the real title, visual specimen, or editorial description without micro-header strips. Let typography and layout speak for themselves.
 
 ---
 

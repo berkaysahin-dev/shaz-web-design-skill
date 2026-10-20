@@ -171,16 +171,29 @@ foreach ($f in $tsxFiles) {
 }
 Write-Host " PASS ($tsxCount / $($tsxFiles.Count) test pages compiled)"
 
-# Check 8: Forbidden Eyebrow Labels and Fake Telemetry/Coordinates
-Write-Host "[CHECK 8] Scanning for forbidden eyebrow kicker labels and fake coordinates..." -NoNewline
+# Check 8: Forbidden Eyebrow Labels, Corner Micro-Labels & Footer Micro-Kickers
+Write-Host "[CHECK 8] Scanning for forbidden eyebrow kicker labels, corner tags and micro-telemetry..." -NoNewline
 $c8Violations = 0
-$eyebrowPatterns = @('SECTION \d+', 'ATELIER DOCTRINE', 'OBSERVATORY SPECIFICATION', '\d+°\d+[\x27\x22]?[N|S]', 'INDEPENDENT CHRONOMETRY', 'HAUTE HORLOGERIE MANUFACTURE', 'PHYSICAL SALONS & BENCHES', 'GENEVA ATELIER BENCH')
-$allAuditFiles = @($filesToAudit) + @(Get-ChildItem -Path (Join-Path $rootDir "demos") -Recurse -File -Include "*.html", "*.tsx")
+$eyebrowPatterns = @('SECTION \d+', 'ATELIER DOCTRINE', 'OBSERVATORY SPECIFICATION', '\d+°\d+[\x27\x22]?[N|S]', 'INDEPENDENT CHRONOMETRY', 'HAUTE HORLOGERIE MANUFACTURE', 'PHYSICAL SALONS & BENCHES', 'GENEVA ATELIER BENCH', 'PHYSICAL ATELIERS', 'ZÜRICH LABORATORY STATUS', 'DIRECT DESK', 'ZÜRICH BENCH', 'BENCH \d+', 'CHAMBERS ACTIVE')
+$allAuditFiles = @($filesToAudit) + @(Get-ChildItem -Path (Join-Path $rootDir "demos") -Recurse -File -Include "*.html", "*.tsx" -ErrorAction SilentlyContinue)
 foreach ($f in $allAuditFiles) {
-    $content = Get-Content -Path $f.FullName -Raw
-    foreach ($pat in $eyebrowPatterns) {
-        if ($content -match $pat) {
-            $c8Violations++
+    if ($f.Name -ne "run-quality-audit.ps1") {
+        $content = Get-Content -Path $f.FullName -Raw
+        $codeBlocks = @()
+        if ($f.Extension -eq ".tsx" -or $f.Extension -eq ".html") {
+            $codeBlocks += $content
+        } elseif ($content -match '```tsx([\s\S]*?)```') {
+            $matches = [regex]::Matches($content, '```tsx([\s\S]*?)```')
+            foreach ($m in $matches) {
+                $codeBlocks += $m.Groups[1].Value
+            }
+        }
+        foreach ($cb in $codeBlocks) {
+            foreach ($pat in $eyebrowPatterns) {
+                if ($cb -match $pat) {
+                    $c8Violations++
+                }
+            }
         }
     }
 }

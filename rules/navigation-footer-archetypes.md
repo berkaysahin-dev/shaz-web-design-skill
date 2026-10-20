@@ -20,23 +20,22 @@ Select the navigation structure that authentically serves the project's reading 
 
 ## 2. Footer Archetypes
 
-Never copy the same footer pattern between unrelated industries:
+Never copy the same footer pattern between unrelated industries. Every footer must strictly eliminate uppercase micro-titles (`PHYSICAL ATELIERS`, `DIRECT DESK`, `LABORATORY STATUS`), status dots, and toy inputs:
 
 | Archetype | Real Blueprint ID / File | Best For | Key Visual Components | Prohibited When |
 | :--- | :--- | :--- | :--- | :--- |
-| **1. Haute Horlogerie Atelier Closing** | `09-forms-footers/bespoke-luxury-atelier-footer.md` | Luxury watch manufactures, private diamond ateliers, bespoke instrument makers. | Real-time Geneva CET clock (`Europe/Zurich`), salon addresses, Poinçon de Genève serial registry check, monumental brand watermark. | **STRICTLY BANNED** on SaaS, music festivals, food brands, and medical apps. |
-| **2. Editorial Split Statement Footer** | `09-forms-footers/editorial-split-footer.md` | Architecture practices, design consultancies, cultural institutions. | 50/50 vertical split: Left side features a commanding design manifesto sentence; Right side features direct principal partner email and salon cities. | High-volume consumer retail stores. |
+| **1. Architectural Master Horizon Footer** | `09-forms-footers/bespoke-luxury-atelier-footer.md` | Luxury ateliers, architectural studios, avant-garde hardware manufactures. | Architectural dialogue invitation, single-line inquiry action (`inquire@... →`), symmetrical navigation deck (zero micro-labels), physical destinations in pure typography, and clean horizon baseline with discreet local time (zero status dots). | High-volume consumer discount shops. |
+| **2. Editorial Split Statement Footer** | `09-forms-footers/editorial-split-footer.md` | Architecture practices, design consultancies, cultural institutions. | 50/50 vertical split: Left side features a commanding design manifesto sentence; Right side features direct principal partner email and salon cities. Zero corporate columns. | High-volume consumer retail stores. |
 | **3. Monumental Typographic Poster Footer** | `13-web-styles/kinetic-typography.md` | Music festivals, underground events, creative agency portfolios. | Edge-to-edge 120px headline ("THE HORIZON AWAITS"), live doors-open countdown timer, direct ticket purchase trigger, zero corporate link lists. | Financial accounting tools, clinical healthcare. |
-| **4. Compact Utility Ledger Footer** | `rules/tech-standards.md` | FinTech trading, developer cloud tools, enterprise SaaS. | High-density 1-row or 2-row table: API status, current latency, cryptographic license key, privacy, terms, uptime badge. | Creative studio portfolios, artistic launches. |
-| **5. Agricultural Terroir & Provenance Footer** | `rules/section-composition-engine.md` (Archetype 5) | Biodynamic wine estates, organic food, regenerative agriculture. | Farm geographic coordinates, seasonal harvest calendar, cellar visiting hours, organic soil certification hallmark. | Software developer tools, tech startups. |
+| **4. Compact Utility Ledger Footer** | `rules/tech-standards.md` | FinTech trading, developer cloud tools, enterprise SaaS. | High-density 1-row or 2-row table: API status, current latency, cryptographic license key, privacy, terms. Clean and mathematical. | Creative studio portfolios, artistic launches. |
+| **5. Agricultural Terroir & Provenance Footer** | `rules/section-composition-engine.md` (Archetype 5) | Biodynamic wine estates, organic food, regenerative agriculture. | Farm origin, seasonal harvest window, cellar visiting hours, organic soil certification hallmark in clean editorial serif. | Software developer tools, tech startups. |
 
 ---
 
-## 3. The Geneva Clock Proscription
+## 3. Strict Ban on Footer Micro-Kickers & Tacky Status Dots
 
-> **CRITICAL RULE:** The real-time Geneva CET clock (`Europe/Zurich`) is an exclusive signature of Haute Horlogerie (Swiss watchmaking). 
-> It is **STRICTLY PROHIBITED** to copy this clock into non-horological domains such as music festivals, organic agriculture, cloud software, or general agencies. Replace it with the domain's authentic live telemetry:
-> - Music Festival: **Live Countdown to Doors Opening** or **Current Stage Set Time**.
-> - Architecture Studio: **Studio Timezone Matrix** (e.g. Zurich 14:00 · Tokyo 22:00 · New York 08:00).
-> - Cloud Infrastructure: **API Global Edge Status** (e.g. P99 Latency: 42ms · 100% Operational).
-> - Organic Food: **Current Season & Harvest Window** (e.g. Autumn Pressing · 12 Days Remaining).
+> **CRITICAL RULE:** 
+> 1. **Zero Micro-Kicker Titles:** Never place uppercase micro-labels (`PHYSICAL ATELIERS`, `ZÜRICH LABORATORY STATUS`, `DIRECT DESK`, `RESOURCES`) above footer content. Present addresses, contacts, and navigation in clean, unadorned, dignified typography.
+> 2. **Zero Status Dots:** Never put green, amber, or blinking dots (`w-1.5 h-1.5 rounded-full bg-emerald-400`) next to status text in footers.
+> 3. **Zero Serial Number / Verification Inputs:** Never clutter footers with fake serial query forms or ledger search boxes.
+> 4. **No Cliché Ghost Watermarks:** Never paste giant faint 15vw text at the bottom just to fill space. Use crisp, optically balanced brand typography.

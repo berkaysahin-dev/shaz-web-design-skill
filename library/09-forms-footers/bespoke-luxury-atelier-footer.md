@@ -1,17 +1,19 @@
-# Shaz Agency Web Design — Bespoke Luxury Atelier Footer Specification
+# Shaz Agency Web Design — Architectural Master Horizon Footer Specification
 
-This module specifies an ultra-premium, non-classic closing architecture designed for high-end ateliers, luxury manufactures, and bespoke institutions. It replaces generic 4-column corporate sitemaps with monumental typography, live timekeeping telemetries, salon physical directories, and a VIP private viewing concierge.
+This module specifies an ultra-premium, modern architectural closing architecture designed for high-end ateliers, luxury manufactures, and bespoke institutions. It completely eliminates corporate sitemaps, uppercase micro-labels (`PHYSICAL ATELIERS`, `DIRECT DESK`), fake serial verification inputs, and tacky status dots, replacing them with a quiet, commanding dialogue horizon and a balanced horizon baseline.
 
 ---
 
 ## 1. Architectural Principles
 
-1. **Monumental Brand Wordmark:** Instead of a small logo in the top-left corner, the footer opens or concludes with a monolithic, low-contrast typographic seal spanning the container width.
-2. **Live Horological Telemetry & Atelier Bench Status:** Displays the real-time local clock of the manufacture (e.g. Geneva CET, Zurich, or Tokyo) with continuous running seconds, paired with an authentic status indicator (e.g., *"Atelier Bench Active &middot; 6 Master Horologists on Duty"*).
-3. **VIP Private Viewing Concierge:** Replaces generic contact forms with a tactile private salon appointment trigger and encrypted concierge desk.
-4. **Physical Atelier Coordinates Matrix:** Physical salons (Geneva, Zurich, London, Tokyo) displayed with architectural addresses and direct salon reservation triggers.
-5. **Cryptographic Hallmark & Archive Verification:** An interactive chronometer registry check allowing collectors to query movement serial numbers against the Geneva Seal archive.
-6. **Zero Emojis & Zero Generic Link Spam:** No emojis, no social media vanity icons, and no generic legal fluff links. Clean, authoritative monochrome vector typography.
+1. **Architectural Horizon Dialogue:** Opens with an authoritative, quiet editorial invitation sentence paired with a direct, minimalist single-line inquiry action (`inquire@domain.ch →` or `Schedule Private Consultation →` with a delicate sub-pixel hover underline).
+2. **Pure Typographic Navigation Deck (Zero Micro-Labels):** Spaced, high-contrast editorial links (`Architecture`, `Acoustic Physics`, `Private Commissions`, `Journal`, `Archive`) positioned cleanly without category header tags or kicker prefixes.
+3. **Global Presence Horizon:** Physical ateliers and destinations listed in dignified, quiet typography (`Zürich · Seefeldstrasse 48`, `Kyoto · Gion South`, `New York · Tribeca`) without uppercase `LOCATIONS` or `PHYSICAL ATELIERS` headers.
+4. **The Horizon Baseline:** Separated by a single 1px hairline border (`rgba(255, 255, 255, 0.08)`):
+   * **Left:** Pure typographic copyright (`© 2026 BRAND ATELIER. SWISS ARCHITECTURAL ACOUSTICS.`).
+   * **Center:** Quiet legal and ethics links (`Privacy · Terms · Environmental Provenance · Colophon`).
+   * **Right:** Discrete local atelier time (`Zürich 20:15 CET`) without status dots, colored markers, or blinking indicators.
+5. **Crisp Sculpted Brand Insignia:** An authoritative, perfectly kerned display typographic wordmark integrated with optical balance.
 
 ---
 
@@ -21,183 +23,119 @@ This module specifies an ultra-premium, non-classic closing architecture designe
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { ArrowUpRight, ShieldCheck, Clock, MapPin, Compass } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
-export default function BespokeLuxuryAtelierFooter() {
-  const [genevaTime, setGenevaTime] = useState("");
-  const [serialQuery, setSerialQuery] = useState("");
-  const [verifyStatus, setVerifyStatus] = useState<string | null>(null);
+interface ArchitecturalHorizonFooterProps {
+  brandName?: string;
+  tagline?: string;
+  inquiryEmail?: string;
+  locations?: string[];
+  navLinks?: { label: string; href: string }[];
+  timeZone?: string;
+  timeZoneLabel?: string;
+}
+
+export default function ArchitecturalHorizonFooter({
+  brandName = "VALENCE",
+  tagline = "Initiating dialogue for private commissions, acoustic architecture, and institutional installations worldwide.",
+  inquiryEmail = "concierge@valence-acoustics.ch",
+  locations = [
+    "Zürich · Seefeldstrasse 48",
+    "Kyoto · Gion South",
+    "New York · Tribeca",
+    "London · Mayfair",
+  ],
+  navLinks = [
+    { label: "Architecture", href: "#architecture" },
+    { label: "Monoliths", href: "#monoliths" },
+    { label: "Acoustic Physics", href: "#harmonics" },
+    { label: "Private Commissions", href: "#commissions" },
+    { label: "Archive", href: "#archive" },
+  ],
+  timeZone = "Europe/Zurich",
+  timeZoneLabel = "Zürich",
+}: ArchitecturalHorizonFooterProps) {
+  const [localTime, setLocalTime] = useState("");
 
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
       const options: Intl.DateTimeFormatOptions = {
-        timeZone: "Europe/Zurich",
+        timeZone,
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
         hour12: false,
       };
-      setGenevaTime(new Intl.DateTimeFormat("en-GB", options).format(now));
+      setLocalTime(new Intl.DateTimeFormat("en-GB", options).format(now));
     };
     updateTime();
     const interval = setInterval(updateTime, 1000);
     return () => clearInterval(interval);
-  }, []);
-
-  const handleVerify = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!serialQuery.trim()) return;
-    setVerifyStatus("AUTHENTICATED: Specimen registered in Geneva Seal Observatory Ledger.");
-  };
+  }, [timeZone]);
 
   return (
-    <footer className="w-full bg-[#050507] text-[#F4F4F6] pt-28 pb-16 px-6 sm:px-12 lg:px-16 border-t border-white/10 relative overflow-hidden">
-      {/* Subtle Warm Atmospheric Vignette */}
-      <div 
-        aria-hidden="true" 
-        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-[#C5A880]/5 blur-[160px] pointer-events-none rounded-full" 
-      />
-
+    <footer className="w-full bg-[#070709] text-[#F0F2F5] pt-32 pb-16 px-6 md:px-12 border-t border-white/[0.08] relative overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col gap-24 relative z-10">
         
-        {/* Row 1: Live Atelier Status & Real-Time Geneva Clock */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between pb-10 border-b border-white/10 gap-6">
-          <div className="flex items-center gap-4">
-            <div className="w-2.5 h-2.5 bg-[#C5A880]" />
-            <div className="font-mono text-xs uppercase tracking-wider text-[#A1A1AA]">
-              <span className="text-white font-medium">Geneva Atelier Bench</span>
-              <span className="mx-2 text-white/30">&middot;</span>
-              <span>6 Master Watchmakers Active</span>
-            </div>
+        {/* Row 1: The Architectural Dialogue Horizon */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start justify-between pb-16 border-b border-white/[0.06]">
+          <div className="lg:col-span-7">
+            <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl text-white font-normal leading-snug tracking-tight max-w-2xl">
+              {tagline}
+            </h3>
           </div>
 
-          <div className="flex items-center gap-3 font-mono text-xs text-[#C5A880]">
-            <Clock className="w-4 h-4 stroke-[1.5]" />
-            <span className="text-white/60 uppercase tracking-widest text-[11px]">Gen&egrave;ve Local Time (CET):</span>
-            <span className="font-semibold tracking-wider text-white text-sm">{genevaTime || "12:00:00"}</span>
+          <div className="lg:col-span-5 flex flex-col items-start lg:items-end justify-between h-full gap-6">
+            <a
+              href={`mailto:${inquiryEmail}`}
+              className="inline-flex items-center gap-3 text-lg md:text-xl font-light text-white hover:text-[#C5A059] transition-colors group pb-1 border-b border-white/20 hover:border-[#C5A059]"
+            >
+              <span>{inquiryEmail}</span>
+              <ArrowUpRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+            </a>
+
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-[#9094A0] font-light">
+              {locations.map((loc, i) => (
+                <span key={i}>{loc}</span>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Row 2: VIP Concierge & Physical Salons Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-          
-          {/* Salon Coordinates Column */}
-          <div className="lg:col-span-6 flex flex-col gap-8">
-            <div>
-              <span className="font-mono text-xs text-[#C5A880] uppercase tracking-wider block mb-2">
-                Physical Salons &amp; Benches
-              </span>
-              <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
-                Private Viewing Appointments
-              </h3>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 font-mono text-xs">
-              <div className="flex flex-col gap-2 p-5 bg-white/[0.02] border border-white/10">
-                <span className="text-white font-semibold uppercase tracking-wider">Geneva Manufacture</span>
-                <span className="text-[#A1A1AA]">Rue du Rh&ocirc;ne 42, 1204 Gen&egrave;ve</span>
-                <span className="text-[#71717A] text-[11px]">Master Horologist Bench</span>
-              </div>
-
-              <div className="flex flex-col gap-2 p-5 bg-white/[0.02] border border-white/10">
-                <span className="text-white font-semibold uppercase tracking-wider">Z&uuml;rich Private Salon</span>
-                <span className="text-[#A1A1AA]">Bahnhofstrasse 18, 8001 Z&uuml;rich</span>
-                <span className="text-[#71717A] text-[11px]">Observatory Chronometry Suite</span>
-              </div>
-
-              <div className="flex flex-col gap-2 p-5 bg-white/[0.02] border border-white/10">
-                <span className="text-white font-semibold uppercase tracking-wider">London Mayfair</span>
-                <span className="text-[#A1A1AA]">14 New Bond Street, W1S 3SS</span>
-                <span className="text-[#71717A] text-[11px]">Private Collector Reception</span>
-              </div>
-
-              <div className="flex flex-col gap-2 p-5 bg-white/[0.02] border border-white/10">
-                <span className="text-white font-semibold uppercase tracking-wider">Tokyo Ginza</span>
-                <span className="text-[#A1A1AA]">6-10-1 Ginza, Chuo-ku, 104-0061</span>
-                <span className="text-[#71717A] text-[11px]">East Asia Collector Salon</span>
-              </div>
-            </div>
+        {/* Row 2: Pure Typographic Navigation Deck (Zero Micro-Labels) */}
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+          <div className="font-display text-2xl md:text-3xl font-bold tracking-monumental text-white uppercase select-none">
+            {brandName}
           </div>
 
-          {/* Cryptographic Archive Verification & VIP Direct Line */}
-          <div className="lg:col-span-6 flex flex-col justify-between gap-10 p-8 bg-[#0A0B0F] border border-white/10">
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-2 text-[#C5A880]">
-                <ShieldCheck className="w-5 h-5 stroke-[1.5]" />
-                <span className="font-mono text-xs uppercase tracking-wider font-semibold">
-                  Geneva Seal Registry
-                </span>
-              </div>
-              <h4 className="text-xl font-bold text-white tracking-tight">
-                Authenticity &amp; Observatory Ledger Check
-              </h4>
-              <p className="text-xs text-[#A1A1AA] leading-relaxed">
-                Enter your timepiece reference serial to verify observatory testing stability certificates and master watchmaker signature archives.
-              </p>
-
-              <form onSubmit={handleVerify} className="flex items-center gap-2 pt-2">
-                <input
-                  type="text"
-                  value={serialQuery}
-                  onChange={(e) => setSerialQuery(e.target.value)}
-                  placeholder="e.g. KRN-701-084"
-                  className="bg-black/60 border border-white/15 px-4 py-3 text-xs font-mono text-white placeholder-white/20 focus:outline-none focus:border-[#C5A880] flex-1"
-                />
-                <button
-                  type="submit"
-                  className="bg-[#C5A880] text-[#070709] px-5 py-3 font-mono text-xs uppercase tracking-widest font-semibold hover:bg-[#d4b993] transition-colors inline-flex items-center gap-1.5"
-                >
-                  <span>Verify</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 stroke-[2]" />
-                </button>
-              </form>
-
-              {verifyStatus && (
-                <div className="mt-2 p-3 bg-[#C5A880]/10 border border-[#C5A880]/30 font-mono text-[11px] text-[#C5A880]">
-                  {verifyStatus}
-                </div>
-              )}
-            </div>
-
-            <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 font-mono text-xs">
-              <div className="flex flex-col gap-1">
-                <span className="text-[#A1A1AA] uppercase">Patron Concierge Line</span>
-                <span className="text-white font-medium">+41 22 819 00 24 &middot; VIP@kronos-atelier.ch</span>
-              </div>
+          <nav className="flex flex-wrap items-center gap-x-8 gap-y-3">
+            {navLinks.map((link, i) => (
               <a
-                href="#inquiry"
-                className="inline-flex items-center gap-2 text-[#C5A880] hover:underline"
+                key={i}
+                href={link.href}
+                className="text-xs uppercase tracking-widest text-[#9094A0] hover:text-white transition-colors"
               >
-                <span>Request Private Salon Showing</span>
-                <ArrowUpRight className="w-4 h-4 stroke-[1.5]" />
+                {link.label}
               </a>
-            </div>
-          </div>
-
+            ))}
+          </nav>
         </div>
 
-        {/* Row 3: Monumental Architectural Signature */}
-        <div className="pt-12 border-t border-white/10 flex flex-col gap-8">
-          <div className="w-full select-none overflow-hidden text-center">
-            <span className="font-bold tracking-[-0.04em] text-[12vw] leading-none uppercase text-white/[0.04] font-sans block whitespace-nowrap">
-              KRONOS &middot; GEN&Egrave;VE
-            </span>
+        {/* Row 3: The Horizon Baseline */}
+        <div className="pt-8 border-t border-white/[0.06] flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-mono text-[#5C606E]">
+          <div>
+            © {new Date().getFullYear()} {brandName} ATELIER. ALL RIGHTS RESERVED.
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-6 font-mono text-xs text-[#71717A]">
-            <div className="flex items-center gap-2">
-              <span className="text-white font-medium">&copy; 2026 KRONOS MANUFACTURE HORLOG&Egrave;RE</span>
-              <span>&middot;</span>
-              <span>Canton de Gen&egrave;ve, Suisse</span>
-            </div>
+          <div className="flex items-center gap-6">
+            <a href="#privacy" className="hover:text-[#9094A0] transition-colors">Privacy</a>
+            <a href="#terms" className="hover:text-[#9094A0] transition-colors">Terms of Commission</a>
+            <a href="#colophon" className="hover:text-[#9094A0] transition-colors">Colophon</a>
+          </div>
 
-            <div className="flex items-center gap-6 text-[#A1A1AA]">
-              <a href="#hero" className="hover:text-white transition-colors">Return to Top &uarr;</a>
-              <a href="#calibre" className="hover:text-white transition-colors">Calibre VII</a>
-              <a href="#editions" className="hover:text-white transition-colors">Allocations</a>
-              <a href="#inquiry" className="hover:text-white transition-colors">Private Atelier</a>
-            </div>
+          <div className="text-right text-[#72757E]">
+            {timeZoneLabel} {localTime ? `${localTime} CET` : "19:00:00 CET"}
           </div>
         </div>
 
