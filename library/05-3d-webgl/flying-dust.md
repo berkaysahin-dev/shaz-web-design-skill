@@ -425,5 +425,6 @@ window.addEventListener('resize', () => {
 3. **NO Flat Opaque Borders:** All borders must use translucent `rgba(255,255,255,0.08)` hairlines paired with `.liquid-glass` specular pseudo-element masks.
 4. **NO Broken Video/Canvas Z-Indexing:** The `.stage-viewport` (`<video>` + `<canvas id="webglCanvas">`) must stay fixed at `z-index: 0` with `pointer-events: none`, while all interactive sections scroll cleanly above at `z-index: 10`.
 5. **100% Self-Contained Execution:** All CSS tokens, keyframe animations, Three.js shaders, Lenis smooth scroll, and DOM sections must run out-of-the-box with zero missing imports or console errors.
+6. **Production Website Reality (Anti-Mockup Rule):** The visual reference defines the aesthetic style and mood. NEVER trap the interface inside a static, isolated mockup card floating on a blank canvas. Deliver a living, full-viewport, responsive production web application with a full-width header (`w-full`), natural vertical scrolling, rich feature sections, and a complete footer. All cards, carousels, tabs, and interactive triggers must be fully clickable and functional.
 
 ```

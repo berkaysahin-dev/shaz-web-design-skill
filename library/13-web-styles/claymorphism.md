@@ -50,19 +50,31 @@ Build a delightful, modern Claymorphism SaaS fintech website homepage UI exactly
   * Turquoise rounded clay credit card with pastel yellow chip.
   * Stack of clay peach/gold coins and a 3D pastel bar chart.
 
-=== COMPONENT ARCHITECTURE ===
-1. Primary Call-to-Action: Puffy clay pill button "Start Free Trial" in soft sky blue (#38BDF8), accompanied by a soft grey clay button "Request Demo".
-2. Trio of Inflated Clay Feature Cards:
-   - "Instant Invoicing" card: Soft blush pink clay (#FFE4E6), 3D clay laptop icon, "Manage your business effortlessly...", puffy "Learn More" clay pill.
-   - "Global Payments" card: Mint green clay (#D1FAE5), 3D clay globe icon, "Engage your business finance...", puffy "Explore" clay pill.
-   - "Real-Time Analytics" card: Pastel buttery yellow clay (#FEF3C7), 3D clay chart icon, "Improve your time...", puffy "Explore" clay pill.
-3. Micro Carousel Dots: Three pastel pill dots at the bottom indicating card slider pagination.
+=== FULL-PAGE WEBSITE ARCHITECTURE ===
+1. Hero Stage with Interactive 3D Tablet Carousel:
+   - Center Stage: The iconic FlowPay hero tablet with dual CTA buttons ("Start Free Trial" and "Request Demo"), the 3D clay scene, and the trio of inflated feature cards ("Instant Invoicing" in blush pink, "Global Payments" in mint green, "Real-Time Analytics" in butter yellow).
+   - Left and Right Tilted Preview Tablets: These are fully interactive navigation states. Clicking the left tablet glides the "Invoice and Ledger" tablet into center stage. Clicking the right tablet glides the "Real-Time Analytics" tablet into center stage.
+   - Micro Carousel Dots and Chevrons: Centered directly below the stage to switch smoothly between the 3 tablet views with tactile spring physics.
+2. Features and Operations Section (#features):
+   - 3 large tactile clay cards showcasing 0.4s instant settlement, zero-markup multi-currency, and bank-grade fraud shield.
+3. Pricing and Savings Calculator Section (#pricing):
+   - Monthly/Annual clay toggle switch (Save 20%).
+   - 3 inflated clay pricing cards (Starter $0, Growth $29, Scale $79).
+   - Interactive drag-and-drop volume slider calculating real-time annual fee savings.
+4. Expandable Clay FAQ Accordions (#faq):
+   - Tactile expandable question cards with spring physics.
+5. Customer Proof and Testimonials:
+   - 3 clay quote cards with 5 yellow clay stars and tactile avatars.
+6. Tactile Clay Footer:
+   - Brand emblem, product links, newsletter input, copyright, and smooth back-to-top button.
 
 ---
 
 ## ARCHITECTURAL & INTERACTIVE DIRECTIVES
 
-- **1:1 Visual Fidelity:** Recreate the exact layout, container proportions, and depth layers visible in the reference design (`./05_Web_Stilleri/claymorphism.jpg`).
+- **Production Website Reality (Anti-Mockup Rule):** The visual reference demonstrates the core aesthetic style, visual tokens, and hero mood. You must build a COMPLETE, LIVING, RESPONSIVE, FULL-PAGE PRODUCTION WEBSITE in this exact visual style. NEVER trap the interface inside a static, isolated Dribbble mockup card floating on a blank canvas. The navigation belongs at the top of the browser viewport (`w-full`), the hero stage seamlessly expands into rich, scrollable sections (Features, Workflow, Interactive Showcase, Pricing/Timeline, Testimonials, Footer), and all preview cards, carousels, or side elements must be fully clickable, navigable, interactive functional states that users can explore.
+- **Interactive State Traversal:** Any side cards, carousel dots, tabs, or preview panes visible in the reference are NOT static background art; they must be fully interactive (clicking, swiping, or arrow controls smoothly transition between functional views).
 - **Clean Typographic Primacy:** Headings lead authoritatively on their own. Never insert decorative kicker/eyebrow tags or '//' label prefixes above titles.
 - **Zero Slop:** Never use pulsing dots, flashing status lights, fake coordinates, or artificial machine telemetry. Do not force arbitrary bento grids or monumental footers where they do not belong in the reference design.
 - **Surface & Motion Physics:** Tactile hover and press states using calibrated spring curves (`cubic-bezier(0.34, 1.56, 0.64, 1)`). Interactive pointer parallax with damped tilt tracking reacting subtly to cursor coordinates.
+```

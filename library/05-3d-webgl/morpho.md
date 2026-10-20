@@ -121,6 +121,8 @@ Below lg (< 1024px): nav links hidden, hamburger shown; cursor wing shift stays 
 md and up: headline scales up, hint aligns bottom-right.
 lg and up: full desktop navbar with all links visible; full cursor-reactive tilt and sheen range.
 ═══ 5. ARCHITECTURAL & INTERACTION DIRECTIVES ═══
+- Full Production Website Reality (Anti-Mockup Rule): The visual reference defines the aesthetic style and hero mood. NEVER trap the design inside a static isolated card floating on an empty canvas. Deliver a living, full-viewport, responsive production web application with a full-width header (`w-full`), natural vertical scrolling, rich feature sections, and a complete footer.
+- Interactive State Traversal: If the reference displays side cards, stacked preview cards, or carousel pagination dots, they are functional interactive states—clicking, swiping, or arrow controls smoothly transition between views.
 - Clean Typographic Primacy: Headings lead authoritatively on their own. Never insert decorative kicker/eyebrow tags or '//' label prefixes above titles.
 - Zero Slop: Never use pulsing dots, flashing status lights, fake coordinates, or artificial machine telemetry. Keep the central viewport clean so the 3D subject and visuals breathe.
 - Physics & Smoothness: Lenis smooth scroll combined with damped pointer parallax tracking cursor coordinates with spring physics.
