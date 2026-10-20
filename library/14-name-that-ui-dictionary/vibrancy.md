@@ -1,31 +1,31 @@
-﻿# Visual Effect Material (Vibrancy)
+# Visual Effect Material (Vibrancy)
 
 ![Visual Effect Material (Vibrancy)](./images/vibrancy.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSVisualEffectView.Material`
 * **Also Called (Aliases):** `visual effect material, frosted glass, translucent material, blur material`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/vibrancy](https://shazagency.com/ui-dictionary/macos/vibrancy)
+* **Official Source URL:** [https://namethatui.com/macos/vibrancy](https://namethatui.com/macos/vibrancy)
 
 ---
 
 ```markdown
-# Visual Effect Material (Vibrancy) — Shaz Agency Official UI Prompt & Production Architecture
+# Visual Effect Material (Vibrancy) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/vibrancy](https://shazagency.com/ui-dictionary/macos/vibrancy) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSVisualEffectView.Material`
+> **Source:** [https://namethatui.com/macos/vibrancy](https://namethatui.com/macos/vibrancy) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSVisualEffectView.Material`
 > **Also Called ("Sloppy Words"):** *visual effect material, frosted glass, translucent material, blur material*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use an NSVisualEffectView for this Visual Effect Material background (SwiftUI: Material). Choose NSVisualEffectView.Material by semantic purpose and set the appropriate BlendingMode; let standard controls supply vibrancy automatically instead of recreating the effect with a fixed blur and opacity.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS vibrancy (NSVisualEffectView). Rule out: the wrong material for the surface (sidebar, menu, popover, hudWindow are distinct); blendingMode withinWindow when behindWindow was intended so nothing shows through; vibrant text/controls dead because they are not descendants of the effect view; everything going grey when the window deactivates via state followsWindowActiveState. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Visual Effect Material (Vibrancy)** (`NSVisualEff
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Visual Effect Material (Vibrancy) (NSVisualEffectView.Material)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vibrancy"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vibrancy"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

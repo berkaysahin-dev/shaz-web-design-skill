@@ -1,31 +1,31 @@
-﻿# Outline View
+# Outline View
 
 ![Outline View](./images/outline-view.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSOutlineView`
 * **Also Called (Aliases):** `tree view, hierarchical list, outline list, expandable table`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/outline-view](https://shazagency.com/ui-dictionary/macos/outline-view)
+* **Official Source URL:** [https://namethatui.com/macos/outline-view](https://namethatui.com/macos/outline-view)
 
 ---
 
 ```markdown
-# Outline View — Shaz Agency Official UI Prompt & Production Architecture
+# Outline View — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/outline-view](https://shazagency.com/ui-dictionary/macos/outline-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSOutlineView`
+> **Source:** [https://namethatui.com/macos/outline-view](https://namethatui.com/macos/outline-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSOutlineView`
 > **Also Called ("Sloppy Words"):** *tree view, hierarchical list, outline list, expandable table*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use an Outline View with NSOutlineView (SwiftUI: OutlineGroup) for the indented hierarchy: parent rows receive disclosure triangles and expanding one reveals child rows directly beneath it. Use a flat list only when rows have no children; apply source-list styling separately if the outline serves as a sidebar.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS outline view (NSOutlineView). Rule out: rows refusing to expand because isItemExpandable and the child-count delegate answers disagree; reloadItem without reloadChildren:true leaving stale children; autosaveExpandedItems silently broken because items lack stable identity for persistentObject round-trips; row animations jumping because the model mutated before the animated update ran. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Outline View** (`NSOutlineView`), enforce the fol
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Outline View (NSOutlineView)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="outline-view"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="outline-view"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

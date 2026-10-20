@@ -1,25 +1,25 @@
-﻿# Delete — Delete · crumple & toss
+# Delete — Delete · crumple & toss
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Form` (form)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/delete.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/delete.jpg)  
-> **Tech Stack:** `vanilla, css, svg` · **Dependencies:** `0` · **Size:** `11.8 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Form` (form)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/delete.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/delete.jpg)  
+> **Teknoloji:** `vanilla, css, svg` · **Bağımlılık:** `0` · **Boyut:** `11.8 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A delete button with a working bin: click it and the label slides away, the bin moves to the centre and grows, and a sheet of paper drops in and falls through as shredded strips. A round badge then drops in and its checkmark draws itself before the button resets after 3.2 seconds. Everything is driven by CSS custom properties and two keyframes; the script only toggles one class. Zero dependencies, no prefers-reduced-motion handling.
 
-* **Key Files:** `index.html`, `script.js`, `style.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `script.js`, `style.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Delete — Delete · crumple & toss.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-delete-container" data-state="idle">
   <button class="cc-delete-trigger" type="button" aria-label="Delete">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-delete-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

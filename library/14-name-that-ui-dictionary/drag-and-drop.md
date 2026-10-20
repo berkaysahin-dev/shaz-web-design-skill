@@ -1,31 +1,31 @@
-﻿# Drag & Drop
+# Drag & Drop
 
 ![Drag & Drop](./images/drag-and-drop.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `draggable="true"`
 * **Also Called (Aliases):** `drag and drop, drag-and-drop interaction, direct manipulation, sortable drag`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/drag-and-drop](https://shazagency.com/ui-dictionary/web/drag-and-drop)
+* **Official Source URL:** [https://namethatui.com/web/drag-and-drop](https://namethatui.com/web/drag-and-drop)
 
 ---
 
 ```markdown
-# Drag & Drop — Shaz Agency Official UI Prompt & Production Architecture
+# Drag & Drop — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/drag-and-drop](https://shazagency.com/ui-dictionary/web/drag-and-drop) · **Category:** `Web UI` · **Primary API / Symbol:** `draggable="true"`
+> **Source:** [https://namethatui.com/web/drag-and-drop](https://namethatui.com/web/drag-and-drop) · **Category:** `Web UI` · **Primary API / Symbol:** `draggable="true"`
 > **Also Called ("Sloppy Words"):** *drag and drop, drag-and-drop interaction, direct manipulation, sortable drag*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a Drag & Drop interaction with HTML draggable, ondragover, and ondrop (or @dnd-kit/core): show a drag handle, selection resize handles where applicable, a drag preview, and an insertion line or highlighted drop target before release. Do not use the deprecated aria-grabbed state; announce the picked-up item, available destination, and drop result through an ARIA live region.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my drag and drop (HTML draggable, ondragover/ondrop, dnd-kit). Rule out: drop never firing because dragover does not call preventDefault — that is the classic; dragleave firing when entering child elements so the highlight flickers — keep an enter/leave counter; setDragImage ignored because the ghost element is not in the DOM; touch devices doing nothing because native HTML5 DnD has no touch events — use a pointer-based library. The symptom:
 
@@ -142,7 +142,7 @@ When building or refactoring **Drag & Drop** (`draggable="true"`), enforce the f
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Drag & Drop (draggable="true")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="drag-and-drop"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="drag-and-drop"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -183,5 +183,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

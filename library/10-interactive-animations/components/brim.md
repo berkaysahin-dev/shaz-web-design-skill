@@ -1,25 +1,25 @@
-﻿# Brim — a download button that fills like a glass
+# Brim — a download button that fills like a glass
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Form` (form)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/brim.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/brim.jpg)  
-> **Tech Stack:** `vanilla, css, svg` · **Dependencies:** `0` · **Size:** `15.2 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Form` (form)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/brim.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/brim.jpg)  
+> **Teknoloji:** `vanilla, css, svg` · **Bağımlılık:** `0` · **Boyut:** `15.2 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A download button whose icon well is a vessel: the arrow flattens into a spout, a stream pours in, and a real byte count carries the surface up. Four skins, one component. Zero dependencies, transform and opacity only.
 
-* **Key Files:** `README.md`, `app.css`, `app.js`, `glass.js`, `index.html`, `record-grid.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `glass.js`, `index.html`, `record-grid.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Brim — a download button that fills like a glass.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-brim-container" data-state="idle">
   <button class="cc-brim-trigger" type="button" aria-label="Brim">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-brim-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

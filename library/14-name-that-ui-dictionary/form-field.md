@@ -1,31 +1,31 @@
-﻿# Form Field
+# Form Field
 
 ![Form Field](./images/form-field.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<label for="…">`
 * **Also Called (Aliases):** `text field, input field, form input, form control`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/form-field](https://shazagency.com/ui-dictionary/web/form-field)
+* **Official Source URL:** [https://namethatui.com/web/form-field](https://namethatui.com/web/form-field)
 
 ---
 
 ```markdown
-# Form Field — Shaz Agency Official UI Prompt & Production Architecture
+# Form Field — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/form-field](https://shazagency.com/ui-dictionary/web/form-field) · **Category:** `Web UI` · **Primary API / Symbol:** `<label for="…">`
+> **Source:** [https://namethatui.com/web/form-field](https://namethatui.com/web/form-field) · **Category:** `Web UI` · **Primary API / Symbol:** `<label for="…">`
 > **Also Called ("Sloppy Words"):** *text field, input field, form input, form control*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build the form field with full anatomy: a real <label for> above the input (clicking it focuses the field), placeholder text as a hint only — never as the label, helper text below linked via aria-describedby, and required marked with the required attribute plus a visual asterisk. On invalid input set aria-invalid="true", style the red state with :user-invalid, and point aria-describedby at the error message.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my form field (label for/id, aria-describedby, placeholder). Rule out: the placeholder doing the label's job and vanishing on first keystroke; the label not associated so clicking it does not focus the input; error text not linked via aria-describedby so screen readers never hear it; autofill's yellow/blue fill overriding your styles (-webkit-autofill). The symptom:
 
@@ -142,7 +142,7 @@ When building or refactoring **Form Field** (`<label for="…">`), enforce the f
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Form Field (<label for="…">)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="form-field"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="form-field"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -183,5 +183,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

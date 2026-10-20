@@ -1,31 +1,31 @@
-﻿# Context Menu vs. Dropdown — what's the difference?
+# Context Menu vs. Dropdown — what's the difference?
 
 ![Context Menu vs. Dropdown — what's the difference?](./images/vs-context-menu-vs-dropdown.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-context-menu-vs-dropdown`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/context-menu-vs-dropdown](https://shazagency.com/ui-dictionary/vs/context-menu-vs-dropdown)
+* **Official Source URL:** [https://namethatui.com/vs/context-menu-vs-dropdown](https://namethatui.com/vs/context-menu-vs-dropdown)
 
 ---
 
 ```markdown
-# Context Menu vs. Dropdown — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Context Menu vs. Dropdown — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/context-menu-vs-dropdown](https://shazagency.com/ui-dictionary/vs/context-menu-vs-dropdown) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-context-menu-vs-dropdown`
+> **Source:** [https://namethatui.com/vs/context-menu-vs-dropdown](https://namethatui.com/vs/context-menu-vs-dropdown) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-context-menu-vs-dropdown`
 > **Also Called ("Sloppy Words"):** *context menu vs. dropdown — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Context Menu vs. Dropdown — what's the difference?' (UI Comparison (VS) — API symbol: `vs-context-menu-vs-dropdown`). Same menu, different birth. A context menu opens AT THE POINTER from a right-click (or long-press) on the thing itself, and its actions apply to that thing… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Context Menu vs. Dropdown — what's the difference?' (`vs-context-menu-vs-dropdown`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Context Menu vs. Dropdown — what's the differen
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Context Menu vs. Dropdown — what's the difference? (vs-context-menu-vs-dropdown)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-context-menu-vs-dropdown"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-context-menu-vs-dropdown"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

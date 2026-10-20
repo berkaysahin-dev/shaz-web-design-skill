@@ -1,31 +1,31 @@
-﻿# Divider vs. Separator vs. Rule
+# Divider vs. Separator vs. Rule
 
 ![Divider vs. Separator vs. Rule](./images/divider.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<hr>`
 * **Also Called (Aliases):** `separator, rule, horizontal rule, visual divider`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/divider](https://shazagency.com/ui-dictionary/web/divider)
+* **Official Source URL:** [https://namethatui.com/web/divider](https://namethatui.com/web/divider)
 
 ---
 
 ```markdown
-# Divider vs. Separator vs. Rule — Shaz Agency Official UI Prompt & Production Architecture
+# Divider vs. Separator vs. Rule — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/divider](https://shazagency.com/ui-dictionary/web/divider) · **Category:** `Web UI` · **Primary API / Symbol:** `<hr>`
+> **Source:** [https://namethatui.com/web/divider](https://namethatui.com/web/divider) · **Category:** `Web UI` · **Primary API / Symbol:** `<hr>`
 > **Also Called ("Sloppy Words"):** *separator, rule, horizontal rule, visual divider*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Choose the correct Divider, Separator, or Rule: use HTML <hr> for a semantic thematic break in content, role="separator" for a structural boundary between groups of controls, and a CSS border such as border-block-start for a purely decorative line. On macOS, use SwiftUI Divider for a visual division or NSMenuItem.separator() between menu-item groups.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my divider (hr, role=separator, border utilities). Rule out: the hairline doubling or vanishing on fractional zoom because 1px borders round differently; a decorative divider still announced by screen readers — decorative ones need aria-hidden, semantic ones role=separator; a flex parent stretching the divider when a fixed cross-size was intended; margin collapse eating the space around an hr. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Divider vs. Separator vs. Rule** (`<hr>`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Divider vs. Separator vs. Rule (<hr>)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="divider"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="divider"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

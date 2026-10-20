@@ -1,31 +1,31 @@
-﻿# Marquee
+# Marquee
 
 ![Marquee](./images/marquee.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `mask-image: linear-gradient(…)`
 * **Also Called (Aliases):** `ticker, logo carousel, auto-scrolling strip`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/marquee](https://shazagency.com/ui-dictionary/web/marquee)
+* **Official Source URL:** [https://namethatui.com/web/marquee](https://namethatui.com/web/marquee)
 
 ---
 
 ```markdown
-# Marquee — Shaz Agency Official UI Prompt & Production Architecture
+# Marquee — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/marquee](https://shazagency.com/ui-dictionary/web/marquee) · **Category:** `Web UI` · **Primary API / Symbol:** `mask-image: linear-gradient(…)`
+> **Source:** [https://namethatui.com/web/marquee](https://namethatui.com/web/marquee) · **Category:** `Web UI` · **Primary API / Symbol:** `mask-image: linear-gradient(…)`
 > **Also Called ("Sloppy Words"):** *ticker, logo carousel, auto-scrolling strip*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a marquee: an auto-scrolling horizontal strip using a CSS @keyframes translateX(-50%) loop over exactly-duplicated content (never the deprecated <marquee> tag), with edge fade masks, pause on hover via animation-play-state, and a prefers-reduced-motion fallback that stops the motion.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my marquee (CSS translateX keyframe loop, react-fast-marquee). Rule out: the loop jumping at the seam because the content is not duplicated exactly once and translated by exactly -50%; animating left/width on the main thread instead of transform; hover-pause missing (animation-play-state); motion still running under prefers-reduced-motion; the deprecated <marquee> tag pasted in from an old snippet. The symptom:
 
@@ -131,7 +131,7 @@ When building or refactoring **Marquee** (`mask-image: linear-gradient(…)`), e
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Marquee (mask-image: linear-gradient(…))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="marquee"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="marquee"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -172,5 +172,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,25 +1,25 @@
-﻿# Lumen Toggle — a theme toggle the new light floods out of
+# Lumen Toggle — a theme toggle the new light floods out of
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/lumen-toggle.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/lumen-toggle.jpg)  
-> **Tech Stack:** `vanilla, css, svg` · **Dependencies:** `0` · **Size:** `8.6 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/lumen-toggle.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/lumen-toggle.jpg)  
+> **Teknoloji:** `vanilla, css, svg` · **Bağımlılık:** `0` · **Boyut:** `8.6 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A dark-mode switch whose flip is a circle of the incoming theme opening out of the button itself. Every number in it was measured off the reference film frame by frame: the reveal is 240ms on a least-squares cubic-bezier(.52,.33,.46,.25), the tint lands in 150ms, and the icon turns a full 180 degrees in 280ms. Zero dependencies.
 
-* **Key Files:** `README.md`, `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(.52,.33,.46,.25)`
-  - **Duration:** `240ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(.52,.33,.46,.25)`
+  - **Süre:** `240ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Lumen Toggle — a theme toggle the new light floods out of.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-lumen-toggle-container" data-state="idle">
   <button class="cc-lumen-toggle-trigger" type="button" aria-label="Lumen Toggle">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-lumen-toggle-container {
   --cc-timing: 240ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

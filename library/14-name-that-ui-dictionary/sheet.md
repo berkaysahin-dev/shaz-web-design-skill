@@ -1,31 +1,31 @@
-﻿# Sheet
+# Sheet
 
 ![Sheet](./images/sheet.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `View.sheet(isPresented:content:)`
 * **Also Called (Aliases):** `window-modal dialog, document-modal dialog, attached sheet`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/sheet](https://shazagency.com/ui-dictionary/macos/sheet)
+* **Official Source URL:** [https://namethatui.com/macos/sheet](https://namethatui.com/macos/sheet)
 
 ---
 
 ```markdown
-# Sheet — Shaz Agency Official UI Prompt & Production Architecture
+# Sheet — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/sheet](https://shazagency.com/ui-dictionary/macos/sheet) · **Category:** `macOS UI` · **Primary API / Symbol:** `View.sheet(isPresented:content:)`
+> **Source:** [https://namethatui.com/macos/sheet](https://namethatui.com/macos/sheet) · **Category:** `macOS UI` · **Primary API / Symbol:** `View.sheet(isPresented:content:)`
 > **Also Called ("Sloppy Words"):** *window-modal dialog, document-modal dialog, attached sheet*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Present this as a window-modal Sheet with NSWindow.beginSheet(_:completionHandler:) (SwiftUI: View.sheet), visibly attached beneath the parent window's title bar. Block only that parent window, not every window in the app.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS sheet (NSWindow.beginSheet(_:completionHandler:), SwiftUI View.sheet). Rule out: the isPresented/item binding never reset so it will not present a second time; endSheet never called so the parent window stays blocked; presenting from a view controller detached from the window so nothing appears; two sheets queued on one window presenting back-to-back unexpectedly. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Sheet** (`View.sheet(isPresented:content:)`), enf
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Sheet (View.sheet(isPresented:content:))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="sheet"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="sheet"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Dropdown vs. Select vs. Combobox — what's the difference?
+# Dropdown vs. Select vs. Combobox — what's the difference?
 
 ![Dropdown vs. Select vs. Combobox — what's the difference?](./images/vs-dropdown-vs-select-vs-combobox.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-dropdown-vs-select-vs-combobox`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/dropdown-vs-select-vs-combobox](https://shazagency.com/ui-dictionary/vs/dropdown-vs-select-vs-combobox)
+* **Official Source URL:** [https://namethatui.com/vs/dropdown-vs-select-vs-combobox](https://namethatui.com/vs/dropdown-vs-select-vs-combobox)
 
 ---
 
 ```markdown
-# Dropdown vs. Select vs. Combobox — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Dropdown vs. Select vs. Combobox — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/dropdown-vs-select-vs-combobox](https://shazagency.com/ui-dictionary/vs/dropdown-vs-select-vs-combobox) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-dropdown-vs-select-vs-combobox`
+> **Source:** [https://namethatui.com/vs/dropdown-vs-select-vs-combobox](https://namethatui.com/vs/dropdown-vs-select-vs-combobox) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-dropdown-vs-select-vs-combobox`
 > **Also Called ("Sloppy Words"):** *dropdown vs. select vs. combobox — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Dropdown vs. Select vs. Combobox — what's the difference?' (UI Comparison (VS) — API symbol: `vs-dropdown-vs-select-vs-combobox`). A dropdown menu runs actions (Rename, Delete…) — it never holds a chosen value. A select (pop-up button on the Mac) picks one value from a fixed list and k… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Dropdown vs. Select vs. Combobox — what's the difference?' (`vs-dropdown-vs-select-vs-combobox`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Dropdown vs. Select vs. Combobox — what's the d
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Dropdown vs. Select vs. Combobox — what's the difference? (vs-dropdown-vs-select-vs-combobox)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-dropdown-vs-select-vs-combobox"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-dropdown-vs-select-vs-combobox"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

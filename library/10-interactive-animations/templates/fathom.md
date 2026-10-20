@@ -1,25 +1,25 @@
-﻿# Fathom — a live trading terminal with eight pages that move as one product
+# Fathom — a live trading terminal with eight pages that move as one product
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/fathom/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/fathom.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/fathom.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap` · **Dependencies:** `1` · **Size:** `68 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/fathom/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/fathom.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/fathom.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap` · **Bağımlılık:** `1` · **Boyut:** `68 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 Fathom is a crypto trading workspace: a live markets terminal with candles, order book and fills, plus portfolio, orders, wallets, alerts, activity, settings and help — one dark brass product that moves as one.
 
-* **Key Files:** `app.css`, `app.js`, `index.html`, `js/activity.js`, `js/alerts.js`, `js/charts.js`, `js/data.js`, `js/help.js`, `js/markets.js`, `js/motion.js`, `js/orders.js`, `js/portfolio.js`, `js/prefs.js`, `js/settings.js`, `js/ui.js`, `js/wallets.js`, `views.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.css`, `app.js`, `index.html`, `js/activity.js`, `js/alerts.js`, `js/charts.js`, `js/data.js`, `js/help.js`, `js/markets.js`, `js/motion.js`, `js/orders.js`, `js/portfolio.js`, `js/prefs.js`, `js/settings.js`, `js/ui.js`, `js/wallets.js`, `views.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Fathom — a live trading terminal with eight pages that move as one product.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-fathom-container" data-state="idle">
   <button class="cc-fathom-trigger" type="button" aria-label="Fathom">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-fathom-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

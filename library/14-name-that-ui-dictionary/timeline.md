@@ -1,31 +1,31 @@
-﻿# Timeline
+# Timeline
 
 ![Timeline](./images/timeline.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `lab missing because Timeline is not in @mui`
 * **Also Called (Aliases):** `vertical timeline, activity timeline, activity feed, event history, changelog timeline, history log`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/timeline](https://shazagency.com/ui-dictionary/web/timeline)
+* **Official Source URL:** [https://namethatui.com/web/timeline](https://namethatui.com/web/timeline)
 
 ---
 
 ```markdown
-# Timeline — Shaz Agency Official UI Prompt & Production Architecture
+# Timeline — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/timeline](https://shazagency.com/ui-dictionary/web/timeline) · **Category:** `Web UI` · **Primary API / Symbol:** `lab missing because Timeline is not in @mui`
+> **Source:** [https://namethatui.com/web/timeline](https://namethatui.com/web/timeline) · **Category:** `Web UI` · **Primary API / Symbol:** `lab missing because Timeline is not in @mui`
 > **Also Called ("Sloppy Words"):** *vertical timeline, activity timeline, activity feed, event history, changelog timeline, history log*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a vertical Timeline (Material UI Timeline from @mui/lab, Ant Design Timeline items) as an <ol> of events in chronological order. Each item gets a TimelineDot joined to the next by a TimelineConnector, the event title and detail as TimelineContent on one side, and its time in a <time datetime> element as TimelineOppositeContent on the other. Finished events use a solid dot, the event still in progress uses Ant Design's item loading state, and the connector stops at the last dot instead of trailing past it.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my Timeline (TimelineDot, TimelineConnector, TimelineOppositeContent, Ant Design items with mode and loading). Rule out: the connector drawn as one tall line behind the whole list, so it overshoots the last dot or stops short when an item wraps to two lines (each item should own the segment below its dot); dots and connector on different horizontal centers, off by a pixel because one uses a border and the other a width; the opposite-content column with no fixed width, so timestamps of different lengths push the line out of vertical alignment; deprecated Ant Design props still in use (dot, label, children, position, pending are replaced by icon, title, content, placement, loading); mode="left" or "right" where the current values are "start" and "end"; events built as divs with no list semantics, so a screen reader hears no order or count; dates as bare text with no <time datetime>; newest-first order done with CSS flex reversal, which flips the visual order but not the reading order; @mui/lab missing because Timeline is not in @mui/material. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Timeline** (`lab missing because Timeline is not 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Timeline (lab missing because Timeline is not in @mui)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="timeline"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="timeline"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

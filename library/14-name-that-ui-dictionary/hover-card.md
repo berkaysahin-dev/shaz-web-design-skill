@@ -1,31 +1,31 @@
-﻿# Hover Card
+# Hover Card
 
 ![Hover Card](./images/hover-card.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `focus path; open`
 * **Also Called (Aliases):** `hover preview, profile preview, preview card`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/hover-card](https://shazagency.com/ui-dictionary/web/hover-card)
+* **Official Source URL:** [https://namethatui.com/web/hover-card](https://namethatui.com/web/hover-card)
 
 ---
 
 ```markdown
-# Hover Card — Shaz Agency Official UI Prompt & Production Architecture
+# Hover Card — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/hover-card](https://shazagency.com/ui-dictionary/web/hover-card) · **Category:** `Web UI` · **Primary API / Symbol:** `focus path; open`
+> **Source:** [https://namethatui.com/web/hover-card](https://namethatui.com/web/hover-card) · **Category:** `Web UI` · **Primary API / Symbol:** `focus path; open`
 > **Also Called ("Sloppy Words"):** *hover preview, profile preview, preview card*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a hover card using Radix HoverCard to preview the linked profile with an avatar and summary. Reveal it from both hover and keyboard focus after a short delay, keep it open while the pointer crosses into the card, and reverse the opacity and transform transitions smoothly on exit.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my hover card (Radix HoverCard, mouseenter/mouseleave). Rule out: the card closing while the pointer travels from trigger to card — you need a hover-intent delay or safe-polygon; touch devices never opening it because there is no hover — provide a tap/focus path; open/close delays tuned so short it flickers on skim; the card trapped under another stacking context. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Hover Card** (`focus path; open`), enforce the fo
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Hover Card (focus path; open)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="hover-card"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="hover-card"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

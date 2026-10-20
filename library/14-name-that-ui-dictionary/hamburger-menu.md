@@ -1,31 +1,31 @@
-﻿# Hamburger Menu (Nav Drawer)
+# Hamburger Menu (Nav Drawer)
 
 ![Hamburger Menu (Nav Drawer)](./images/hamburger-menu.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `aria-expanded`
 * **Also Called (Aliases):** `navigation drawer, hamburger button, side menu, off-canvas menu`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/hamburger-menu](https://shazagency.com/ui-dictionary/web/hamburger-menu)
+* **Official Source URL:** [https://namethatui.com/web/hamburger-menu](https://namethatui.com/web/hamburger-menu)
 
 ---
 
 ```markdown
-# Hamburger Menu (Nav Drawer) — Shaz Agency Official UI Prompt & Production Architecture
+# Hamburger Menu (Nav Drawer) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/hamburger-menu](https://shazagency.com/ui-dictionary/web/hamburger-menu) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-expanded`
+> **Source:** [https://namethatui.com/web/hamburger-menu](https://namethatui.com/web/hamburger-menu) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-expanded`
 > **Also Called ("Sloppy Words"):** *navigation drawer, hamburger button, side menu, off-canvas menu*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a hamburger menu: a <button aria-expanded aria-controls> drawing three stacked lines that toggles a navigation drawer — an off-canvas <nav> panel sliding in from the left over a scrim (shadcn Sheet side="left", Material NavigationDrawer). Lock body scroll while open, close on Escape and scrim tap, keep aria-expanded in sync, and return focus to the button on close.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my hamburger menu (aria-expanded toggle + off-canvas <nav> drawer). Rule out: the drawer rendering under the scrim or page header (z-order); body still scrolling behind the open drawer; aria-expanded never flipping so screen readers see a dead button; focus staying lost in the drawer after close instead of returning to the button; the drawer animating from the wrong edge because translate-x sign flipped; the menu unreachable on desktop because the toggle is hidden above the breakpoint but the nav links never reappear. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Hamburger Menu (Nav Drawer)** (`aria-expanded`), 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Hamburger Menu (Nav Drawer) (aria-expanded)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="hamburger-menu"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="hamburger-menu"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

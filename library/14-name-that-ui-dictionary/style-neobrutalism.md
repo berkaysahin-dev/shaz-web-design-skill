@@ -1,31 +1,31 @@
-﻿# Neobrutalism
+# Neobrutalism
 
 ![Neobrutalism](./images/style-neobrutalism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `border: 2px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 8px;`
 * **Also Called (Aliases):** `neo-brutalism, neubrutalism, neo brutalist UI`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/neobrutalism](https://shazagency.com/ui-dictionary/styles/neobrutalism)
+* **Official Source URL:** [https://namethatui.com/styles/neobrutalism](https://namethatui.com/styles/neobrutalism)
 
 ---
 
 ```markdown
-# Neobrutalism — Shaz Agency Official UI Prompt & Production Architecture
+# Neobrutalism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/neobrutalism](https://shazagency.com/ui-dictionary/styles/neobrutalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `border: 2px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 8px;`
+> **Source:** [https://namethatui.com/styles/neobrutalism](https://namethatui.com/styles/neobrutalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `border: 2px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 8px;`
 > **Also Called ("Sloppy Words"):** *neo-brutalism, neubrutalism, neo brutalist UI*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using Neobrutalism. Defining signals: a uniform 2–3px solid black border on every element; hard offset shadows — solid black, displaced ~4px down-right, zero blur (box-shadow: 4px 4px 0 #000); flat saturated color blocks (e.g. yellow, hot pink, lime) on a cream or white ground with no gradients; bold chunky display type for headings. Keep the specific palette and any sticker doodads flexible. Active states translate the element into its shadow (transform: translate(4px,4px) with the shadow removed). Do not drift into Web Brutalism; the decisive difference is that this look is heavily styled — removing the borders, shadows, and color in favor of browser defaults would make it brutalist proper. Preserve 4.5:1 text contrast on every colored block (black text on saturated fills usually passes; white on yellow never does), visible focus indicators distinct from the decorative borders, and reduced-motion support for press animations.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Neobrutalism' (`border: 2px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 8px;`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -140,7 +140,7 @@ When building or refactoring **Neobrutalism** (`border: 2px solid #000; box-shad
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Neobrutalism (border: 2px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 8px;)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-neobrutalism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-neobrutalism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

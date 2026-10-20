@@ -1,31 +1,31 @@
-﻿# Tooltip vs. Hover Card — what's the difference?
+# Tooltip vs. Hover Card — what's the difference?
 
 ![Tooltip vs. Hover Card — what's the difference?](./images/vs-tooltip-vs-hover-card.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-tooltip-vs-hover-card`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/tooltip-vs-hover-card](https://shazagency.com/ui-dictionary/vs/tooltip-vs-hover-card)
+* **Official Source URL:** [https://namethatui.com/vs/tooltip-vs-hover-card](https://namethatui.com/vs/tooltip-vs-hover-card)
 
 ---
 
 ```markdown
-# Tooltip vs. Hover Card — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Tooltip vs. Hover Card — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/tooltip-vs-hover-card](https://shazagency.com/ui-dictionary/vs/tooltip-vs-hover-card) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-tooltip-vs-hover-card`
+> **Source:** [https://namethatui.com/vs/tooltip-vs-hover-card](https://namethatui.com/vs/tooltip-vs-hover-card) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-tooltip-vs-hover-card`
 > **Also Called ("Sloppy Words"):** *tooltip vs. hover card — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Tooltip vs. Hover Card — what's the difference?' (UI Comparison (VS) — API symbol: `vs-tooltip-vs-hover-card`). Both appear on hover. A tooltip is one short line of plain text naming the thing under the pointer. A hover card is a rich preview — avatar, stats, even bu… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Tooltip vs. Hover Card — what's the difference?' (`vs-tooltip-vs-hover-card`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Tooltip vs. Hover Card — what's the difference?
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Tooltip vs. Hover Card — what's the difference? (vs-tooltip-vs-hover-card)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-tooltip-vs-hover-card"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-tooltip-vs-hover-card"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,41 +1,41 @@
-﻿# Surge — a nav indicator that discharges instead of sliding
+# Surge — a nav indicator that discharges instead of sliding
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Navigasyon ve Barlar` (navigation)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/surge.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/surge.jpg)  
-> **Tech Stack:** `vanilla, css` · **Dependencies:** `0` · **Size:** `11.4 KB`
-
----
-
-## 1. Architectural Overview & Specification
-
-A nav whose underline does not slide between items. The head leaves at a constant speed, the tail freezes mid-flight and then runs at exactly twice that speed to catch up — so the bar tears open into a cracCinematic Video arc and snaps shut on arrival. Traced frame by frame off the reference. Zero dependencies.
-
-* **Key Files:** `README.md`, `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Navigasyon ve Barlar` (navigation)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/surge.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/surge.jpg)  
+> **Teknoloji:** `vanilla, css` · **Bağımlılık:** `0` · **Boyut:** `11.4 KB`
 
 ---
 
-## 2. Official Production Prompt
+## 1. Mimari Genel Bakış ve Açıklama
+
+A nav whose underline does not slide between items. The head leaves at a constant speed, the tail freezes mid-flight and then runs at exactly twice that speed to catch up — so the bar tears open into a crackling arc and snaps shut on arrival. Traced frame by frame off the reference. Zero dependencies.
+
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+
+---
+
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Surge — a nav indicator that discharges instead of sliding.
 Architecture:
 - Plain HTML, CSS and JavaScript with zero heavy runtime dependencies.
 - Physics: transition curve cubic-bezier(0.16, 1, 0.3, 1) over 320ms.
-- Description: A nav whose underline does not slide between items. The head leaves at a constant speed, the tail freezes mid-flight and then runs at exactly twice that speed to catch up — so the bar tears open into a cracCinematic Video arc and snaps shut on arrival. Traced frame by frame off the reference. Zero dependencies.
+- Description: A nav whose underline does not slide between items. The head leaves at a constant speed, the tail freezes mid-flight and then runs at exactly twice that speed to catch up — so the bar tears open into a crackling arc and snaps shut on arrival. Traced frame by frame off the reference. Zero dependencies.
 - Stack: vanilla, css.
 - Maintain 60 FPS hardware accelerated transforms and clean accessibility.
 ```
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-surge-container" data-state="idle">
   <button class="cc-surge-trigger" type="button" aria-label="Surge">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-surge-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

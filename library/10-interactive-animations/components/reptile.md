@@ -1,25 +1,25 @@
-﻿# Reptile — Interactive Reptile Cursor
+# Reptile — Interactive Reptile Cursor
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/reptile.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/reptile.jpg)  
-> **Tech Stack:** `vanilla` · **Dependencies:** `0` · **Size:** `4.5 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/reptile.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/reptile.jpg)  
+> **Teknoloji:** `vanilla` · **Bağımlılık:** `0` · **Boyut:** `4.5 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A procedural reptile, drawn as teal line art on a full-screen canvas, that crawls after your mouse pointer. Its body is a chain of jointed segments, and each leg only steps to a new foothold when it strays too far, so the gait comes from rules, not keyframes. Each page load builds a different creature with one to twelve leg pairs and a random tail length. Plain canvas 2D with no dependencies; it does not handle touch input or prefers-reduced-motion.
 
-* **Key Files:** `index.html`, `script.js`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `script.js`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Reptile — Interactive Reptile Cursor.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-reptile-container" data-state="idle">
   <button class="cc-reptile-trigger" type="button" aria-label="Reptile">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-reptile-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

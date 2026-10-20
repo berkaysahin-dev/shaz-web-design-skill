@@ -1,31 +1,31 @@
-﻿# Stepper vs. Slider — what's the difference?
+# Stepper vs. Slider — what's the difference?
 
 ![Stepper vs. Slider — what's the difference?](./images/vs-stepper-vs-slider.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-stepper-vs-slider`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/stepper-vs-slider](https://shazagency.com/ui-dictionary/vs/stepper-vs-slider)
+* **Official Source URL:** [https://namethatui.com/vs/stepper-vs-slider](https://namethatui.com/vs/stepper-vs-slider)
 
 ---
 
 ```markdown
-# Stepper vs. Slider — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Stepper vs. Slider — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/stepper-vs-slider](https://shazagency.com/ui-dictionary/vs/stepper-vs-slider) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-stepper-vs-slider`
+> **Source:** [https://namethatui.com/vs/stepper-vs-slider](https://namethatui.com/vs/stepper-vs-slider) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-stepper-vs-slider`
 > **Also Called ("Sloppy Words"):** *stepper vs. slider — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Stepper vs. Slider — what's the difference?' (UI Comparison (VS) — API symbol: `vs-stepper-vs-slider`). Both change a number. A stepper nudges it in precise, small steps — click up, click down — best when the exact value matters and the range is small. A slid… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Stepper vs. Slider — what's the difference?' (`vs-stepper-vs-slider`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Stepper vs. Slider — what's the difference?** (
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Stepper vs. Slider — what's the difference? (vs-stepper-vs-slider)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-stepper-vs-slider"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-stepper-vs-slider"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

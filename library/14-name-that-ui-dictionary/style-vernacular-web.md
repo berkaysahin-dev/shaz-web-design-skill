@@ -1,31 +1,31 @@
-﻿# Vernacular Web
+# Vernacular Web
 
 ![Vernacular Web](./images/style-vernacular-web.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background: #000 url('stars.gif') repeat; text-align: center; font-family: 'Times New Roman', serif;`
 * **Also Called (Aliases):** `the amateur web`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/vernacular-web](https://shazagency.com/ui-dictionary/styles/vernacular-web)
+* **Official Source URL:** [https://namethatui.com/styles/vernacular-web](https://namethatui.com/styles/vernacular-web)
 
 ---
 
 ```markdown
-# Vernacular Web — Shaz Agency Official UI Prompt & Production Architecture
+# Vernacular Web — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/vernacular-web](https://shazagency.com/ui-dictionary/styles/vernacular-web) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: #000 url('stars.gif') repeat; text-align: center; font-family: 'Times New Roman', serif;`
+> **Source:** [https://namethatui.com/styles/vernacular-web](https://namethatui.com/styles/vernacular-web) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: #000 url('stars.gif') repeat; text-align: center; font-family: 'Times New Roman', serif;`
 > **Also Called ("Sloppy Words"):** *the amateur web*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
-Create the surface in the Vernacular Web style — a sincere 90s GeoCities-era personal homepage, not a parody. Defining signals: a tiled repeating background image (starry sky reads instantly); animated GIF-style ornaments — twinCinematic Video sparkles, a striped under-construction badge; a centered single column of system serif type with a rainbow-gradient horizontal rule between sections; the collected-participation footer — visitor counter in green LED digits on black, 'sign my guestbook' link, webring badge, 'best viewed at 800x600' line. Loud colored or blinking emphasis text is period-correct. Keep the specific ornaments flexible — the mood is a proud amateur's decorated scrapbook. Do not drift into web brutalism: this page is ornamented with love, never stripped bare as a statement. Preserve legibility (solid or high-contrast panels behind text over busy wallpaper), respect prefers-reduced-motion by pausing blinks and twinkles, and keep counters and badges decorative, not functional claims.
+Create the surface in the Vernacular Web style — a sincere 90s GeoCities-era personal homepage, not a parody. Defining signals: a tiled repeating background image (starry sky reads instantly); animated GIF-style ornaments — twinkling sparkles, a striped under-construction badge; a centered single column of system serif type with a rainbow-gradient horizontal rule between sections; the collected-participation footer — visitor counter in green LED digits on black, 'sign my guestbook' link, webring badge, 'best viewed at 800x600' line. Loud colored or blinking emphasis text is period-correct. Keep the specific ornaments flexible — the mood is a proud amateur's decorated scrapbook. Do not drift into web brutalism: this page is ornamented with love, never stripped bare as a statement. Preserve legibility (solid or high-contrast panels behind text over busy wallpaper), respect prefers-reduced-motion by pausing blinks and twinkles, and keep counters and badges decorative, not functional claims.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Vernacular Web' (`background: #000 url('stars.gif') repeat; text-align: center; font-family: 'Times New Roman', serif;`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -39,7 +39,7 @@ Debug my 'Vernacular Web' (`background: #000 url('stars.gif') repeat; text-align
 - A small image repeated edge to edge — starry night sky, clouds, marble — behind everything; the page has wallpaper, not a background color.
 - Animated GIF ornaments
 - Imagery & ornament
-- TwinCinematic Video sparkles, spinning @ signs, flaming rules, the striped UNDER CONSTRUCTION sign — small looping animations used as pure decoration.
+- Twinkling sparkles, spinning @ signs, flaming rules, the striped UNDER CONSTRUCTION sign — small looping animations used as pure decoration.
 - Collected badges and counters
 - Layout & composition
 - A visitor counter, 'sign my guestbook', webring prev/next buttons, 'best viewed in Netscape' badges — trophies of participation, stacked at the page's foot.
@@ -140,7 +140,7 @@ When building or refactoring **Vernacular Web** (`background: #000 url('stars.gi
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Vernacular Web (background: #000 url('stars.gif') repeat; text-align: center; font-family: 'Times New Roman', serif;)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-vernacular-web"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-vernacular-web"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

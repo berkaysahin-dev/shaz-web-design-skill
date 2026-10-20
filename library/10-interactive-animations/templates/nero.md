@@ -1,25 +1,25 @@
-﻿# Nero — Single-origin dark chocolate
+# Nero — Single-origin dark chocolate
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/nero/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/nero.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/nero.jpg)  
-> **Tech Stack:** `vanilla, css, gsap` · **Dependencies:** `1` · **Size:** `7.9 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/nero/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/nero.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/nero.jpg)  
+> **Teknoloji:** `vanilla, css, gsap` · **Bağımlılık:** `1` · **Boyut:** `7.9 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A single-screen product picker template for a fictional chocolate brand, NÉRO, with four bars to switch between. Click a thumbnail or press the arrow keys and the bar turns away like a card while the next one swings in, the background and accent colour change, and the text crosses to the other side. Floating cacao beans bob, follow the cursor, and fly to new spots on each switch. Includes a custom cursor and an optional low drone sound. GSAP only; honours reduced motion.
 
-* **Key Files:** `index.html`, `nero.css`, `nero.js`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `nero.css`, `nero.js`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Nero — Single-origin dark chocolate.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-nero-container" data-state="idle">
   <button class="cc-nero-trigger" type="button" aria-label="Nero">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-nero-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

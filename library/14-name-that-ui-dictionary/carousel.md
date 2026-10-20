@@ -1,31 +1,31 @@
-﻿# Carousel
+# Carousel
 
 ![Carousel](./images/carousel.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `swiper`
 * **Also Called (Aliases):** `slider, content slider, slideshow, image slider, swiper`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/carousel](https://shazagency.com/ui-dictionary/web/carousel)
+* **Official Source URL:** [https://namethatui.com/web/carousel](https://namethatui.com/web/carousel)
 
 ---
 
 ```markdown
-# Carousel — Shaz Agency Official UI Prompt & Production Architecture
+# Carousel — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/carousel](https://shazagency.com/ui-dictionary/web/carousel) · **Category:** `Web UI` · **Primary API / Symbol:** `swiper`
+> **Source:** [https://namethatui.com/web/carousel](https://namethatui.com/web/carousel) · **Category:** `Web UI` · **Primary API / Symbol:** `swiper`
 > **Also Called ("Sloppy Words"):** *slider, content slider, slideshow, image slider, swiper*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a carousel (content slider): a horizontal track of slides paged one at a time by previous/next buttons and slide picker dots, using scroll-snap-type: x mandatory or embla-carousel-react (what shadcn/ui's Carousel wraps). Wrap it in role="region" aria-roledescription="carousel"; each slide is a role="group" aria-roledescription="slide" with a position label like "2 of 3". No auto-rotation unless there is a visible pause control.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my carousel (embla-carousel-react / swiper / CSS scroll-snap). Rule out: slides overflowing because the track isn't display:flex with flex: 0 0 100% slides; scroll-snap fighting JS-driven transforms (pick ONE mechanism); the dots out of sync because the selected index listens to the wrong event; auto-rotation still running under prefers-reduced-motion or with no pause control; swipe dead because touch-action or pointer-events is blocked on the track. The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Carousel** (`swiper`), enforce the following engi
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Carousel (swiper)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="carousel"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="carousel"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

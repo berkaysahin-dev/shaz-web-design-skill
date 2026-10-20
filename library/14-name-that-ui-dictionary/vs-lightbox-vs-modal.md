@@ -1,31 +1,31 @@
-﻿# Lightbox vs. Modal — what's the difference?
+# Lightbox vs. Modal — what's the difference?
 
 ![Lightbox vs. Modal — what's the difference?](./images/vs-lightbox-vs-modal.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-lightbox-vs-modal`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/lightbox-vs-modal](https://shazagency.com/ui-dictionary/vs/lightbox-vs-modal)
+* **Official Source URL:** [https://namethatui.com/vs/lightbox-vs-modal](https://namethatui.com/vs/lightbox-vs-modal)
 
 ---
 
 ```markdown
-# Lightbox vs. Modal — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Lightbox vs. Modal — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/lightbox-vs-modal](https://shazagency.com/ui-dictionary/vs/lightbox-vs-modal) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-lightbox-vs-modal`
+> **Source:** [https://namethatui.com/vs/lightbox-vs-modal](https://namethatui.com/vs/lightbox-vs-modal) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-lightbox-vs-modal`
 > **Also Called ("Sloppy Words"):** *lightbox vs. modal — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Lightbox vs. Modal — what's the difference?' (UI Comparison (VS) — API symbol: `vs-lightbox-vs-modal`). A lightbox IS a modal, specialized for media: click a thumbnail and the image opens large over a dimmed page, usually with next/prev arrows and click-outsi… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Lightbox vs. Modal — what's the difference?' (`vs-lightbox-vs-modal`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Lightbox vs. Modal — what's the difference?** (
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Lightbox vs. Modal — what's the difference? (vs-lightbox-vs-modal)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-lightbox-vs-modal"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-lightbox-vs-modal"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

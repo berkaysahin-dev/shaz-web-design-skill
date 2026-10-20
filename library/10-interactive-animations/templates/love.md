@@ -1,25 +1,25 @@
-﻿# Love — Will you be mine? · a cat asks
+# Love — Will you be mine? · a cat asks
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/love/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/love.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/love.jpg)  
-> **Tech Stack:** `vanilla, css` · **Dependencies:** `0` · **Size:** `5.9 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/love/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/love.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/love.jpg)  
+> **Teknoloji:** `vanilla, css` · **Bağımlılık:** `0` · **Boyut:** `5.9 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A Will you be mine? page where a looping kitten video asks the question and No is not really an option. Hover, tap or press No and it jumps somewhere else on screen, shrinks and changes its plea while Yes grows. Saying yes swaps to a happy-cat clip and bursts emoji hearts, with an ask me again button to replay. Small blips and a chime are synthesised with Web Audio, with a mute toggle. Zero dependencies; reduced motion trims the burst.
 
-* **Key Files:** `cat-ask.mp4`, `cat-yes.mp4`, `index.html`, `poster-ask.jpg`, `poster-yes.jpg`, `script.js`, `style.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `cat-ask.mp4`, `cat-yes.mp4`, `index.html`, `poster-ask.jpg`, `poster-yes.jpg`, `script.js`, `style.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Love — Will you be mine? · a cat asks.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-love-container" data-state="idle">
   <button class="cc-love-trigger" type="button" aria-label="Love">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-love-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

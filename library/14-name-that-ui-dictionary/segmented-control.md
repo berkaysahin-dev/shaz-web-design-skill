@@ -1,31 +1,31 @@
-﻿# Segmented Control
+# Segmented Control
 
 ![Segmented Control](./images/segmented-control.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSSegmentedControl.selectedSegment`
 * **Also Called (Aliases):** `segment control, segmented picker, button group`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/segmented-control](https://shazagency.com/ui-dictionary/macos/segmented-control)
+* **Official Source URL:** [https://namethatui.com/macos/segmented-control](https://namethatui.com/macos/segmented-control)
 
 ---
 
 ```markdown
-# Segmented Control — Shaz Agency Official UI Prompt & Production Architecture
+# Segmented Control — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/segmented-control](https://shazagency.com/ui-dictionary/macos/segmented-control) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSegmentedControl.selectedSegment`
+> **Source:** [https://namethatui.com/macos/segmented-control](https://namethatui.com/macos/segmented-control) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSegmentedControl.selectedSegment`
 > **Also Called ("Sloppy Words"):** *segment control, segmented picker, button group*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a Segmented Control with NSSegmentedControl (SwiftUI: a Picker with PickerStyle.segmented), showing the active segment with the native selected treatment. Keep the buttons connected as one control and bind selection so exactly one segment remains selected for this view switcher.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS segmented control (NSSegmentedControl). Rule out: trackingMode wrong — momentary segments fire and deselect, selectOne keeps a selection; selectedSegment being -1 in the action for momentary mode; segment images not template so dark mode breaks; auto segment widths jumping when labels change. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Segmented Control** (`NSSegmentedControl.selected
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Segmented Control (NSSegmentedControl.selectedSegment)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="segmented-control"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="segmented-control"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,25 +1,25 @@
-﻿# Decant — the toggle that fills instead of lighting up
+# Decant — the toggle that fills instead of lighting up
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/decant.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/decant.jpg)  
-> **Tech Stack:** `vanilla, css, canvas` · **Dependencies:** `0` · **Size:** `13.4 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/decant.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/decant.jpg)  
+> **Teknoloji:** `vanilla, css, canvas` · **Bağımlılık:** `0` · **Boyut:** `13.4 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A focus-mode dock of three frosted-glass pills (Sleep, Do Not Disturb, Personal) that fill with liquid instead of lighting up. Liquid pours outward from the exact point you press, its surface wobbling with the spring's own velocity. Pick another pill and the first drains back to where it was poured while the new one fills. It is a native radio group underneath, so arrow keys and screen readers work, and reduced motion skips the pour. Zero dependencies, one canvas per pill.
 
-* **Key Files:** `README.md`, `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Decant — the toggle that fills instead of lighting up.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-decant-container" data-state="idle">
   <button class="cc-decant-trigger" type="button" aria-label="Decant">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-decant-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

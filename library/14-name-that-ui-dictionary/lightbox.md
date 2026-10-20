@@ -1,31 +1,31 @@
-﻿# Lightbox
+# Lightbox
 
 ![Lightbox](./images/lightbox.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<dialog>`
 * **Also Called (Aliases):** `image viewer overlay, photo modal, gallery overlay`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/lightbox](https://shazagency.com/ui-dictionary/web/lightbox)
+* **Official Source URL:** [https://namethatui.com/web/lightbox](https://namethatui.com/web/lightbox)
 
 ---
 
 ```markdown
-# Lightbox — Shaz Agency Official UI Prompt & Production Architecture
+# Lightbox — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/lightbox](https://shazagency.com/ui-dictionary/web/lightbox) · **Category:** `Web UI` · **Primary API / Symbol:** `<dialog>`
+> **Source:** [https://namethatui.com/web/lightbox](https://namethatui.com/web/lightbox) · **Category:** `Web UI` · **Primary API / Symbol:** `<dialog>`
 > **Also Called ("Sloppy Words"):** *image viewer overlay, photo modal, gallery overlay*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a lightbox: clicking a gallery thumbnail opens the full image in a modal <dialog> (aria-modal) over a dark ::backdrop scrim, with prev/next arrows, a close button, Escape and backdrop-click to dismiss, and a reversible fade/scale transition.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my lightbox (<dialog>, ::backdrop, PhotoSwipe-style image overlay). Rule out: opened with show() instead of showModal() so there is no backdrop and the page scrolls behind; arrow keys paging the gallery and scrolling the page at the same time; the full-size image loading only after the transition so it pops from blurry to sharp; focus not returning to the clicked thumbnail on close. The symptom:
 
@@ -130,7 +130,7 @@ When building or refactoring **Lightbox** (`<dialog>`), enforce the following en
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Lightbox (<dialog>)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="lightbox"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="lightbox"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

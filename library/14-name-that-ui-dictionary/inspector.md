@@ -1,31 +1,31 @@
-﻿# Inspector
+# Inspector
 
 ![Inspector](./images/inspector.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `View.inspector(isPresented:content:)`
 * **Also Called (Aliases):** `inspector panel, details sidebar, properties inspector, utility area`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/inspector](https://shazagency.com/ui-dictionary/macos/inspector)
+* **Official Source URL:** [https://namethatui.com/macos/inspector](https://namethatui.com/macos/inspector)
 
 ---
 
 ```markdown
-# Inspector — Shaz Agency Official UI Prompt & Production Architecture
+# Inspector — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/inspector](https://shazagency.com/ui-dictionary/macos/inspector) · **Category:** `macOS UI` · **Primary API / Symbol:** `View.inspector(isPresented:content:)`
+> **Source:** [https://namethatui.com/macos/inspector](https://namethatui.com/macos/inspector) · **Category:** `macOS UI` · **Primary API / Symbol:** `View.inspector(isPresented:content:)`
 > **Also Called ("Sloppy Words"):** *inspector panel, details sidebar, properties inspector, utility area*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Put these selection-specific controls in an Inspector using SwiftUI View.inspector(isPresented:content:) (macOS 14+), as a collapsible right-hand column with a sensible inspectorColumnWidth. The inspector must update with the selected object without replacing the main content.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS inspector (SwiftUI View.inspector(isPresented:), NSSplitViewItem(inspectorWithViewController:)). Rule out: the inspector auto-presenting as a sheet on narrow windows — that is the built-in adaptive behavior; the toggle binding out of sync because the user can also close it by dragging; min/ideal widths forcing a collapse on window resize; inspector content not tracking the current selection. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Inspector** (`View.inspector(isPresented:content:
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Inspector (View.inspector(isPresented:content:))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="inspector"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="inspector"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

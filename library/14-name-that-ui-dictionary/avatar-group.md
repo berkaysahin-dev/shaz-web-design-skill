@@ -1,31 +1,31 @@
-﻿# Avatar Group
+# Avatar Group
 
 ![Avatar Group](./images/avatar-group.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `margin-inline-start: -10px`
 * **Also Called (Aliases):** `facepile, avatar stack, stacked avatars, grouped avatars, avatar pile`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/avatar-group](https://shazagency.com/ui-dictionary/web/avatar-group)
+* **Official Source URL:** [https://namethatui.com/web/avatar-group](https://namethatui.com/web/avatar-group)
 
 ---
 
 ```markdown
-# Avatar Group — Shaz Agency Official UI Prompt & Production Architecture
+# Avatar Group — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/avatar-group](https://shazagency.com/ui-dictionary/web/avatar-group) · **Category:** `Web UI` · **Primary API / Symbol:** `margin-inline-start: -10px`
+> **Source:** [https://namethatui.com/web/avatar-group](https://namethatui.com/web/avatar-group) · **Category:** `Web UI` · **Primary API / Symbol:** `margin-inline-start: -10px`
 > **Also Called ("Sloppy Words"):** *facepile, avatar stack, stacked avatars, grouped avatars, avatar pile*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add an Avatar Group using MUI AvatarGroup, with circular member photos overlapping through compact negative spacing, a background-colored separator ring around every avatar, deterministic stacking order, fallback initials for missing images, and a final +N overflow avatar when more people are hidden.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my avatar group (AvatarGroup, negative margin-inline-start, z-index, +N overflow). Rule out: the negative margin applied to the first child too, so the row hangs off its left edge; the surplus computed from the total instead of total minus visible, showing +5 when only four people are hidden; stacking order left to the DOM so the last avatar paints over the first (set z-index explicitly, or reverse the row); the separator ring hardcoded white so it glows in dark mode instead of following the surface behind the group; the ring clipped because the group sits inside an overflow-hidden parent; fallback initials never appearing because a broken image URL leaves an empty <img> in place instead of switching to the fallback. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Avatar Group** (`margin-inline-start: -10px`), en
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Avatar Group (margin-inline-start: -10px)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="avatar-group"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="avatar-group"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

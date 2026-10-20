@@ -1,11 +1,11 @@
-﻿# Vega Funnel
+# Vega Funnel
 
 ![Vega Funnel]()
 
 ---
 
 ### Specification & Assets
-* **Collection:** `Shaz Labs / Shaz Agency 3D Collection`
+* **Collection:** `Shaz Labs / GetLayers Collection`
 * **Item ID:** `vega-funnel`
 * **Category:** `Templates`
 * **Tier:** `Premium`
@@ -24,7 +24,7 @@ An op-art checkerboard sheet folded into an hourglass and drawn down into a glow
 
 ---
 
-### Complete Architecture Prompt (Ready for Claude Code, OpenAI Codex, Cursor, Antigravity, Antigravity, Windsurf)
+### Complete Architecture Prompt (Ready for Claude Code, OpenAI Codex, Cursor, Antigravity, v0, Lovable)
 
 ```markdown
 # Recreate this site as a single production-grade HTML/CSS/JS file: Vega Funnel (Templates)
@@ -32,23 +32,23 @@ An op-art checkerboard sheet folded into an hourglass and drawn down into a glow
 You are a Principal Creative Technologist, WebGL Shader Architect, and Design Systems Engineer.
 Produce a **single self-contained `index.html`** (or full Next.js / React + Tailwind + Framer Motion module if requested) that reproduces **"Vega Funnel"** with 1:1 visual fidelity, real-time GPU physics, fluid viewport scaling, and tactile micro-interactions.
 
-> **RECOMMENDED AI SKILLS:** Ensure **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** skills are active to enforce spring physics, anti-generic layout geometry, and sub-pixel surface polish.
+> **RECOMMENDED AI SKILLS:** Ensure **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** skills are active to enforce spring physics, anti-generic layout geometry, and sub-pixel surface polish.
 
 ---
 
 ## 1. Project Identity & Visual Direction
 - **Title:** `Vega Funnel`
 - **Slug / ID:** `vega-funnel`
-- **Category:** `Templates` (`Shaz Agency 3D Collection`)
+- **Category:** `Templates` (`GetLayers Collection`)
 - **Creative Concept:** An op-art checkerboard sheet folded into an hourglass and drawn down into a glowing throat.
 - **Atmospheric Tone & Mood:** `LIGHT` palette · `brutal, playful`
 - **Core Stack & Tags:** `threejs, particles, interactive`
 - **Visual & Architectural Keywords:** `art, canvas-texture, checker, checkerboard, down, drawn, folded, funnel, glowing, hourglass, illusion, interactive, monochrome, op-art, opart, optical, particles, shader, sheet, threejs, throat, tunnel, vega, vortex, warp`
 - **Primary Media Assets (Built-In 4K CDN Endpoints):**
-  - **Primary Full-Res Video (`.mp4`):** `https://assets.shazagency.com/templates/vega-funnel.mp4`
-  - **Preview Loop Video (`.mp4`):** `https://assets.shazagency.com/templates/vega-funnel.mp4`
-  - **High-Res Poster Frame (`.webp`):** `https://assets.shazagency.com/templates/vega-funnel.webp`
-  *(Note: Use `https://assets.shazagency.com/templates/vega-funnel.mp4` directly for instant 1:1 reproduction. If replacing with a custom commercial product video, generate a studio keyframe in Studio Keyframe Diffusion Engine and animate a 6s dolly loop in Cinematic Camera Motion Engine, then swap the `<video src="...">` URL).*
+  - **Primary Full-Res Video (`.mp4`):** `https://storage.getlayers.ai/templates/vega-funnel.mp4`
+  - **Preview Loop Video (`.mp4`):** `https://storage.getlayers.ai/templates/vega-funnel.mp4`
+  - **High-Res Poster Frame (`.webp`):** `https://storage.getlayers.ai/templates/vega-funnel.webp`
+  *(Note: Use `https://storage.getlayers.ai/templates/vega-funnel.mp4` directly for instant 1:1 reproduction. If replacing with a custom commercial product video, generate a studio keyframe in Midjourney v6/Flux and animate a 6s dolly loop in Higgsfield or Kling AI, then swap the `<video src="...">` URL).*
 
 ---
 
@@ -165,8 +165,8 @@ This design (`Vega Funnel` — Mode: `MORPHING_PARTICLE_ORB_TO_GALAXY`) runs a h
 <div class="stage-viewport" id="stageViewport">
   <video
     id="heroVideo"
-    src="https://assets.shazagency.com/templates/vega-funnel.mp4"
-    poster="https://assets.shazagency.com/templates/vega-funnel.webp"
+    src="https://storage.getlayers.ai/templates/vega-funnel.mp4"
+    poster="https://storage.getlayers.ai/templates/vega-funnel.webp"
     autoplay
     muted
     loop
@@ -329,54 +329,21 @@ scene.add(points);
 
 ---
 
-## 4. Complete Section-by-Section DOM & Layout Architecture
+## 4. Stage Layout & Viewport Architecture
 
-Build the complete page structure over `z-index: 10` so it scrolls smoothly over the sticky WebGL/video canvas:
+Build a focused, full-viewport cinematic showcase:
 
-### Section 01 — Floating Glassmorphic HUD Navbar (`header.hud-nav`)
+### 4.1 Minimal Glass Navigation (`header.hud-nav`)
 - **Position:** `fixed; top: 1.25rem; left: 50%; transform: translateX(-50%); width: min(92vw, 82rem); z-index: 100;`
-- **Container:** `.liquid-glass` pill bar (`border-radius: 999px; padding: 0.65rem 1.25rem; display: flex; align-items: center; justify-content: space-between;`).
-- **Left Cluster:** Geometric brand mark + uppercase wordmark `VEGA FUNNEL` (`font-family: var(--font-display); font-weight: 700; letter-spacing: 0.08em; font-size: 0.92rem;`) + live status badge (`<span class="status-dot"></span> LIVE TELEMETRY`).
-- **Center Cluster:** 4 anchor links (`01 / Architecture`, `02 / Neural Core`, `03 / Benchmarks`, `04 / Specs`) with hover sliding pill indicator and `--font-mono` index prefixes.
-- **Right Cluster:** Live UTC operational clock (`#utcClock` updating every second in `JetBrains Mono`) + primary magnetic CTA button (`Initialize System ↗` with `background: var(--text-primary); color: var(--bg-canvas); border-radius: 999px; padding: 0.55rem 1.15rem; font-weight: 600;`).
+- **Container:** `.liquid-glass` pill bar (`border-radius: 999px; padding: 0.65rem 1.4rem; display: flex; align-items: center; justify-content: space-between;`).
+- **Left:** Geometric brand mark + wordmark `VEGA FUNNEL` (`font-family: var(--font-display); font-weight: 700; font-size: 0.95rem;`).
+- **Right:** Primary action button (`Explore Scene ↗` with `background: var(--text-primary); color: var(--bg-canvas); border-radius: 999px; padding: 0.55rem 1.25rem; font-weight: 600;`).
 
-### Section 02 — Full-Viewport Hero Stage (`section.hero-stage`, `min-height: 100vh`)
-- **Grid Alignment:** 12-column CSS grid (`max-width: var(--container-max); margin: 0 auto; padding: 8.5rem 2rem 4rem 2rem; display: grid; grid-template-columns: repeat(12, 1fr); align-items: end; min-height: 100vh;`).
-- **Left / Main Column (Cols 1–8):**
-  - **Eyebrow Pill:** `.liquid-glass` pill containing pulsing `#a855f7` dot + `TEMPLATES // BUILD v4.2` (`font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.14em;`).
-  - **Monumental Display Headline:**
-    Split into staggered word/line reveal wrappers (`overflow: hidden` mask with `@keyframes blurFadeUp 0.95s var(--ease-out-expo) forwards`):
-    - Line 1: **`Vega Funnel`** (`font-family: var(--font-display); font-size: clamp(3.2rem, 6.8vw, 6.4rem); font-weight: 700; line-height: 0.94; letter-spacing: -0.04em;`)
-    - Line 2: Gradient-tinted italic/light accent phrase derived from the concept (`background: linear-gradient(90deg, var(--text-primary), var(--accent-primary), var(--accent-secondary)); -webkit-background-clip: text; color: transparent;`).
-  - **Lead Subcopy:** `An op-art checkerboard sheet folded into an hourglass and drawn down into a glowing throat.` (`max-width: 38rem; font-size: 1.08rem; line-height: 1.65; color: var(--text-secondary); margin-top: 1.5rem;`).
-  - **Action Row:** Primary high-contrast pill CTA + Secondary `.liquid-glass` interactive demo trigger (`Watch 4K Reel ▶`) with hover scale and icon translation.
-- **Right Telemetry HUD Card (Cols 9–12):**
-  - Floating `.liquid-glass` instrument card (`border-radius: 1.25rem; padding: 1.35rem;`) displaying 3 live readout rows:
-    1. `SHADER PIPELINE` → `WebGL2 / 60.0 FPS`
-    2. `PARTICLE BUFFER` → `24,000 FLOAT32 NODES`
-    3. `SCROLL PHASE` → `<span id="scrollPhaseReadout">0.000 RAD</span>` (dynamically updated on scroll).
-
-### Section 03 — Kinetic Marquee & Editorial Manifesto (`section.manifesto-section`)
-- **Infinite Ticker Strip:** Full-bleed horizontal border-top/border-bottom (`1px solid var(--border-hairline)`) scrolling marquee running at `35s linear infinite` with keywords: `ART  •  CANVAS-TEXTURE  •  CHECKER  •  CHECKERBOARD  •  DOWN  •  DRAWN  •  FOLDED  •  FUNNEL  •  GLOWING  •  HOURGLASS  •  ILLUSION  •  INTERACTIVE  •  MONOCHROME  •  OP-ART  •  OPART  •  OPTICAL  •  PARTICLES  •  SHADER  •  SHEET  •  THREEJS  •  THROAT  •  TUNNEL  •  VEGA  •  VORTEX  •  WARP`.
-- **Scroll-Scrubbed Word Opacity Reveal:** A centered editorial statement (`max-width: 64rem; font-family: var(--font-display); font-size: clamp(1.85rem, 3.6vw, 3.25rem); line-height: 1.18; letter-spacing: -0.025em;`) where each word transitions from `opacity: 0.18; filter: blur(4px)` to `opacity: 1.0; filter: blur(0px)` based on element scroll progress.
-
-### Section 04 — Asymmetric 4-Card Bento Architecture (`section.bento-section`)
-- **12-Column Bento Grid (`gap: 1.25rem`):**
-  - **Card 1 (Span 7 cols):** `.spotlight-card` featuring an interactive live shader parameter toggle (`Orb State`, `Spiral State`, `Cortex State`) that directly mutates `uniforms.uScroll.value` when clicked, plus technical breakdown copy.
-  - **Card 2 (Span 5 cols):** `.spotlight-card` with live animated SVG waveform / frequency spectrum visualizer (`<svg viewBox="0 0 400 160">`) using `#a855f7` and `#38bdf8` stroke gradients.
-  - **Card 3 (Span 5 cols):** `.spotlight-card` showcasing micro-typography and color token swatches (`#f6f5f2`, `#a855f7`, `#38bdf8`, `#09090b`) with click-to-copy HEX interaction.
-  - **Card 4 (Span 7 cols):** `.spotlight-card` housing an embedded secondary preview loop (`https://assets.shazagency.com/templates/vega-funnel.mp4`) with hover slow-motion playbackrate (`video.playbackRate = 0.5` on hover, `1.0` on leave) and glass HUD overlay badges.
-
-### Section 05 — Quantitative Telemetry & Performance Benchmarks (`section.metrics-section`)
-- 4-column glassmorphic stat grid with `IntersectionObserver` count-up animations (`data-target`):
-  - `99.98%` — `FRAME TIMING STABILITY (16.6ms BUDGET)`
-  - `24K` — `CONCURRENT GPU VERTEX DISPATCH`
-  - `0.04ms` — `UNIFORM BUFFER LATENCY`
-  - `4K / 60` — `HDR STREAMING PIPELINE`
-
-### Section 06 — Monumental Footer & Interactive Command Bar (`footer.site-footer`)
-- Oversized edge-to-edge watermark typography (`VEGA FUNNEL` at `font-size: clamp(4.5rem, 15vw, 14rem); font-weight: 800; line-height: 0.82; letter-spacing: -0.05em; color: rgba(255,255,255,0.04); pointer-events: none;`).
-- 4-column directory navigation, system status indicator (`All Systems Operational`), and back-to-top smooth scroll trigger.
+### 4.2 Full-Viewport Cinematic Stage (`section.hero-stage`)
+- **Layout:** Centered or asymmetric editorial composition over the live Three.js / WebGL shader stage.
+- **Display Headline:** Clean monumental title `Vega Funnel` without decorative eyebrow tags or '//' label prefixes.
+- **Concept Subcopy:** Clear editorial typography explaining the visual concept, set at high contrast without visual clutter.
+- **Zero Slop Directives:** Never inject artificial bento matrices, fake latency benchmarks, flashing indicator dots, or monumental watermark footers. The 3D shader and canvas must remain the undisputed hero of the viewport.
 
 ---
 
@@ -453,13 +420,10 @@ window.addEventListener('resize', () => {
 ---
 
 ## 6. Strict Anti-Slop & Quality Guardrails (Mandatory)
-1. **NO Placeholder Text:** Never output `"Calibrated production narrative"` or `"Content goes here"`. Every card, metric, telemetry label, and paragraph must contain domain-authentic copy matching **"Vega Funnel"**.
+1. **NO Placeholder Text:** Never output `"placeholder narrative"` or `"Content goes here"`. Every card, metric, telemetry label, and paragraph must contain domain-authentic copy matching **"Vega Funnel"**.
 2. **NO Generic Unstyled Scrollbars:** Keep native scrollbars hidden (`scrollbar-width: none`) while preserving smooth wheel/touch scrolling via Lenis.
 3. **NO Flat Opaque Borders:** All borders must use translucent `rgba(255,255,255,0.08)` hairlines paired with `.liquid-glass` specular pseudo-element masks.
 4. **NO Broken Video/Canvas Z-Indexing:** The `.stage-viewport` (`<video>` + `<canvas id="webglCanvas">`) must stay fixed at `z-index: 0` with `pointer-events: none`, while all interactive sections scroll cleanly above at `z-index: 10`.
 5. **100% Self-Contained Execution:** All CSS tokens, keyframe animations, Three.js shaders, Lenis smooth scroll, and DOM sections must run out-of-the-box with zero missing imports or console errors.
 
 ```
-
-
-

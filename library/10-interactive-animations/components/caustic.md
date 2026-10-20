@@ -1,25 +1,25 @@
-﻿# Caustic — a delete button that dissolves what it eats
+# Caustic — a delete button that dissolves what it eats
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Form` (form)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/caustic.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/caustic.jpg)  
-> **Tech Stack:** `vanilla, css, svg` · **Dependencies:** `0` · **Size:** `13.6 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Form` (form)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/caustic.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/caustic.jpg)  
+> **Teknoloji:** `vanilla, css, svg` · **Bağımlılık:** `0` · **Boyut:** `13.6 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 Press it and the lid flips, the bin tips, and the letters of its own label are pulled in one by one. The pill furls into a disc and the work becomes visible: the level in the bin falls for exactly as long as the delete takes, inside a corona of caustic light. Every number was measured off the reference film frame by frame — the furl is 640ms on cubic-bezier(.72,0,.33,.95). Zero dependencies.
 
-* **Key Files:** `README.md`, `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(.72,0,.33,.95)`
-  - **Duration:** `640ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(.72,0,.33,.95)`
+  - **Süre:** `640ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Caustic — a delete button that dissolves what it eats.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-caustic-container" data-state="idle">
   <button class="cc-caustic-trigger" type="button" aria-label="Caustic">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-caustic-container {
   --cc-timing: 640ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

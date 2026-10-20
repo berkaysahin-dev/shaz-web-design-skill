@@ -1,31 +1,31 @@
-﻿# Breadcrumbs
+# Breadcrumbs
 
 ![Breadcrumbs](./images/breadcrumbs.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `aria-hidden="true"`
 * **Also Called (Aliases):** `breadcrumb trail, path navigation, hierarchy trail`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/breadcrumbs](https://shazagency.com/ui-dictionary/web/breadcrumbs)
+* **Official Source URL:** [https://namethatui.com/web/breadcrumbs](https://namethatui.com/web/breadcrumbs)
 
 ---
 
 ```markdown
-# Breadcrumbs — Shaz Agency Official UI Prompt & Production Architecture
+# Breadcrumbs — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/breadcrumbs](https://shazagency.com/ui-dictionary/web/breadcrumbs) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-hidden="true"`
+> **Source:** [https://namethatui.com/web/breadcrumbs](https://namethatui.com/web/breadcrumbs) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-hidden="true"`
 > **Also Called ("Sloppy Words"):** *breadcrumb trail, path navigation, hierarchy trail*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add breadcrumbs inside a <nav aria-label="Breadcrumb">, linking each ancestor and marking the final item aria-current="page". Collapse low-value middle ancestors into an ellipsis when space is tight while keeping the current page visible.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my breadcrumbs (nav aria-label=breadcrumb, aria-current=page). Rule out: separators typed into the markup so screen readers announce every slash — draw them with CSS pseudo-elements; aria-current missing from the last crumb; long trails needing middle-crumb collapse instead of wrapping to two lines; the current page rendered as a link to itself. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Breadcrumbs** (`aria-hidden="true"`), enforce the
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Breadcrumbs (aria-hidden="true")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="breadcrumbs"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="breadcrumbs"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

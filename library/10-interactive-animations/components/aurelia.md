@@ -1,25 +1,25 @@
-﻿# Aurelia — pink flowers that bloom from bud to petal, in pure CSS
+# Aurelia — pink flowers that bloom from bud to petal, in pure CSS
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Bileşen` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** Video Önizleme Mevcut  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/aurelia.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/aurelia.jpg)  
-> **Tech Stack:** `vanilla, css` · **Dependencies:** `0` · **Size:** `3.8 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Bileşen` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** Video Önizleme Mevcut  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/aurelia.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/aurelia.jpg)  
+> **Teknoloji:** `vanilla, css` · **Bağımlılık:** `0` · **Boyut:** `3.8 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 Three pink flowers grow out of a dark night scene: stems rise, leaves unfurl one by one and each head scales open from a bud, all built from plain divs and CSS keyframes. Once grown, the flowers sway on a loop while specks of pink light drift up, blur and fade. The scene waits paused until the page loads, then removing one class starts every staggered delay. No runtime dependencies, and no prefers-reduced-motion fallback.
 
-* **Key Files:** `index.html`, `script.js`, `style.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `320ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `script.js`, `style.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `320ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Aurelia — pink flowers that bloom from bud to petal, in pure CSS.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-aurelia-container" data-state="idle">
   <button class="cc-aurelia-trigger" type="button" aria-label="Aurelia">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-aurelia-container {
   --cc-timing: 320ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

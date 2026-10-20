@@ -1,31 +1,31 @@
-﻿# Dock Badge
+# Dock Badge
 
 ![Dock Badge](./images/dock-badge.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSDockTile.badgeLabel`
 * **Also Called (Aliases):** `Dock tile badge, app icon badge, notification badge`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/dock-badge](https://shazagency.com/ui-dictionary/macos/dock-badge)
+* **Official Source URL:** [https://namethatui.com/macos/dock-badge](https://namethatui.com/macos/dock-badge)
 
 ---
 
 ```markdown
-# Dock Badge — Shaz Agency Official UI Prompt & Production Architecture
+# Dock Badge — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/dock-badge](https://shazagency.com/ui-dictionary/macos/dock-badge) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSDockTile.badgeLabel`
+> **Source:** [https://namethatui.com/macos/dock-badge](https://namethatui.com/macos/dock-badge) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSDockTile.badgeLabel`
 > **Also Called ("Sloppy Words"):** *Dock tile badge, app icon badge, notification badge*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Show a Dock Badge by assigning the count to NSApp.dockTile.badgeLabel, clearing the label when no count remains. If stronger attention is warranted, call NSApplication.requestUserAttention(_:) separately to bounce the Dock icon; the bounce is not the badge itself.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS Dock badge (NSDockTile.badgeLabel, NSApp.dockTile). Rule out: clearing with the string zero instead of nil or empty so a 0 stays visible; setting the badge from a background thread; expecting the badge to survive quit — it lives only while the app runs (UNUserNotificationCenter badge APIs persist); long strings truncating in the tile. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Dock Badge** (`NSDockTile.badgeLabel`), enforce t
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Dock Badge (NSDockTile.badgeLabel)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="dock-badge"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="dock-badge"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

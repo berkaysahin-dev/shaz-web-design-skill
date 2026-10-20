@@ -1,31 +1,31 @@
-﻿# Tabs vs. Segmented Control — what's the difference?
+# Tabs vs. Segmented Control — what's the difference?
 
 ![Tabs vs. Segmented Control — what's the difference?](./images/vs-tabs-vs-segmented-control.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `grid, day`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/tabs-vs-segmented-control](https://shazagency.com/ui-dictionary/vs/tabs-vs-segmented-control)
+* **Official Source URL:** [https://namethatui.com/vs/tabs-vs-segmented-control](https://namethatui.com/vs/tabs-vs-segmented-control)
 
 ---
 
 ```markdown
-# Tabs vs. Segmented Control — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Tabs vs. Segmented Control — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/tabs-vs-segmented-control](https://shazagency.com/ui-dictionary/vs/tabs-vs-segmented-control) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `grid, day`
+> **Source:** [https://namethatui.com/vs/tabs-vs-segmented-control](https://namethatui.com/vs/tabs-vs-segmented-control) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `grid, day`
 > **Also Called ("Sloppy Words"):** *tabs vs. segmented control — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Tabs vs. Segmented Control — what's the difference?' (UI Comparison (VS) — API symbol: `grid, day`). Tabs navigate: each tab owns its own panel, and switching swaps the whole content region. A segmented control (toggle group) modifies: it changes how the S… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Tabs vs. Segmented Control — what's the difference?' (`grid, day`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Tabs vs. Segmented Control — what's the differe
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Tabs vs. Segmented Control — what's the difference? (grid, day)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-tabs-vs-segmented-control"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-tabs-vs-segmented-control"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

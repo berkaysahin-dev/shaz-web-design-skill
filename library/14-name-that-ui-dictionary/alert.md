@@ -1,25 +1,25 @@
-﻿# Alert
+# Alert
 
 ![Alert](./images/alert.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `.informational`
 * **Also Called (Aliases):** `alert dialog, warning dialog, confirmation dialog, message box, system prompt`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/alert](https://shazagency.com/ui-dictionary/macos/alert)
+* **Official Source URL:** [https://namethatui.com/macos/alert](https://namethatui.com/macos/alert)
 
 ---
 
 ```markdown
-# Alert — Shaz Agency Official UI Prompt & Production Architecture
+# Alert — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/alert](https://shazagency.com/ui-dictionary/macos/alert) · **Category:** `macOS UI` · **Primary API / Symbol:** `.informational`
+> **Source:** [https://namethatui.com/macos/alert](https://namethatui.com/macos/alert) · **Category:** `macOS UI` · **Primary API / Symbol:** `.informational`
 > **Also Called ("Sloppy Words"):** *alert dialog, warning dialog, confirmation dialog, message box, system prompt*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 “The little warning window with the app icon and two buttons” is an alert — NSAlert. It shows your app icon (badged with a yellow caution triangle for warnings), a bold message line, smaller informative text, and buttons where the first added is the blue default. Run it app-modal with runModal(), or attach it to a single window with beginSheetModal(for:) — then it slides out of that window's title bar like a sheet. The “Don't ask me again” checkbox is its built-in suppression button.
 If you called it…
@@ -70,7 +70,7 @@ Show a native macOS alert with NSAlert (SwiftUI: .alert): messageText is the bol
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS alert (NSAlert, SwiftUI View.alert). Rule out: presenting off the main thread; runModal blocking the whole app when beginSheetModal(for:) attached to one window was intended; the return-key default being the FIRST button added, not the one you expect; the suppression checkbox state never persisted to defaults. The symptom:
 
@@ -189,7 +189,7 @@ When building or refactoring **Alert** (`.informational`), enforce the following
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Alert (.informational)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="alert"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="alert"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -230,5 +230,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

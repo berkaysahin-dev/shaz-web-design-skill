@@ -1,31 +1,31 @@
-﻿# Column View (Browser)
+# Column View (Browser)
 
 ![Column View (Browser)](./images/column-view.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSBrowser`
 * **Also Called (Aliases):** `browser view, Finder column view, Miller columns, hierarchical browser`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/column-view](https://shazagency.com/ui-dictionary/macos/column-view)
+* **Official Source URL:** [https://namethatui.com/macos/column-view](https://namethatui.com/macos/column-view)
 
 ---
 
 ```markdown
-# Column View (Browser) — Shaz Agency Official UI Prompt & Production Architecture
+# Column View (Browser) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/column-view](https://shazagency.com/ui-dictionary/macos/column-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSBrowser`
+> **Source:** [https://namethatui.com/macos/column-view](https://namethatui.com/macos/column-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSBrowser`
 > **Also Called ("Sloppy Words"):** *browser view, Finder column view, Miller columns, hierarchical browser*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a Finder-style Column View with NSBrowser and NSBrowserCell: selecting a non-leaf row reveals its children in a new column immediately to the right, preserving the visible hierarchy path. Do not substitute a flat list or a single sidebar-detail split.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS column view (NSBrowser, Miller columns). Rule out: stale columns because reloadColumn/reloadData never ran after the model changed; confusing path-based selection with item-based delegate methods; lazy child loading never triggered because isLeafItem answers wrong; the horizontal scroll position jumping when columns are added. The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Column View (Browser)** (`NSBrowser`), enforce th
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Column View (Browser) (NSBrowser)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="column-view"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="column-view"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

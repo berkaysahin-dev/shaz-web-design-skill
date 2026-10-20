@@ -1,31 +1,31 @@
-﻿# Skeleton vs. Spinner
+# Skeleton vs. Spinner
 
 ![Skeleton vs. Spinner](./images/skeleton-spinner.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `Skeleton`
 * **Also Called (Aliases):** `skeleton screen, placeholder loader, loading spinner, throbber`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/skeleton-spinner](https://shazagency.com/ui-dictionary/web/skeleton-spinner)
+* **Official Source URL:** [https://namethatui.com/web/skeleton-spinner](https://namethatui.com/web/skeleton-spinner)
 
 ---
 
 ```markdown
-# Skeleton vs. Spinner — Shaz Agency Official UI Prompt & Production Architecture
+# Skeleton vs. Spinner — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/skeleton-spinner](https://shazagency.com/ui-dictionary/web/skeleton-spinner) · **Category:** `Web UI` · **Primary API / Symbol:** `Skeleton`
+> **Source:** [https://namethatui.com/web/skeleton-spinner](https://namethatui.com/web/skeleton-spinner) · **Category:** `Web UI` · **Primary API / Symbol:** `Skeleton`
 > **Also Called ("Sloppy Words"):** *skeleton screen, placeholder loader, loading spinner, throbber*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Mark the loading region aria-busy="true" and use a skeleton when the final card layout is known, preserving its geometry while data arrives. Use a spinner with role="status" when the wait has no meaningful content shape, and replace either indicator when loading completes.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my skeleton/spinner (loading placeholders). Rule out: skeleton flashing for sub-200ms loads — add an appearance delay; the shimmer looping forever because the error state never replaces it; skeleton shapes not matching real content so the swap causes layout shift; dozens of simultaneously animating placeholders janking scroll. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Skeleton vs. Spinner** (`Skeleton`), enforce the 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Skeleton vs. Spinner (Skeleton)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="skeleton-spinner"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="skeleton-spinner"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

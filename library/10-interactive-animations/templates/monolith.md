@@ -1,25 +1,25 @@
-﻿# Monolith — Impossible Architecture, in coverflow
+# Monolith — Impossible Architecture, in coverflow
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/monolith/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/monolith.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/monolith.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap` · **Dependencies:** `1` · **Size:** `7.4 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/monolith/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/monolith.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/monolith.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap` · **Bağımlılık:** `1` · **Boyut:** `7.4 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A coverflow gallery page template, MONOLITH, that shows six architecture images as tilted 3D cards with a caption that changes per card. Drag with inertia, use the wheel, arrow keys, the ticks or the prev and next buttons, or let it advance on a timer drawn as a ring. The centre card tilts toward the pointer, nearby cards lift on hover, and each caption rises in word by word. GSAP with Observer and Inertia; reduced motion turns it into a flat scroll-snap row.
 
-* **Key Files:** `index.html`, `monolith.css`, `monolith.js`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `monolith.css`, `monolith.js`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Monolith — Impossible Architecture, in coverflow.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-monolith-container" data-state="idle">
   <button class="cc-monolith-trigger" type="button" aria-label="Monolith">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-monolith-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

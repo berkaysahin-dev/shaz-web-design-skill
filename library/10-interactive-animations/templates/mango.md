@@ -1,25 +1,25 @@
-﻿# Mango — Sun-ripened. Hand-picked. Delivered fresh.
+# Mango — Sun-ripened. Hand-picked. Delivered fresh.
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/mango/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/mango.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/mango.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap, lenis` · **Dependencies:** `2` · **Size:** `10.9 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/mango/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/mango.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/mango.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap, lenis` · **Bağımlılık:** `2` · **Boyut:** `10.9 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A scroll-driven landing page template for a fictional mango shop, MANGOO, running from a letter-by-letter hero to an order footer. Scroll and the mango rises through the hero letters, then badges orbit it before it is cut open and the crate offer slides in. Story photos crossfade with a Ken Burns drift, the varieties ride a pinned horizontal track, and the marquee skews with scroll speed. GSAP ScrollTrigger plus Lenis; reduced motion swaps pins for fades.
 
-* **Key Files:** `index.html`, `main.js`, `style.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `main.js`, `style.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Mango — Sun-ripened. Hand-picked. Delivered fresh..
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-mango-container" data-state="idle">
   <button class="cc-mango-trigger" type="button" aria-label="Mango">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-mango-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

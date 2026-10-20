@@ -1,31 +1,31 @@
-﻿# Y2K Digital Aesthetic
+# Y2K Digital Aesthetic
 
 ![Y2K Digital Aesthetic](./images/style-y2k.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `silver`
 * **Also Called (Aliases):** `Y2K aesthetic, millennium style, cybercore, Metalheart`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/y2k](https://shazagency.com/ui-dictionary/styles/y2k)
+* **Official Source URL:** [https://namethatui.com/styles/y2k](https://namethatui.com/styles/y2k)
 
 ---
 
 ```markdown
-# Y2K Digital Aesthetic — Shaz Agency Official UI Prompt & Production Architecture
+# Y2K Digital Aesthetic — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/y2k](https://shazagency.com/ui-dictionary/styles/y2k) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `silver`
+> **Source:** [https://namethatui.com/styles/y2k](https://namethatui.com/styles/y2k) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `silver`
 > **Also Called ("Sloppy Words"):** *Y2K aesthetic, millennium style, cybercore, Metalheart*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the piece using the Y2K digital aesthetic. Defining signals: liquid-chrome/metallic surfaces (silver gradient fills with mirror highlights); glossy translucent gel buttons and blobs with strong specular top highlights; an iridescent electric-blue/silver/white palette with occasional holographic cyan-magenta shifts; wide techno display type (Eurostile-flavored, often italic or chromed). Supporting garnish to use sparingly: rendered orbs, globes, wireframe grids, lens flares, tiny pixel-font labels. Keep the exact palette temperature and garnish density flexible. Use layered CSS gradients for chrome (alternating light/dark stops), radial-gradient highlights for gel, and background-clip: text for chromed type. Do not drift into Frutiger Aero; the decisive difference is that Y2K's optimism is synthetic — no grass, water, sky, or nature photography. Preserve readable text (chrome type needs a dark backing or outline to hit 4.5:1), visible focus states, and reduced-motion support for any shine sweeps.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Y2K Digital Aesthetic' (`silver`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -140,7 +140,7 @@ When building or refactoring **Y2K Digital Aesthetic** (`silver`), enforce the f
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Y2K Digital Aesthetic (silver)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-y2k"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-y2k"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

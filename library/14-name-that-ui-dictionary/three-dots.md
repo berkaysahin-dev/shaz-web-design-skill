@@ -1,31 +1,31 @@
-﻿# The Three Dots (Overflow Menu)
+# The Three Dots (Overflow Menu)
 
 ![The Three Dots (Overflow Menu)](./images/three-dots.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `button[aria-haspopup="menu"]`
 * **Also Called (Aliases):** `kebab menu, meatball menu, hamburger menu, overflow menu, more menu, ellipsis button`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/three-dots](https://shazagency.com/ui-dictionary/web/three-dots)
+* **Official Source URL:** [https://namethatui.com/web/three-dots](https://namethatui.com/web/three-dots)
 
 ---
 
 ```markdown
-# The Three Dots (Overflow Menu) — Shaz Agency Official UI Prompt & Production Architecture
+# The Three Dots (Overflow Menu) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/three-dots](https://shazagency.com/ui-dictionary/web/three-dots) · **Category:** `Web UI` · **Primary API / Symbol:** `button[aria-haspopup="menu"]`
+> **Source:** [https://namethatui.com/web/three-dots](https://namethatui.com/web/three-dots) · **Category:** `Web UI` · **Primary API / Symbol:** `button[aria-haspopup="menu"]`
 > **Also Called ("Sloppy Words"):** *kebab menu, meatball menu, hamburger menu, overflow menu, more menu, ellipsis button*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use the correct three-mark control: a horizontal ellipsis (meatballs) or vertical ellipsis (kebab) button with aria-haspopup="menu" for a contextual Overflow/More menu; a three-line hamburger button with aria-controls for a navigation drawer; or an ellipsis inside a command label such as “Open…” only when the command asks for more input before completing.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my three-dots menu (kebab/meatballs, menu button). Rule out: the icon-only button missing an aria-label; the menu staying open after an item is chosen; outside-click and Escape not closing it; a hit target well under 24px so taps miss on mobile. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **The Three Dots (Overflow Menu)** (`button[aria-ha
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for The Three Dots (Overflow Menu) (button[aria-haspopup="menu"])
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="three-dots"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="three-dots"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

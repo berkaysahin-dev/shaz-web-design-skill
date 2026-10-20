@@ -1,31 +1,31 @@
-﻿# Stepper
+# Stepper
 
 ![Stepper](./images/stepper.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSStepper.increment`
 * **Also Called (Aliases):** `stepper control, stepper arrows, numeric stepper, incrementer`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/stepper](https://shazagency.com/ui-dictionary/macos/stepper)
+* **Official Source URL:** [https://namethatui.com/macos/stepper](https://namethatui.com/macos/stepper)
 
 ---
 
 ```markdown
-# Stepper — Shaz Agency Official UI Prompt & Production Architecture
+# Stepper — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/stepper](https://shazagency.com/ui-dictionary/macos/stepper) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSStepper.increment`
+> **Source:** [https://namethatui.com/macos/stepper](https://namethatui.com/macos/stepper) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSStepper.increment`
 > **Also Called ("Sloppy Words"):** *stepper control, stepper arrows, numeric stepper, incrementer*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Place a native Stepper using NSStepper (SwiftUI: Stepper) beside the numeric field, with the compact up/down arrow pair vertically aligned to that field. Bind both controls to the same value and enforce the intended increment, minimum, and maximum.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS stepper (NSStepper, SwiftUI Stepper). Rule out: the stepper and its text field not bound to the same value so they drift; valueWraps looping from max back to min; autorepeat firing continuously while held when single steps were expected; a number formatter clamping or rejecting the value the stepper just set. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Stepper** (`NSStepper.increment`), enforce the fo
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Stepper (NSStepper.increment)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="stepper"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="stepper"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

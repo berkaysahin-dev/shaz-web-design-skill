@@ -1,31 +1,31 @@
-﻿# Mac Window
+# Mac Window
 
 ![Mac Window](./images/window.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSWindow.titleVisibility`
 * **Also Called (Aliases):** `app window, document window, NSWindow, window frame`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/window](https://shazagency.com/ui-dictionary/macos/window)
+* **Official Source URL:** [https://namethatui.com/macos/window](https://namethatui.com/macos/window)
 
 ---
 
 ```markdown
-# Mac Window — Shaz Agency Official UI Prompt & Production Architecture
+# Mac Window — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/window](https://shazagency.com/ui-dictionary/macos/window) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.titleVisibility`
+> **Source:** [https://namethatui.com/macos/window](https://namethatui.com/macos/window) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.titleVisibility`
 > **Also Called ("Sloppy Words"):** *app window, document window, NSWindow, window frame*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build this as a native Mac Window (NSWindow; SwiftUI: Window or WindowGroup). Distinguish the draggable title-bar region from NSWindow.title, use an NSToolbar for unified chrome, attach custom title-bar controls with NSTitlebarAccessoryViewController, and preserve native window tabs and resize edges.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS window (NSWindow). Rule out: content underlapping the title bar because fullSizeContentView plus transparent title bar is set; the window not draggable where expected — isMovableByWindowBackground vs a draggable title bar area; keystrokes going nowhere because the first responder was cleared; frame autosave restoring an old position over your manual setFrame. The symptom:
 
@@ -145,7 +145,7 @@ When building or refactoring **Mac Window** (`NSWindow.titleVisibility`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Mac Window (NSWindow.titleVisibility)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="window"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="window"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -186,5 +186,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Insertion Caret (Insertion Point)
+# Insertion Caret (Insertion Point)
 
 ![Insertion Caret (Insertion Point)](./images/insertion-caret.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSTextView.insertionPointColor`
 * **Also Called (Aliases):** `insertion point, text caret, text cursor, typing caret`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/insertion-caret](https://shazagency.com/ui-dictionary/macos/insertion-caret)
+* **Official Source URL:** [https://namethatui.com/macos/insertion-caret](https://namethatui.com/macos/insertion-caret)
 
 ---
 
 ```markdown
-# Insertion Caret (Insertion Point) — Shaz Agency Official UI Prompt & Production Architecture
+# Insertion Caret (Insertion Point) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/insertion-caret](https://shazagency.com/ui-dictionary/macos/insertion-caret) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTextView.insertionPointColor`
+> **Source:** [https://namethatui.com/macos/insertion-caret](https://namethatui.com/macos/insertion-caret) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTextView.insertionPointColor`
 > **Also Called ("Sloppy Words"):** *insertion point, text caret, text cursor, typing caret*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Show a text insertion caret (AppKit: NSTextView.insertionPointColor) as the thin blinking vertical line at the zero-length selectedRange where the next typed character will appear; on the web, style the same pixel with CSS caret-color.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my text insertion caret (NSTextView.insertionPointColor, selectedRange). Rule out: the field is not first responder; the selection has nonzero length so there is no single insertion point; custom text drawing covers the caret; the caret color has no contrast; focus is being moved by another view. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Insertion Caret (Insertion Point)** (`NSTextView.
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Insertion Caret (Insertion Point) (NSTextView.insertionPointColor)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="insertion-caret"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="insertion-caret"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

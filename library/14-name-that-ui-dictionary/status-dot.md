@@ -1,31 +1,31 @@
-﻿# Status Dot (Presence Indicator)
+# Status Dot (Presence Indicator)
 
 ![Status Dot (Presence Indicator)](./images/status-dot.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<PresenceBadge status="available"`
 * **Also Called (Aliases):** `presence indicator, presence badge, online indicator, live indicator, availability dot, dot badge, pulse dot, ping dot`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/status-dot](https://shazagency.com/ui-dictionary/web/status-dot)
+* **Official Source URL:** [https://namethatui.com/web/status-dot](https://namethatui.com/web/status-dot)
 
 ---
 
 ```markdown
-# Status Dot (Presence Indicator) — Shaz Agency Official UI Prompt & Production Architecture
+# Status Dot (Presence Indicator) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/status-dot](https://shazagency.com/ui-dictionary/web/status-dot) · **Category:** `Web UI` · **Primary API / Symbol:** `<PresenceBadge status="available"`
+> **Source:** [https://namethatui.com/web/status-dot](https://namethatui.com/web/status-dot) · **Category:** `Web UI` · **Primary API / Symbol:** `<PresenceBadge status="available"`
 > **Also Called ("Sloppy Words"):** *presence indicator, presence badge, online indicator, live indicator, availability dot, dot badge, pulse dot, ping dot*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a status dot (presence indicator), like Fluent UI PresenceBadge or Material UI Badge variant="dot" with overlap="circular": a small filled circle overlapping the avatar's lower right edge, with a 2px border in the surface color as a separation ring. Drive the color from one explicit status value (available green, away amber, busy red, offline gray) and put the same meaning in visible text or the row's accessible name, never color alone. For a live state, center a motion-safe animate-ping halo behind the dot and keep the solid core still.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my status dot / presence indicator (PresenceBadge status, Badge variant="dot" overlap="circular", animate-ping halo, separation ring border). Rule out: the dot positioned against the avatar's square box instead of its circle, so it floats off the rounded edge (Material UI needs overlap="circular"); the separation ring drawn with outline or ring utilities in a hardcoded white, so it shows as a pale halo in dark mode instead of matching the surface; animate-ping applied to the dot itself so the whole dot fades out, instead of to a sibling halo behind a solid core; the halo not centered on the dot, or clipped by an overflow-hidden avatar wrapper; the animation ignoring prefers-reduced-motion; status conveyed by color alone with no text or accessible name, so green versus red is invisible to screen readers and color-blind users; role="status" put on a persistent dot so assistive tech announces every re-render; an unread dot and a presence dot sharing one component and one color, so nobody can tell new content from online; the dot scaling with the avatar until it is too small to see at 24px. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Status Dot (Presence Indicator)** (`<PresenceBadg
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Status Dot (Presence Indicator) (<PresenceBadge status="available")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="status-dot"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="status-dot"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Glassmorphism
+# Glassmorphism
 
 ![Glassmorphism](./images/style-glassmorphism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background: rgba(255,255,255,.12); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.25); border-radius: 16px;`
 * **Also Called (Aliases):** `frosted glass UI, glass UI, frosted panels`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/glassmorphism](https://shazagency.com/ui-dictionary/styles/glassmorphism)
+* **Official Source URL:** [https://namethatui.com/styles/glassmorphism](https://namethatui.com/styles/glassmorphism)
 
 ---
 
 ```markdown
-# Glassmorphism — Shaz Agency Official UI Prompt & Production Architecture
+# Glassmorphism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/glassmorphism](https://shazagency.com/ui-dictionary/styles/glassmorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: rgba(255,255,255,.12); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.25); border-radius: 16px;`
+> **Source:** [https://namethatui.com/styles/glassmorphism](https://namethatui.com/styles/glassmorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: rgba(255,255,255,.12); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.25); border-radius: 16px;`
 > **Also Called ("Sloppy Words"):** *frosted glass UI, glass UI, frosted panels*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using glassmorphism. Defining signals: semi-transparent panels with a strong backdrop blur; a vivid gradient or photographic backdrop whose color bleeds through every panel; a thin 1px semi-transparent white border on each panel edge; layered floating depth with soft wide shadows. Keep the backdrop's specific colors and imagery flexible. Use CSS backdrop-filter: blur(16px) with background: rgba(255,255,255,0.12) (or a dark equivalent) and border: 1px solid rgba(255,255,255,0.25). Do not drift into Apple's Liquid Glass; the decisive difference is that glassmorphism is a decorative skin for any surface including content cards, while Liquid Glass reserves glass for the floating control layer above content. Preserve readable text over every region the backdrop can produce (add a contrast scrim if needed), visible controls and focus states, and reduced-motion/reduced-transparency fallbacks.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Glassmorphism' (`background: rgba(255,255,255,.12); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.25); border-radius: 16px;`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Glassmorphism** (`background: rgba(255,255,255,.1
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Glassmorphism (background: rgba(255,255,255,.12); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.25); border-radius: 16px;)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-glassmorphism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-glassmorphism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

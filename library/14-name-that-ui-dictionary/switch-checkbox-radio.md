@@ -1,31 +1,31 @@
-﻿# Switch vs. Checkbox vs. Radio
+# Switch vs. Checkbox vs. Radio
 
 ![Switch vs. Checkbox vs. Radio](./images/switch-checkbox-radio.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `checkbox`
 * **Also Called (Aliases):** `toggle switch, check box, radio button, option button`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/switch-checkbox-radio](https://shazagency.com/ui-dictionary/web/switch-checkbox-radio)
+* **Official Source URL:** [https://namethatui.com/web/switch-checkbox-radio](https://namethatui.com/web/switch-checkbox-radio)
 
 ---
 
 ```markdown
-# Switch vs. Checkbox vs. Radio — Shaz Agency Official UI Prompt & Production Architecture
+# Switch vs. Checkbox vs. Radio — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/switch-checkbox-radio](https://shazagency.com/ui-dictionary/web/switch-checkbox-radio) · **Category:** `Web UI` · **Primary API / Symbol:** `checkbox`
+> **Source:** [https://namethatui.com/web/switch-checkbox-radio](https://namethatui.com/web/switch-checkbox-radio) · **Category:** `Web UI` · **Primary API / Symbol:** `checkbox`
 > **Also Called ("Sloppy Words"):** *toggle switch, check box, radio button, option button*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use an <input type="checkbox" role="switch"> for the binary on/off setting, a native <input type="checkbox"> for each independent checked choice, and same-name <input type="radio"> controls when exactly one option is allowed. Give every control a visible clickable label and expose its checked state through the native control.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my switch/checkbox/radio. Rule out: the control flipping visually while state stays stale — controlled input without onChange; label clicks not toggling because for/id association is missing; radios not behaving as a group because their name attributes differ; the indeterminate checkbox state gone — it is settable only from JS, not markup. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Switch vs. Checkbox vs. Radio** (`checkbox`), enf
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Switch vs. Checkbox vs. Radio (checkbox)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="switch-checkbox-radio"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="switch-checkbox-radio"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

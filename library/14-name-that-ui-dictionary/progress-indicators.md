@@ -1,31 +1,31 @@
-﻿# Progress Ring vs. Spinner vs. Progress Bar
+# Progress Ring vs. Spinner vs. Progress Bar
 
 ![Progress Ring vs. Spinner vs. Progress Bar](./images/progress-indicators.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `role="progressbar"`
 * **Also Called (Aliases):** `circular progress indicator, loading spinner, determinate progress indicator, linear progress indicator`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/progress-indicators](https://shazagency.com/ui-dictionary/web/progress-indicators)
+* **Official Source URL:** [https://namethatui.com/web/progress-indicators](https://namethatui.com/web/progress-indicators)
 
 ---
 
 ```markdown
-# Progress Ring vs. Spinner vs. Progress Bar — Shaz Agency Official UI Prompt & Production Architecture
+# Progress Ring vs. Spinner vs. Progress Bar — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/progress-indicators](https://shazagency.com/ui-dictionary/web/progress-indicators) · **Category:** `Web UI` · **Primary API / Symbol:** `role="progressbar"`
+> **Source:** [https://namethatui.com/web/progress-indicators](https://namethatui.com/web/progress-indicators) · **Category:** `Web UI` · **Primary API / Symbol:** `role="progressbar"`
 > **Also Called ("Sloppy Words"):** *circular progress indicator, loading spinner, determinate progress indicator, linear progress indicator*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use the correct Progress Indicator: an indeterminate spinner when the remaining work is unknown, a determinate progress ring when a compact circular arc should fill toward completion, or an HTML <progress> linear bar when there is room for a readable track. For a custom indicator use role="progressbar" with aria-valuenow, and expose any visible percentage as the same accessible value; SwiftUI's cousin is ProgressView.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my progress indicator (role=progressbar, aria-valuenow, spinner). Rule out: an indeterminate spinner where a determinate bar was possible (or vice versa); the bar width not animating because the transition is on the wrong property; the loading flag stuck true so the spinner never stops; aria-valuenow never updating so assistive tech hears 0 percent forever. The symptom:
 
@@ -142,7 +142,7 @@ When building or refactoring **Progress Ring vs. Spinner vs. Progress Bar** (`ro
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Progress Ring vs. Spinner vs. Progress Bar (role="progressbar")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="progress-indicators"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="progress-indicators"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -183,5 +183,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

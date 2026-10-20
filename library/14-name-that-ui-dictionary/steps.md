@@ -1,31 +1,31 @@
-﻿# Steps
+# Steps
 
 ![Steps](./images/steps.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `stepper (aria-current="step", activeStep`
 * **Also Called (Aliases):** `stepper, wizard progress indicator, step indicator, step-by-step indicator, multi-step progress, step bar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/steps](https://shazagency.com/ui-dictionary/web/steps)
+* **Official Source URL:** [https://namethatui.com/web/steps](https://namethatui.com/web/steps)
 
 ---
 
 ```markdown
-# Steps — Shaz Agency Official UI Prompt & Production Architecture
+# Steps — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/steps](https://shazagency.com/ui-dictionary/web/steps) · **Category:** `Web UI` · **Primary API / Symbol:** `stepper (aria-current="step", activeStep`
+> **Source:** [https://namethatui.com/web/steps](https://namethatui.com/web/steps) · **Category:** `Web UI` · **Primary API / Symbol:** `stepper (aria-current="step", activeStep`
 > **Also Called ("Sloppy Words"):** *stepper, wizard progress indicator, step indicator, step-by-step indicator, multi-step progress, step bar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a Steps indicator for this checkout as an <ol> of labeled stages, with the current item marked aria-current="step". Show each stage as a numbered circular Steps.Indicator (Material UI StepIcon), join adjacent stages with a StepConnector (Steps.Separator), replace completed numbers with checkmarks, and keep future stages muted. Drive it from one zero-based index (Material UI activeStep / Ant Design current) and derive completed, current and upcoming from that single value; the arrival state should be step 2, Payment, so all three states are visible at once.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my Steps / stepper (aria-current="step", activeStep / current index, StepConnector tint). Rule out: more than one stage carrying aria-current="step", or none at all, so assistive tech announces the wrong position; the zero-based activeStep mixed with the 1-based number printed inside the circle (convert in exactly one place); completed state derived from a separate flag that drifts from the current index, so a checkmark sits ahead of the current stage; the connector fill tracking a different index than the indicators, leaving a tinted line into an upcoming step; the whole thing built as role="progressbar" or a plain bar, so screen readers hear "60%" instead of "Payment, step 3 of 4"; stages rendered as divs with no ordered-list semantics and no accessible name on each step; the step label associated with nothing, so the circle announces a bare number; the index kept only in component state, so a refresh or the browser Back button drops the user to step 1; a validation-gated flow letting a click jump ahead to an unreached stage. The symptom:
 
@@ -143,7 +143,7 @@ When building or refactoring **Steps** (`stepper (aria-current="step", activeSte
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Steps (stepper (aria-current="step", activeStep)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="steps"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="steps"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -184,5 +184,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

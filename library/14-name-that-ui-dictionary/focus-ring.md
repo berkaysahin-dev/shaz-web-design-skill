@@ -1,31 +1,31 @@
-﻿# Focus Ring
+# Focus Ring
 
 ![Focus Ring](./images/focus-ring.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSWindow.firstResponder`
 * **Also Called (Aliases):** `keyboard focus indicator, focus halo, first responder ring`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/focus-ring](https://shazagency.com/ui-dictionary/macos/focus-ring)
+* **Official Source URL:** [https://namethatui.com/macos/focus-ring](https://namethatui.com/macos/focus-ring)
 
 ---
 
 ```markdown
-# Focus Ring — Shaz Agency Official UI Prompt & Production Architecture
+# Focus Ring — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/focus-ring](https://shazagency.com/ui-dictionary/macos/focus-ring) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.firstResponder`
+> **Source:** [https://namethatui.com/macos/focus-ring](https://namethatui.com/macos/focus-ring) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.firstResponder`
 > **Also Called ("Sloppy Words"):** *keyboard focus indicator, focus halo, first responder ring*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Preserve the native Focus Ring around the first responder. In AppKit, make the control eligible for first-responder status, move focus with NSWindow.makeFirstResponder(_:), and keep NSView.focusRingType at .default; in SwiftUI, use View.focusable(_:) with FocusState. Leave enough space for the standard macOS accent-colored ring and do not replace it with a custom border.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS focus ring (NSView.focusRingType, SwiftUI .focusable/.focusEffectDisabled). Rule out: Full Keyboard Access (AppleKeyboardUIMode) on the user's Mac making every first control grab focus and show a ring; focusRingType = .none silenced by a custom drawFocusRingMask; the ring clipped by an ancestor that clips to bounds; SwiftUI focus state fighting an explicit makeFirstResponder call. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Focus Ring** (`NSWindow.firstResponder`), enforce
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Focus Ring (NSWindow.firstResponder)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="focus-ring"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="focus-ring"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

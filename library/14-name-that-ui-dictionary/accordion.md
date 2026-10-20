@@ -1,31 +1,31 @@
-﻿# Accordion (Disclosure)
+# Accordion (Disclosure)
 
 ![Accordion (Disclosure)](./images/accordion.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<summary>`
 * **Also Called (Aliases):** `disclosure, expandable sections, collapse, expander`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/accordion](https://shazagency.com/ui-dictionary/web/accordion)
+* **Official Source URL:** [https://namethatui.com/web/accordion](https://namethatui.com/web/accordion)
 
 ---
 
 ```markdown
-# Accordion (Disclosure) — Shaz Agency Official UI Prompt & Production Architecture
+# Accordion (Disclosure) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/accordion](https://shazagency.com/ui-dictionary/web/accordion) · **Category:** `Web UI` · **Primary API / Symbol:** `<summary>`
+> **Source:** [https://namethatui.com/web/accordion](https://namethatui.com/web/accordion) · **Category:** `Web UI` · **Primary API / Symbol:** `<summary>`
 > **Also Called ("Sloppy Words"):** *disclosure, expandable sections, collapse, expander*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build an Accordion from <details> and <summary> elements. Give grouped <details> elements the same name when only one section may be open, preserve native keyboard behavior, and animate the revealed panel without adding redundant aria-expanded; use aria-expanded only for a fully custom disclosure primitive.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my accordion (details/summary, Radix Accordion). Rule out: height auto refusing to animate — animate grid-template-rows 0fr to 1fr or use interpolate-size; single vs multiple type letting two panels open when one was intended; the default disclosure marker still rendering next to a custom icon; focus landing inside a closed panel because contents were hidden with opacity instead of display. The symptom:
 
@@ -136,7 +136,7 @@ When building or refactoring **Accordion (Disclosure)** (`<summary>`), enforce t
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Accordion (Disclosure) (<summary>)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="accordion"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="accordion"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -177,5 +177,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

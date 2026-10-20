@@ -1,25 +1,25 @@
-﻿# Meridian — a portfolio dashboard that moves like a single instrument
+# Meridian — a portfolio dashboard that moves like a single instrument
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/meridian/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/meridian.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/meridian.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap` · **Dependencies:** `1` · **Size:** `13.2 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/meridian/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/meridian.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/meridian.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap` · **Bağımlılık:** `1` · **Boyut:** `13.2 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A dark wealth dashboard: one violet holdings card with a lime equity curve that redraws itself when you change the range, a watchlist that breathes, asset-mix tiles that fill from the floor, and a volatility gauge that swings to its number. GSAP-driven, transform and opacity only.
 
-* **Key Files:** `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Meridian — a portfolio dashboard that moves like a single instrument.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-meridian-container" data-state="idle">
   <button class="cc-meridian-trigger" type="button" aria-label="Meridian">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-meridian-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

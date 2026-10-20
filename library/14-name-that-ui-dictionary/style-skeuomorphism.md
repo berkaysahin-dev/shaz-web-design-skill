@@ -1,31 +1,31 @@
-﻿# Skeuomorphism
+# Skeuomorphism
 
 ![Skeuomorphism](./images/style-skeuomorphism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background: linear-gradient(#fdfdfd, #d8d8d8); box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.35);`
 * **Also Called (Aliases):** `skeuomorphic design, realistic UI, real-world metaphor UI`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/skeuomorphism](https://shazagency.com/ui-dictionary/styles/skeuomorphism)
+* **Official Source URL:** [https://namethatui.com/styles/skeuomorphism](https://namethatui.com/styles/skeuomorphism)
 
 ---
 
 ```markdown
-# Skeuomorphism — Shaz Agency Official UI Prompt & Production Architecture
+# Skeuomorphism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/skeuomorphism](https://shazagency.com/ui-dictionary/styles/skeuomorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: linear-gradient(#fdfdfd, #d8d8d8); box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.35);`
+> **Source:** [https://namethatui.com/styles/skeuomorphism](https://namethatui.com/styles/skeuomorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: linear-gradient(#fdfdfd, #d8d8d8); box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.35);`
 > **Also Called ("Sloppy Words"):** *skeuomorphic design, realistic UI, real-world metaphor UI*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using skeuomorphism. Defining signals: controls rendered as simulated physical materials (e.g. leather, paper, brushed metal) with visible texture; a consistent lighting model — gloss highlights on raised elements, inner shadows on recessed fields; real-object metaphors for whole surfaces (a notepad drawn as ruled paper); crafted physical details like stitching or embossed text. Keep the specific material palette and density flexible. Use layered gradients with specular highlights, inset box-shadows for recessed fields, and subtle texture images or noise. Do not drift into neumorphism: the decisive difference is that skeuomorphic surfaces imitate real nameable materials, not one uniform soft-extruded surface. Preserve readable text contrast on textured backgrounds, visible controls and focus states, and reduced-motion support.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Skeuomorphism' (`background: linear-gradient(#fdfdfd, #d8d8d8); box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.35);`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Skeuomorphism** (`background: linear-gradient(#fd
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Skeuomorphism (background: linear-gradient(#fdfdfd, #d8d8d8); box-shadow: inset 0 1px 0 rgba(255,255,255,.8), 0 1px 2px rgba(0,0,0,.35);)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-skeuomorphism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-skeuomorphism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Toggle Group (Segmented Control)
+# Toggle Group (Segmented Control)
 
 ![Toggle Group (Segmented Control)](./images/toggle-group.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `aria-checked`
 * **Also Called (Aliases):** `segmented control, button group, view switcher, segmented button`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/toggle-group](https://shazagency.com/ui-dictionary/web/toggle-group)
+* **Official Source URL:** [https://namethatui.com/web/toggle-group](https://namethatui.com/web/toggle-group)
 
 ---
 
 ```markdown
-# Toggle Group (Segmented Control) — Shaz Agency Official UI Prompt & Production Architecture
+# Toggle Group (Segmented Control) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/toggle-group](https://shazagency.com/ui-dictionary/web/toggle-group) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-checked`
+> **Source:** [https://namethatui.com/web/toggle-group](https://namethatui.com/web/toggle-group) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-checked`
 > **Also Called ("Sloppy Words"):** *segmented control, button group, view switcher, segmented button*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a persistent single-select Toggle Group using Radix ToggleGroup. Present the connected buttons as one segmented control, expose the group as role="radiogroup" with role="radio" items and aria-checked state, and support arrow-key movement between segments.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my toggle group (aria-pressed, Radix ToggleGroup). Rule out: single vs multiple semantics mixed up — one behaves like radios, the other like checkboxes; the pressed state invisible because only color changes and not enough of it; deselecting the last item leaving nothing active when one must always stay on; arrow keys dead because roving focus is unimplemented. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Toggle Group (Segmented Control)** (`aria-checked
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Toggle Group (Segmented Control) (aria-checked)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="toggle-group"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="toggle-group"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

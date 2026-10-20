@@ -1,31 +1,31 @@
-﻿# AppKit vs SwiftUI
+# AppKit vs SwiftUI
 
 ![AppKit vs SwiftUI](./images/vs-appkit-vs-swiftui.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `MenuBarExtra`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/appkit-vs-swiftui](https://shazagency.com/ui-dictionary/appkit-vs-swiftui)
+* **Official Source URL:** [https://namethatui.com/appkit-vs-swiftui](https://namethatui.com/appkit-vs-swiftui)
 
 ---
 
 ```markdown
-# AppKit vs SwiftUI — Shaz Agency Official UI Prompt & Production Architecture
+# AppKit vs SwiftUI — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/appkit-vs-swiftui](https://shazagency.com/ui-dictionary/appkit-vs-swiftui) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `MenuBarExtra`
+> **Source:** [https://namethatui.com/appkit-vs-swiftui](https://namethatui.com/appkit-vs-swiftui) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `MenuBarExtra`
 > **Also Called ("Sloppy Words"):** *appkit vs swiftui*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'AppKit vs SwiftUI' (UI Comparison (VS) — API symbol: `MenuBarExtra`). The two Mac UI frameworks, explained stupid-simply: what each is, how the same element has two names, and which name to use when prompting a coding agent. Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'AppKit vs SwiftUI' (`MenuBarExtra`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **AppKit vs SwiftUI** (`MenuBarExtra`), enforce the
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for AppKit vs SwiftUI (MenuBarExtra)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-appkit-vs-swiftui"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-appkit-vs-swiftui"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

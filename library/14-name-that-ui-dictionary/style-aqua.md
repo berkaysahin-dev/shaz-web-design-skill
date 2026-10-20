@@ -1,31 +1,31 @@
-﻿# Aqua
+# Aqua
 
 ![Aqua](./images/style-aqua.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `yellow`
 * **Also Called (Aliases):** `Aqua interface, Mac OS X Aqua`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/aqua](https://shazagency.com/ui-dictionary/styles/aqua)
+* **Official Source URL:** [https://namethatui.com/styles/aqua](https://namethatui.com/styles/aqua)
 
 ---
 
 ```markdown
-# Aqua — Shaz Agency Official UI Prompt & Production Architecture
+# Aqua — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/aqua](https://shazagency.com/ui-dictionary/styles/aqua) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `yellow`
+> **Source:** [https://namethatui.com/styles/aqua](https://namethatui.com/styles/aqua) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `yellow`
 > **Also Called ("Sloppy Words"):** *Aqua interface, Mac OS X Aqua*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using Apple's original Aqua (early Mac OS X) design language. Defining signals: candy-gel controls — luminous water-blue fills with a bright specular highlight across the top half and an inner glow, e.g. layered radial-gradient highlight over linear-gradient(#5f9ff5, #1862d8); fine pinstriped window surfaces (repeating-linear-gradient, ~1px stripes at low contrast); gumdrop red/yellow/green window controls as glossy spheres, top-left; the default button gently pulsing (a slow glow loop, disabled under prefers-reduced-motion); soft deep window shadows. Keep layout and density flexible — this is chrome and controls, not a layout system. Do not drift into generic glassmorphism: Aqua's material is glossy opaque gel on pinstripes, not blurred frosted panels. Preserve 4.5:1 text contrast on gel fills (white text with a subtle down-shadow is period-correct), full keyboard focus states, and reduced-motion alternatives for the pulse.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Aqua' (`yellow`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Aqua** (`yellow`), enforce the following engineer
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Aqua (yellow)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-aqua"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-aqua"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

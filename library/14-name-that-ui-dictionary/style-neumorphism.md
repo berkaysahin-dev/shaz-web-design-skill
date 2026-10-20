@@ -1,31 +1,31 @@
-﻿# Neumorphism
+# Neumorphism
 
 ![Neumorphism](./images/style-neumorphism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background:#e0e5ec; box-shadow:-6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); border-radius:16px;`
 * **Also Called (Aliases):** `Soft UI, neomorphism, soft neumorphic UI`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/neumorphism](https://shazagency.com/ui-dictionary/styles/neumorphism)
+* **Official Source URL:** [https://namethatui.com/styles/neumorphism](https://namethatui.com/styles/neumorphism)
 
 ---
 
 ```markdown
-# Neumorphism — Shaz Agency Official UI Prompt & Production Architecture
+# Neumorphism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/neumorphism](https://shazagency.com/ui-dictionary/styles/neumorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background:#e0e5ec; box-shadow:-6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); border-radius:16px;`
+> **Source:** [https://namethatui.com/styles/neumorphism](https://namethatui.com/styles/neumorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background:#e0e5ec; box-shadow:-6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); border-radius:16px;`
 > **Also Called ("Sloppy Words"):** *Soft UI, neomorphism, soft neumorphic UI*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using neumorphism (Soft UI). Defining signals: controls share the background's exact matte color; raised elements get dual soft shadows (light top-left, dark bottom-right); pressed/input states invert the shadows inward (inset); no borders anywhere; generous rounded corners. Keep the base hue flexible (classically a pale grey-blue like #e0e5ec) and allow one saturated accent for the primary action. Use CSS box-shadow pairs, e.g. raised: box-shadow: -6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); pressed: the same pair with inset. Do not drift into skeuomorphism; the decisive difference is that neumorphic surfaces are one uniform material-less matte — no textures, gloss, or imitated materials. Preserve readable text contrast, a visible non-shadow cue for focus and states (WCAG non-text contrast will fail on shadows alone), and reduced-motion support.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Neumorphism' (`background:#e0e5ec; box-shadow:-6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); border-radius:16px;`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Neumorphism** (`background:#e0e5ec; box-shadow:-6
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Neumorphism (background:#e0e5ec; box-shadow:-6px -6px 12px rgba(255,255,255,.85), 6px 6px 12px rgba(163,177,198,.6); border-radius:16px;)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-neumorphism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-neumorphism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

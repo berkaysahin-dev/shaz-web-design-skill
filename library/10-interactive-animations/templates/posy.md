@@ -1,25 +1,25 @@
-﻿# Posy — a cat, a flower, and a surprise
+# Posy — a cat, a flower, and a surprise
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/posy/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/posy.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/posy.jpg)  
-> **Tech Stack:** `vanilla, css, canvas, svg` · **Dependencies:** `0` · **Size:** `11.8 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/posy/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/posy.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/posy.jpg)  
+> **Teknoloji:** `vanilla, css, canvas, svg` · **Bağımlılık:** `0` · **Boyut:** `11.8 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 An interactive birthday card template: a chalk-drawn cat holds out a flower, the only colour on the page, to a stick figure in a party hat with his back turned. Drag it over and the cat's arm follows, he turns round and reaches for it, and Happy birthday arrives letter by letter with a canvas confetti burst. Miss and it springs back; Enter or Space gives it for you. Zero dependencies, one SVG and one canvas; reduced motion drops the travel and confetti.
 
-* **Key Files:** `README.md`, `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `README.md`, `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Posy — a cat, a flower, and a surprise.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-posy-container" data-state="idle">
   <button class="cc-posy-trigger" type="button" aria-label="Posy">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-posy-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

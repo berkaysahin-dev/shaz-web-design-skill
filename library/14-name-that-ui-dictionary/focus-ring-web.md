@@ -1,31 +1,31 @@
-﻿# Focus Ring (:focus-visible)
+# Focus Ring (:focus-visible)
 
 ![Focus Ring (:focus-visible)](./images/focus-ring-web.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `outline`
 * **Also Called (Aliases):** `focus indicator, keyboard focus outline, focus halo`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/focus-ring-web](https://shazagency.com/ui-dictionary/web/focus-ring-web)
+* **Official Source URL:** [https://namethatui.com/web/focus-ring-web](https://namethatui.com/web/focus-ring-web)
 
 ---
 
 ```markdown
-# Focus Ring (:focus-visible) — Shaz Agency Official UI Prompt & Production Architecture
+# Focus Ring (:focus-visible) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/focus-ring-web](https://shazagency.com/ui-dictionary/web/focus-ring-web) · **Category:** `Web UI` · **Primary API / Symbol:** `outline`
+> **Source:** [https://namethatui.com/web/focus-ring-web](https://namethatui.com/web/focus-ring-web) · **Category:** `Web UI` · **Primary API / Symbol:** `outline`
 > **Also Called ("Sloppy Words"):** *focus indicator, keyboard focus outline, focus halo*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Style the keyboard focus ring with :focus-visible instead of suppressing the browser outline globally. Make it high contrast and clearly offset from the control; use :focus only for state that must apply regardless of whether focus came from keyboard or pointer.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my focus ring (outline, :focus-visible). Rule out: a global outline:none killing keyboard navigation everywhere; :focus styling mouse clicks when :focus-visible was intended; the ring clipped by an overflow-hidden ancestor — use outline-offset or box-shadow inside; a box-shadow ring invisible against a same-color background; programmatic .focus() not showing a ring without focus-visible options. The symptom:
 
@@ -134,7 +134,7 @@ When building or refactoring **Focus Ring (:focus-visible)** (`outline`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Focus Ring (:focus-visible) (outline)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="focus-ring-web"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="focus-ring-web"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -175,5 +175,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

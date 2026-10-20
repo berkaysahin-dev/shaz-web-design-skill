@@ -1,31 +1,31 @@
-﻿# Popover
+# Popover
 
 ![Popover](./images/popover.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSPopover.show(relativeTo:of:preferredEdge:)`
 * **Also Called (Aliases):** `anchored popover, popover bubble, callout`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/popover](https://shazagency.com/ui-dictionary/macos/popover)
+* **Official Source URL:** [https://namethatui.com/macos/popover](https://namethatui.com/macos/popover)
 
 ---
 
 ```markdown
-# Popover — Shaz Agency Official UI Prompt & Production Architecture
+# Popover — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/popover](https://shazagency.com/ui-dictionary/macos/popover) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSPopover.show(relativeTo:of:preferredEdge:)`
+> **Source:** [https://namethatui.com/macos/popover](https://namethatui.com/macos/popover) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSPopover.show(relativeTo:of:preferredEdge:)`
 > **Also Called ("Sloppy Words"):** *anchored popover, popover bubble, callout*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Present this as a Popover using NSPopover (SwiftUI: View.popover), with a visible anchor arrow aimed at the exact control that opened it. The arrow must share the bubble's exact background and blend seamlessly into it, never read as a separate triangle. It should remain visually attached to that control and dismiss with native popover behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS popover (NSPopover, SwiftUI View.popover). Rule out: transient behavior closing it on the first click inside custom content that does not accept first responder; the arrow anchored to a stale positioning rect after layout changes; a custom-drawn anchor arrow reading as a detached triangle because it is painted under the bubble's border or shadow or with a mismatched fill; the popover detaching into a floating window when dragged (detachable delegate); SwiftUI popovers presenting as sheets in compact contexts. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Popover** (`NSPopover.show(relativeTo:of:preferre
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Popover (NSPopover.show(relativeTo:of:preferredEdge:))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="popover"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="popover"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

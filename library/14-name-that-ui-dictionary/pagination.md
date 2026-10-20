@@ -1,31 +1,31 @@
-﻿# Pagination
+# Pagination
 
 ![Pagination](./images/pagination.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `PaginationEllipsis`
 * **Also Called (Aliases):** `pager, paging controls, page navigation, page numbers, page control`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/pagination](https://shazagency.com/ui-dictionary/web/pagination)
+* **Official Source URL:** [https://namethatui.com/web/pagination](https://namethatui.com/web/pagination)
 
 ---
 
 ```markdown
-# Pagination — Shaz Agency Official UI Prompt & Production Architecture
+# Pagination — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/pagination](https://shazagency.com/ui-dictionary/web/pagination) · **Category:** `Web UI` · **Primary API / Symbol:** `PaginationEllipsis`
+> **Source:** [https://namethatui.com/web/pagination](https://namethatui.com/web/pagination) · **Category:** `Web UI` · **Primary API / Symbol:** `PaginationEllipsis`
 > **Also Called ("Sloppy Words"):** *pager, paging controls, page navigation, page numbers, page control*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build pagination for this list: a <nav aria-label="pagination"> landmark containing page-number links with the current one marked aria-current="page", previous/next links at the ends, and an ellipsis (…) standing in for the collapsed range (shadcn/ui <Pagination> with PaginationEllipsis). Keep the visible page 1-based and convert to 0-based offsets in exactly one place; whenever filters, totals, or page size change, recompute total pages and clamp the current page.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my pagination (aria-current="page", ellipsis window logic, page state). Rule out: 0-based and 1-based page indices mixed at a boundary — URL, component state, API offset — instead of converted in one place; the current page left outside the valid range after a filter or page-size change (clamp when totals change); ellipsis window logic hiding a page even though all pages fit, or showing … for a single hidden page (test totals just below, at, and above the truncation threshold); the highlighted number missing aria-current="page" so screen readers announce only "3, link"; page dots out of sync with the content because the dots and the slides track different indices. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Pagination** (`PaginationEllipsis`), enforce the 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Pagination (PaginationEllipsis)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="pagination"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="pagination"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Toast (Snackbar)
+# Toast (Snackbar)
 
 ![Toast (Snackbar)](./images/toast.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `Toaster`
 * **Also Called (Aliases):** `snackbar, status toast, in-app notification`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/toast](https://shazagency.com/ui-dictionary/web/toast)
+* **Official Source URL:** [https://namethatui.com/web/toast](https://namethatui.com/web/toast)
 
 ---
 
 ```markdown
-# Toast (Snackbar) — Shaz Agency Official UI Prompt & Production Architecture
+# Toast (Snackbar) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/toast](https://shazagency.com/ui-dictionary/web/toast) · **Category:** `Web UI` · **Primary API / Symbol:** `Toaster`
+> **Source:** [https://namethatui.com/web/toast](https://namethatui.com/web/toast) · **Category:** `Web UI` · **Primary API / Symbol:** `Toaster`
 > **Also Called ("Sloppy Words"):** *snackbar, status toast, in-app notification*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Show a Toast (Snackbar) through a role="status" live region after the action succeeds. Place it in a consistent corner without blocking the page, auto-dismiss only nonessential messages after a short delay, and pause that timer while the toast is hovered or contains keyboard focus.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my toast (aria-live region, sonner). Rule out: no aria-live region so screen readers never announce it; the auto-dismiss timer not pausing on hover/focus; stacked toasts overlapping instead of shifting; the exit animation racing the removal so it snaps; toasts rendering under modals because of z-index order. The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Toast (Snackbar)** (`Toaster`), enforce the follo
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Toast (Snackbar) (Toaster)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="toast"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="toast"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

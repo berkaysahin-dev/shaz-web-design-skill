@@ -1,31 +1,31 @@
-﻿# Sign-in Form
+# Sign-in Form
 
 ![Sign-in Form](./images/sign-in-form.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `"Continue with Google"`
 * **Also Called (Aliases):** `login form, login page, login screen, sign-in page, auth form, authentication form`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/sign-in-form](https://shazagency.com/ui-dictionary/web/sign-in-form)
+* **Official Source URL:** [https://namethatui.com/web/sign-in-form](https://namethatui.com/web/sign-in-form)
 
 ---
 
 ```markdown
-# Sign-in Form — Shaz Agency Official UI Prompt & Production Architecture
+# Sign-in Form — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/sign-in-form](https://shazagency.com/ui-dictionary/web/sign-in-form) · **Category:** `Web UI` · **Primary API / Symbol:** `"Continue with Google"`
+> **Source:** [https://namethatui.com/web/sign-in-form](https://namethatui.com/web/sign-in-form) · **Category:** `Web UI` · **Primary API / Symbol:** `"Continue with Google"`
 > **Also Called ("Sloppy Words"):** *login form, login page, login screen, sign-in page, auth form, authentication form*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a sign-in form (login form) with native form semantics: a real <form> containing a labeled email field (<input type="email" autocomplete="username">), a labeled password field (<input type="password" autocomplete="current-password">), and a <button type="submit"> labeled "Sign in" so Enter submits. Add the password visibility toggle as a <button type="button"> with accessible name "Show password"; put the federated sign-in buttons ("Continue with Google" / "Continue with Apple") above a sign-in method divider — the thin rule with "or" in the middle. The autocomplete tokens are load-bearing: they are what makes password managers recognize and fill the fields.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my sign-in form (autocomplete tokens, password managers, Enter submission). Rule out: the password manager not filling because the email field lacks autocomplete="username" or the password says new-password on a SIGN-IN form; Enter doing nothing because the inputs are not inside a real <form> with a <button type="submit">; the eye toggle submitting the form because it is missing type="button"; mobile keyboards capitalizing the identifier because it is type="text" without autocapitalize="none"; framework state staying empty even though the browser autofilled the DOM (read values at submit time). The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Sign-in Form** (`"Continue with Google"`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Sign-in Form ("Continue with Google")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="sign-in-form"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="sign-in-form"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

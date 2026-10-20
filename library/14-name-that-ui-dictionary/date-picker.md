@@ -1,31 +1,31 @@
-﻿# Date Picker
+# Date Picker
 
 ![Date Picker](./images/date-picker.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<input type="date">`
 * **Also Called (Aliases):** `calendar picker, calendar popup, calendar dropdown, date range picker, month view`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/date-picker](https://shazagency.com/ui-dictionary/web/date-picker)
+* **Official Source URL:** [https://namethatui.com/web/date-picker](https://namethatui.com/web/date-picker)
 
 ---
 
 ```markdown
-# Date Picker — Shaz Agency Official UI Prompt & Production Architecture
+# Date Picker — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/date-picker](https://shazagency.com/ui-dictionary/web/date-picker) · **Category:** `Web UI` · **Primary API / Symbol:** `<input type="date">`
+> **Source:** [https://namethatui.com/web/date-picker](https://namethatui.com/web/date-picker) · **Category:** `Web UI` · **Primary API / Symbol:** `<input type="date">`
 > **Also Called ("Sloppy Words"):** *calendar picker, calendar popup, calendar dropdown, date range picker, month view*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a date picker: a date field that opens a calendar popover — the shadcn/ui pattern is Popover + Calendar, where Calendar wraps react-day-picker's DayPicker. For a date range use mode="range": the endpoints get the range_start / range_end modifiers and the tinted days between them are range_middle. Treat dates as civil dates (yyyy-mm-dd strings), never Date-parsed-as-UTC (the classic off-by-one-day bug); start the week per the locale; keep the grid keyboard model (arrows move by day and week, PageUp/PageDown by month).
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my date picker (react-day-picker / <input type="date"> / range mode). Rule out: the selected day rendering one day off because a date-only string was parsed as UTC and displayed in local time; the wrong month because JavaScript Date months are 0-based; range endpoints silently swapped or end-before-start allowed after a typed edit; the week starting on the wrong day for the locale; the calendar popover clipped by an overflow container, transform ancestor, or viewport edge; arrow keys dead because the grid lost its roving tabindex. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Date Picker** (`<input type="date">`), enforce th
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Date Picker (<input type="date">)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="date-picker"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="date-picker"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

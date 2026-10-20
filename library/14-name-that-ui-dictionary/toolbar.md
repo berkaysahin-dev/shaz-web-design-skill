@@ -1,31 +1,31 @@
-﻿# Toolbar (Unified Title Bar)
+# Toolbar (Unified Title Bar)
 
 ![Toolbar (Unified Title Bar)](./images/toolbar.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSToolbarItem`
 * **Also Called (Aliases):** `window toolbar, unified toolbar, title bar toolbar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/toolbar](https://shazagency.com/ui-dictionary/macos/toolbar)
+* **Official Source URL:** [https://namethatui.com/macos/toolbar](https://namethatui.com/macos/toolbar)
 
 ---
 
 ```markdown
-# Toolbar (Unified Title Bar) — Shaz Agency Official UI Prompt & Production Architecture
+# Toolbar (Unified Title Bar) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/toolbar](https://shazagency.com/ui-dictionary/macos/toolbar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSToolbarItem`
+> **Source:** [https://namethatui.com/macos/toolbar](https://namethatui.com/macos/toolbar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSToolbarItem`
 > **Also Called ("Sloppy Words"):** *window toolbar, unified toolbar, title bar toolbar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create a Toolbar (Unified Title Bar) with NSToolbar and NSWindow.ToolbarStyle.unified (SwiftUI: View.toolbar), using native NSToolbarItem placement and spacing. Keep the title inline with the actions and let NSWindow.titlebarSeparatorStyle control the divider above the content.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS toolbar (NSToolbar, NSToolbarItem). Rule out: items missing because they are absent from itemIdentifiers defaults vs alloweds; items greyed by validateToolbarItem returning false (or not implemented for custom views); user customization not persisting without autosavesConfiguration; unified title bar style shifting content layout under the toolbar. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Toolbar (Unified Title Bar)** (`NSToolbarItem`), 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Toolbar (Unified Title Bar) (NSToolbarItem)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="toolbar"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="toolbar"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

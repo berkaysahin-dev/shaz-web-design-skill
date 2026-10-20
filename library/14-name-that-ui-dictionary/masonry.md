@@ -1,31 +1,31 @@
-﻿# Masonry Layout (Pinterest Grid)
+# Masonry Layout (Pinterest Grid)
 
 ![Masonry Layout (Pinterest Grid)](./images/masonry.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `columns / grid track`
 * **Also Called (Aliases):** `waterfall layout, pinterest grid, brick layout`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/masonry](https://shazagency.com/ui-dictionary/web/masonry)
+* **Official Source URL:** [https://namethatui.com/web/masonry](https://namethatui.com/web/masonry)
 
 ---
 
 ```markdown
-# Masonry Layout (Pinterest Grid) — Shaz Agency Official UI Prompt & Production Architecture
+# Masonry Layout (Pinterest Grid) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/masonry](https://shazagency.com/ui-dictionary/web/masonry) · **Category:** `Web UI` · **Primary API / Symbol:** `columns / grid track`
+> **Source:** [https://namethatui.com/web/masonry](https://namethatui.com/web/masonry) · **Category:** `Web UI` · **Primary API / Symbol:** `columns / grid track`
 > **Also Called ("Sloppy Words"):** *waterfall layout, pinterest grid, brick layout*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a masonry layout (Pinterest-style): native CSS first — @supports (grid-template-rows: masonry) { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: masonry; } — with a CSS multi-column fallback (columns: 3; every card break-inside: avoid). Note the fallback orders items down each column, not across rows; if strict left-to-right order matters, use react-masonry-css instead. Reserve image aspect ratios so cards don't jump while loading.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my masonry layout (CSS columns fallback / grid-template-rows: masonry). Rule out: cards splitting across columns because break-inside: avoid is missing; item order reading down the first column when the design expects row-major; equal-height rows appearing because the browser lacks native masonry and there's no @supports fallback; the wall reshuffling as images load because width/height aren't reserved; margins on cards fighting the column-gap. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Masonry Layout (Pinterest Grid)** (`columns / gri
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Masonry Layout (Pinterest Grid) (columns / grid track)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="masonry"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="masonry"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

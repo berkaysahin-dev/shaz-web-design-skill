@@ -1,31 +1,31 @@
-﻿# Slider
+# Slider
 
 ![Slider](./images/slider.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSSlider.knobThickness`
 * **Also Called (Aliases):** `slider control, seek bar, track bar, range control`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/slider](https://shazagency.com/ui-dictionary/macos/slider)
+* **Official Source URL:** [https://namethatui.com/macos/slider](https://namethatui.com/macos/slider)
 
 ---
 
 ```markdown
-# Slider — Shaz Agency Official UI Prompt & Production Architecture
+# Slider — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/slider](https://shazagency.com/ui-dictionary/macos/slider) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSlider.knobThickness`
+> **Source:** [https://namethatui.com/macos/slider](https://namethatui.com/macos/slider) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSlider.knobThickness`
 > **Also Called ("Sloppy Words"):** *slider control, seek bar, track bar, range control*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a native macOS slider — NSSlider (SwiftUI: Slider(value:in:step:)): horizontal linear style, round knob, the leading side of the track tinted with the accent color. For discrete values add tick marks below with numberOfTickMarks and tickMarkPosition = .below, and snap the knob to them with allowsTickMarkValuesOnly = true. Set isContinuous = true so the value updates while dragging.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS slider (NSSlider, SwiftUI Slider). Rule out: actions flooding on every pixel because isContinuous is on (or missing when live updates were wanted); allowsTickMarkValuesOnly snapping values you did not expect; a value binding writing back during drag and fighting the gesture; vertical orientation inferred from frame shape in AppKit, not set explicitly. The symptom:
 
@@ -139,7 +139,7 @@ When building or refactoring **Slider** (`NSSlider.knobThickness`), enforce the 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Slider (NSSlider.knobThickness)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="slider"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="slider"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -180,5 +180,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

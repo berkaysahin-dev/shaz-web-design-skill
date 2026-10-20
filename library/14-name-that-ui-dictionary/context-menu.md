@@ -1,31 +1,31 @@
-﻿# Context Menu
+# Context Menu
 
 ![Context Menu](./images/context-menu.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSMenuItem`
 * **Also Called (Aliases):** `contextual menu, right-click menu, shortcut menu`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/context-menu](https://shazagency.com/ui-dictionary/macos/context-menu)
+* **Official Source URL:** [https://namethatui.com/macos/context-menu](https://namethatui.com/macos/context-menu)
 
 ---
 
 ```markdown
-# Context Menu — Shaz Agency Official UI Prompt & Production Architecture
+# Context Menu — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/context-menu](https://shazagency.com/ui-dictionary/macos/context-menu) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSMenuItem`
+> **Source:** [https://namethatui.com/macos/context-menu](https://namethatui.com/macos/context-menu) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSMenuItem`
 > **Also Called ("Sloppy Words"):** *contextual menu, right-click menu, shortcut menu*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a Context Menu using NSMenu on the target NSView (SwiftUI: View.contextMenu), opened by right-click or Control-click at the item under the pointer. Populate it with actions specific to that item; do not turn it into a primary-click dropdown anchored to a button.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS context menu (NSMenu, menu(for:), SwiftUI .contextMenu). Rule out: the menu built once and gone stale — implement menuNeedsUpdate/menuWillOpen; items greyed out because their target is nil and nothing in the responder chain implements the action; right-click, control-click and two-finger tap taking different code paths; a SwiftUI .contextMenu swallowing plain clicks on the row. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Context Menu** (`NSMenuItem`), enforce the follow
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Context Menu (NSMenuItem)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="context-menu"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="context-menu"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,25 +1,25 @@
-﻿# Heartcode — a 3D heart made of a thousand “i love you”s
+# Heartcode — a 3D heart made of a thousand “i love you”s
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/heartcode/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/heartcode.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/heartcode.jpg)  
-> **Tech Stack:** `vanilla, css, svg` · **Dependencies:** `0` · **Size:** `5.5 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/heartcode/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/heartcode.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/heartcode.jpg)  
+> **Teknoloji:** `vanilla, css, svg` · **Bağımlılık:** `0` · **Boyut:** `5.5 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A 3D heart made of the words i love you, built in plain DOM: JavaScript traces the heart curve into rows of text and stacks them in depth with CSS preserve-3d. The heart sways, double-thumps like a heartbeat and shimmers row by row. Moving the pointer over it tilts the heart toward the cursor. Two mock code panels beside it reveal line by line, in a 9:16 frame ready to record. Reduced motion holds a still pose; zero dependencies.
 
-* **Key Files:** `heart.css`, `heart.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `heart.css`, `heart.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Heartcode — a 3D heart made of a thousand “i love you”s.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-heartcode-container" data-state="idle">
   <button class="cc-heartcode-trigger" type="button" aria-label="Heartcode">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-heartcode-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

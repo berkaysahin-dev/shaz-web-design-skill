@@ -1,31 +1,31 @@
-﻿# Pointer (Cursor)
+# Pointer (Cursor)
 
 ![Pointer (Cursor)](./images/pointer.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `pop or hide`
 * **Also Called (Aliases):** `cursor, mouse pointer, mouse cursor`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/pointer](https://shazagency.com/ui-dictionary/macos/pointer)
+* **Official Source URL:** [https://namethatui.com/macos/pointer](https://namethatui.com/macos/pointer)
 
 ---
 
 ```markdown
-# Pointer (Cursor) — Shaz Agency Official UI Prompt & Production Architecture
+# Pointer (Cursor) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/pointer](https://shazagency.com/ui-dictionary/macos/pointer) · **Category:** `macOS UI` · **Primary API / Symbol:** `pop or hide`
+> **Source:** [https://namethatui.com/macos/pointer](https://namethatui.com/macos/pointer) · **Category:** `macOS UI` · **Primary API / Symbol:** `pop or hide`
 > **Also Called ("Sloppy Words"):** *cursor, mouse pointer, mouse cursor*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Set the macOS pointer with NSCursor — e.g. NSCursor.iBeam.set() — or claim a region with NSView.addCursorRect(_:cursor:) inside resetCursorRects() (SwiftUI: View.pointerStyle(_:), macOS 15+). If the pointer stays stuck as the I-beam after the mouse leaves a text view, the stale cursor rect is the bug: call window.invalidateCursorRects(for: view) so the rects rebuild.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS pointer/cursor (NSCursor, NSTrackingArea). Rule out: the cursor flickering back to arrow because cursor rects reset on every layout — drive it from cursorUpdate with a tracking area instead; push/pop or hide/unhide calls unbalanced; the spinning beach ball meaning the main thread is blocked, not a cursor bug; a hidden cursor never restored after a drag. The symptom:
 
@@ -130,7 +130,7 @@ When building or refactoring **Pointer (Cursor)** (`pop or hide`), enforce the f
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Pointer (Cursor) (pop or hide)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="pointer"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="pointer"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

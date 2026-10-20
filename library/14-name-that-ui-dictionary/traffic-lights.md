@@ -1,31 +1,31 @@
-﻿# Traffic Lights (Window Controls)
+# Traffic Lights (Window Controls)
 
 ![Traffic Lights (Window Controls)](./images/traffic-lights.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSWindow.ButtonType.closeButton`
 * **Also Called (Aliases):** `window controls, title bar buttons, close minimize zoom buttons`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/traffic-lights](https://shazagency.com/ui-dictionary/macos/traffic-lights)
+* **Official Source URL:** [https://namethatui.com/macos/traffic-lights](https://namethatui.com/macos/traffic-lights)
 
 ---
 
 ```markdown
-# Traffic Lights (Window Controls) — Shaz Agency Official UI Prompt & Production Architecture
+# Traffic Lights (Window Controls) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/traffic-lights](https://shazagency.com/ui-dictionary/macos/traffic-lights) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.ButtonType.closeButton`
+> **Source:** [https://namethatui.com/macos/traffic-lights](https://namethatui.com/macos/traffic-lights) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSWindow.ButtonType.closeButton`
 > **Also Called ("Sloppy Words"):** *window controls, title bar buttons, close minimize zoom buttons*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use the standard Traffic Lights from NSWindow.standardWindowButton(_:), preserving their native spacing, hover symbols, and the green button’s system-provided full-screen and window-arrangement behavior. Obtain the green control as .zoomButton and use NSWindow.toggleFullScreen(_:) only when explicitly invoking full screen; do not substitute custom circles.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS traffic lights (NSWindow.standardWindowButton). Rule out: buttons missing after changing styleMask or using borderless windows; hover glyphs gone because a custom titlebar accessory intercepts tracking; the green button zooming when you expected full screen (option-click zooms); repositioned buttons drifting after full-screen transitions because the themed frame re-lays them out. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Traffic Lights (Window Controls)** (`NSWindow.But
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Traffic Lights (Window Controls) (NSWindow.ButtonType.closeButton)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="traffic-lights"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="traffic-lights"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

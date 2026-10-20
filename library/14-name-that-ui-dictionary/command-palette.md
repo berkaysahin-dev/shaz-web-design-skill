@@ -1,31 +1,31 @@
-﻿# Command Palette
+# Command Palette
 
 ![Command Palette](./images/command-palette.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `CommandInput`
 * **Also Called (Aliases):** `command menu, quick actions, launcher, command bar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/command-palette](https://shazagency.com/ui-dictionary/web/command-palette)
+* **Official Source URL:** [https://namethatui.com/web/command-palette](https://namethatui.com/web/command-palette)
 
 ---
 
 ```markdown
-# Command Palette — Shaz Agency Official UI Prompt & Production Architecture
+# Command Palette — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/command-palette](https://shazagency.com/ui-dictionary/web/command-palette) · **Category:** `Web UI` · **Primary API / Symbol:** `CommandInput`
+> **Source:** [https://namethatui.com/web/command-palette](https://namethatui.com/web/command-palette) · **Category:** `Web UI` · **Primary API / Symbol:** `CommandInput`
 > **Also Called ("Sloppy Words"):** *command menu, quick actions, launcher, command bar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a Command Palette using the shadcn/ui Command component inside a role="dialog", opened by ⌘K or Ctrl+K. Filter actions as the user types, support arrow-key selection and Enter, and restore focus to the invoking control on dismissal.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my command palette (cmdk, Dialog + Command). Rule out: the cmd/ctrl-K listener attached to the wrong scope or eaten by the browser; the filter state persisting from the previous open — reset on open; focus escaping the dialog because the trap ignores portaled content; keydown firing during IME composition (check isComposing); the palette rendered under a higher stacking context. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Command Palette** (`CommandInput`), enforce the f
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Command Palette (CommandInput)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="command-palette"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="command-palette"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

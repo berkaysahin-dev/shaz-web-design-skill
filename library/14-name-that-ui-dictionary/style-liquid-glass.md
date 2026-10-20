@@ -1,31 +1,31 @@
-﻿# Liquid Glass
+# Liquid Glass
 
 ![Liquid Glass](./images/style-liquid-glass.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `UIKit`
 * **Also Called (Aliases):** `Apple Liquid Glass, the new Apple look, iOS 26 glass design`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/liquid-glass](https://shazagency.com/ui-dictionary/styles/liquid-glass)
+* **Official Source URL:** [https://namethatui.com/styles/liquid-glass](https://namethatui.com/styles/liquid-glass)
 
 ---
 
 ```markdown
-# Liquid Glass — Shaz Agency Official UI Prompt & Production Architecture
+# Liquid Glass — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/liquid-glass](https://shazagency.com/ui-dictionary/styles/liquid-glass) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `UIKit`
+> **Source:** [https://namethatui.com/styles/liquid-glass](https://namethatui.com/styles/liquid-glass) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `UIKit`
 > **Also Called ("Sloppy Words"):** *Apple Liquid Glass, the new Apple look, iOS 26 glass design*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface in the spirit of Apple's Liquid Glass. Defining signals: glass is reserved for the floating control layer (toolbars, tab bars, buttons) above opaque content; the material lenses what's beneath it — blur plus refraction-like edge highlights, not flat frost; controls adapt their tint to stay legible over changing content; capsule shapes with concentric corner radii. Keep the underlying content unrestricted. On Apple platforms use the real APIs — SwiftUI .glassEffect(), glassEffect(.regular, in: .capsule), and standard bars get it automatically; on the web approximate with backdrop-filter: blur + saturate, layered inner highlights, and capsule radii. Do not drift into generic glassmorphism; the decisive difference is that content never becomes glass — only controls float as glass above it. Preserve legibility over every content region (the real material self-adapts — your approximation must too), visible focus states, and honor Reduce Transparency / Reduce Motion.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Liquid Glass' (`UIKit`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Liquid Glass** (`UIKit`), enforce the following e
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Liquid Glass (UIKit)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-liquid-glass"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-liquid-glass"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

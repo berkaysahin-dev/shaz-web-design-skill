@@ -1,31 +1,31 @@
-﻿# Popover vs. Dropdown Menu vs. Tooltip
+# Popover vs. Dropdown Menu vs. Tooltip
 
 ![Popover vs. Dropdown Menu vs. Tooltip](./images/popover-dropdown-tooltip.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `dropdown`
 * **Also Called (Aliases):** `popup, menu, hover hint, toggletip`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/popover-dropdown-tooltip](https://shazagency.com/ui-dictionary/web/popover-dropdown-tooltip)
+* **Official Source URL:** [https://namethatui.com/web/popover-dropdown-tooltip](https://namethatui.com/web/popover-dropdown-tooltip)
 
 ---
 
 ```markdown
-# Popover vs. Dropdown Menu vs. Tooltip — Shaz Agency Official UI Prompt & Production Architecture
+# Popover vs. Dropdown Menu vs. Tooltip — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/popover-dropdown-tooltip](https://shazagency.com/ui-dictionary/web/popover-dropdown-tooltip) · **Category:** `Web UI` · **Primary API / Symbol:** `dropdown`
+> **Source:** [https://namethatui.com/web/popover-dropdown-tooltip](https://namethatui.com/web/popover-dropdown-tooltip) · **Category:** `Web UI` · **Primary API / Symbol:** `dropdown`
 > **Also Called ("Sloppy Words"):** *popup, menu, hover hint, toggletip*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use the HTML popover attribute for the click-triggered rich overlay, role="menu" for the keyboard-navigable action list, and role="tooltip" only for a brief non-interactive hover or focus hint. Link the tooltip from its trigger with aria-describedby, keep every overlay anchored to its trigger, and implement the correct Escape, outside-click, and focus-dismissal behavior for each pattern.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my popover/dropdown/tooltip (Popover API, Radix, floating-ui). Rule out: the wrong primitive — tooltips are hover+focus, never interactive content; the panel clipped by an overflow ancestor instead of portaled to body or using the top-layer Popover API; flip/shift middleware missing so it overflows at viewport edges; outside-click closing it before the inside click registers. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Popover vs. Dropdown Menu vs. Tooltip** (`dropdow
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Popover vs. Dropdown Menu vs. Tooltip (dropdown)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="popover-dropdown-tooltip"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="popover-dropdown-tooltip"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

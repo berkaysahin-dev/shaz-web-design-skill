@@ -1,31 +1,31 @@
-﻿# Scrim (Backdrop / Overlay)
+# Scrim (Backdrop / Overlay)
 
 ![Scrim (Backdrop / Overlay)](./images/scrim.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `Overlay)`
 * **Also Called (Aliases):** `backdrop, overlay, modal overlay`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/scrim](https://shazagency.com/ui-dictionary/web/scrim)
+* **Official Source URL:** [https://namethatui.com/web/scrim](https://namethatui.com/web/scrim)
 
 ---
 
 ```markdown
-# Scrim (Backdrop / Overlay) — Shaz Agency Official UI Prompt & Production Architecture
+# Scrim (Backdrop / Overlay) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/scrim](https://shazagency.com/ui-dictionary/web/scrim) · **Category:** `Web UI` · **Primary API / Symbol:** `Overlay)`
+> **Source:** [https://namethatui.com/web/scrim](https://namethatui.com/web/scrim) · **Category:** `Web UI` · **Primary API / Symbol:** `Overlay)`
 > **Also Called ("Sloppy Words"):** *backdrop, overlay, modal overlay*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a scrim behind the modal using the <dialog>::backdrop pseudo-element. It should cover the viewport, dim and optionally blur the page, intercept pointer input, and fade reversibly with the modal.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my scrim/backdrop (::backdrop, fixed overlay). Rule out: scrolling chaining through to the page — set overscroll-behavior contain and lock body scroll; the scrim stacking under content because a transformed ancestor created its own stacking context; pointer-events still active while it fades out so it eats clicks invisibly; the dialog ::backdrop unstylable because the dialog was opened with show() not showModal(). The symptom:
 
@@ -136,7 +136,7 @@ When building or refactoring **Scrim (Backdrop / Overlay)** (`Overlay)`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Scrim (Backdrop / Overlay) (Overlay))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="scrim"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="scrim"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -177,5 +177,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

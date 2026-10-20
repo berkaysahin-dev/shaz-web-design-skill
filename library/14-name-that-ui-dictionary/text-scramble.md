@@ -1,31 +1,31 @@
-﻿# Text Scramble (Decode Effect)
+# Text Scramble (Decode Effect)
 
 ![Text Scramble (Decode Effect)](./images/text-scramble.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `chars (ScrambleTextPlugin)`
 * **Also Called (Aliases):** `decode effect, matrix text effect, shuffle text`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/text-scramble](https://shazagency.com/ui-dictionary/web/text-scramble)
+* **Official Source URL:** [https://namethatui.com/web/text-scramble](https://namethatui.com/web/text-scramble)
 
 ---
 
 ```markdown
-# Text Scramble (Decode Effect) — Shaz Agency Official UI Prompt & Production Architecture
+# Text Scramble (Decode Effect) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/text-scramble](https://shazagency.com/ui-dictionary/web/text-scramble) · **Category:** `Web UI` · **Primary API / Symbol:** `chars (ScrambleTextPlugin)`
+> **Source:** [https://namethatui.com/web/text-scramble](https://namethatui.com/web/text-scramble) · **Category:** `Web UI` · **Primary API / Symbol:** `chars (ScrambleTextPlugin)`
 > **Also Called ("Sloppy Words"):** *decode effect, matrix text effect, shuffle text*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a text scramble (decode) effect: each character cycles random glyphs and locks into the real one left to right (GSAP ScrambleTextPlugin, or a requestAnimationFrame loop with a per-character settle deadline). Use a monospace font or tabular glyphs so width never jitters, expose the final string via aria-label with the churning span aria-hidden, and honor prefers-reduced-motion by rendering the text instantly.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my text scramble effect (GSAP ScrambleTextPlugin / rAF charset loop). Rule out: layout jitter because glyph widths differ (needs monospace or tabular-nums); the animation never settling because the per-character deadline keeps resetting on re-render; screen readers announcing garbage (final text must live in aria-label, churn aria-hidden); the effect re-running on every state change instead of once per mount; reduced-motion users getting the churn instead of instant text. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Text Scramble (Decode Effect)** (`chars (Scramble
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Text Scramble (Decode Effect) (chars (ScrambleTextPlugin))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="text-scramble"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="text-scramble"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

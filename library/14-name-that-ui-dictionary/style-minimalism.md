@@ -1,31 +1,31 @@
-﻿# Minimalism
+# Minimalism
 
 ![Minimalism](./images/style-minimalism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `white`
 * **Also Called (Aliases):** `minimalist design, minimal web design`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/minimalism](https://shazagency.com/ui-dictionary/styles/minimalism)
+* **Official Source URL:** [https://namethatui.com/styles/minimalism](https://namethatui.com/styles/minimalism)
 
 ---
 
 ```markdown
-# Minimalism — Shaz Agency Official UI Prompt & Production Architecture
+# Minimalism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/minimalism](https://shazagency.com/ui-dictionary/styles/minimalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `white`
+> **Source:** [https://namethatui.com/styles/minimalism](https://namethatui.com/styles/minimalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `white`
 > **Also Called ("Sloppy Words"):** *minimalist design, minimal web design*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using minimalism. Defining signals: the fewest elements that still do the job — one navigation, one message, one primary action, decoration deleted; generous negative space around everything (think 40 to 60 percent of the viewport empty); a limited palette — near-monochrome with at most one accent color; one dramatic typographic moment, an oversized headline that is the loudest thing on screen. Rendering is flexible — flat fills or subtle shadows both fit. Do not confuse this with flat design: minimalism constrains content and layout, not rendering — if you add content back until the page is busy, it stops being minimalist no matter how flat it is. Preserve discoverability: core actions must stay visible, never hidden behind mystery-meat icons to keep the page empty, and text keeps 4.5:1 contrast even in grey-on-white palettes.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Minimalism' (`white`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -140,7 +140,7 @@ When building or refactoring **Minimalism** (`white`), enforce the following eng
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Minimalism (white)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-minimalism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-minimalism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Truncation (Ellipsis & Line Clamp)
+# Truncation (Ellipsis & Line Clamp)
 
 ![Truncation (Ellipsis & Line Clamp)](./images/truncation.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `text-overflow: ellipsis`
 * **Also Called (Aliases):** `ellipsis, text overflow, line clamp, clamped text, truncated text`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/truncation](https://shazagency.com/ui-dictionary/web/truncation)
+* **Official Source URL:** [https://namethatui.com/web/truncation](https://namethatui.com/web/truncation)
 
 ---
 
 ```markdown
-# Truncation (Ellipsis & Line Clamp) — Shaz Agency Official UI Prompt & Production Architecture
+# Truncation (Ellipsis & Line Clamp) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/truncation](https://shazagency.com/ui-dictionary/web/truncation) · **Category:** `Web UI` · **Primary API / Symbol:** `text-overflow: ellipsis`
+> **Source:** [https://namethatui.com/web/truncation](https://namethatui.com/web/truncation) · **Category:** `Web UI` · **Primary API / Symbol:** `text-overflow: ellipsis`
 > **Also Called ("Sloppy Words"):** *ellipsis, text overflow, line clamp, clamped text, truncated text*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Truncate the text with CSS. Single line: overflow: hidden; white-space: nowrap; text-overflow: ellipsis. Multi-line: display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden (unprefixed line-clamp isn't safe in all browsers yet). Middle truncation that preserves the file extension needs JS on the web — on macOS it's lineBreakMode = .byTruncatingMiddle. For a soft fade-out instead of dots, use mask-image: linear-gradient(to right, black 70%, transparent).
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my text truncation (text-overflow ellipsis, line-clamp). Rule out: ellipsis needing all three of overflow hidden, white-space nowrap, and a real width constraint — in flex rows add min-width:0 to the shrinking child, that is the classic; multi-line needing -webkit-line-clamp with -webkit-box; middle truncation (file names) needing JS, CSS cannot do it; the full text unavailable because no title/tooltip reveals it. The symptom:
 
@@ -139,7 +139,7 @@ When building or refactoring **Truncation (Ellipsis & Line Clamp)** (`text-overf
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Truncation (Ellipsis & Line Clamp) (text-overflow: ellipsis)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="truncation"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="truncation"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -180,5 +180,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

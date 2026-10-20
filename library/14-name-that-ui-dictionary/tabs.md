@@ -1,31 +1,31 @@
-﻿# Tabs
+# Tabs
 
 ![Tabs](./images/tabs.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `tab`
 * **Also Called (Aliases):** `tabbed interface, tab list, tab bar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/tabs](https://shazagency.com/ui-dictionary/web/tabs)
+* **Official Source URL:** [https://namethatui.com/web/tabs](https://namethatui.com/web/tabs)
 
 ---
 
 ```markdown
-# Tabs — Shaz Agency Official UI Prompt & Production Architecture
+# Tabs — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/tabs](https://shazagency.com/ui-dictionary/web/tabs) · **Category:** `Web UI` · **Primary API / Symbol:** `tab`
+> **Source:** [https://namethatui.com/web/tabs](https://namethatui.com/web/tabs) · **Category:** `Web UI` · **Primary API / Symbol:** `tab`
 > **Also Called ("Sloppy Words"):** *tabbed interface, tab list, tab bar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build accessible Tabs with a role="tablist", one role="tab" marked aria-selected="true", and a matching role="tabpanel" connected with aria-controls and aria-labelledby. Keep only the active tab at tabindex="0", move between tabs with Left and Right Arrow, and switch the shared panel without navigating away.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my tabs (role=tablist/tab/tabpanel, roving tabindex). Rule out: every tab in the Tab order instead of one roving tabindex with arrow-key movement; panels missing aria-labelledby back-references; the active indicator not moving on resize because its position was measured once; panel state lost on switch because inactive panels unmount when they should hide. The symptom:
 
@@ -136,7 +136,7 @@ When building or refactoring **Tabs** (`tab`), enforce the following engineering
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Tabs (tab)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="tabs"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="tabs"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -177,5 +177,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

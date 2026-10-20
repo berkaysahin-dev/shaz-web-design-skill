@@ -1,31 +1,31 @@
-﻿# Pop-Up Button vs. Pull-Down Button vs. Combo Box
+# Pop-Up Button vs. Pull-Down Button vs. Combo Box
 
 ![Pop-Up Button vs. Pull-Down Button vs. Combo Box](./images/popup-pulldown-combo.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `pull-down`
 * **Also Called (Aliases):** `pop-up menu button, pull-down menu button, combo box, menu picker`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/popup-pulldown-combo](https://shazagency.com/ui-dictionary/macos/popup-pulldown-combo)
+* **Official Source URL:** [https://namethatui.com/macos/popup-pulldown-combo](https://namethatui.com/macos/popup-pulldown-combo)
 
 ---
 
 ```markdown
-# Pop-Up Button vs. Pull-Down Button vs. Combo Box — Shaz Agency Official UI Prompt & Production Architecture
+# Pop-Up Button vs. Pull-Down Button vs. Combo Box — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/popup-pulldown-combo](https://shazagency.com/ui-dictionary/macos/popup-pulldown-combo) · **Category:** `macOS UI` · **Primary API / Symbol:** `pull-down`
+> **Source:** [https://namethatui.com/macos/popup-pulldown-combo](https://namethatui.com/macos/popup-pulldown-combo) · **Category:** `macOS UI` · **Primary API / Symbol:** `pull-down`
 > **Also Called ("Sloppy Words"):** *pop-up menu button, pull-down menu button, combo box, menu picker*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Choose the correct control from Pop-Up Button vs. Pull-Down Button vs. Combo Box: use NSPopUpButton with pullsDown false for a persistent selection, the same control with pullsDown true for a menu of commands, or NSComboBox when the user may type a value as well as choose one. Preserve the native arrow, menu behavior, and displayed-value semantics of the chosen control.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS popup/pull-down/combo (NSPopUpButton, NSComboBox). Rule out: a pull-down consuming its FIRST menu item as the title — insert a dummy first item; popup selection not syncing because selectItem was never called after menu rebuild; autoenablesItems greying items whose actions lack targets; expecting a combo box to be a menu — it is an editable text field plus a list. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Pop-Up Button vs. Pull-Down Button vs. Combo Box*
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Pop-Up Button vs. Pull-Down Button vs. Combo Box (pull-down)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="popup-pulldown-combo"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="popup-pulldown-combo"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,25 +1,25 @@
-﻿# Strada — a car-rental landing page where the hero car is the control
+# Strada — a car-rental landing page where the hero car is the control
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/strada/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/strada.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/strada.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap, lenis` · **Dependencies:** `2` · **Size:** `16.9 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/strada/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/strada.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/strada.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap, lenis` · **Bağımlılık:** `2` · **Boyut:** `16.9 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A one-page luxury car-rental site. Pick a class and the hero car drives off as the next one rolls in, while its specs count to the new numbers. The booking bar is a real form (driver toggle, round-trip switch, dates that cannot run backwards) that searches, then flies you to a fleet it has filtered. The fleet re-deals itself with GSAP Flip, and the page carries a draggable deals carousel, a scroll-velocity partner marquee, a pinned how-it-works road, an app section and a bento. GSAP and Lenis, transform-only motion, a dark theme with every text tone contrast-measured, and phone and reduced-motion layouts built in. All 10 images are included (AI-generated, licensed with the code).
 
-* **Key Files:** `app.css`, `app.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.css`, `app.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Strada — a car-rental landing page where the hero car is the control.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-strada-container" data-state="idle">
   <button class="cc-strada-trigger" type="button" aria-label="Strada">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-strada-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

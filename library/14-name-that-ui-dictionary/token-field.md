@@ -1,31 +1,31 @@
-﻿# Token Field
+# Token Field
 
 ![Token Field](./images/token-field.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSTokenField.TokenStyle`
 * **Also Called (Aliases):** `token input, recipient field, tag input, pill input`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/token-field](https://shazagency.com/ui-dictionary/macos/token-field)
+* **Official Source URL:** [https://namethatui.com/macos/token-field](https://namethatui.com/macos/token-field)
 
 ---
 
 ```markdown
-# Token Field — Shaz Agency Official UI Prompt & Production Architecture
+# Token Field — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/token-field](https://shazagency.com/ui-dictionary/macos/token-field) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTokenField.TokenStyle`
+> **Source:** [https://namethatui.com/macos/token-field](https://namethatui.com/macos/token-field) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTokenField.TokenStyle`
 > **Also Called ("Sloppy Words"):** *token input, recipient field, tag input, pill input*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a native Token Field (NSTokenField) with NSTokenField.TokenStyle so each recognized recipient or tag becomes a separately selectable, removable rounded token inside the editable field. Preserve token completion and keyboard deletion behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS token field (NSTokenField). Rule out: text not becoming tokens until Return because the tokenizing character set lacks your separator; represented objects vs display strings confused in the delegate so tokens show raw identifiers; completions never appearing because the completion delegate method is not implemented; copy producing plain text because writing represented objects to the pasteboard is unimplemented. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Token Field** (`NSTokenField.TokenStyle`), enforc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Token Field (NSTokenField.TokenStyle)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="token-field"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="token-field"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Flat Design
+# Flat Design
 
 ![Flat Design](./images/style-flat-design.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `g traces the deeper roots to Swiss`
 * **Also Called (Aliases):** `flat UI, flat 2.0 (with subtle depth added back)`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/flat-design](https://shazagency.com/ui-dictionary/styles/flat-design)
+* **Official Source URL:** [https://namethatui.com/styles/flat-design](https://namethatui.com/styles/flat-design)
 
 ---
 
 ```markdown
-# Flat Design — Shaz Agency Official UI Prompt & Production Architecture
+# Flat Design — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/flat-design](https://shazagency.com/ui-dictionary/styles/flat-design) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `g traces the deeper roots to Swiss`
+> **Source:** [https://namethatui.com/styles/flat-design](https://namethatui.com/styles/flat-design) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `g traces the deeper roots to Swiss`
 > **Also Called ("Sloppy Words"):** *flat UI, flat 2.0 (with subtle depth added back)*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using flat design. Defining signals: every surface a solid single-color fill — zero gradients, gloss, or texture; no simulated depth — no drop shadows, bevels, or specular highlights, edges drawn by color change alone; icons as simple one-color geometric glyphs; hierarchy carried by color blocks, size, and clean sans-serif type. Keep the palette and density flexible — flat can be sparse or dense. In CSS this means background-color instead of background-image gradients, border: none or 1px solid, box-shadow: none. Do not drift into skeuomorphism: the decisive difference is that nothing imitates a lit physical material. Preserve 4.5:1 text contrast, and make interactive elements identifiable without shadows — clear color affordance, visible hover/pressed states, and visible focus rings.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Flat Design' (`g traces the deeper roots to Swiss`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Flat Design** (`g traces the deeper roots to Swis
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Flat Design (g traces the deeper roots to Swiss)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-flat-design"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-flat-design"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

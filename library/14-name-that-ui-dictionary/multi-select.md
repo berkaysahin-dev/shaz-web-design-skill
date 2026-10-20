@@ -1,31 +1,31 @@
-﻿# Multi-select
+# Multi-select
 
 ![Multi-select](./images/multi-select.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `Select.ValueText`
 * **Also Called (Aliases):** `multiselect, multiple select, multi-select dropdown, checkbox dropdown, multi-select listbox, token multi-select, transfer list, pick list, shuttle`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/multi-select](https://shazagency.com/ui-dictionary/web/multi-select)
+* **Official Source URL:** [https://namethatui.com/web/multi-select](https://namethatui.com/web/multi-select)
 
 ---
 
 ```markdown
-# Multi-select — Shaz Agency Official UI Prompt & Production Architecture
+# Multi-select — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/multi-select](https://shazagency.com/ui-dictionary/web/multi-select) · **Category:** `Web UI` · **Primary API / Symbol:** `Select.ValueText`
+> **Source:** [https://namethatui.com/web/multi-select](https://namethatui.com/web/multi-select) · **Category:** `Web UI` · **Primary API / Symbol:** `Select.ValueText`
 > **Also Called ("Sloppy Words"):** *multiselect, multiple select, multi-select dropdown, checkbox dropdown, multi-select listbox, token multi-select, transfer list, pick list, shuttle*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a Multi-select with role="listbox" and aria-multiselectable="true": open it from a compact trigger that shows the selected count, keep the searchable option list open while several role="option" rows toggle aria-selected, render each selected value as a removable chip, and keep keyboard focus separate from selection. For the two-pane variant use an Ant Transfer with titled Available and Selected panes, targetKeys for the chosen items, and move buttons disabled when nothing eligible is checked.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my multi-select (role="listbox" aria-multiselectable, <select multiple>, Ant Select mode="multiple", MUI Autocomplete multiple). Rule out: the popup closing after the first pick because the option click still runs a close-on-select handler written for a single-value select; selection held as an array but compared by object identity, so re-rendered options lose their checked look; the trigger count derived from a different source than the option list and going stale; a drawn checkbox and aria-selected drifting apart, so screen readers announce the opposite of what is on screen; filtering the list silently dropping already-selected values that are no longer visible; a token remove button stealing focus or reopening the popup instead of removing just that one value; transfer-list move buttons left enabled when nothing eligible is checked. The symptom:
 
@@ -144,7 +144,7 @@ When building or refactoring **Multi-select** (`Select.ValueText`), enforce the 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Multi-select (Select.ValueText)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="multi-select"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="multi-select"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -185,5 +185,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

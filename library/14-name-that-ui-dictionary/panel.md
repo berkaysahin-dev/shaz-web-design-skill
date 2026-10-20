@@ -1,31 +1,31 @@
-﻿# Panel (Floating Window / HUD)
+# Panel (Floating Window / HUD)
 
 ![Panel (Floating Window / HUD)](./images/panel.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `HUD)`
 * **Also Called (Aliases):** `floating panel, utility panel, HUD window, heads-up display`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/panel](https://shazagency.com/ui-dictionary/macos/panel)
+* **Official Source URL:** [https://namethatui.com/macos/panel](https://namethatui.com/macos/panel)
 
 ---
 
 ```markdown
-# Panel (Floating Window / HUD) — Shaz Agency Official UI Prompt & Production Architecture
+# Panel (Floating Window / HUD) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/panel](https://shazagency.com/ui-dictionary/macos/panel) · **Category:** `macOS UI` · **Primary API / Symbol:** `HUD)`
+> **Source:** [https://namethatui.com/macos/panel](https://namethatui.com/macos/panel) · **Category:** `macOS UI` · **Primary API / Symbol:** `HUD)`
 > **Also Called ("Sloppy Words"):** *floating panel, utility panel, HUD window, heads-up display*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Implement this auxiliary surface as a Panel (Floating Window / HUD) using NSPanel, with NSWindow.Level.floating so it stays above its related document windows. If it should behave like Spotlight, use the nonactivatingPanel style so showing it does not activate the app or steal focus unnecessarily.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS panel (NSPanel). Rule out: the panel stealing focus from the main window because the nonactivatingPanel style mask is missing; text fields inside refusing input because the panel cannot become key; the panel vanishing on app deactivate via hidesOnDeactivate; a floating window level fighting other always-on-top windows. The symptom:
 
@@ -134,7 +134,7 @@ When building or refactoring **Panel (Floating Window / HUD)** (`HUD)`), enforce
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Panel (Floating Window / HUD) (HUD))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="panel"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="panel"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -175,5 +175,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

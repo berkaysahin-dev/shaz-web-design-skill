@@ -1,31 +1,31 @@
-﻿# Resize Handle (Size Grip)
+# Resize Handle (Size Grip)
 
 ![Resize Handle (Size Grip)](./images/resize-handle.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `::-webkit-resizer`
 * **Also Called (Aliases):** `size grip, resize grip, gripper, resizer, drag corner`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/resize-handle](https://shazagency.com/ui-dictionary/web/resize-handle)
+* **Official Source URL:** [https://namethatui.com/web/resize-handle](https://namethatui.com/web/resize-handle)
 
 ---
 
 ```markdown
-# Resize Handle (Size Grip) — Shaz Agency Official UI Prompt & Production Architecture
+# Resize Handle (Size Grip) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/resize-handle](https://shazagency.com/ui-dictionary/web/resize-handle) · **Category:** `Web UI` · **Primary API / Symbol:** `::-webkit-resizer`
+> **Source:** [https://namethatui.com/web/resize-handle](https://namethatui.com/web/resize-handle) · **Category:** `Web UI` · **Primary API / Symbol:** `::-webkit-resizer`
 > **Also Called ("Sloppy Words"):** *size grip, resize grip, gripper, resizer, drag corner*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Style the resize handle (size grip) of my textarea: the diagonal-ribbed corner browsers add by default. Control it with CSS resize (use resize: vertical so dragging can't break the layout horizontally, resize: none to remove it), set min-height/max-height bounds, and style the grip itself via ::-webkit-resizer where supported.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my textarea's resize handle (CSS resize, ::-webkit-resizer). Rule out: the grip missing because resize: none or overflow: visible is set (the grip needs overflow other than visible); dragging blowing up the layout because resize: both is allowed where resize: vertical was intended and no max-width/max-height bounds exist; the grip invisible on a dark theme because ::-webkit-resizer wasn't restyled; Firefox ignoring ::-webkit-resizer (it draws its own grip — don't rely on styling it). The symptom:
 
@@ -131,7 +131,7 @@ When building or refactoring **Resize Handle (Size Grip)** (`::-webkit-resizer`)
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Resize Handle (Size Grip) (::-webkit-resizer)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="resize-handle"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="resize-handle"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -172,5 +172,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

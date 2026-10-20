@@ -1,31 +1,31 @@
-﻿# Disclosure Triangle
+# Disclosure Triangle
 
 ![Disclosure Triangle](./images/disclosure-triangle.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSButton.BezelStyle.disclosure`
 * **Also Called (Aliases):** `disclosure control, outline disclosure button, expand-collapse triangle`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/disclosure-triangle](https://shazagency.com/ui-dictionary/macos/disclosure-triangle)
+* **Official Source URL:** [https://namethatui.com/macos/disclosure-triangle](https://namethatui.com/macos/disclosure-triangle)
 
 ---
 
 ```markdown
-# Disclosure Triangle — Shaz Agency Official UI Prompt & Production Architecture
+# Disclosure Triangle — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/disclosure-triangle](https://shazagency.com/ui-dictionary/macos/disclosure-triangle) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSButton.BezelStyle.disclosure`
+> **Source:** [https://namethatui.com/macos/disclosure-triangle](https://namethatui.com/macos/disclosure-triangle) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSButton.BezelStyle.disclosure`
 > **Also Called ("Sloppy Words"):** *disclosure control, outline disclosure button, expand-collapse triangle*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a native Disclosure Triangle for expandable rows: NSOutlineView for an outline hierarchy or SwiftUI DisclosureGroup for a standalone section. The small indicator must rotate between collapsed and expanded states while the row's children appear directly beneath it.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS disclosure triangle (NSButton .disclosure bezel, SwiftUI DisclosureGroup). Rule out: the isExpanded binding not actually driving the revealed content; several groups sharing one binding so they all toggle together; the triangle animating the wrong direction because state and rotation are set separately; baseline misalignment between the triangle and its label. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Disclosure Triangle** (`NSButton.BezelStyle.discl
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Disclosure Triangle (NSButton.BezelStyle.disclosure)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="disclosure-triangle"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="disclosure-triangle"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

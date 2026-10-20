@@ -1,31 +1,31 @@
-﻿# Bento Grid
+# Bento Grid
 
 ![Bento Grid](./images/bento-grid.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `grid-column: span 2`
 * **Also Called (Aliases):** `bento box layout, feature grid, dashboard grid`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/bento-grid](https://shazagency.com/ui-dictionary/web/bento-grid)
+* **Official Source URL:** [https://namethatui.com/web/bento-grid](https://namethatui.com/web/bento-grid)
 
 ---
 
 ```markdown
-# Bento Grid — Shaz Agency Official UI Prompt & Production Architecture
+# Bento Grid — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/bento-grid](https://shazagency.com/ui-dictionary/web/bento-grid) · **Category:** `Web UI` · **Primary API / Symbol:** `grid-column: span 2`
+> **Source:** [https://namethatui.com/web/bento-grid](https://namethatui.com/web/bento-grid) · **Category:** `Web UI` · **Primary API / Symbol:** `grid-column: span 2`
 > **Also Called ("Sloppy Words"):** *bento box layout, feature grid, dashboard grid*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a bento grid: one CSS grid (display: grid; grid-template-columns: repeat(4, 1fr); one consistent gap) where feature tiles span multiple cells via grid-column: span 2 / grid-row: span 2, every tile shares the same corner radius and an opaque background, and the whole composition reads as a single rounded box of differently sized compartments.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my bento grid (CSS grid with spanning tiles). Rule out: holes in the grid because a span exceeds the remaining columns in its row (consider grid-auto-flow: dense, noting it reorders visually vs DOM); uneven gutters from per-tile margins instead of the grid's single gap; tiles with different corner radii or translucent backgrounds breaking the lunchbox look; the hero tile collapsing on small screens because the span isn't reduced under a media query. The symptom:
 
@@ -134,7 +134,7 @@ When building or refactoring **Bento Grid** (`grid-column: span 2`), enforce the
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Bento Grid (grid-column: span 2)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="bento-grid"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="bento-grid"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -175,5 +175,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

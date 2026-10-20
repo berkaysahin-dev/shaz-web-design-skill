@@ -1,31 +1,31 @@
-﻿# Badge vs. Chip vs. Pill vs. Tag
+# Badge vs. Chip vs. Pill vs. Tag
 
 ![Badge vs. Chip vs. Pill vs. Tag](./images/badge-chip-pill.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `chip`
 * **Also Called (Aliases):** `token, lozenge, capsule`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/badge-chip-pill](https://shazagency.com/ui-dictionary/web/badge-chip-pill)
+* **Official Source URL:** [https://namethatui.com/web/badge-chip-pill](https://namethatui.com/web/badge-chip-pill)
 
 ---
 
 ```markdown
-# Badge vs. Chip vs. Pill vs. Tag — Shaz Agency Official UI Prompt & Production Architecture
+# Badge vs. Chip vs. Pill vs. Tag — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/badge-chip-pill](https://shazagency.com/ui-dictionary/web/badge-chip-pill) · **Category:** `Web UI` · **Primary API / Symbol:** `chip`
+> **Source:** [https://namethatui.com/web/badge-chip-pill](https://namethatui.com/web/badge-chip-pill) · **Category:** `Web UI` · **Primary API / Symbol:** `chip`
 > **Also Called ("Sloppy Words"):** *token, lozenge, capsule*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a Badge for the compact unread count, a dismissible Chip for the active filter, a fully rounded Pill for short status text, and a Tag for category metadata. Use shadcn/ui Badge for the non-interactive labels and give any icon-only remove button an aria-label.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my badge/chip/pill. Rule out: unbounded counts blowing the layout instead of capping at 99+; the pill wrapping mid-label without white-space nowrap; a chip delete target far smaller than 24px so taps miss; low-contrast fills failing in dark mode because the colors were not themed as a pair. The symptom:
 
@@ -139,7 +139,7 @@ When building or refactoring **Badge vs. Chip vs. Pill vs. Tag** (`chip`), enfor
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Badge vs. Chip vs. Pill vs. Tag (chip)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="badge-chip-pill"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="badge-chip-pill"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -180,5 +180,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

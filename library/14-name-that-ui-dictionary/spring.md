@@ -1,31 +1,31 @@
-﻿# Spring Animation
+# Spring Animation
 
 ![Spring Animation](./images/spring.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `damping`
 * **Also Called (Aliases):** `spring physics, bouncy animation, spring transition`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/spring](https://shazagency.com/ui-dictionary/web/spring)
+* **Official Source URL:** [https://namethatui.com/web/spring](https://namethatui.com/web/spring)
 
 ---
 
 ```markdown
-# Spring Animation — Shaz Agency Official UI Prompt & Production Architecture
+# Spring Animation — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/spring](https://shazagency.com/ui-dictionary/web/spring) · **Category:** `Web UI` · **Primary API / Symbol:** `damping`
+> **Source:** [https://namethatui.com/web/spring](https://namethatui.com/web/spring) · **Category:** `Web UI` · **Primary API / Symbol:** `damping`
 > **Also Called ("Sloppy Words"):** *spring physics, bouncy animation, spring transition*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Give this animation spring physics: use Motion's transition={{ type: "spring", stiffness: 300, damping: 22 }} (or react-spring) instead of a duration+easing pair — the element should slightly overshoot its target and settle; raise damping to kill wobble, raise stiffness for snap. For pure CSS, bake the spring into a linear() timing function.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my spring animation (Motion type: "spring", react-spring, CSS linear()). Rule out: damping too low so it wobbles like jelly; stiffness too low so it feels underwater; a duration fighting the physics (springs compute their own settle time); the overshoot clipped by an overflow-hidden parent; interruptions snapping because the spring restarts from the target instead of retargeting from current velocity. The symptom:
 
@@ -130,7 +130,7 @@ When building or refactoring **Spring Animation** (`damping`), enforce the follo
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Spring Animation (damping)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="spring"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="spring"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

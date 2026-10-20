@@ -1,31 +1,31 @@
-﻿# Chat Bubble (Message Bubble)
+# Chat Bubble (Message Bubble)
 
 ![Chat Bubble (Message Bubble)](./images/chat-bubble.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `chat-bubble`
 * **Also Called (Aliases):** `message bubble, speech bubble, chat message, text bubble, conversation bubble, messenger bubble`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/chat-bubble](https://shazagency.com/ui-dictionary/web/chat-bubble)
+* **Official Source URL:** [https://namethatui.com/web/chat-bubble](https://namethatui.com/web/chat-bubble)
 
 ---
 
 ```markdown
-# Chat Bubble (Message Bubble) — Shaz Agency Official UI Prompt & Production Architecture
+# Chat Bubble (Message Bubble) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/chat-bubble](https://shazagency.com/ui-dictionary/web/chat-bubble) · **Category:** `Web UI` · **Primary API / Symbol:** `chat-bubble`
+> **Source:** [https://namethatui.com/web/chat-bubble](https://namethatui.com/web/chat-bubble) · **Category:** `Web UI` · **Primary API / Symbol:** `chat-bubble`
 > **Also Called ("Sloppy Words"):** *message bubble, speech bubble, chat message, text bubble, conversation bubble, messenger bubble*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build the conversation as a message list with role="log", one chat bubble per message (daisyUI chat + chat-bubble): received messages aligned to the start in a neutral fill (chat-start), sent messages aligned to the end in the accent color (chat-end). Give each bubble a generous corner radius with one tighter corner on the side it speaks from as its tail, cap the width at about 75% of the column so long messages wrap, and put a small metadata line under your latest message with the time and a delivered or read status (Stream Chat MessageStatus). While the other person is writing, show a typing indicator: a received-style bubble holding three dots that bounce in sequence.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my chat bubbles / message list (daisyUI chat-start, chat-end, chat-bubble; role="log"; Stream Chat MessageStatus, MessageTimestamp, TypingIndicator). Rule out: bubbles stretching the full column width because the row is a block instead of a flex row with a max-width on the bubble; a long URL or unbroken string overflowing the bubble for lack of overflow-wrap: anywhere; sent and received distinguished by color alone, with no alignment or accessible label saying who spoke; the tail drawn as a separate triangle that detaches from the bubble or shows a seam in dark mode; every consecutive message repeating the avatar, name and tail instead of only the last in a group; the list not pinned to the newest message, or yanking the reader back to the bottom while they scroll up through history; role="log" or aria-live placed on each bubble rather than once on the list, so a screen reader re-announces everything; the typing indicator left on after the message arrives, or animating with prefers-reduced-motion set; read status shown on the other person's messages; timestamps as bare text with no <time datetime>. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Chat Bubble (Message Bubble)** (`chat-bubble`), e
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Chat Bubble (Message Bubble) (chat-bubble)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="chat-bubble"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="chat-bubble"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

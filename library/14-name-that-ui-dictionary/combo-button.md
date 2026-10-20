@@ -1,31 +1,31 @@
-﻿# Combo Button
+# Combo Button
 
 ![Combo Button](./images/combo-button.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSComboButton.action`
 * **Also Called (Aliases):** `split button, menu-arrow button, action-and-menu button, NSComboButton`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/combo-button](https://shazagency.com/ui-dictionary/macos/combo-button)
+* **Official Source URL:** [https://namethatui.com/macos/combo-button](https://namethatui.com/macos/combo-button)
 
 ---
 
 ```markdown
-# Combo Button — Shaz Agency Official UI Prompt & Production Architecture
+# Combo Button — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/combo-button](https://shazagency.com/ui-dictionary/macos/combo-button) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSComboButton.action`
+> **Source:** [https://namethatui.com/macos/combo-button](https://namethatui.com/macos/combo-button) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSComboButton.action`
 > **Also Called ("Sloppy Words"):** *split button, menu-arrow button, action-and-menu button, NSComboButton*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a Combo Button with NSComboButton (macOS 13+) in split style: clicking the main region performs the primary action, while the attached arrow region opens its NSMenu. Do not use a pop-up button, which displays a current selection, or a pull-down button, whose whole button opens an action menu.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS combo button (NSComboButton, macOS 13+). Rule out: unified vs split style confusion — in unified the whole button shows the menu, in split only the arrow section does; the menu property empty so the arrow does nothing; running on macOS 12 or earlier where NSComboButton does not exist and a popup-button fallback is needed. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Combo Button** (`NSComboButton.action`), enforce 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Combo Button (NSComboButton.action)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="combo-button"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="combo-button"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

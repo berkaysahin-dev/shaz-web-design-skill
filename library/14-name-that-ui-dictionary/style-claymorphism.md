@@ -1,31 +1,31 @@
-﻿# Claymorphism
+# Claymorphism
 
 ![Claymorphism](./images/style-claymorphism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `border-radius: 26px; background: #f4e7fd; box-shadow: 0 20px 36px rgba(120,90,180,.22), inset 0 -8px 14px rgba(120,90,180,.18), inset 0 6px 12px rgba(255,255,255,.65);`
 * **Also Called (Aliases):** `clay UI, claymorphic design`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/claymorphism](https://shazagency.com/ui-dictionary/styles/claymorphism)
+* **Official Source URL:** [https://namethatui.com/styles/claymorphism](https://namethatui.com/styles/claymorphism)
 
 ---
 
 ```markdown
-# Claymorphism — Shaz Agency Official UI Prompt & Production Architecture
+# Claymorphism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/claymorphism](https://shazagency.com/ui-dictionary/styles/claymorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `border-radius: 26px; background: #f4e7fd; box-shadow: 0 20px 36px rgba(120,90,180,.22), inset 0 -8px 14px rgba(120,90,180,.18), inset 0 6px 12px rgba(255,255,255,.65);`
+> **Source:** [https://namethatui.com/styles/claymorphism](https://namethatui.com/styles/claymorphism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `border-radius: 26px; background: #f4e7fd; box-shadow: 0 20px 36px rgba(120,90,180,.22), inset 0 -8px 14px rgba(120,90,180,.18), inset 0 6px 12px rgba(255,255,255,.65);`
 > **Also Called ("Sloppy Words"):** *clay UI, claymorphic design*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using claymorphism. Defining signals: the clay shadow recipe on cards and buttons — two inner shadows (light at top, darker at bottom) plus one soft outer drop shadow, e.g. box-shadow: 0 24px 40px rgba(x,.18), inset 0 -8px 16px rgba(x,.15), inset 0 8px 16px rgba(255,255,255,.55); oversized corner radii (border-radius roughly 26px on a 56px control); each element independently colored in light pastels, clearly floating above a soft tinted background; chunky friendly type. Keep the exact hues and illustration flexible. Do not drift into neumorphism: the decisive difference is that clay objects have their own color and a visible drop shadow — never the background's color with shadows alone implying shape. Preserve 4.5:1 text contrast on pastel fills, pressed/hover states that deepen the inner shadows rather than removing them, and visible focus rings.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Claymorphism' (`border-radius: 26px; background: #f4e7fd; box-shadow: 0 20px 36px rgba(120,90,180,.22), inset 0 -8px 14px rgba(120,90,180,.18), inset 0 6px 12px rgba(255,255,255,.65);`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -138,7 +138,7 @@ When building or refactoring **Claymorphism** (`border-radius: 26px; background:
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Claymorphism (border-radius: 26px; background: #f4e7fd; box-shadow: 0 20px 36px rgba(120,90,180,.22), inset 0 -8px 14px rgba(120,90,180,.18), inset 0 6px 12px rgba(255,255,255,.65);)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-claymorphism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-claymorphism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

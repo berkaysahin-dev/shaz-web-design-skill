@@ -1,25 +1,25 @@
-﻿# Kessler — a whole shop — six pages, a working bag, a modernist grid
+# Kessler — a whole shop — six pages, a working bag, a modernist grid
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/kessler/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/kessler.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/kessler.jpg)  
-> **Tech Stack:** `vanilla, css, lucide` · **Dependencies:** `0` · **Size:** `48.3 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/kessler/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/kessler.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/kessler.jpg)  
+> **Teknoloji:** `vanilla, css, lucide` · **Bağımlılık:** `0` · **Boyut:** `48.3 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 KESSLER — a complete static storefront for a leather-goods label: home, listing with filters, product, cart, one-page checkout and account. Quick view, ⌘K search, a bag that remembers, a scroll-scrubbed film and a strict modernist grid. Plain HTML, CSS and JavaScript, no build step: upload the folder to any static host.
 
-* **Key Files:** `index.html`, `shop.html`, `product.html`, `cart.html`, `checkout.html`, `account.html`, `assets/css/site.css`, `assets/js/site.js`, `design-system/styles.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `index.html`, `shop.html`, `product.html`, `cart.html`, `checkout.html`, `account.html`, `assets/css/site.css`, `assets/js/site.js`, `design-system/styles.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Kessler — a whole shop — six pages, a working bag, a modernist grid.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-kessler-container" data-state="idle">
   <button class="cc-kessler-trigger" type="button" aria-label="Kessler">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-kessler-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

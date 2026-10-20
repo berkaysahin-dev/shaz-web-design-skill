@@ -1,31 +1,31 @@
-﻿# Frutiger Aero
+# Frutiger Aero
 
 ![Frutiger Aero](./images/style-frutiger-aero.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background: linear-gradient(180deg,#8fd3ff 0%,#3fa9f5 45%,#8fd948 82%,#4a9e2e 100%);`
 * **Also Called (Aliases):** `Aero glass era look, eco-tech gloss, Web 2.0 gloss era`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/frutiger-aero](https://shazagency.com/ui-dictionary/styles/frutiger-aero)
+* **Official Source URL:** [https://namethatui.com/styles/frutiger-aero](https://namethatui.com/styles/frutiger-aero)
 
 ---
 
 ```markdown
-# Frutiger Aero — Shaz Agency Official UI Prompt & Production Architecture
+# Frutiger Aero — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/frutiger-aero](https://shazagency.com/ui-dictionary/styles/frutiger-aero) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: linear-gradient(180deg,#8fd3ff 0%,#3fa9f5 45%,#8fd948 82%,#4a9e2e 100%);`
+> **Source:** [https://namethatui.com/styles/frutiger-aero](https://namethatui.com/styles/frutiger-aero) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: linear-gradient(180deg,#8fd3ff 0%,#3fa9f5 45%,#8fd948 82%,#4a9e2e 100%);`
 > **Also Called ("Sloppy Words"):** *Aero glass era look, eco-tech gloss, Web 2.0 gloss era*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the piece using Frutiger Aero. Defining signals: nature imagery fused with technology (blue sky, water, grass, bubbles, light rays) as the ambient backdrop; glossy translucent 'aqua' surfaces with curved specular highlights; a luminous sky-blue and grass-green palette full of white light; clean humanist sans-serif type (Frutiger/Segoe flavor). Supporting: bokeh circles, sun rays, diagonal sheen sweeps. Keep the specific slice of nature (underwater, meadow, droplets) flexible. Use layered radial/linear gradients for the sky and gloss caps, rgba white overlays for sheen, and generous rounded panels. Do not drift into Y2K; the decisive difference is nature — if chrome, techno type, or cyber grids replace the skies and grass, you've crossed over. Preserve 4.5:1 text contrast over photographic backgrounds (back text with a panel), visible focus states, and reduced-motion support for sheen and bubble effects.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Frutiger Aero' (`background: linear-gradient(180deg,#8fd3ff 0%,#3fa9f5 45%,#8fd948 82%,#4a9e2e 100%);`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -140,7 +140,7 @@ When building or refactoring **Frutiger Aero** (`background: linear-gradient(180
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Frutiger Aero (background: linear-gradient(180deg,#8fd3ff 0%,#3fa9f5 45%,#8fd948 82%,#4a9e2e 100%);)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-frutiger-aero"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-frutiger-aero"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

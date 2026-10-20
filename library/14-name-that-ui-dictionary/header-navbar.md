@@ -1,31 +1,31 @@
-﻿# Site Header vs. Navigation Bar
+# Site Header vs. Navigation Bar
 
 ![Site Header vs. Navigation Bar](./images/header-navbar.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<header>`
 * **Also Called (Aliases):** `navbar, topbar, app bar, main navigation, page header`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/header-navbar](https://shazagency.com/ui-dictionary/web/header-navbar)
+* **Official Source URL:** [https://namethatui.com/web/header-navbar](https://namethatui.com/web/header-navbar)
 
 ---
 
 ```markdown
-# Site Header vs. Navigation Bar — Shaz Agency Official UI Prompt & Production Architecture
+# Site Header vs. Navigation Bar — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/header-navbar](https://shazagency.com/ui-dictionary/web/header-navbar) · **Category:** `Web UI` · **Primary API / Symbol:** `<header>`
+> **Source:** [https://namethatui.com/web/header-navbar](https://namethatui.com/web/header-navbar) · **Category:** `Web UI` · **Primary API / Symbol:** `<header>`
 > **Also Called ("Sloppy Words"):** *navbar, topbar, app bar, main navigation, page header*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a site header with a navigation bar: a page-level <header> (the banner landmark) containing the brand mark, a <nav aria-label="Main"> wrapping only the row of destination links, and the actions on the right. Mark the link for the current page with aria-current="page" and style the current state off that attribute, not off a class.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my site header / navbar (<header>, <nav>, aria-current). Rule out: the whole header wrapped in <nav> so screen readers announce buttons and the logo as navigation (only the link group is <nav>); two unlabeled <nav> elements (give each an aria-label); the current-page style set by a class that fell out of sync with the route instead of aria-current="page"; the header overlapping content because it was made position: fixed without reserving its height. The symptom:
 
@@ -136,7 +136,7 @@ When building or refactoring **Site Header vs. Navigation Bar** (`<header>`), en
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Site Header vs. Navigation Bar (<header>)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="header-navbar"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="header-navbar"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -177,5 +177,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

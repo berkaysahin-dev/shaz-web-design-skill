@@ -1,31 +1,31 @@
-﻿# Swift vs Electron
+# Swift vs Electron
 
 ![Swift vs Electron](./images/vs-swift-vs-electron.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `CSS`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/swift-vs-electron](https://shazagency.com/ui-dictionary/swift-vs-electron)
+* **Official Source URL:** [https://namethatui.com/swift-vs-electron](https://namethatui.com/swift-vs-electron)
 
 ---
 
 ```markdown
-# Swift vs Electron — Shaz Agency Official UI Prompt & Production Architecture
+# Swift vs Electron — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/swift-vs-electron](https://shazagency.com/ui-dictionary/swift-vs-electron) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `CSS`
+> **Source:** [https://namethatui.com/swift-vs-electron](https://namethatui.com/swift-vs-electron) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `CSS`
 > **Also Called ("Sloppy Words"):** *swift vs electron*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Swift vs Electron' (UI Comparison (VS) — API symbol: `CSS`). Native Mac app or web tech in a desktop shell? The first fork every vibe coder hits, explained stupid-simply — with the words to use either way. Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Swift vs Electron' (`CSS`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Swift vs Electron** (`CSS`), enforce the followin
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Swift vs Electron (CSS)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-swift-vs-electron"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-swift-vs-electron"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

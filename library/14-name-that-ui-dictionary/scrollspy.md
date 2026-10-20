@@ -1,31 +1,31 @@
-﻿# Scrollspy
+# Scrollspy
 
 ![Scrollspy](./images/scrollspy.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `<nav>`
 * **Also Called (Aliases):** `scroll-linked navigation, current-section navigation, active table of contents, On this page navigation, in-page navigation, table of contents highlighting`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/scrollspy](https://shazagency.com/ui-dictionary/web/scrollspy)
+* **Official Source URL:** [https://namethatui.com/web/scrollspy](https://namethatui.com/web/scrollspy)
 
 ---
 
 ```markdown
-# Scrollspy — Shaz Agency Official UI Prompt & Production Architecture
+# Scrollspy — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/scrollspy](https://shazagency.com/ui-dictionary/web/scrollspy) · **Category:** `Web UI` · **Primary API / Symbol:** `<nav>`
+> **Source:** [https://namethatui.com/web/scrollspy](https://namethatui.com/web/scrollspy) · **Category:** `Web UI` · **Primary API / Symbol:** `<nav>`
 > **Also Called ("Sloppy Words"):** *scroll-linked navigation, current-section navigation, active table of contents, On this page navigation, in-page navigation, table of contents highlighting*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build Scrollspy (scroll-linked navigation) for this article: a labeled <nav> "On this page" rail of same-document fragment links kept beside the content with position: sticky, and an IntersectionObserver watching each section anchor target so exactly one link carries aria-current="location". Make the current-section indicator unmistakable — a high-contrast vertical accent bar plus a stronger label that move to the section in view — and use rootMargin to offset the activation zone by the sticky header height.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my scrollspy / On-this-page navigation (IntersectionObserver, aria-current="location", fragment links). Rule out: the highlight changing too early or too late because rootMargin does not account for the sticky header height; two or more links marked current at once because the observer callback sets state per entry instead of picking one winner from all intersecting sections; the last section never becoming current because the page cannot scroll far enough to bring it into the activation zone (pad the end of the article or fall back to a bottom-of-scroll rule); nothing highlighting at all because the observer root is the viewport while the sections scroll inside an overflow container, or because observe() ran before the sections existed; the rail links given role="tab" and aria-selected instead of aria-current, which makes screen readers announce a tab widget that does not exist; clicking a link jumping correctly but the highlight snapping back because the scroll-triggered observer overrides the clicked section. The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Scrollspy** (`<nav>`), enforce the following engi
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Scrollspy (<nav>)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="scrollspy"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="scrollspy"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

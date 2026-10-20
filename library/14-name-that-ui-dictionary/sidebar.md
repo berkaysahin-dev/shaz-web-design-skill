@@ -1,31 +1,31 @@
-﻿# Sidebar (Source List)
+# Sidebar (Source List)
 
 ![Sidebar (Source List)](./images/sidebar.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSTableView.Style.sourceList`
 * **Also Called (Aliases):** `source list, navigation sidebar, split view sidebar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/sidebar](https://shazagency.com/ui-dictionary/macos/sidebar)
+* **Official Source URL:** [https://namethatui.com/macos/sidebar](https://namethatui.com/macos/sidebar)
 
 ---
 
 ```markdown
-# Sidebar (Source List) — Shaz Agency Official UI Prompt & Production Architecture
+# Sidebar (Source List) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/sidebar](https://shazagency.com/ui-dictionary/macos/sidebar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTableView.Style.sourceList`
+> **Source:** [https://namethatui.com/macos/sidebar](https://namethatui.com/macos/sidebar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSTableView.Style.sourceList`
 > **Also Called ("Sloppy Words"):** *source list, navigation sidebar, split view sidebar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a macOS Sidebar (Source List) with NavigationSplitView (AppKit: NSSplitViewController), using the native translucent sidebar appearance and source-list row selection. It must occupy the left column, support collapsing, and keep navigation separate from the detail content.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS sidebar (NSSplitViewController sidebar item, SwiftUI NavigationSplitView). Rule out: the frosted vibrancy missing because the sidebar content is not inside the sidebar-material effect view; toggleSidebar wired to the wrong split view item; the width not persisting without an autosaveName; the selection highlight losing its rounded inset style when the list style changes. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Sidebar (Source List)** (`NSTableView.Style.sourc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Sidebar (Source List) (NSTableView.Style.sourceList)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="sidebar"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="sidebar"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Parallax Scrolling
+# Parallax Scrolling
 
 ![Parallax Scrolling](./images/parallax.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `react"; animate only transform`
 * **Also Called (Aliases):** `parallax effect, parallax background, scroll-linked depth effect, fixed background`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/parallax](https://shazagency.com/ui-dictionary/web/parallax)
+* **Official Source URL:** [https://namethatui.com/web/parallax](https://namethatui.com/web/parallax)
 
 ---
 
 ```markdown
-# Parallax Scrolling — Shaz Agency Official UI Prompt & Production Architecture
+# Parallax Scrolling — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/parallax](https://shazagency.com/ui-dictionary/web/parallax) · **Category:** `Web UI` · **Primary API / Symbol:** `react"; animate only transform`
+> **Source:** [https://namethatui.com/web/parallax](https://namethatui.com/web/parallax) · **Category:** `Web UI` · **Primary API / Symbol:** `react"; animate only transform`
 > **Also Called ("Sloppy Words"):** *parallax effect, parallax background, scroll-linked depth effect, fixed background*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a parallax scrolling section: layered depth where the background layer translates slower than the foreground as the user scrolls. Drive it with CSS scroll-driven animations (animation-timeline: scroll() — declared AFTER the animation shorthand, which otherwise resets it) or with Motion's useScroll + useTransform from "motion/react"; animate only transform/opacity. Do not use background-attachment: fixed — iOS Safari ignores it by design. Wrap the whole effect in @media (prefers-reduced-motion: reduce) and fall back to ordinary scrolling; parallax is a known vestibular trigger.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my parallax scrolling (scroll-driven animation / perspective trick / ScrollTrigger). Rule out: jank from layout work inside a scroll handler or from animating background-position instead of transform; background-attachment: fixed silently ignored on iOS Safari (by design — use a sticky or transformed layer instead); position: fixed children breaking because a perspective/transform ancestor became their containing block; a scroll-driven animation never starting because animation-timeline was declared before the animation shorthand or the scroller has no scrollable overflow; horizontal overflow introduced by the perspective trick's scale compensation; the effect still moving under prefers-reduced-motion: reduce. The symptom:
 
@@ -135,7 +135,7 @@ When building or refactoring **Parallax Scrolling** (`react"; animate only trans
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Parallax Scrolling (react"; animate only transform)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="parallax"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="parallax"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -176,5 +176,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

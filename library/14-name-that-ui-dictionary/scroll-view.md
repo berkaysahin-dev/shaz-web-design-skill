@@ -1,31 +1,31 @@
-﻿# Scroll View (Scroller)
+# Scroll View (Scroller)
 
 ![Scroll View (Scroller)](./images/scroll-view.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSScroller`
 * **Also Called (Aliases):** `scrolling view, scroll container, scrollbar, NSScroller`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/scroll-view](https://shazagency.com/ui-dictionary/macos/scroll-view)
+* **Official Source URL:** [https://namethatui.com/macos/scroll-view](https://namethatui.com/macos/scroll-view)
 
 ---
 
 ```markdown
-# Scroll View (Scroller) — Shaz Agency Official UI Prompt & Production Architecture
+# Scroll View (Scroller) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/scroll-view](https://shazagency.com/ui-dictionary/macos/scroll-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSScroller`
+> **Source:** [https://namethatui.com/macos/scroll-view](https://namethatui.com/macos/scroll-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSScroller`
 > **Also Called ("Sloppy Words"):** *scrolling view, scroll container, scrollbar, NSScroller*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a native Scroll View (NSScrollView; SwiftUI: ScrollView). In AppKit, call the edge control an NSScroller, with its draggable knob inside the knob slot; respect NSScroller.Style overlay versus legacy and preserve native scroll elasticity at the content boundaries.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS scroll view (NSScrollView, NSClipView). Rule out: content origin confusion because the document view is not flipped; overlay vs legacy scroller styles changing available width between users; the rubber-band overscroll disabled or doubled by elasticity settings; wheel events swallowed by a nested scroll view; scrollToVisible fighting responsive-scrolling prefetch. The symptom:
 
@@ -139,7 +139,7 @@ When building or refactoring **Scroll View (Scroller)** (`NSScroller`), enforce 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Scroll View (Scroller) (NSScroller)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="scroll-view"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="scroll-view"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -180,5 +180,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,25 +1,25 @@
-﻿# Wharf — stock and orders for product businesses, in one moving dashboard
+# Wharf — stock and orders for product businesses, in one moving dashboard
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/wharf/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/wharf.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/wharf.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap` · **Dependencies:** `1` · **Size:** `60.5 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/wharf/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/wharf.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/wharf.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap` · **Bağımlılık:** `1` · **Boyut:** `60.5 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 Wharf is an operations dashboard for small product businesses: revenue, the order pipeline, stock levels against par, suppliers, customers, team roles and settings. Ten pages that move as one product.
 
-* **Key Files:** `app.css`, `app.js`, `index.html`, `js/charts.js`, `js/customers.js`, `js/data.js`, `js/help.js`, `js/motion.js`, `js/orders.js`, `js/overview.js`, `js/products.js`, `js/reports.js`, `js/settings.js`, `js/stock.js`, `js/suppliers.js`, `js/team.js`, `js/ui.js`, `views.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.css`, `app.js`, `index.html`, `js/charts.js`, `js/customers.js`, `js/data.js`, `js/help.js`, `js/motion.js`, `js/orders.js`, `js/overview.js`, `js/products.js`, `js/reports.js`, `js/settings.js`, `js/stock.js`, `js/suppliers.js`, `js/team.js`, `js/ui.js`, `views.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Wharf — stock and orders for product businesses, in one moving dashboard.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-wharf-container" data-state="idle">
   <button class="cc-wharf-trigger" type="button" aria-label="Wharf">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-wharf-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

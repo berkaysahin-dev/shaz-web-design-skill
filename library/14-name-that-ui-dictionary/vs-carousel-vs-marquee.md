@@ -1,31 +1,31 @@
-﻿# Carousel vs. Marquee — what's the difference?
+# Carousel vs. Marquee — what's the difference?
 
 ![Carousel vs. Marquee — what's the difference?](./images/vs-carousel-vs-marquee.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-carousel-vs-marquee`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/carousel-vs-marquee](https://shazagency.com/ui-dictionary/vs/carousel-vs-marquee)
+* **Official Source URL:** [https://namethatui.com/vs/carousel-vs-marquee](https://namethatui.com/vs/carousel-vs-marquee)
 
 ---
 
 ```markdown
-# Carousel vs. Marquee — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Carousel vs. Marquee — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/carousel-vs-marquee](https://shazagency.com/ui-dictionary/vs/carousel-vs-marquee) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-carousel-vs-marquee`
+> **Source:** [https://namethatui.com/vs/carousel-vs-marquee](https://namethatui.com/vs/carousel-vs-marquee) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-carousel-vs-marquee`
 > **Also Called ("Sloppy Words"):** *carousel vs. marquee — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Carousel vs. Marquee — what's the difference?' (UI Comparison (VS) — API symbol: `vs-carousel-vs-marquee`). A carousel is paged and user-driven: arrows, swiping, and the little dots — it stops where you put it. A marquee scrolls by itself in an endless seamless l… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Carousel vs. Marquee — what's the difference?' (`vs-carousel-vs-marquee`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Carousel vs. Marquee — what's the difference?**
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Carousel vs. Marquee — what's the difference? (vs-carousel-vs-marquee)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-carousel-vs-marquee"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-carousel-vs-marquee"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

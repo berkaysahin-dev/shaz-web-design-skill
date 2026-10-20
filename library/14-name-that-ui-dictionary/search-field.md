@@ -1,31 +1,31 @@
-﻿# Search Field
+# Search Field
 
 ![Search Field](./images/search-field.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSSearchFieldCell.searchButtonCell`
 * **Also Called (Aliases):** `search box, search bar, NSSearchField, searchable field`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/search-field](https://shazagency.com/ui-dictionary/macos/search-field)
+* **Official Source URL:** [https://namethatui.com/macos/search-field](https://namethatui.com/macos/search-field)
 
 ---
 
 ```markdown
-# Search Field — Shaz Agency Official UI Prompt & Production Architecture
+# Search Field — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/search-field](https://shazagency.com/ui-dictionary/macos/search-field) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSearchFieldCell.searchButtonCell`
+> **Source:** [https://namethatui.com/macos/search-field](https://namethatui.com/macos/search-field) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSearchFieldCell.searchButtonCell`
 > **Also Called ("Sloppy Words"):** *search box, search bar, NSSearchField, searchable field*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a native Search Field with NSSearchField (SwiftUI: View.searchable), preserving its leading search button, trailing cancel button when text is present, and optional recent-search menu from NSSearchFieldCell.searchMenuTemplate.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS search field (NSSearchField). Rule out: search firing only on Return because sendsSearchStringImmediately is false; the clear button clearing text but your code never notified — watch for the empty-string action; the recents menu dead without recentsAutosaveName; the cancel button hidden at small control sizes. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Search Field** (`NSSearchFieldCell.searchButtonCe
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Search Field (NSSearchFieldCell.searchButtonCell)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="search-field"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="search-field"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

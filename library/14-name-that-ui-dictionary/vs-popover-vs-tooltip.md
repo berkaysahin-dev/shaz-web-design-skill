@@ -1,31 +1,31 @@
-﻿# Popover vs. Tooltip — what's the difference?
+# Popover vs. Tooltip — what's the difference?
 
 ![Popover vs. Tooltip — what's the difference?](./images/vs-popover-vs-tooltip.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-popover-vs-tooltip`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/popover-vs-tooltip](https://shazagency.com/ui-dictionary/vs/popover-vs-tooltip)
+* **Official Source URL:** [https://namethatui.com/vs/popover-vs-tooltip](https://namethatui.com/vs/popover-vs-tooltip)
 
 ---
 
 ```markdown
-# Popover vs. Tooltip — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Popover vs. Tooltip — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/popover-vs-tooltip](https://shazagency.com/ui-dictionary/vs/popover-vs-tooltip) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-popover-vs-tooltip`
+> **Source:** [https://namethatui.com/vs/popover-vs-tooltip](https://namethatui.com/vs/popover-vs-tooltip) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-popover-vs-tooltip`
 > **Also Called ("Sloppy Words"):** *popover vs. tooltip — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Popover vs. Tooltip — what's the difference?' (UI Comparison (VS) — API symbol: `vs-popover-vs-tooltip`). A tooltip appears on hover, holds only a short text label, and vanishes the moment the pointer leaves — you can never click inside it. A popover opens on c… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Popover vs. Tooltip — what's the difference?' (`vs-popover-vs-tooltip`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Popover vs. Tooltip — what's the difference?** 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Popover vs. Tooltip — what's the difference? (vs-popover-vs-tooltip)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-popover-vs-tooltip"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-popover-vs-tooltip"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Sidebar vs. Drawer — what's the difference?
+# Sidebar vs. Drawer — what's the difference?
 
 ![Sidebar vs. Drawer — what's the difference?](./images/vs-sidebar-vs-drawer.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-sidebar-vs-drawer`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/sidebar-vs-drawer](https://shazagency.com/ui-dictionary/vs/sidebar-vs-drawer)
+* **Official Source URL:** [https://namethatui.com/vs/sidebar-vs-drawer](https://namethatui.com/vs/sidebar-vs-drawer)
 
 ---
 
 ```markdown
-# Sidebar vs. Drawer — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Sidebar vs. Drawer — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/sidebar-vs-drawer](https://shazagency.com/ui-dictionary/vs/sidebar-vs-drawer) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-sidebar-vs-drawer`
+> **Source:** [https://namethatui.com/vs/sidebar-vs-drawer](https://namethatui.com/vs/sidebar-vs-drawer) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-sidebar-vs-drawer`
 > **Also Called ("Sloppy Words"):** *sidebar vs. drawer — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Sidebar vs. Drawer — what's the difference?' (UI Comparison (VS) — API symbol: `vs-sidebar-vs-drawer`). A sidebar is furniture: a persistent navigation column that shares the layout with the content and stays visible on wide screens. A drawer is a visitor: hi… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Sidebar vs. Drawer — what's the difference?' (`vs-sidebar-vs-drawer`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Sidebar vs. Drawer — what's the difference?** (
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Sidebar vs. Drawer — what's the difference? (vs-sidebar-vs-drawer)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-sidebar-vs-drawer"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-sidebar-vs-drawer"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

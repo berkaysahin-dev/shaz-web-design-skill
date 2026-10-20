@@ -1,31 +1,31 @@
-﻿# Empty State
+# Empty State
 
 ![Empty State](./images/empty-state.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `aria-hidden="true"`
 * **Also Called (Aliases):** `blank state, zero state, first-use state, no-results state`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/empty-state](https://shazagency.com/ui-dictionary/web/empty-state)
+* **Official Source URL:** [https://namethatui.com/web/empty-state](https://namethatui.com/web/empty-state)
 
 ---
 
 ```markdown
-# Empty State — Shaz Agency Official UI Prompt & Production Architecture
+# Empty State — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/empty-state](https://shazagency.com/ui-dictionary/web/empty-state) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-hidden="true"`
+> **Source:** [https://namethatui.com/web/empty-state](https://namethatui.com/web/empty-state) · **Category:** `Web UI` · **Primary API / Symbol:** `aria-hidden="true"`
 > **Also Called ("Sloppy Words"):** *blank state, zero state, first-use state, no-results state*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create an empty state as a labelled <section> with a simple icon, a one-line explanation of why the view is empty, and one primary action that resolves it. For a dynamically produced no-results state, announce the message with role="status" without moving focus.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my empty state. Rule out: the empty state flashing before data arrives because loading and truly-empty are one boolean; errors rendering the empty state instead of an error state; the call-to-action unreachable by keyboard; layout jumping when real content replaces it because heights were never reserved. The symptom:
 
@@ -134,7 +134,7 @@ When building or refactoring **Empty State** (`aria-hidden="true"`), enforce the
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Empty State (aria-hidden="true")
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="empty-state"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="empty-state"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -175,5 +175,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Save Panel
+# Save Panel
 
 ![Save Panel](./images/save-panel.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSSavePanel.nameFieldStringValue`
 * **Also Called (Aliases):** `save dialog, save-as panel, file save picker, NSSavePanel`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/save-panel](https://shazagency.com/ui-dictionary/macos/save-panel)
+* **Official Source URL:** [https://namethatui.com/macos/save-panel](https://namethatui.com/macos/save-panel)
 
 ---
 
 ```markdown
-# Save Panel — Shaz Agency Official UI Prompt & Production Architecture
+# Save Panel — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/save-panel](https://shazagency.com/ui-dictionary/macos/save-panel) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSavePanel.nameFieldStringValue`
+> **Source:** [https://namethatui.com/macos/save-panel](https://namethatui.com/macos/save-panel) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSavePanel.nameFieldStringValue`
 > **Also Called ("Sloppy Words"):** *save dialog, save-as panel, file save picker, NSSavePanel*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Present the standard Save Panel with NSSavePanel (SwiftUI workflow: View.fileExporter), including its editable name field, disclosure button for the expanded file browser, allowed-content-type format pop-up, and Finder-style sidebar. Do not rebuild the system save dialog from custom controls.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS save panel (NSSavePanel, NSOpenPanel). Rule out: sandboxed URLs failing later because startAccessingSecurityScopedResource was never called or a bookmark was never saved; allowedContentTypes filtering out everything so Save stays disabled; runModal blocking the app when beginSheetModal was intended; the panel opening in the wrong folder because directoryURL is set after presentation. The symptom:
 
@@ -137,7 +137,7 @@ When building or refactoring **Save Panel** (`NSSavePanel.nameFieldStringValue`)
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Save Panel (NSSavePanel.nameFieldStringValue)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="save-panel"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="save-panel"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -178,5 +178,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

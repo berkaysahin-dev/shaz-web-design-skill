@@ -1,31 +1,31 @@
-﻿# Modal Dialog vs. Drawer vs. Sheet
+# Modal Dialog vs. Drawer vs. Sheet
 
 ![Modal Dialog vs. Drawer vs. Sheet](./images/dialog-drawer-sheet.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `drawer`
 * **Also Called (Aliases):** `modal, side panel, slide-over, bottom sheet`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/dialog-drawer-sheet](https://shazagency.com/ui-dictionary/web/dialog-drawer-sheet)
+* **Official Source URL:** [https://namethatui.com/web/dialog-drawer-sheet](https://namethatui.com/web/dialog-drawer-sheet)
 
 ---
 
 ```markdown
-# Modal Dialog vs. Drawer vs. Sheet — Shaz Agency Official UI Prompt & Production Architecture
+# Modal Dialog vs. Drawer vs. Sheet — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/dialog-drawer-sheet](https://shazagency.com/ui-dictionary/web/dialog-drawer-sheet) · **Category:** `Web UI` · **Primary API / Symbol:** `drawer`
+> **Source:** [https://namethatui.com/web/dialog-drawer-sheet](https://namethatui.com/web/dialog-drawer-sheet) · **Category:** `Web UI` · **Primary API / Symbol:** `drawer`
 > **Also Called ("Sloppy Words"):** *modal, side panel, slide-over, bottom sheet*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use a Modal Dialog built with <dialog> and open it with HTMLDialogElement.showModal() so the browser places it in the top layer, makes the page behind it inert, provides ::backdrop, and supports Escape. Use a side Drawer for contextual editing or a bottom Sheet for compact/mobile actions; add a scrim and modal focus management only when those surfaces are actually modal.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my dialog/drawer/sheet (HTMLDialogElement, Radix Dialog, vaul). Rule out: show() used where showModal() was needed so there is no backdrop and no inert background; body scroll not locked so the page scrolls behind; focus not returned to the trigger on close; Escape closing it because onCancel is unhandled when you wanted it blocked; a nested dialog closing its parent. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Modal Dialog vs. Drawer vs. Sheet** (`drawer`), e
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Modal Dialog vs. Drawer vs. Sheet (drawer)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="dialog-drawer-sheet"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="dialog-drawer-sheet"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

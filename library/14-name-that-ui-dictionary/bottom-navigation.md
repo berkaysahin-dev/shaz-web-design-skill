@@ -1,31 +1,31 @@
-﻿# Bottom Navigation (Tab Bar)
+# Bottom Navigation (Tab Bar)
 
 ![Bottom Navigation (Tab Bar)](./images/bottom-navigation.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `UITabBar`
 * **Also Called (Aliases):** `tab bar, bottom tab bar, bottom nav, bottom tabs, bottom navigation bar, navigation bar (Material 3), mobile nav bar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/bottom-navigation](https://shazagency.com/ui-dictionary/web/bottom-navigation)
+* **Official Source URL:** [https://namethatui.com/web/bottom-navigation](https://namethatui.com/web/bottom-navigation)
 
 ---
 
 ```markdown
-# Bottom Navigation (Tab Bar) — Shaz Agency Official UI Prompt & Production Architecture
+# Bottom Navigation (Tab Bar) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/bottom-navigation](https://shazagency.com/ui-dictionary/web/bottom-navigation) · **Category:** `Web UI` · **Primary API / Symbol:** `UITabBar`
+> **Source:** [https://namethatui.com/web/bottom-navigation](https://namethatui.com/web/bottom-navigation) · **Category:** `Web UI` · **Primary API / Symbol:** `UITabBar`
 > **Also Called ("Sloppy Words"):** *tab bar, bottom tab bar, bottom nav, bottom tabs, bottom navigation bar, navigation bar (Material 3), mobile nav bar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a bottom navigation bar (iOS tab bar: UITabBar / SwiftUI TabView; Material 3 NavigationBar) fixed to the bottom of the screen with four destinations of equal importance, each an icon above a short label. Tint the selected tab and leave the others muted, show a count badge on Inbox (tabBarBadge / .badge(_:)), and switch the screen above without any push animation. On the web, make it a <nav> of links with aria-current="page" on the active one, and pad the bar with env(safe-area-inset-bottom) so the icons clear the iPhone home indicator.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my bottom navigation / tab bar (UITabBar, SwiftUI TabView and Tab, Compose NavigationBar, React Navigation createBottomTabNavigator, env(safe-area-inset-bottom)). Rule out: the icons sitting under the iPhone home indicator because env(safe-area-inset-bottom) resolves to 0 without viewport-fit=cover in the viewport meta tag; a web bar positioned with bottom: 0 inside a 100vh page, so it hides behind mobile browser chrome (use dvh or position: fixed on the viewport); page content scrolling underneath with no bottom padding equal to the bar height plus the inset; more than five destinations, so labels truncate or iOS folds the rest into a More tab; the selected tint applied to the icon but not the label; the active tab marked only by color with no aria-current="page" or selected trait; tabs used for actions (compose, scan) instead of destinations, so a tap navigates nowhere; every tab remounting and losing its scroll position because each switch rebuilds the screen; a keyboard pushing the bar up over the form; a badge clipped by overflow hidden on the icon wrapper. The symptom:
 
@@ -140,7 +140,7 @@ When building or refactoring **Bottom Navigation (Tab Bar)** (`UITabBar`), enfor
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Bottom Navigation (Tab Bar) (UITabBar)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="bottom-navigation"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="bottom-navigation"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

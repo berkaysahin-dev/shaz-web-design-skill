@@ -1,31 +1,31 @@
-﻿# Split View
+# Split View
 
 ![Split View](./images/split-view.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSSplitViewItem`
 * **Also Called (Aliases):** `split pane, splitter view, multi-pane layout, navigation split view`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/split-view](https://shazagency.com/ui-dictionary/macos/split-view)
+* **Official Source URL:** [https://namethatui.com/macos/split-view](https://namethatui.com/macos/split-view)
 
 ---
 
 ```markdown
-# Split View — Shaz Agency Official UI Prompt & Production Architecture
+# Split View — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/split-view](https://shazagency.com/ui-dictionary/macos/split-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSplitViewItem`
+> **Source:** [https://namethatui.com/macos/split-view](https://namethatui.com/macos/split-view) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSSplitViewItem`
 > **Also Called ("Sloppy Words"):** *split pane, splitter view, multi-pane layout, navigation split view*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a native Split View with NSSplitView and NSSplitViewItem (SwiftUI: NavigationSplitView), using a draggable divider between independently sized panes. Give a sidebar item native collapse behavior and align any toolbar boundary with NSTrackingSeparatorToolbarItem.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS split view (NSSplitView, NSSplitViewController). Rule out: divider position not persisting without autosaveName; holding priorities deciding which pane absorbs window resize — the lowest priority pane grows; delegate min/max constraints fighting Auto Layout constraints on the same panes; canCollapse snapping a pane closed on double-click unexpectedly. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Split View** (`NSSplitViewItem`), enforce the fol
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Split View (NSSplitViewItem)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="split-view"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="split-view"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

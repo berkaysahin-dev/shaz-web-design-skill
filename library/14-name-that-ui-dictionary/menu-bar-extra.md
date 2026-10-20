@@ -1,31 +1,31 @@
-﻿# Menu Bar Extra (Status Item)
+# Menu Bar Extra (Status Item)
 
 ![Menu Bar Extra (Status Item)](./images/menu-bar-extra.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSImage.isTemplate`
 * **Also Called (Aliases):** `status item, menu bar icon, menu bar app, status bar item, tray icon (Windows term)`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/menu-bar-extra](https://shazagency.com/ui-dictionary/macos/menu-bar-extra)
+* **Official Source URL:** [https://namethatui.com/macos/menu-bar-extra](https://namethatui.com/macos/menu-bar-extra)
 
 ---
 
 ```markdown
-# Menu Bar Extra (Status Item) — Shaz Agency Official UI Prompt & Production Architecture
+# Menu Bar Extra (Status Item) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/menu-bar-extra](https://shazagency.com/ui-dictionary/macos/menu-bar-extra) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSImage.isTemplate`
+> **Source:** [https://namethatui.com/macos/menu-bar-extra](https://namethatui.com/macos/menu-bar-extra) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSImage.isTemplate`
 > **Also Called ("Sloppy Words"):** *status item, menu bar icon, menu bar app, status bar item, tray icon (Windows term)*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a menu bar extra — an NSStatusItem in the macOS menu bar (SwiftUI: MenuBarExtra). While its menu or popover is open, the status item's button must show its highlighted state: the pale rounded background (NSStatusBarButton.isHighlighted), exactly like system menu bar icons.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS menu bar extra (NSStatusItem, SwiftUI MenuBarExtra). Rule out: the status item deallocating because nothing retains it; the icon ignoring dark menu bars because the image is not marked template; the item silently hidden when the menu bar runs out of room; the button highlight sticking because isHighlighted is managed manually; MenuBarExtra window style behaving differently from menu style. The symptom:
 
@@ -138,7 +138,7 @@ When building or refactoring **Menu Bar Extra (Status Item)** (`NSImage.isTempla
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Menu Bar Extra (Status Item) (NSImage.isTemplate)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="menu-bar-extra"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="menu-bar-extra"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -179,5 +179,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

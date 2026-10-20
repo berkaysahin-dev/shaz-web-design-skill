@@ -1,25 +1,25 @@
-﻿# Kestrel — an eleven-page marketing dashboard that moves as one product
+# Kestrel — an eleven-page marketing dashboard that moves as one product
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Düzen ve Kartlar` (layout)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/kestrel/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/kestrel.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/kestrel.jpg)  
-> **Tech Stack:** `vanilla, css, svg, gsap` · **Dependencies:** `1` · **Size:** `69.6 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Düzen ve Kartlar` (layout)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/kestrel/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/kestrel.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/kestrel.jpg)  
+> **Teknoloji:** `vanilla, css, svg, gsap` · **Bağımlılık:** `1` · **Boyut:** `69.6 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A marketing intelligence dashboard: traffic, spend, leads and social in one view, light and dark, every page in motion.
 
-* **Key Files:** `app.css`, `app.js`, `charts.js`, `data.js`, `index.html`, `pages/common.js`, `pages/overview.js`, `pages/paid.js`, `pages/reports.js`, `pages/seo.js`, `pages/settings.js`, `pages/social.js`, `pages/sources.js`, `theme.js`, `ui.js`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.css`, `app.js`, `charts.js`, `data.js`, `index.html`, `pages/common.js`, `pages/overview.js`, `pages/paid.js`, `pages/reports.js`, `pages/seo.js`, `pages/settings.js`, `pages/social.js`, `pages/sources.js`, `theme.js`, `ui.js`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Kestrel — an eleven-page marketing dashboard that moves as one product.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-kestrel-container" data-state="idle">
   <button class="cc-kestrel-trigger" type="button" aria-label="Kestrel">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-kestrel-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

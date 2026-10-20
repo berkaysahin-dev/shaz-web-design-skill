@@ -1,31 +1,31 @@
-﻿# Menu Bar
+# Menu Bar
 
 ![Menu Bar](./images/menu-bar.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSApp.mainMenu`
 * **Also Called (Aliases):** `menubar, system menu bar, top bar`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/menu-bar](https://shazagency.com/ui-dictionary/macos/menu-bar)
+* **Official Source URL:** [https://namethatui.com/macos/menu-bar](https://namethatui.com/macos/menu-bar)
 
 ---
 
 ```markdown
-# Menu Bar — Shaz Agency Official UI Prompt & Production Architecture
+# Menu Bar — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/menu-bar](https://shazagency.com/ui-dictionary/macos/menu-bar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSApp.mainMenu`
+> **Source:** [https://namethatui.com/macos/menu-bar](https://namethatui.com/macos/menu-bar) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSApp.mainMenu`
 > **Also Called ("Sloppy Words"):** *menubar, system menu bar, top bar*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Work on the macOS menu bar: the app's main menu (NSApp.mainMenu) sits on the left after the Apple menu; menu bar extras (NSStatusItem in NSStatusBar.system) sit on the right before the clock. Use the exact part names: status item, its highlighted state, NSMenu, NSMenuItem, separator item.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS menu bar (NSMenu main menu, NSMenuItem). Rule out: items permanently greyed because their action has no target and nothing in the responder chain implements it; automatic enabling turned off (autoenablesItems) without manual validation; keyboard shortcuts defined but never firing because the item is disabled at validation time; the app menu title coming from the bundle display name, not from code. The symptom:
 
@@ -145,7 +145,7 @@ When building or refactoring **Menu Bar** (`NSApp.mainMenu`), enforce the follow
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Menu Bar (NSApp.mainMenu)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="menu-bar"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="menu-bar"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -186,5 +186,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

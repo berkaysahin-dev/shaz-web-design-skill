@@ -1,31 +1,31 @@
-﻿# Sticky vs. Fixed Positioning
+# Sticky vs. Fixed Positioning
 
 ![Sticky vs. Fixed Positioning](./images/sticky-fixed.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `auto`
 * **Also Called (Aliases):** `sticky header, fixed header, pinned element`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/sticky-fixed](https://shazagency.com/ui-dictionary/web/sticky-fixed)
+* **Official Source URL:** [https://namethatui.com/web/sticky-fixed](https://namethatui.com/web/sticky-fixed)
 
 ---
 
 ```markdown
-# Sticky vs. Fixed Positioning — Shaz Agency Official UI Prompt & Production Architecture
+# Sticky vs. Fixed Positioning — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/sticky-fixed](https://shazagency.com/ui-dictionary/web/sticky-fixed) · **Category:** `Web UI` · **Primary API / Symbol:** `auto`
+> **Source:** [https://namethatui.com/web/sticky-fixed](https://namethatui.com/web/sticky-fixed) · **Category:** `Web UI` · **Primary API / Symbol:** `auto`
 > **Also Called ("Sloppy Words"):** *sticky header, fixed header, pinned element*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use position: sticky with top: 0 for the section header so it scrolls normally until it reaches the top of its nearest scrolling container, then remains there. Reserve position: fixed for UI that must stay anchored to the viewport independently of every scroll container.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my sticky/fixed positioning. Rule out: sticky doing nothing because an ancestor has overflow hidden/auto/scroll — that is the classic; sticky missing a top/bottom offset so it never engages; fixed behaving like absolute inside a transformed/filtered ancestor; the content jumping when an element switches to fixed because no placeholder reserves its height. The symptom:
 
@@ -134,7 +134,7 @@ When building or refactoring **Sticky vs. Fixed Positioning** (`auto`), enforce 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Sticky vs. Fixed Positioning (auto)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="sticky-fixed"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="sticky-fixed"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -175,5 +175,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

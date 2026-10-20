@@ -1,31 +1,31 @@
-﻿# Color Well
+# Color Well
 
 ![Color Well](./images/color-well.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `.default`
 * **Also Called (Aliases):** `color picker button, color swatch control, color chooser, color selector`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/color-well](https://shazagency.com/ui-dictionary/macos/color-well)
+* **Official Source URL:** [https://namethatui.com/macos/color-well](https://namethatui.com/macos/color-well)
 
 ---
 
 ```markdown
-# Color Well — Shaz Agency Official UI Prompt & Production Architecture
+# Color Well — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/color-well](https://shazagency.com/ui-dictionary/macos/color-well) · **Category:** `macOS UI` · **Primary API / Symbol:** `.default`
+> **Source:** [https://namethatui.com/macos/color-well](https://namethatui.com/macos/color-well) · **Category:** `macOS UI` · **Primary API / Symbol:** `.default`
 > **Also Called ("Sloppy Words"):** *color picker button, color swatch control, color chooser, color selector*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Add a native macOS color well — NSColorWell (SwiftUI: ColorPicker). Use colorWellStyle = .expanded for the modern two-part control: clicking the swatch opens the quick color-grid popover with an eyedropper, and the caret button opens the full NSColorPanel. For a standalone screen-color eyedropper use NSColorSampler().show { color in … }.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS color well (NSColorWell, SwiftUI ColorPicker). Rule out: the shared NSColorPanel serving every well in the app so two wells fight over it; continuous updates flooding your target action instead of committing on close; the eyedropper failing without Screen Recording permission; colors shifting because sRGB and Display P3 color spaces are being mixed. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Color Well** (`.default`), enforce the following 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Color Well (.default)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="color-well"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="color-well"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

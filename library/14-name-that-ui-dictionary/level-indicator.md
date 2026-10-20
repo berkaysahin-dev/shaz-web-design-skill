@@ -1,31 +1,31 @@
-﻿# Level Indicator
+# Level Indicator
 
 ![Level Indicator](./images/level-indicator.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `macOS UI`
 * **Primary API / Symbol:** `NSLevelIndicator.doubleValue`
 * **Also Called (Aliases):** `level meter, capacity indicator, rating indicator, relevancy indicator`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/macos/level-indicator](https://shazagency.com/ui-dictionary/macos/level-indicator)
+* **Official Source URL:** [https://namethatui.com/macos/level-indicator](https://namethatui.com/macos/level-indicator)
 
 ---
 
 ```markdown
-# Level Indicator — Shaz Agency Official UI Prompt & Production Architecture
+# Level Indicator — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/macos/level-indicator](https://shazagency.com/ui-dictionary/macos/level-indicator) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSLevelIndicator.doubleValue`
+> **Source:** [https://namethatui.com/macos/level-indicator](https://namethatui.com/macos/level-indicator) · **Category:** `macOS UI` · **Primary API / Symbol:** `NSLevelIndicator.doubleValue`
 > **Also Called ("Sloppy Words"):** *level meter, capacity indicator, rating indicator, relevancy indicator*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Use an NSLevelIndicator with the style that matches the meaning: .continuousCapacity or .discreteCapacity for a bounded level, .rating for stars, or .relevancy for match strength. Configure warningValue and criticalValue for native threshold coloring; SwiftUI's nearest general equivalent is Gauge.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my macOS level indicator (NSLevelIndicator). Rule out: the wrong style — continuous capacity vs discrete ticks vs rating stars are one class with different levelIndicatorStyle values; warning and critical thresholds recoloring the fill unexpectedly; isEditable letting clicks change the value when it should be display-only; value changes not animating because the cell redraws instantly. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Level Indicator** (`NSLevelIndicator.doubleValue`
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Level Indicator (NSLevelIndicator.doubleValue)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="level-indicator"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="level-indicator"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Web Brutalism
+# Web Brutalism
 
 ![Web Brutalism](./images/style-web-brutalism.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `<h1>, <hr>, <table>, <ul> with UA default styles`
 * **Also Called (Aliases):** `brutalist web design, raw web, default HTML look`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/web-brutalism](https://shazagency.com/ui-dictionary/styles/web-brutalism)
+* **Official Source URL:** [https://namethatui.com/styles/web-brutalism](https://namethatui.com/styles/web-brutalism)
 
 ---
 
 ```markdown
-# Web Brutalism — Shaz Agency Official UI Prompt & Production Architecture
+# Web Brutalism — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/web-brutalism](https://shazagency.com/ui-dictionary/styles/web-brutalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `<h1>, <hr>, <table>, <ul> with UA default styles`
+> **Source:** [https://namethatui.com/styles/web-brutalism](https://namethatui.com/styles/web-brutalism) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `<h1>, <hr>, <table>, <ul> with UA default styles`
 > **Also Called ("Sloppy Words"):** *brutalist web design, raw web, default HTML look*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the page using strict Web Brutalism. Defining signals: browser-default materials (Times/system serif or monospace, default-blue underlined links); exposed document structure — headings, lists, tables, horizontal rules in source order; zero decorative rendering (no shadows, gradients, or rounded corners; at most 1px solid borders on a plain ground); utility-first density that loads instantly. Keep monospace vs serif and all-caps accents flexible. Use semantic HTML with minimal CSS — default UA styles are the design; resist resets that soften them. Do not drift into Neobrutalism; the decisive difference is that nothing here is styled to look raw — saturated blocks, thick designed borders, and offset shadows would make it a graphic costume. Preserve readable text sizes, focus visibility, and honest link affordances (underlines stay).
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Web Brutalism' (`<h1>, <hr>, <table>, <ul> with UA default styles`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -140,7 +140,7 @@ When building or refactoring **Web Brutalism** (`<h1>, <hr>, <table>, <ul> with 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Web Brutalism (<h1>, <hr>, <table>, <ul> with UA default styles)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-web-brutalism"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-web-brutalism"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -181,5 +181,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

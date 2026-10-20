@@ -1,25 +1,25 @@
-﻿# Deadline — the timer that's coming for you
+# Deadline — the timer that's coming for you
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Mikro-Animasyonlar` (animation)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/deadline/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/deadline.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/deadline.jpg)  
-> **Tech Stack:** `vanilla, css, gsap` · **Dependencies:** `1` · **Size:** `8.5 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Mikro-Animasyonlar` (animation)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/deadline/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/deadline.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/deadline.jpg)  
+> **Teknoloji:** `vanilla, css, gsap` · **Bağımlılık:** `1` · **Boyut:** `8.5 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 An interactive coding-meme animation: a red deadline reaper advances on a frantically-typing developer as a real JS countdown ticks down — and the live code highlights as it runs. Ship it before it catches you.
 
-* **Key Files:** `deadline.css`, `deadline.js`, `index.html`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `deadline.css`, `deadline.js`, `index.html`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Deadline — the timer that's coming for you.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-deadline-container" data-state="idle">
   <button class="cc-deadline-trigger" type="button" aria-label="Deadline">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-deadline-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

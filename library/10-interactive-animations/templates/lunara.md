@@ -1,25 +1,25 @@
-﻿# Lunara — a glass sign-in under a desert full moon
+# Lunara — a glass sign-in under a desert full moon
 
-> **Collection:** `Code & Chill Animation Archive` · **Type:** `Şablon` · **Category:** `Form` (form)  
-> **Live Demo:** [Open Live Demo](https://demo.Shaz Agency Motion.store/lunara/)  
-> **Reel Video:** [Play](https://Shaz Agency Motion.store/reels/lunara.mp4) · **Poster:** [View](https://Shaz Agency Motion.store/reels/lunara.jpg)  
-> **Tech Stack:** `vanilla, css, canvas, svg` · **Dependencies:** `0` · **Size:** `8.7 KB`
+> **Koleksiyon:** `Code & Chill Animation Archive` · **Tür:** `Şablon` · **Kategori:** `Form` (form)  
+> **Canlı Demo:** [Canlı Demoyu Aç (Yeni Sekme)](https://demo.codeandchill.store/lunara/)  
+> **Reel Video:** [Oynat](https://codeandchill.store/reels/lunara.mp4) · **Afiş:** [Görüntüle](https://codeandchill.store/reels/lunara.jpg)  
+> **Teknoloji:** `vanilla, css, canvas, svg` · **Bağımlılık:** `0` · **Boyut:** `8.7 KB`
 
 ---
 
-## 1. Architectural Overview & Specification
+## 1. Mimari Genel Bakış ve Açıklama
 
 A glass sign-in card over a moonlit desert photo, with a camel caravan crossing the ridge, blowing sand and shooting stars. A canvas of drifting stardust scatters around the cursor. With a mouse, layers shift in parallax and the card tilts under a sheen. The form has email, password with show/hide, remember me, and Google and Apple buttons. On submit a stick figure walks through a door in the button, then a check shows. Reduced motion hides moving scenery; no dependencies.
 
-* **Key Files:** `app.js`, `bg.jpg`, `caravan.webp`, `dune.webp`, `index.html`, `sand.webp`, `style.css`
-* **Animation Physics:** 
-  - **Timing Curve:** `cubic-bezier(0.16, 1, 0.3, 1)`
-  - **Duration:** `600ms`
-  - **Spring Stiffness/Damping:** `Stiffness: 280, Damping: 24, Mass: 0.8`
+* **Önemli Dosyalar:** `app.js`, `bg.jpg`, `caravan.webp`, `dune.webp`, `index.html`, `sand.webp`, `style.css`
+* **Animasyon Fiziği:** 
+  - **Zamanlama Eğrisi:** `cubic-bezier(0.16, 1, 0.3, 1)`
+  - **Süre:** `600ms`
+  - **Spring Sertlik/Sönümleme:** `Stiffness: 280, Damping: 24, Mass: 0.8`
 
 ---
 
-## 2. Official Production Prompt
+## 2. Resmi Üretim Promptu (AI Coding Agents İçin)
 
 ```markdown
 Build Lunara — a glass sign-in under a desert full moon.
@@ -33,9 +33,9 @@ Architecture:
 
 ---
 
-## 3. Production Code Blocks (HTML / CSS / JS)
+## 3. Üretim Kod Blokları (HTML / CSS / JS)
 
-### 3.1 HTML Scaffold
+### 3.1 HTML İskeleti
 ```html
 <div class="cc-lunara-container" data-state="idle">
   <button class="cc-lunara-trigger" type="button" aria-label="Lunara">
@@ -46,7 +46,7 @@ Architecture:
 </div>
 ```
 
-### 3.2 CSS Variables & Animation Rules
+### 3.2 CSS Değişkenleri ve Animasyon Kuralları
 ```css
 .cc-lunara-container {
   --cc-timing: 600ms;
@@ -106,4 +106,3 @@ if (trigger && container) {
 1. **Vanilla JS:** `index.html` içerisindeki iskeleti sayfanıza kopyalayın, `app.css` ve `app.js` dosyalarını bağlayın.
 2. **React:** Sınıf adlarını `className` olarak güncelleyin ve tetikleme olaylarını `useEffect` veya `framer-motion` variantlarına bağlayın.
 3. **Performans:** Transform ve opacity özellikleri haricinde layout thrashing yaratacak özelliklerden (`top`, `left`, `margin`) kaçının; donanım hızlandırmalı GPU katmanlarını koruyun.
-

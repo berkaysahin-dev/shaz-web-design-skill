@@ -1,31 +1,31 @@
-﻿# Empty State vs. Skeleton — what's the difference?
+# Empty State vs. Skeleton — what's the difference?
 
 ![Empty State vs. Skeleton — what's the difference?](./images/vs-empty-state-vs-skeleton.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Comparison (VS)`
 * **Primary API / Symbol:** `vs-empty-state-vs-skeleton`
 * **Also Called (Aliases):** `N/A`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/vs/empty-state-vs-skeleton](https://shazagency.com/ui-dictionary/vs/empty-state-vs-skeleton)
+* **Official Source URL:** [https://namethatui.com/vs/empty-state-vs-skeleton](https://namethatui.com/vs/empty-state-vs-skeleton)
 
 ---
 
 ```markdown
-# Empty State vs. Skeleton — what's the difference? — Shaz Agency Official UI Prompt & Production Architecture
+# Empty State vs. Skeleton — what's the difference? — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/vs/empty-state-vs-skeleton](https://shazagency.com/ui-dictionary/vs/empty-state-vs-skeleton) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-empty-state-vs-skeleton`
+> **Source:** [https://namethatui.com/vs/empty-state-vs-skeleton](https://namethatui.com/vs/empty-state-vs-skeleton) · **Category:** `UI Comparison (VS)` · **Primary API / Symbol:** `vs-empty-state-vs-skeleton`
 > **Also Called ("Sloppy Words"):** *empty state vs. skeleton — what's the difference?*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a production-grade implementation of 'Empty State vs. Skeleton — what's the difference?' (UI Comparison (VS) — API symbol: `vs-empty-state-vs-skeleton`). A skeleton means content is COMING — gray pulsing shapes hold the layout while real content lands. An empty state means there's NOTHING here, and says what… Ensure strict semantic markup, WAI-ARIA keyboard accessibility, high-contrast focus states, and responsive layout behavior.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Empty State vs. Skeleton — what's the difference?' (`vs-empty-state-vs-skeleton`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -130,7 +130,7 @@ When building or refactoring **Empty State vs. Skeleton — what's the differenc
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Empty State vs. Skeleton — what's the difference? (vs-empty-state-vs-skeleton)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="vs-empty-state-vs-skeleton"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="vs-empty-state-vs-skeleton"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -171,5 +171,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

@@ -1,31 +1,31 @@
-﻿# Windows Aero
+# Windows Aero
 
 ![Windows Aero](./images/style-windows-aero.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `UI Style (Vibe)`
 * **Primary API / Symbol:** `background: rgba(190, 215, 240, .35); backdrop-filter: blur(12px) saturate(1.3); border: 1px solid rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35), 0 8px 24px rgba(0,20,60,.35);`
 * **Also Called (Aliases):** `Aero, Aero Glass`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/styles/windows-aero](https://shazagency.com/ui-dictionary/styles/windows-aero)
+* **Official Source URL:** [https://namethatui.com/styles/windows-aero](https://namethatui.com/styles/windows-aero)
 
 ---
 
 ```markdown
-# Windows Aero — Shaz Agency Official UI Prompt & Production Architecture
+# Windows Aero — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/styles/windows-aero](https://shazagency.com/ui-dictionary/styles/windows-aero) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: rgba(190, 215, 240, .35); backdrop-filter: blur(12px) saturate(1.3); border: 1px solid rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35), 0 8px 24px rgba(0,20,60,.35);`
+> **Source:** [https://namethatui.com/styles/windows-aero](https://namethatui.com/styles/windows-aero) · **Category:** `UI Style (Vibe)` · **Primary API / Symbol:** `background: rgba(190, 215, 240, .35); backdrop-filter: blur(12px) saturate(1.3); border: 1px solid rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35), 0 8px 24px rgba(0,20,60,.35);`
 > **Also Called ("Sloppy Words"):** *Aero, Aero Glass*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Create the surface using Windows Aero (Vista/7) styling. Defining signals: the window frame as transparent blurred glass — title bar and border show the scene behind them (backdrop-filter: blur(12px) saturate(1.3) on a rgba white/blue tint) while the content area stays opaque; diagonal specular light sweeps across the glass (a rotated linear-gradient white streak at low opacity); caption buttons that GLOW on hover — close floods red with a soft outer halo; luminous gradients for accents, like the shimmering green progress bar (gradient + a slow-moving highlight); 1px bright inner edge lining every glass pane; softly rounded chrome corners. Keep wallpaper and layout flexible — the glass needs something colorful behind it to read. Do not drift into Frutiger Aero: no nature imagery is required — this is the chrome language, not the era's mood board. Preserve title text legibility over unpredictable wallpapers (Aero drew a soft glow behind window titles — replicate it), 4.5:1 contrast for content text, hover glows paired with visible focus states, and reduced-motion alternatives for shimmer and window animation.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my 'Windows Aero' (`background: rgba(190, 215, 240, .35); backdrop-filter: blur(12px) saturate(1.3); border: 1px solid rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35), 0 8px 24px rgba(0,20,60,.35);`) implementation. Rule out: broken keyboard focus order or missing ARIA roles; clipping caused by parent `overflow: hidden` or stacking context (`z-index`) conflicts; layout shift during state transitions; missing `prefers-reduced-motion` and `env(safe-area-inset-*)` handling; and low contrast in dark/light mode.
 
@@ -141,7 +141,7 @@ When building or refactoring **Windows Aero** (`background: rgba(190, 215, 240, 
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Windows Aero (background: rgba(190, 215, 240, .35); backdrop-filter: blur(12px) saturate(1.3); border: 1px solid rgba(255,255,255,.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35), 0 8px 24px rgba(0,20,60,.35);)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="style-windows-aero"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="style-windows-aero"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

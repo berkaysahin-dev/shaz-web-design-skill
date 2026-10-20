@@ -1,31 +1,31 @@
-﻿# Easing (Timing Function)
+# Easing (Timing Function)
 
 ![Easing (Timing Function)](./images/easing.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `cubic-bezier(x1, y1, x2, y2)`
 * **Also Called (Aliases):** `timing function, easing curve, bezier curve`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/easing](https://shazagency.com/ui-dictionary/web/easing)
+* **Official Source URL:** [https://namethatui.com/web/easing](https://namethatui.com/web/easing)
 
 ---
 
 ```markdown
-# Easing (Timing Function) — Shaz Agency Official UI Prompt & Production Architecture
+# Easing (Timing Function) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/easing](https://shazagency.com/ui-dictionary/web/easing) · **Category:** `Web UI` · **Primary API / Symbol:** `cubic-bezier(x1, y1, x2, y2)`
+> **Source:** [https://namethatui.com/web/easing](https://namethatui.com/web/easing) · **Category:** `Web UI` · **Primary API / Symbol:** `cubic-bezier(x1, y1, x2, y2)`
 > **Also Called ("Sloppy Words"):** *timing function, easing curve, bezier curve*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Fix the easing of my animation: replace linear/default timing with an explicit curve — transition-timing-function: cubic-bezier(.4, 0, .2, 1) for UI moves (fast start, soft landing), ease-out for things entering, ease-in for things leaving; keep durations 150–300ms for interface transitions and never animate at linear speed unless it's a marquee-style continuous loop.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug the feel of my animation (CSS transition-timing-function / cubic-bezier). Rule out: no timing function set so it falls back to the default ease; linear timing making UI motion feel robotic; ease-in on an ENTERING element (arrivals want ease-out — decelerate into place); a cubic-bezier with y values outside 0–1 clipping instead of overshooting in transition shorthand order; duration so long the curve reads as lag. The symptom:
 
@@ -132,7 +132,7 @@ When building or refactoring **Easing (Timing Function)** (`cubic-bezier(x1, y1,
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Easing (Timing Function) (cubic-bezier(x1, y1, x2, y2))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="easing"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="easing"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -173,5 +173,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

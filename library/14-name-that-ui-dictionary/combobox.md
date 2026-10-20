@@ -1,31 +1,31 @@
-﻿# Combobox (Autocomplete / Typeahead)
+# Combobox (Autocomplete / Typeahead)
 
 ![Combobox (Autocomplete / Typeahead)](./images/combobox.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `Typeahead)`
 * **Also Called (Aliases):** `autocomplete, typeahead, search select, editable dropdown`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/combobox](https://shazagency.com/ui-dictionary/web/combobox)
+* **Official Source URL:** [https://namethatui.com/web/combobox](https://namethatui.com/web/combobox)
 
 ---
 
 ```markdown
-# Combobox (Autocomplete / Typeahead) — Shaz Agency Official UI Prompt & Production Architecture
+# Combobox (Autocomplete / Typeahead) — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/combobox](https://shazagency.com/ui-dictionary/web/combobox) · **Category:** `Web UI` · **Primary API / Symbol:** `Typeahead)`
+> **Source:** [https://namethatui.com/web/combobox](https://namethatui.com/web/combobox) · **Category:** `Web UI` · **Primary API / Symbol:** `Typeahead)`
 > **Also Called ("Sloppy Words"):** *autocomplete, typeahead, search select, editable dropdown*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a labelled Combobox with role="combobox" and a controlled role="listbox" popup. Keep aria-expanded and aria-controls in sync, give each result role="option", retain DOM focus in the input with aria-activedescendant, and support Arrow keys, Enter, and Escape without autofocusing on mount.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my combobox (role=combobox, aria-activedescendant, cmdk/Radix). Rule out: the listbox closing on blur before the option click lands — handle selection on pointerdown or check relatedTarget; the highlighted index not resetting when the filter changes; aria-activedescendant pointing at a filtered-out option id; the mobile keyboard covering the list because nothing scrolls the field into view. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Combobox (Autocomplete / Typeahead)** (`Typeahead
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Combobox (Autocomplete / Typeahead) (Typeahead))
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="combobox"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="combobox"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

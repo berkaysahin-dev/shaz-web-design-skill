@@ -1,31 +1,31 @@
-﻿# Inline Alert vs. Callout vs. Banner
+# Inline Alert vs. Callout vs. Banner
 
 ![Inline Alert vs. Callout vs. Banner](./images/alert-callout-banner.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `callout`
 * **Also Called (Aliases):** `inline alert, inline notification, callout, admonition, notice, warning box, announcement banner, notification banner, site alert, status banner`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/alert-callout-banner](https://shazagency.com/ui-dictionary/web/alert-callout-banner)
+* **Official Source URL:** [https://namethatui.com/web/alert-callout-banner](https://namethatui.com/web/alert-callout-banner)
 
 ---
 
 ```markdown
-# Inline Alert vs. Callout vs. Banner — Shaz Agency Official UI Prompt & Production Architecture
+# Inline Alert vs. Callout vs. Banner — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/alert-callout-banner](https://shazagency.com/ui-dictionary/web/alert-callout-banner) · **Category:** `Web UI` · **Primary API / Symbol:** `callout`
+> **Source:** [https://namethatui.com/web/alert-callout-banner](https://namethatui.com/web/alert-callout-banner) · **Category:** `Web UI` · **Primary API / Symbol:** `callout`
 > **Also Called ("Sloppy Words"):** *inline alert, inline notification, callout, admonition, notice, warning box, announcement banner, notification banner, site alert, status banner*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build an Inline Alert with Material UI <Alert severity="warning"> inside the content flow. Give it a lightly tinted warning surface, a matching severity icon, a narrow border-inline-start accent, one concise message, and an optional trailing action; add a dismiss control only if hiding the notice is safe. If the message is inserted dynamically, use role="alert" only for urgent interruption and role="status" for advisory updates; a static callout present on page load does not need a live region role.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my inline alert / callout / announcement banner (MUI Alert, Ant Design Alert, aria-live regions). Rule out: role="banner" put on the notification banner — that is the landmark for the page header, so screen readers announce a second site header instead of a message; role="alert" left on a notice that is already in the DOM at page load, so it interrupts on every navigation; a message injected together with its live region node, which some browser and screen-reader pairs fail to announce (rendering the empty region first, then setting its text, is the reliable route); severity carried by CSS color alone, so the icon and the text still say the wrong thing; the dismiss control unmounting the notice while focus was inside it, dropping focus to the body; the "banner" rendered inside a scrolling content column so it never actually spans the page. The symptom:
 
@@ -142,7 +142,7 @@ When building or refactoring **Inline Alert vs. Callout vs. Banner** (`callout`)
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Inline Alert vs. Callout vs. Banner (callout)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="alert-callout-banner"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="alert-callout-banner"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -183,5 +183,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-

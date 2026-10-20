@@ -1,31 +1,31 @@
-﻿# Card
+# Card
 
 ![Card](./images/card.png)
 
-* **Collection:** `Shaz Agency UI Visual Dictionary & Agent Prompts`
+* **Collection:** `NameThatUI Visual Dictionary & Official Agent Prompts`
 * **Category:** `Web UI`
 * **Primary API / Symbol:** `ui Card`
 * **Also Called (Aliases):** `tile, card component, content card, status card`
-* **Official Source URL:** [https://shazagency.com/ui-dictionary/web/card](https://shazagency.com/ui-dictionary/web/card)
+* **Official Source URL:** [https://namethatui.com/web/card](https://namethatui.com/web/card)
 
 ---
 
 ```markdown
-# Card — Shaz Agency Official UI Prompt & Production Architecture
+# Card — NameThatUI Official Prompt & Production Architecture
 
-> **Source:** [https://shazagency.com/ui-dictionary/web/card](https://shazagency.com/ui-dictionary/web/card) · **Category:** `Web UI` · **Primary API / Symbol:** `ui Card`
+> **Source:** [https://namethatui.com/web/card](https://namethatui.com/web/card) · **Category:** `Web UI` · **Primary API / Symbol:** `ui Card`
 > **Also Called ("Sloppy Words"):** *tile, card component, content card, status card*
-> **Recommended AI Skills:** Activate **`Shaz Agency Web Design` (`shaz-agency-web-design`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, Cursor, or Windsurf.
+> **Recommended AI Skills:** Activate **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** when running this prompt in Claude Code, OpenAI Codex, Cursor, Antigravity, v0, or Lovable.
 
 ---
 
-## 1. Official Shaz Agency UI Architecture Prompt (Paste Directly Into Your Coding Agent)
+## 1. Official NameThatUI Prompt (Paste Directly Into Your Coding Agent)
 
 Build a card component: an <article> (or shadcn/ui <Card>) with an opaque background, one border radius, and stacked slots — media image, header with title, body text, a metadata row, and a footer with the actions. Make the card display:flex column with margin-top:auto on the footer so equal-height cards in a grid never grow a gap of dead space above the footer.
 
 ---
 
-## 2. Official Shaz Agency UI Architecture Debug Prompt (When It Misbehaves)
+## 2. Official NameThatUI Debug Prompt (When It Misbehaves)
 
 Debug my card component (shadcn/ui Card / .card / <article>). Rule out: the 'massive chin' — dead space above the footer because grid/flex stretches cards to equal height while the footer isn't pinned with margin-top:auto in a flex-column card; the media corner poking out because the image ignores the card's border-radius (overflow:hidden or matching radius on the image); the whole card wrapped in <a> with more links nested inside (invalid HTML); text touching the media because padding lives on the wrong slot. The symptom:
 
@@ -141,7 +141,7 @@ When building or refactoring **Card** (`ui Card`), enforce the following enginee
 ### 4.3 Interactive State & Roving Focus Controller (Vanilla JS / React Pattern)
 ```javascript
 // Production-Grade Accessible State & Keyboard Controller for Card (ui Card)
-export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-ntu-component="card"]') {
+export function initNameThatUIComponent(rootSelector = '[data-ntu-component="card"]') {
   const root = document.querySelector(rootSelector);
   if (!root) return;
 
@@ -182,5 +182,3 @@ export function initShaz Agency UI ArchitectureComponent(rootSelector = '[data-n
 ```
 
 ```
-
-
