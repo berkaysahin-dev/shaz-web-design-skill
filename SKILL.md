@@ -116,17 +116,61 @@ Every component, section, landing page, and design prompt you produce must compl
 
 ---
 
-## 2. Master Orchestration of Modular Sub-Engines
+## 2. Master Orchestration of Modular Sub-Engines (44 Specialized Engines)
 
-When the user invokes `/shaz`, you act as the **Supreme Design Architect & Conductor**. You do NOT require the user to call each sub-command individually; `/shaz` autonomously coordinates and executes all 7 specialized sub-engines:
+When the user invokes /shaz, you act as the **Supreme Design Architect & Conductor**. You do NOT require the user to call each sub-command individually; /shaz autonomously coordinates and executes across all **44 specialized engines** tailored to industries, aesthetic styles, and bespoke mechanical components:
 
-1. **`/shaz-hero` (Hero Section Engine):** Autonomously invoked to design the hero section using one of the 6 distinct archetypes, strictly enforcing the anti-50/50 layout ban and zero logos.
-2. **`/shaz-dock` (Dynamic Navigation Engine):** Autonomously invoked to generate the navigation header using one of the 5 archetypes with deterministic CSS scoping and compact dock collapse.
-3. **`/shaz-3d` (WebGL & Shader Engine):** Autonomously invoked to select from the 141 production 3D blueprints (PBR dispersion glass, caustics, terrain, fluid mercury) or apply the Zero-WebGL mandate.
-4. **`/shaz-style` (Web Style Synthesizer):** Autonomously invoked to apply one of the 40 authentic design styles with physical materiality, procedural tactile noise, and anti-caricature depth.
-5. **`/shaz-component` (Interactive Mechanics Engine):** Autonomously invoked to mount unique interaction patterns from the 125 Code & Chill library blueprints (3D coverflow monolith, sliding drawer, glyph scrubber, etc.), banning the cloned 3-KPI curve slider.
-6. **`/shaz-video` (Kinetic React Video Engine):** Autonomously invoked when programmatic 60 FPS motion graphics, dynamic video textures, or timeline video reels are required.
-7. **`/shaz-audit` (22-Point Quality Gate Engine):** Autonomously run as the final pre-delivery checkpoint to ensure 100% compliance with zero violations.
+### 2.1 Core Master & Quality Engines (8 Engines)
+1. **/shaz (Master Engine):** Autonomously directs the full stack execution, compiling the project design signature and enforcing the 23 universal laws.
+2. **/shaz-audit (22-Point Quality Gate Engine):** Autonomously run as the final pre-delivery checkpoint to ensure 100% compliance with zero violations.
+3. **/shaz-hero (Hero Section Engine):** Autonomously invoked to design the hero section using one of the 6 distinct archetypes, strictly enforcing the anti-50/50 layout ban and zero logos.
+4. **/shaz-dock (Dynamic Navigation Engine):** Autonomously invoked to generate the navigation header using one of the 5 archetypes with deterministic CSS scoping and compact dock collapse.
+5. **/shaz-3d (WebGL & Shader Engine):** Autonomously invoked to select from the 141 production 3D blueprints (PBR dispersion glass, caustics, terrain, fluid mercury) or apply the Zero-WebGL mandate.
+6. **/shaz-video (Kinetic React Video Engine):** Autonomously invoked when programmatic 60 FPS motion graphics, dynamic video textures, or timeline video reels are required.
+7. **/shaz-style (Web Style Synthesizer):** Autonomously invoked to apply one of the 40 authentic design styles with physical materiality, procedural tactile noise, and anti-caricature depth.
+8. **/shaz-component (Interactive Mechanics Engine):** Autonomously invoked to mount unique interaction patterns from the 114 NameThatUI dictionary blueprints.
+
+### 2.2 Sector-Specific Architectural Engines (16 Engines)
+* **/shaz-luxury:** Haute Horlogerie, High Jewelry, and bespoke luxury manufactures with obsidian, titanium, and champagne gold palettes.
+* **/shaz-fintech:** Quant asset management and institutional trading platforms with stepped SVG area charts and telemetry matrices.
+* **/shaz-saas:** Developer infrastructure and cloud platforms with zero-pill command palettes and terminal aesthetics.
+* **/shaz-industrial:** Heavy machinery, crane logistics, and port engineering with monolithic load charts and calculation drawers.
+* **/shaz-architecture:** Spatial monographs, raw concrete portfolios, and interactive architectural floorplan viewports.
+* **/shaz-biotech:** Genomic life sciences, clinical medicine, and laboratory instruments with calm sage palettes and WCAG 2.1 AAA accessibility.
+* **/shaz-aerospace:** Hypersonic robotics, orbital mechanics, and satellite telemetry platforms with deep cosmic void stages.
+* **/shaz-automotive:** Hypercars, electric hypercraft, and aerodynamic slipstream shaders with kinetic telemetry dials.
+* **/shaz-editorial:** Cultural journals, literary reviews, and press publications with Swiss letterpress typography and zero 3D noise.
+* **/shaz-fashion:** Haute couture maisons, runway lookbooks, and high fashion ateliers with extreme typographic contrast.
+* **/shaz-hospitality:** Private sanctuary islands, anechoic wellness retreats, and sandstone architectural escapes.
+* **/shaz-organic:** Biodynamic wine terroirs, regenerative farming, and artisan food estates with natural kraft and tactile photography.
+* **/shaz-ecom:** Monolithic luxury e-commerce platforms with spring cart drawers and faceted specification sheets.
+* **/shaz-creative-studio:** Generative art laboratories, creative technologists, and interactive WebGL showcases.
+* **/shaz-hardware:** Physical hardware showcases, acoustic devices, and exploded assembly layer switchers.
+* **/shaz-audio:** Spatial audio systems, audiophile monitor monoliths, and Fourier wavefield visualizers.
+
+### 2.3 Specialized Aesthetic & Web Style Engines (12 Engines)
+* **/shaz-neobrutalism:** High-end Swiss Neobrutalism with 1.5px crisp black borders and monumental typography.
+* **/shaz-acid:** Underground acid graphics and rave techno aesthetics with pitch black voids and molten chrome.
+* **/shaz-bento:** Architectural flat bento grids with asymmetric module weighting and spring transitions.
+* **/shaz-spatial:** VisionOS spatial UI experiences with translucent refractive glass surfaces and optical liquid glass.
+* **/shaz-cyber:** Cyber-pop and Y2K futuristic web interfaces with holographic wireframe grids and calm telemetry.
+* **/shaz-minimal:** Swiss Utilitarian minimalism with zero decorative ornaments and pure monochrome rigor.
+* **/shaz-japanese:** Japanese editorial web layouts with vertical typography columns and asymmetric zen grids.
+* **/shaz-magazine:** Multi-column editorial magazine and newspaper layouts with drop-caps and hairline rules.
+* **/shaz-surrealism:** Avant-garde surrealism with fluid mercury, optical caustic refraction, and sculptural forms.
+* **/shaz-claymorphism:** Tactile claymorphism with soft matte pneumatic volumes and inner bevel depths.
+* **/shaz-artdeco:** Architectural Art Deco luxury layouts with geometric champagne gold hairlines and sunburst chevrons.
+* **/shaz-nostalgic:** Nostalgic computing interfaces with subtle analog CRT scanlines and monospace terminal rigor.
+
+### 2.4 Core Architectural Component Engines (8 Engines)
+* **/shaz-coverflow:** 3D coverflow monolith card decks with drag inertia and sub-pixel wheel scrubbing.
+* **/shaz-drawer:** Faceted sliding architectural drawers with spring physics and zero layout shift.
+* **/shaz-kinetic-type:** Kinetic typography stages and interactive character glyph scrubbers responding to cursor physics.
+* **/shaz-dashboard:** High-density telemetry dashboards with stepped SVG area charts and double-bezel KPI cards.
+* **/shaz-refraction:** Optical caustic wavefields, liquid glass refraction shaders, and chromatic dispersion.
+* **/shaz-marquee:** Dual-track sub-pixel infinite marquee belts with bilateral edge alpha feathering masks.
+* **/shaz-horizon-footer:** Architectural Master Horizon Footers with quiet dialogue invitations and balanced baselines.
+* **/shaz-monolith:** Monolithic architectural cards and heavy mineral specimen showcases crafted from volcanic basalt.
 
 ---
 
