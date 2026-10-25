@@ -40,9 +40,20 @@ This document defines the strict, non-negotiable design laws governing all user 
 ### Core Principle:
 There is no arbitrary restriction to a fixed set of colors. Any color family may be used, provided that it is **strictly derived from the project's sector, product materiality, and design context**.
 - **Haute Horlogerie / Luxury Watches:** Deep obsidian (`#070709`), brushed titanium (`#A1A1AA`), warm champagne/matte gold (`#C5A880`), smoked sapphire.
-- **Architectural / Industrial Studio:** Raw concrete gray, basalt black, textured chalk, natural paper beiges.
-- **Biotech / Scientific / Medical:** Deep petroleum blue, surgical white, calm sage, deep navy.
-- **Automotive / Performance:** Matte graphite, carbon fiber darks, anodized slate, calibrated racing red accents.
+- **FinTech & Quant:** Cobalt (`#3B82F6`), ice slate (`#F8FAFC`), jade terminal green (`#10B981`).
+- **High-End SaaS / Cloud / DevTools:** Monochromatic basalt (`#090A0E`), slate (`#94A3B8`), electric cyan or ink blue hairlines.
+- **Biotech / Scientific / Medical:** Deep petroleum blue, surgical white, calm sage (`#84A98C`), deep navy.
+- **Architectural & Industrial Studio:** Raw concrete gray, basalt black, textured chalk, natural paper beiges.
+- **Editorial & Publishing:** Deep ink black, warm paper cream, vermilion/terracotta.
+
+### Strict Anti-Gold Defaulting Mandate:
+- **Defaulting to Gold/Champagne is FORBIDDEN:** Unless the brief explicitly specifies Haute Horlogerie, independent watchmaking, or high jewelry, using gold or champagne accents (`#C5A059`, `#D4AF37`, amber tones) is strictly prohibited across SaaS, FinTech, Biotech, Architecture, and Studio websites.
+
+### First-Class Light Mode & Editorial Paper Tokens:
+Pitch-black `#070709` is NOT the mandatory default. Light mode is a first-class citizen:
+- **Warm Editorial Paper:** Background `#F7F6F2`, Surface `#FFFFFF`, Border `#E5E2D9`, Text `#1A1A1A`, Muted `#706E68`
+- **Raw Concrete / Stone:** Background `#EFECE6`, Surface `#F8F7F4`, Border `#D8D4CA`, Text `#242424`, Muted `#66635B`
+- **Clinical White:** Background `#FAFAFA`, Surface `#FFFFFF`, Border `#E2E8F0`, Text `#0F172A`, Muted `#64748B`
 
 ### Forbidden Anti-Patterns (Strict Neon Prohibition):
 - **Tacky, Absurd & Cyberpunk Neon:** Electric magenta/fuchsia, fluorescent/acid lime green (`#00ff00`, `#91fe01`), blinding cyan (`#00ffff`), or any color tuned to radioactive RGB extremes.
@@ -204,17 +215,19 @@ AI tools and generic templates habitually clutter every empty corner and card to
 
 ---
 
-## 14. Isolated Transparent Imagery (Zero Boxed Photo Frames)
+## 14. Isolated Transparent Imagery & Zero Broken Asset Paths
 
 ### Forbidden Anti-Patterns:
 - **Boxed Stock Photos:** Pasting rectangular stock photos with visible room/studio backgrounds inside card frames (e.g. square or 16:9 photo boxes trapped in rectangular card containers).
+- **Inventing Fictitious Image Paths:** Generating imaginary local paths like `/assets/watch-exploded.png`, `/images/hero-car.png`, `product-shot.webp` when no real image assets were provided. Never output broken `<img>` tags!
 - **Framed Picture Galleries:** Enclosing luxury products, watch movements, hardware pieces, or architectural specimens inside rigid rectangular photo cards with borders.
 
 ### Authorized Patterns:
-- **Backgroundless / Transparent Cutouts:** All product, hardware, movement, and specimen imagery must be **isolated with transparent backgrounds** (PNG/WebP with transparent alpha or transparent SVG/3D canvas).
-- **Direct Atmospheric Integration:** The isolated object floats directly on the page background (e.g. dark obsidian `#070709`), casting soft ambient drop-shadows onto the canvas without any enclosing rectangular photo box or card container.
-
----
+- **Backgroundless / Transparent Cutouts:** All product, hardware, movement, and specimen imagery must be **isolated with transparent backgrounds** (PNG/WebP with transparent alpha or transparent SVG/3D canvas) when user assets exist.
+- **Mandatory Generative Asset Fallbacks:** When NO real image asset is provided, strictly deploy code-based generative centerpieces:
+  1. Interactive Three.js/WebGL procedural geometries (PBR dispersion glass, caustics, wavefields).
+  2. Pure inline SVG vector schematics and engineering line art (`stroke-current`).
+  3. Mathematical canvas physics, radial lighting, or tactile generative noise layers.
 
 ## 15. Page Architecture Modality (Never Default Dogmatically to One-Page)
 
@@ -396,6 +409,39 @@ Pulsating colored dots, flashing radar pings, or blinking lights (such as `<span
 - **Static, Matte Status Markers:** If a status indicator is required, use a solid, calm, non-pulsing dot (`w-1.5 h-1.5 rounded-full bg-stone-400 opacity-60`) that remains perfectly still.
 - **Interactive Micro-Interactions Only:** Visual feedback occurs strictly upon explicit user interaction (click, hover, drag) governed by spring physics, never as autonomous flashing lights.
 
+---
 
+## 24. Zero Broken Asset Paths (Mandatory Generative Fallback Architecture)
 
+### Philosophy & Requirement:
+Digital products must render with 100% visual integrity out-of-the-box. When an AI generates code referencing non-existent files like `/assets/hero.png` or `watch-exploded.webp`, the user sees broken image icons, layout jumps, and missing visual anchors.
 
+### Forbidden Anti-Patterns:
+- Referencing non-existent local files in `<img src="/assets/...">`, `<Image src="..." />`, or CSS `background-image: url(...)`.
+- Leaving empty gray placeholder boxes with "Image here".
+
+### Authorized Patterns:
+- **Code-Based Generative Fallbacks:** When the user does not supply image files, use:
+  1. Procedural Three.js WebGL scenes (glass transmission, particle fields, caustics).
+  2. Mathematical inline SVG engineering diagrams and exploded schematics with `stroke-current`.
+  3. Generative CSS gradients with subtle SVG turbulence noise (`<feTurbulence>`).
+  4. Verified public direct-link CDNs (e.g. Unsplash high-res direct URLs) only if a real photographic backdrop is structurally necessary.
+
+---
+
+## 25. Universal Responsive Architecture & Mobile Graceful Degradation
+
+### Philosophy & Requirement:
+A web design is only as good as its mobile execution. Desktop interactions like 3D Coverflow, horizontal drag scrubbers, multi-layered sliding drawers, and double-bezel grids must never cause horizontal layout shifts, cramped overflow, or unclickable touch states on mobile viewports (`< 768px`).
+
+### Forbidden Anti-Patterns:
+- **Horizontal Overflow (`overflow-x` Leaks):** Allowing wide tables, coverflow cards, or horizontal strips to push the mobile viewport wider than the screen width.
+- **Unclickable Tiny Targets:** Buttons or interactive tabs smaller than 44x44px on touchscreens.
+- **Hover-Locked Content:** Interfaces that require a mouse cursor `:hover` to reveal critical navigation or specifications.
+
+### Authorized Patterns:
+- **Strict Viewport Containment:** Wrap root layouts in `overflow-x-clip` or `overflow-x-hidden`.
+- **Responsive Graceful Degradation:**
+  * **3D Coverflow:** On screens `< 768px`, smoothly degrades into a clean vertical editorial stack or a touch-friendly snap slider (`overflow-x-auto snap-x snap-mandatory flex-nowrap -mx-4 px-4`).
+  * **Horizontal Telemetry Dossiers:** Transform into vertical expandable accordions with spring disclosure.
+  * **Dual-Tier Navigation:** Collapses cleanly into a responsive mobile drawer with minimum 44px tap targets.

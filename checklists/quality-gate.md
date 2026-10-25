@@ -1,10 +1,12 @@
-# Shaz Agency Web Design — 22-Point Universal Quality Gate Audit
+# Shaz Agency Web Design — 25-Point Universal Quality Gate Audit
 
-Before any code, section, or complete website design is delivered to the user, run this rigorous 22-point audit. These rules are **UNIVERSAL** across every category, industry, and project type (SaaS, FinTech, Industrial, Architecture, Biotech, Automotive, Luxury, Portfolios). If even a single criterion fails, correct it immediately before outputting code.
+Before any code, section, or complete website design is delivered to the user, run this rigorous 25-point audit. These rules are **UNIVERSAL** across every category, industry, and project type.
+
+> **Token Economy Notice:** To prevent output truncation, output ONLY the **Compact 4-Line Design Signature** before generating code. Do not output lengthy pre-code essays.
 
 ---
 
-## The 22-Point Universal Pre-Delivery Checklist
+## The 25-Point Universal Pre-Delivery Checklist
 
 | # | Check Item | Verification Command / Observation | Pass Criteria |
 | :-: | :--- | :--- | :--- |
@@ -30,3 +32,6 @@ Before any code, section, or complete website design is delivered to the user, r
 | **20** | **Anti-Formula Component Diversity** | Audit core interactive section against `library/10-interactive-animations/`. | Zero copy-pasting of the "3-KPI + 2D canvas curve + range slider" formula. The interactive mechanic must be authentically extracted from library blueprints: 3D coverflow monolith, faceted spring drawer, kinetic glyph scrubber, optical caustic refraction, micro-spring tabs, or acoustic decibel meter. |
 | **21** | **Strict Zero-Logo Navigation Purity** | Audit top navigation bar and header elements. | Zero graphic logos, SVG logo emblems, shield icons, or app icon boxes next to the brand title. Brand identity is led exclusively by pure, naked typographic wordmarks or raw coordinates. |
 | **22** | **Zero Rudimentary Toy 3D Meshes** | Audit Three.js scenes and geometries. | Zero naive 10-line primitive shapes (cylinders with confetti cubes, basic unshaded wireframe boxes). 3D must feature authentic PBR transmission, dispersion, and softbox lighting from `library/05-3d-webgl/`, or enforce the Zero-WebGL Mandate with tactile noise and macro photography. |
+| **23** | **Anti-Gold Defaulting & Color Authenticity** | Inspect accent color against sector. | Gold or champagne (`#C5A059`, `#D4AF37`) is STRICTLY FORBIDDEN unless project is explicitly Haute Horlogerie or High Jewelry. Verify color authentically matches sector (Cobalt for FinTech, Basalt/Cyan for SaaS, Sage for Biotech, Concrete for Architecture). Evaluate light mode suitability. |
+| **24** | **Zero Broken Image Paths (Generative Fallbacks)** | Inspect `<img src="...">` and background image paths. | Zero fictitious local paths like `/assets/...` or missing files. If no real assets are supplied, generative code fallbacks (procedural WebGL, inline SVG vector line art, or mathematical canvas) are deployed. |
+| **25** | **Universal Mobile Responsive Fallback** | Audit layout at viewport `< 768px`. | Desktop 3D Coverflow or horizontal tracks smoothly degrade into vertical stacks or native touch-snap rails (`snap-x snap-mandatory`). Main containers enforce `overflow-x-clip`/`overflow-x-hidden`. Zero horizontal layout leaks; minimum 44px touch targets. |

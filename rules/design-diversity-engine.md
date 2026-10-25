@@ -56,13 +56,15 @@ These patterns are **NOT** banned because they are wrong — they are banned whe
 
 | Defaulting Reflex (Forbidden when ungrounded) | Required Creative Alternative |
 | :--- | :--- |
-| **Reflex 1: Pitch black `#070709` on every project** | Evaluate **Warm Paper** (`#F6F5F1`), **Raw Concrete** (`#E5E5E5`), **Terracotta Ochre** (`#EFECE6` with `#8C4A32`), **Clinical Petroleum** (`#0F172A` with `#FFFFFF`), or **Muted Olive** (`#F4F3EE` with `#2D3A29`). |
+| **Reflex 1: Pitch black `#070709` and champagne gold `#C5A059` on every project** | FORBIDDEN unless explicitly specified for Haute Horlogerie. Evaluate **Warm Paper** (`#F7F6F2`), **Raw Concrete** (`#EFECE6`), **Clinical White** (`#FAFAFA`), **Deep Petroleum** (`#0F172A`), or **Cobalt Slate** (`#090A0E` with `#3B82F6`). |
 | **Reflex 2: Left Headline + Right 3D Model Hero** | Deploy **Centered Monolithic Typography** (`01-hero-sections/kinetic-typography-monolith-hero.md`), **Asymmetric Editorial Masthead**, **Full-Bleed Photographic Curtain**, or **Split-Screen Sticky Monograph**. |
 | **Reflex 3: Identical 3-Card Bento Grid** | Deploy **Single-Column Wide Technical Dossiers**, **Horizontal Case-Study Sliders**, **Asymmetric 2/3 + 1/3 Split Paneling**, or **Continuous Data Ledger Tables**. |
 | **Reflex 4: Same Section Order (Hero &rarr; Features &rarr; Specs &rarr; CTA &rarr; Footer)** | Derive section sequence from audience intent: e.g., Festival: Lineup First &rarr; Soundstage Matrix &rarr; Tickets &rarr; Venue; Minimalist Studio: Projects Rail First &rarr; Manifesto &rarr; Publications &rarr; Contact. |
 | **Reflex 5: Forcing Scroll-Morphing Dock on every site** | Deploy **Editorial Top Banner**, **Sticky Architectural Monolith Bar**, **Floating Minimal Island**, or **Fullscreen Overlay Trigger** according to navigation depth. |
 | **Reflex 6: Sticking a 3D Canvas in the Hero for no reason** | If a product has no physical mechanism or spatial geometry, **ELIMINATE 3D ENTIRELY** or restrict it to subtle procedural background grain or 2D canvas shaders. |
 | **Reflex 7: Putting a Geneva Clock in non-horology footers** | Only watch manufactures need a Geneva timekeeper. Music festivals need a **Live Countdown to Doors**; Architecture needs an **Office Timezone Matrix**; SaaS needs a **System Operational Status**; Organic food needs **Harvest Season Telemetry**. |
+| **Reflex 8: Inventing broken image paths (`/assets/...`)** | FORBIDDEN. Deploy **Generative Asset Fallbacks**: procedural WebGL glass/particles, inline SVG vector schematics, or generative CSS caustics. |
+| **Reflex 9: Ignoring mobile viewport in complex mechanics** | FORBIDDEN. Desktop Coverflow or horizontal scrubbers must gracefully degrade on `< 768px` into vertical stacks or native touch-snap rails (`snap-x snap-mandatory`). |
 
 ---
 

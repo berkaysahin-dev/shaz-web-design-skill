@@ -4,7 +4,7 @@ An autonomous, production-grade AI web design skill engineered for Antigravity, 
 
 ---
 
-## 1. The Universal Design Laws (23 Architectural Directives)
+## 1. The Universal Design Laws (25 Architectural Directives)
 
 Every component, page, layout, and prompt produced by this skill adheres to 23 non-negotiable architectural laws across all project categories (SaaS, FinTech, Industrial, Architecture, Biotech, Automotive, Luxury, Portfolios):
 
@@ -21,7 +21,7 @@ Every component, page, layout, and prompt produced by this skill adheres to 23 n
 11. **Hero Elements Purity (Strictly Backgroundless & Never Double-Layered):** Hero centerpieces, execution engines, HUDs, and visual specimens float strictly backgroundless (`bg-transparent`) directly on canvas or ambient gradients with delicate hairline dividers, zero double layers, and zero dark background boxes. Kinematics operate with calm, serene mechanical precision without cursor tilt jitter.
 12. **The Architectural Master Horizon Footer:** Generic 4-column corporate sitemaps, uppercase micro-titles (`PHYSICAL ATELIERS`, `DIRECT DESK`), fake serial inputs, status dots, and faint ghost watermarks are banned. Footers open with an authoritative dialogue invitation sentence, clean symmetrical navigation deck without micro-labels, physical presence in pure typography, and a balanced horizon baseline with discrete time.
 13. **Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter (Zero "Üst Küçük Yazılar"):** Absolute ban on upper/corner micro-labels (`BENCH 04`, `CHAMBER 01`), floating canvas status lines (`REAL-TIME ISO...`), card-header subtitle strips (`SERIES 01 · BASALT`), and section eyebrow prefixes. Visual surfaces, canvases, and cards breathe cleanly and purely.
-14. **Isolated Transparent Imagery (Zero Boxed Photo Frames):** Hardware, mechanisms, and product specimens must be isolated cutouts with transparent backgrounds (PNG/WebP with transparent alpha or transparent WebGL/SVG renders) floating directly on the canvas without rectangular card photo frames.
+14. **Isolated Transparent Imagery & Zero Broken Asset Paths:** Hardware, mechanisms, and product specimens must be isolated cutouts with transparent backgrounds when assets are provided. Inventing non-existent local image paths (/assets/...) is banned; when no real image assets exist, code-based generative fallbacks (procedural WebGL, inline SVG vector line art, or mathematical canvas) are strictly enforced.
 15. **Page Architecture Modality (One-Page vs Multi-Page Routing Optionality):** Single-page is never forced dogmatically. One-page mode is deployed for tight single-objective launch landing pages and compact showrooms; multi-page application mode is deployed for SaaS platforms, enterprise hubs, and complex catalogs using Next.js App Router multi-page routing with layout persistence and smooth sub-pixel page transitions.
 16. **Scroll-Morphing Collapsible Dock Navigation:** Two-stage kinetic navigation. At page apex (`scrollY <= 80px`), provides a full-width luxury navigation bar. Upon downward scroll (`scrollY > 80px`), smoothly collapses into a centered, compact floating dock (`rounded-full`, backdrop blur, hairline border), morphing text links into clean monochrome SVG icons with an expandable full menu drawer.
 17. **Ecosystem & Technology Integration Infinite Marquee:** Clean, continuous sub-pixel dual-track infinite marquee belt (`animation: ecosystemMarquee 35s linear infinite`), pause-on-hover, bilateral edge alpha feathering masks, and precision monochromatic SVGs with subtle individual brand hover luminescence.
@@ -46,7 +46,7 @@ Every component, page, layout, and prompt produced by this skill adheres to 23 n
 | **Programmatic Video** | None. | **60 FPS React Video Engine (`shaz-video`):** Frame-accurate motion canvas, kinetic timeline sequences, and dynamic video textures. |
 | **Design System & Typography** | Generic system fonts and standard scales. | **Master Typography & Token System:** Druk Wide 700 display, Tilt Warp creative, Neue Haas Grotesk 330 subheading, Spline Sans & Plus Jakarta Sans body, JetBrains Mono telemetry, Outfit controls, and calibrated CSS `:root` variables. |
 | **Surface Architecture** | Standard card borders and generic container padding. | **Hardware Double-Bezel & Selective Elevation:** Precision-calibrated tray-to-core radii mathematics and surface plurality. |
-| **Anti-Slop Enforcement** | Allows pills, badges, floating tags, and standard AI SaaS templates. | **Automated 22-Check Quality Gate:** Enforces zero fluff, zero pills, zero emojis, zero eyebrows, zero comment leaks, zero post-hero tickers, zero hero 50/50 splits, zero formula sliders, and zero blinking lights. |
+| **Anti-Slop Enforcement** | Allows pills, badges, floating tags, and standard AI SaaS templates. | **Automated 25-Check Quality Gate:** Enforces zero fluff, zero pills, zero emojis, zero eyebrows, zero comment leaks, zero post-hero tickers, zero hero 50/50 splits, zero formula sliders, and zero blinking lights. |
 
 ---
 

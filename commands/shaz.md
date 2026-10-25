@@ -28,8 +28,17 @@ Every component, section, landing page, and design prompt you produce must compl
 - **Banned:** Floating pills above headings, "NEW", "AI POWERED", "BETA", "BEST SELLER" badges, status tags, rounded capsule labels, **eyebrow / kicker sub-labels above headings** (e.g. `SECTION 03`, `CATEGORY · SUB`), and **fake GPS telemetry / coordinates** (e.g. `46°12'09"N · 6°08'44"E`).
 - **Enforced:** Headings lead directly and authoritatively. Hierarchy is established exclusively through typographic scale, optical weight, negative space, and architectural borders without decorative micro-labels.
 
-### Law 3: Category-Driven Color Freedom with Strict Neon & Blinking Light Prohibition
-- **Universal Palette Freedom:** There is no arbitrary limitation to a single color list. Any color family is permitted, provided it authentically matches the project's industry, physical materiality, and emotional context.
+### Law 3: Category-Driven Color Freedom, Anti-Gold Mandate & Light-Mode Equality
+- **Strict Anti-Gold Defaulting Mandate:** Unless the user's brief explicitly specifies Haute Horlogerie or High Jewelry, defaulting to gold or warm champagne accents (`#C5A059`, `#D4AF37`, amber tones) is STRICTLY PROHIBITED. Do NOT default to gold/champagne for SaaS, FinTech, Biotech, Architecture, or Creative Studios. Accents must be authentically derived from the physical materiality of the domain:
+  * **FinTech & Quant:** Cobalt (`#3B82F6`), ice slate (`#F8FAFC`), jade terminal green (`#10B981`).
+  * **High-End SaaS / Cloud / DevTools:** Monochromatic basalt (`#090A0E`), slate (`#94A3B8`), electric cyan or ink blue hairlines.
+  * **Biotech / Healthcare:** Calm sage (`#84A98C`), clinical white, deep petroleum (`#0F172A`).
+  * **Architectural & Industrial:** Raw concrete gray, textured chalk, basalt, paper beiges.
+  * **Editorial & Publishing:** Deep ink black, warm paper cream, vermilion/terracotta.
+- **First-Class Light Mode & Editorial Paper Tokens:** Pitch-black `#070709` is NOT the mandatory default. Light mode is a first-class citizen whenever appropriate for the domain:
+  * *Warm Editorial Paper:* Bg `#F7F6F2`, Surface `#FFFFFF`, Border `#E5E2D9`, Text `#1A1A1A`, Muted `#706E68`
+  * *Raw Concrete / Stone:* Bg `#EFECE6`, Surface `#F8F7F4`, Border `#D8D4CA`, Text `#242424`, Muted `#66635B`
+  * *Clinical White:* Bg `#FAFAFA`, Surface `#FFFFFF`, Border `#E2E8F0`, Text `#0F172A`, Muted `#64748B`
 - **Strict Neon & Blinking Light Prohibition:** Blinking indicator dots, pulsing circles (`animate-pulse`), radar pings, neon strobe animations, electric pink/lime/fuchsia colors, glowing neon halos, neon drop-shadows (`drop-shadow-[0_0_15px_#00ff00]`), and artificial laser effects are permanently banned across all UI components, telemetry boxes, and 3D stages. All colors must be optical, matte, balanced, and glare-free. Motion is smooth and physics-governed.
 
 ### Law 4: Zero Generic Templates, AI Clichés, or Cloned Instrument Curves
@@ -72,9 +81,16 @@ Every component, section, landing page, and design prompt you produce must compl
 - **Banned:** Any text above headings ("Eyebrows", "Kickers", "Overlines" such as `HAUTE HORLOGERIE MANUFACTURE`, `PHYSICAL SALONS & BENCHES`, `TESTING PROTOCOL`, `SECTION 01`); corner micro-labels on cards or canvases (`BENCH 04`, `CHAMBER 01`, `NODE B`, `COORDINATE 47.37°N`); canvas floating telemetry status strips (`• REAL-TIME ISO-ACOUSTIC... · 0.001% THD`); card-header subtitle strips (`SERIES 01        Solid Volcanic Basalt` across tops of cards); footer micro-kicker titles (`PHYSICAL ATELIERS`, `DIRECT DESK`).
 - **Enforced:** Naked, authoritative headlines. Visual canvases and cards breathe purely and nakedly. No corner stamps, no floating telemetry status lines, no card-header strips. Layouts communicate purely through typographic hierarchy, optical scale, and generous negative space.
 
-### Law 14: Isolated Transparent Imagery (Zero Boxed Photo Frames)
-- **Banned:** Rectangular boxed stock photos with visible studio/room backgrounds sitting in rigid card frames (`aspect-video`, `aspect-[4/3]` with borders).
-- **Enforced:** All product, hardware, and mechanism imagery must be **isolated with transparent backgrounds** (PNG/WebP with transparent alpha or transparent SVG/Canvas) floating directly on the dark canvas with natural ambient drop-shadows.
+### Law 14: Isolated Transparent Imagery & Zero Broken Asset Paths
+- **Banned:**
+  * Rectangular boxed stock photos with visible studio/room backgrounds sitting in rigid card frames (`aspect-video`, `aspect-[4/3]` with borders).
+  * **Inventing fictitious local image paths** (e.g. `/assets/watch-exploded.png`, `/images/hero-car.png`, `product-shot.webp`) when the user did not supply actual image files. Never generate broken `<img>` tags or missing assets.
+- **Enforced:**
+  * When real product/hardware assets are supplied by the user, isolate them with transparent backgrounds (PNG/WebP with transparent alpha or transparent SVG/Canvas) floating directly on the canvas with natural ambient drop-shadows.
+  * **Mandatory Generative Asset Fallbacks:** When NO real image asset is provided, strictly deploy code-based generative visual centerpieces:
+    1. Interactive Three.js / WebGL procedural geometries (PBR dispersion glass, caustics, wavefields).
+    2. Pure inline SVG vector schematics and engineering line art (`stroke-current`).
+    3. Mathematical canvas physics, radial lighting, or tactile generative noise layers.
 
 ### Law 15: Page Architecture Modality (One-Page vs Multi-Page Routing Optionality)
 - **Banned:** Dogmatically forcing every project into a monolithic single-page infinite scroll with in-page hash anchors (`#about`, `#features`) when the brief warrants a comprehensive multi-page application.
@@ -110,6 +126,16 @@ Every component, section, landing page, and design prompt you produce must compl
   * Pure typographic brand wordmarks or raw coordinates (strictly zero graphic logos).
   * Static, calm matte status markers with zero blinking or pulsing.
 
+
+### Law 21: Universal Responsive Architecture & Mobile Fallbacks
+- **Banned:** Desktop interaction mechanics (3D Coverflow, horizontal drag scrubbers, multi-layered sliding drawers, double-bezel matrices) breaking on mobile viewports (`< 768px`) causing horizontal document overflow (`overflow-x` leaks), unclickable touch targets, or cramped multi-column cards.
+- **Enforced:**
+  * **Strict Zero Horizontal Document Overflow:** Main layout wrappers must enforce `overflow-x-clip` or `overflow-x-hidden`.
+  * **Mobile Graceful Degradation:** Desktop 3D Coverflow or horizontal scrubbers must seamlessly adapt on mobile into:
+    1. A vertical editorial stack with smooth spring disclosure, OR
+    2. A native touch-friendly snap slider (`overflow-x-auto snap-x snap-mandatory flex-nowrap -mx-4 px-4`).
+  * Minimum 44x44px touch targets.
+  * Zero cursor-dependent hover locks on touch devices (tap triggers or clean visible states).
 
 ---
 
@@ -169,75 +195,16 @@ On dark themes:
 
 ---
 
-## 4. Execution Workflow (Design Diversity & Dual Quality Gate)
+## 4. Execution Workflow (Streamlined Compact Protocol & Zero-Token Waste)
 
-When tasked with generating a web design, section, or complete implementation via `/shaz`:
+To preserve the model's entire output token window for complete, production-grade Next.js + Tailwind + Framer Motion code, avoid long pre-code ceremonial essays (no 10-dimensional essays, no listing of 20+ laws, no alternative direction debates). Output ONLY the **Compact 4-Line Design Signature** and immediately proceed to delivering 100% complete, working code:
 
-### Phase 0: Project Topology Analysis (Design Diversity Engine)
-Analyze the brief across the 10 topology dimensions (`rules/design-diversity-engine.md`):
-1. **Audience & Sophistication Level** (Ultra-High-Net-Worth, Engineers, Cult Creatives, Retail Consumers)
-2. **Sector & Materiality** (Basalt/Titanium, Brutalist Print, Monolithic Concrete, Liquid Glass, Organic Soil)
-3. **Brand Persona** (Sacred Atelier, Rebel Underground, Silent Monolith, Clinical Vanguard, Biodynamic Earth)
-4. **Emotional Tone & Resonance** (Solemn & Reverent, High-Voltage Chaos, Calm Clarity, Earthy Tactility)
-5. **Information Density** (Ultra-Sparse Editorial, High-Density Telemetry Matrix, Asymmetric Rhythms)
-6. **Visual Gravity** (Center Monumental, Left Monolith, Fragmented Multi-Plane, Horizontal Axis)
-7. **Motion Cadence** (Stately Kinematic, Glitch/Inertia, Micro Spring Physics, Static Print Purity)
-8. **3D/WebGL Purpose** (Functional CAD Inspection, Real-Time Audio Canvas, Organic Simulation, or **Mandatory Zero-WebGL**)
-9. **Viewport Modality** (One-Page Precision Showcase vs. Multi-Page Enterprise / App Hub)
-10. **Chromatic Polarity** (Obsidian Void, Warm Editorial Paper, Clinical Bone, Verdant Soil, Acid Contrast)
-
-### Phase 1: 3-Direction Exploration Gate
-Formulate 3 fundamentally distinct design directions (varying in layout archetype, typography, chromatic polarity, 3D strategy, navigation, and footer architecture). Select the winning direction and justify eliminations before writing code (`checklists/diversity-gate.md`).
-
-### Phase 2: Compile Mandatory Project Design Signature
-Explicitly output the Project Design Signature:
 ```markdown
-### Project Design Signature
-- **Project Archetype:** [e.g., Tactile Editorial & Soil Provenance / Minimal Monolith / Haute Horlogerie]
-- **Chromatic Polarity:** [e.g., Warm Alabaster & Forest Soil / Monochromatic Basalt / Obsidian Champagne]
-- **Palette Tokens:** Background: `[hex]`, Surface: `[hex]`, Accent: `[hex]`, Border: `[hex]`
-- **Typography Pairing:** Display: `[Font]`, Body: `[Font]`, Telemetry: `[Font]`
-- **Hero Composition Archetype:** [Archetype 1-8 from rules/design-diversity-engine.md]
-- **Section Narrative Flow:** [Section 1] -> [Section 2] -> [Section 3] -> [Section 4] -> [Section 5]
-- **3D / WebGL Approach:** [Specific blueprint ID / Technical Category / or ZERO-WEBGL]
-- **Navigation Archetype:** [Archetype 1-5 from rules/navigation-footer-archetypes.md]
-- **Footer Archetype & Telemetry:** [Archetype 1-5 from rules/navigation-footer-archetypes.md]
+### Design Signature
+- **Sector & Archetype:** [e.g. Quant FinTech · Asymmetric Monolith]
+- **Chromatic Polarity & Tokens:** [Light/Dark Mode] · Bg: `[hex]`, Surface: `[hex]`, Accent: `[hex]` (Anti-Gold verified)
+- **Typography & Hero:** Display: `[Font]`, Body: `[Font]` · Hero: [Archetype 1-6]
+- **Mechanics & Mobile:** [Selected blueprint] · Mobile: [Graceful degradation strategy]
 ```
 
-### Phase 3: Select & Adapt Blueprints
-Pull modular patterns from `library/` adhering to the selected Archetypes:
-- `01-hero-sections`: Split heroes, cinematic editorial, monolithic type
-- `02-navigation`: Dynamic navigation archetypes (Full-Bleed, Scroll-Dock, Corner Telemetry, Dual-Tier, Split)
-- `03-typography`: Kinetic text orchestration & glyph scrubbers
-- `04-motion`: Parallax timeline scrubbers & spring dynamics
-- `05-3d-webgl`: 141 production 3D scenes categorized across 9 technical families (`rules/3d-webgl-selection-engine.md`) or Zero-WebGL
-- `06-product-showcase`: Kinetic hardware layer switchers
-- `07-pricing-features`: Inverted surface core capability matrices
-- `08-ecommerce`: Monolithic luxury cards & faceted sliding drawers
-- `09-forms-footers`: Bespoke footers across 5 architectural archetypes (`rules/navigation-footer-archetypes.md`)
-- `10-interactive-animations`: 125 curated Code & Chill mechanics (GSAP, springs, drag inertia)
-- `11-dashboards-data-viz`: High-density telemetry matrices, stepped SVG charts, and double-bezel KPI cards
-- `12-forms-validation-wcag`: Multi-step progressive disclosure allocation wizards with inline WCAG 2.1 AA/AAA
-- `13-web-styles`: 40 complete web design styles
-- `14-name-that-ui-dictionary`: 114 UI component definitions, DOM anatomy, WAI-ARIA standards
-- `15-design-system-typography`: Master typography hierarchy and CSS `:root` color tokens
-- `16-iconography-assets`: Monochrome vector icon standards, strict emoji ban, transparent cutouts
-- `17-programmatic-video`: 60 FPS programmatic React video reels, frame-accurate motion canvas, dynamic video textures, and timeline sequences (`commands/shaz-video.md`)
-
-### Phase 4: Generate Production Code
-Produce clean, production-ready TypeScript + Next.js + Tailwind code. No placeholder pseudo-code, no unresolved TODOs, no missing imports.
-
-### Phase 5: Dual Quality & Diversity Gate Audit
-Run the mandatory dual audit:
-1. **Diversity Gate Audit** (`checklists/diversity-gate.md`): Verify chromatic polarity, layout variety, section narrative derivation, 3D justification, navigation fit, footer authenticity, typography pairing, and anti-bento component variety.
-2. **Universal Quality Gate Audit** (`checklists/quality-gate.md`): Verify zero fluff, zero badges/pills/eyebrows, zero blinking/pulse lights, zero emojis, zero post-hero ticker strips, selective double-bezel, and clean media.
-
----
-
-## 5. Explanatory Output Protocol (Mandatory in Antigravity, Claude Code, and Codex)
-
-When executing `/shaz`, you must structure your response with clear architectural explanations before delivering code:
-1. **Architectural Rationale:** Explain why the specific layout, spatial hierarchy, and visual balance were chosen for the project.
-2. **Applied Universal Design Laws:** Explicitly cite which of the 18 Universal Design Laws are applied (e.g. Law 1 for single-sentence telemetry, Law 8 for selective surface hierarchy, Law 18 for bespoke favicon).
-3. **Blueprint & Token Specifications:** Specify exact blueprint IDs (from the 444+ library), typography pairing, surface color palette, and kinetic physics parameters.
-4. **Production-Ready Implementation:** Provide clean, unabridged, production-grade Next.js App Router, Tailwind CSS, Three.js, and Framer Motion code with zero placeholders.
+Immediately following the 4-line signature, deliver **100% complete, copy-pasteable, unabridged Next.js (App Router) + Tailwind CSS + Framer Motion code**. No placeholders, no unresolved TODOs, no missing imports.
