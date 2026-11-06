@@ -1,29 +1,34 @@
-Activate the full Shaz Agency Web Design Engine (`shaz-agency-web-design`).
-Strictly enforce all 18 Universal Design Laws:
+Activate the full Shaz Agency Web Design Engine (`shaz-agency-web-design`, see `SKILL.md`).
+
+Brief: $ARGUMENTS
+
+Strictly enforce all 21 Universal Design Laws (every "Banned" item is absolute):
 1. Zero Fluff Text (High-Density Editorial Copy)
 2. Zero Badges, Pills, Eyebrows, or Fake Coordinates
-3. Category-Driven Color Freedom (Strict Neon Prohibition)
-4. Zero Generic Templates, AI Clichés, or Dry Wireframes
+3. Category-Driven Color Freedom, Anti-Gold Mandate & Light-Mode Equality
+4. Zero Generic Templates, AI Clichés, or Cloned Instrument Curves
 5. Zero Third-Party Branding
-6. Zero Emojis & Mandatory Monochrome Vector Icons
+6. Zero Emojis, Zero Graphic Logo Emblems & Mandatory Monochrome Vector Icons
 7. Zero Comment Leaks, Zero Text-Polluted Backgrounds & Authentic Media
 8. Selective Surface Hierarchy (Never Force Universal Double-Bezel)
 9. Zero Post-Hero Telemetry Ticker Strips
 10. Seamless Atmospheric Section Transitions (Zero Razor Cuts)
-11. Hero Elements Purity (Strictly Backgroundless & Calm)
-12. Bespoke Non-Classic Footers
-13. Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter
-14. Isolated Transparent Imagery (Zero Boxed Photo Frames)
-15. Page Architecture Modality (One-Page vs Multi-Page Routing)
-16. Scroll-Morphing Collapsible Dock Navigation (Deterministic CSS Isolation)
+11. Hero Elements Purity & Anti-50/50 Cliché Mandate
+12. Architectural Master Horizon Footers (Zero Corporate Micro-Columns & Zero Ghost Watermarks)
+13. Absolute Ban on Eyebrows, Overlines & Micro-Telemetry Clutter (Zero "Üst Küçük Yazılar")
+14. Isolated Transparent Imagery & Zero Broken Asset Paths
+15. Page Architecture Modality (One-Page vs Multi-Page Routing Optionality)
+16. Dynamic Navigation Archetypes (Contextual Selection, Never Blind Capsule Default)
 17. Ecosystem & Technology Integration Infinite Marquee
-18. Bespoke Vector Favicon Architecture (Project-Tailored SVG)
+18. Bespoke Vector Favicon Architecture (Every Project Demands Tailored Brand Identity)
+19. Tactile Material Depth, Anti-Caricature & Zero Synthetic Slashes (`//`)
+20. Mandatory Anti-Template Layout & Component Diversity
+21. Universal Responsive Architecture & Mobile Fallbacks
 
-Consult `rules/contextual-activation-matrix.md` and select modular blueprints from all 16 library modules (444+ blueprints total: 141 WebGL scenes, 125 interactive animations, 40 web design styles, 114 NameThatUI dictionary components).
+Consult `rules/contextual-activation-matrix.md` for sector starting points and select modular blueprints from the 16 library modules (141 WebGL scenes, 125 interactive animations, 40 web design styles, 114 NameThatUI dictionary components), adapting any blueprint that conflicts with a law (`rules/variation-engine.md` §8).
 
-## Explanatory Output Protocol:
-Structure your response with clear architectural rationale before presenting code:
-1. Architectural Rationale: Explain layout, hierarchy, and spatial composition.
-2. Applied Universal Design Laws: Explicitly list governing laws.
-3. Blueprint & Design Tokens: Detail blueprint IDs, typography, colors, and motion physics.
-4. Production-Grade Implementation: Complete, executable Next.js App Router / Tailwind CSS / Three.js code with zero placeholders.
+## Before any code: Variation Engine (Step 0)
+Run `rules/variation-engine.md`: content inventory from the brief (never invent facts, numbers, addresses or clients) → concept artifact from the subject's own world → seed the axes (grid, type pairing, ground, hero, centerpiece, motion, navigation, footer) → one signature interaction → plain copy (no "elevate / seamless / unlock", no skill vocabulary such as telemetry, obsidian, monolith, atelier on the page) → self-critique (swap test, previous-output test, default-reflex test).
+
+## Output Protocol (compact)
+Print only the Design Signature from `SKILL.md` §5 (Concept · Seed · Tokens · Signature interaction & mobile · Defaults rejected), then complete, unabridged, production-grade code. No essays, no list of laws, no direction tables.

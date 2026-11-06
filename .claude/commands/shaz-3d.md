@@ -5,7 +5,5 @@ Enforce:
 - Graceful CSS radial gradient and backdrop-blur fallback.
 - Explicit lifecycle memory cleanup on unmount (`useEffect` return cleanup).
 
-## Explanatory Output Protocol:
-1. Shader & Math Breakdown: Detail vertex/fragment shaders and material physics.
-2. GPU Performance Budget: Explain buffer geometries and draw call optimization.
-3. Production Three.js / React Three Fiber Code: Complete, self-contained component.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

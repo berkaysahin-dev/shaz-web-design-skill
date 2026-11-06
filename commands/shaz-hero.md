@@ -21,6 +21,8 @@ Use this skill when the user runs `/shaz-hero [brief or industry]` or requests a
 
 ## 2. The 6 Mandatory Hero Archetypes
 
+> Pick the archetype seeded on `rules/variation-engine.md` Axis D and the centerpiece seeded on Axis E. A WebGL backdrop is one option out of seven, not the default: typography-only, SVG illustration, generative pattern, verified photography, real data and 2D canvas heroes are equally valid and often better.
+
 When generating a hero section, explicitly declare and execute one of these 6 archetypes:
 
 ### Archetype A: Full-Bleed Ambient Canvas / Shader Hero
@@ -55,10 +57,6 @@ When generating a hero section, explicitly declare and execute one of these 6 ar
 
 ---
 
-## 3. Explanatory Output Protocol
+## 3. Output Protocol (compact)
 
-When executing `/shaz-hero`:
-1. **Selected Hero Archetype:** Declare which of the 6 archetypes is selected and explain the spatial hierarchy.
-2. **Applied Universal Design Laws:** Cite the governing laws (Laws 1, 2, 3, 6, 8, 9, 11, 20).
-3. **Motion & Canvas Breakdown:** Detail the shaders, camera vectors, spring physics, or video textures.
-4. **Production Next.js / Tailwind Code:** Output complete, copy-pasteable TypeScript code with zero placeholders.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

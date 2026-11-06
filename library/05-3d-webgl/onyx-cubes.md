@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-Black chrome cubes floating weightless in a bright studio â shove them aside, or grab one and fling it.
+Black chrome cubes floating weightless in a bright studio — shove them aside, or grab one and fling it.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Onyx Cubes`
 - **Slug / ID:** `onyx-cubes`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** Black chrome cubes floating weightless in a bright studio â shove them aside, or grab one and fling it.
+- **Creative Concept:** Black chrome cubes floating weightless in a bright studio — shove them aside, or grab one and fling it.
 - **Atmospheric Tone & Mood:** `LIGHT` palette · `luxe, technical`
 - **Core Stack & Tags:** `threejs, shaders, interactive`
 - **Visual & Architectural Keywords:** `aside, black, blocks, boxes, bright, can, chrome, cubes, drag, element, expensive, fling, float, floating, grab, hardware, metal, objects, one, onyx, physics, room, shove, studio, them, throw, weightless, white, you`

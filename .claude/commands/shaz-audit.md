@@ -1,4 +1,4 @@
-Execute the Shaz Agency 16-point universal quality gate audit on the current workspace or components.
+Execute the Shaz Agency 25-point universal quality gate audit on the current workspace or components.
 Verify compliance with:
 1. Zero Fluff Text
 2. Zero Badges, Pills & Eyebrows

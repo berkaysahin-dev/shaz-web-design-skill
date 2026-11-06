@@ -51,9 +51,6 @@ When standard application interfaces are needed, pull from `library/14-name-that
 
 ---
 
-## 4. Explanatory Output Protocol
+## 4. Output Protocol (compact)
 
-When executing `/shaz-component`:
-1. **Component Architecture & Physics:** Explain the state machine, spring coefficients, and DOM anatomy.
-2. **WAI-ARIA Accessibility:** Document the semantic roles (`role="tablist"`, `aria-selected`, `aria-expanded`), keyboard triggers, and focus rings.
-3. **Production TypeScript Code:** Deliver complete, accessible, copy-pasteable Next.js / Tailwind code with zero placeholders.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

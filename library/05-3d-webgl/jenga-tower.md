@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-A Jenga tower standing in infinite white â knock it down with a click, and watch it rebuild itself.
+A Jenga tower standing in infinite white — knock it down with a click, and watch it rebuild itself.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Jenga Tower`
 - **Slug / ID:** `jenga-tower`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** A Jenga tower standing in infinite white â knock it down with a click, and watch it rebuild itself.
+- **Creative Concept:** A Jenga tower standing in infinite white — knock it down with a click, and watch it rebuild itself.
 - **Atmospheric Tone & Mood:** `LIGHT` palette · `playful, technical`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `balance, beams, before, blocks, clean, click, collapse, down, element, fall, game, infinite, invites, itself, jenga, knock, physics, product, rebuild, shove, space, stack, standing, tension, that, the, tower, toy, tumble, watch`

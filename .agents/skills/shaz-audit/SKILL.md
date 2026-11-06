@@ -1,6 +1,6 @@
 ---
 name: shaz-audit
-description: Runs the Shaz Agency 16-point universal quality gate audit on the current workspace or code to detect anti-patterns (fluff copy, pills, emojis, neon, comment leaks, layout overflows). Activated via slash command /shaz-audit.
+description: Runs the Shaz Agency 25-point universal quality gate audit on the current workspace or code to detect anti-patterns (fluff copy, pills, emojis, neon, comment leaks, layout overflows). Activated via slash command /shaz-audit.
 ---
 
 # /shaz-audit — Pre-Delivery Quality Gate Runner

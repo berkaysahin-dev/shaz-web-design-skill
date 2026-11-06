@@ -64,7 +64,7 @@ Pitch-black `#070709` is NOT the mandatory default. Light mode is a first-class 
 ### Authorized Patterns:
 - **Optical Material & Mineral Tones:** All colors must feel grounded in real physical materials (stone, metal, glass, fabric, ink, paper, wood).
 - **Matte & Restrained Accents:** Accent colors are applied with restraint (e.g., button fills, subtle hover borders, or typography emphasis) and remain matte, deep, and glare-free.
-- **Calibrated Micro-Interactions:** Animations must trigger in response to user intent (hover, scroll, focus, click) using damped spring physics (`stiffness: 280, damping: 24`).
+- **Calibrated Micro-Interactions:** Animations must trigger in response to user intent (hover, scroll, focus, click) using damped spring physics with the values of the project's seeded motion personality (`rules/variation-engine.md` Axis F).
 
 ---
 
@@ -78,10 +78,10 @@ Pitch-black `#070709` is NOT the mandatory default. Light mode is a first-class 
 - Generic bento grids filled with random stock icons and fluff metric counters.
 
 ### Authorized Patterns:
-- **Rich Visual Assets & Video Backdrops:** Real luxury photography, macro product close-ups, and 4K video textures (e.g., `https://www.vividsites.app/media/abyss.mp4` for horology/depth themes) integrated with silky backdrop blur overlays.
+- **Rich Visual Assets & Video Backdrops:** Real photography, macro product close-ups and text-free video supplied by the brief (or verified subject-accurate stock), integrated with soft overlays. Never hot-link another studio's showcase video.
 - **Active Kinematic & Scroll-Scrub Motion:** Use the verified motion mechanics from `shaz-agency-web-design` (e.g., 60fps lerp scroll-scrubbed video, GSAP continuous watch-hand kinematics, spring-damped interactive dials).
-- **Swiss Utilitarian Double-Bezel:** Outer tray (`.bezel-tray`) housing an inner card core (`.bezel-core`), establishing architectural hardware depth.
-- **Expressive Typography Pairs:** High-contrast serif headlines (`Instrument Serif`, italicized emphasis) contrasted against geometric grotesk or precision monospaced numerals (`JetBrains Mono`).
+- **Swiss Utilitarian Double-Bezel (within Law 8 only):** Outer tray (`.bezel-tray`) housing an inner card core (`.bezel-core`) for one or two deep lower-page containers; never as the page's default card.
+- **Expressive Typography Pairs:** A deliberate display + text pairing seeded from `rules/variation-engine.md` Axis B. Monospace numerals only where the content is tabular; the italic-serif focal word is used at most once per site, never by default.
 
 ---
 
@@ -179,13 +179,13 @@ The footer is the architectural closing of the digital sanctuary. Generic 4-colu
 - **Social Media Vanity Grids:** Colorful icons, badge pills, or generic newsletter subscribe inputs.
 
 ### Authorized Patterns:
-- **The Architectural Horizon Dialogue:** Opens with an authoritative, quiet editorial invitation sentence (e.g., *"Initiating dialogue for private commissions, acoustic architecture, and institutional installations worldwide."*) paired with a direct, minimalist single-line inquiry action (`inquire@valence.ch →` or `Schedule Private Consultation →` with a delicate sub-pixel hover underline).
+- **The Architectural Horizon Dialogue:** Opens with a quiet, plain invitation sentence written from the brief (e.g., *"Tell us what you're building and when you need it."*) paired with a direct, minimalist single-line inquiry action (`inquire@valence.ch →` or `Schedule Private Consultation →` with a delicate sub-pixel hover underline).
 - **Clean Symmetrical Navigation Deck (Zero Micro-Labels):** High-contrast editorial text links (`Architecture`, `Acoustic Physics`, `Private Commissions`, `Journal`, `Archive`) positioned cleanly without category header tags.
-- **Global Presence Horizon:** Physical ateliers and destinations listed in dignified, quiet typography (`Zürich · Seefeldstrasse 48`, `Kyoto · Gion South`, `New York · Tribeca`) without uppercase `LOCATIONS` or `PHYSICAL ATELIERS` prefixes.
+- **Global Presence Horizon (only real locations from the brief):** Physical ateliers and destinations listed in dignified, quiet typography (`Zürich · Seefeldstrasse 48`, `Kyoto · Gion South`, `New York · Tribeca`) without uppercase `LOCATIONS` or `PHYSICAL ATELIERS` prefixes.
 - **The Horizon Baseline:** Separated by a single 1px hairline border (`rgba(255, 255, 255, 0.08)`):
   * **Left:** Pure typographic copyright (`© 2026 VALENCE ATELIER. SWISS ARCHITECTURAL ACOUSTICS.`).
   * **Center:** Quiet legal and ethics links (`Privacy · Terms · Provenance · Colophon`).
-  * **Right:** Discrete local atelier time (`Zürich 20:15 CET`) without status dots, colored markers, or blinking indicators.
+  * **Right:** Discrete local time of a location the brief names (`Zürich 20:15 CET`) without status dots, colored markers, or blinking indicators. No real location given → omit the time rather than invent one (Law 2).
 - **Crisp Sculpted Brand Insignia:** An authoritative, perfectly kerned display typographic wordmark integrated with optical balance.
 
 ---
@@ -252,6 +252,8 @@ Web designs and digital products are NOT restricted to single-page / one-page fo
 
 ## 16. Scroll-Morphing Collapsible Dock Navigation
 
+> **Scope:** this section specifies the **Kinetic Two-Stage Scroll-Morphing Dock**, one of the five navigation archetypes (`SKILL.md` Law 16, `rules/navigation-footer-archetypes.md`). Its bans on static mega-bars, abrupt vanishing headers and jerky CSS jumps apply to every archetype; the two-stage state machine below applies when the dock is the seeded archetype (Variation Engine Axis G).
+
 ### Philosophy & Requirement:
 Navigation must adapt to viewport kinetic intent. When exploring a page, heavy header real estate distracts from editorial focus. The navigation bar must intelligently collapse upon downward scroll into a sleek, floating compact icon dock, and expand seamlessly when scrolling back to the top or when tapped.
 
@@ -279,6 +281,8 @@ Navigation must adapt to viewport kinetic intent. When exploring a page, heavy h
 ### Philosophy & Requirement:
 For modern technology agencies, enterprise platforms, and digital architectures (exemplified by the `shazagency.com` ecosystem standard), partner and engine integrations must be presented through an ultra-clean, infinite, uninterrupted brand marquee rather than static clunky grid cards.
 
+> **Scope:** this applies when the page presents integrations, partners, press or stockists **that the brief names**. A brand with none gets no marquee; never fill the belt with famous logos the brief did not mention (Law 5).
+
 ### Forbidden Anti-Patterns:
 - **Static Clunky Logo Grids:** Dumping 10 disparate grayscale sponsor boxes into a heavy rectangular grid table that looks like an old conference sponsor list.
 - **Tacky Colored Logos:** Displaying raw corporate brand colors that clash with the site's dark obsidian or calibrated palette.
@@ -290,11 +294,11 @@ For modern technology agencies, enterprise platforms, and digital architectures 
   * Seamless pause-on-hover (`:hover { animation-play-state: paused; }`) allowing deliberate inspection.
   * Bilateral edge feathering using modern CSS masks (`mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)`).
 - **High-Fidelity Monochromatic SVGs:**
-  * Precision vector silhouettes of leading intelligence and infrastructure stacks: Claude, Google, OpenAI/ChatGPT, Shopify, Meta, Stripe, Amazon, Supabase, Apple.
+  * Precision vector silhouettes of the integrations the brief names (for an AI agency that might be Claude, Google, OpenAI/ChatGPT, Shopify, Meta, Stripe, Amazon, Supabase, Apple).
   * Default state: Subtle monochrome slate tone (`#64748b` or `text-slate-400`, `opacity: 0.72`).
   * Hover state: Soft individual brand illumination (e.g. Claude `#D97757`, Supabase `#3ECF8E`, Shopify `#96BF48`, Stripe `#635BFF`) with gentle pill highlight backdrop (`background: rgba(..., 0.08)`).
 - **Hairline Integration Framing:**
-  * Encapsulated inside a single hairline card or borderless ambient band with a refined uppercase tracking kicker, free of decorative pills or generic badges.
+  * Encapsulated inside a single hairline card or borderless ambient band, introduced (if at all) by a normal heading — no uppercase kicker (Law 13), no decorative pills or generic badges.
 
 ---
 
