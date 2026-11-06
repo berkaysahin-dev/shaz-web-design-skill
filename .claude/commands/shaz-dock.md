@@ -5,7 +5,5 @@ Enforce:
 - Expandable drawer toggle opening full navigation overlay.
 - Bespoke vector favicon link (`<link rel="icon" type="image/svg+xml" href="favicon.svg">`) matching brand identity.
 
-## Explanatory Output Protocol:
-1. Kinetic State Machine: Explain scroll triggers, cubic-bezier timing, and blur values.
-2. CSS Scoping Breakdown: Detail how deterministic CSS rules eliminate responsive leaks.
-3. Production Code: Complete HTML/CSS/JS or Next.js React implementation with zero placeholders.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

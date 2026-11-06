@@ -24,21 +24,19 @@ Use this specialized skill when the user triggers `/shaz-editorial [brief]` or r
 
 ## 2. Specialized Sector & Theme Architecture: Cultural Journals & Editorial Publications
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Cultural Journals & Editorial Publications
 * **Typography Pairing:** Newsreader / Instrument Serif (Display Italics) + Neue Haas Grotesk + Plus Jakarta Sans
 * **Calibrated Color & Materiality:** Warm Swiss Paper (#F4F1EA), Deep Printer's Ink (#111113), Smoked Umber (#4A4238), Pale Linen (#EAE6DF)
 * **Hero Composition Archetype:** Fullscreen Monolithic Editorial Curtain with issue index disclosure
 * **3D / Ambient Strategy:** STRICTLY ZERO WEBGL (Substituted with high-resolution tactile print scans and CSS paper grain)
-* **Core Interactive Mechanic:** Interactive Glyph Scrubber & Reading Progress Timeline (glyph.md, reading-progress.md)
+* **Core Interactive Mechanic:** Interactive Glyph Scrubber & Reading Progress Timeline (glyph.md, progress-indicators.md)
 * **Navigation Archetype:** Editorial Masthead & Journal Header with issue edition date
 * **Footer Architecture:** Editorial Colophon Horizon Footer with contributors and archive index
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-editorial`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

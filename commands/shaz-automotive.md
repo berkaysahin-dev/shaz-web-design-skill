@@ -24,21 +24,19 @@ Use this specialized skill when the user triggers `/shaz-automotive [brief]` or 
 
 ## 2. Specialized Sector & Theme Architecture: Hypercars, EV Mobility & Motorsport Engineering
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Hypercars, EV Mobility & Motorsport Engineering
 * **Typography Pairing:** Druk Wide 700 (Oversized Velocity) + Outfit (Controls) + JetBrains Mono (G-Force Metrics)
 * **Calibrated Color & Materiality:** Carbon Graphite (#0F1014), Anodized Titanium (#8F9298), Liquid Obsidian (#060709), Calibrated Racing Amber
 * **Hero Composition Archetype:** Kinetic Horizontal Panoramic Strip Hero (Coverflow Rail)
-* **3D / Ambient Strategy:** Aerodynamic Slipstream & Fluid Metal (slipstream.md, viscous-fluid-metal.md, cad-wireframe-inspector.md)
+* **3D / Ambient Strategy:** Aerodynamic Slipstream & Fluid Metal (slipstream.md, mercury.md, monolithic-wireframe-telemetry.md)
 * **Core Interactive Mechanic:** Chassis Mass & Downforce Interactive Slider with spring damping (cart.md)
 * **Navigation Archetype:** Scroll-Morphing Velocity Dock with aerodynamic contour
 * **Footer Architecture:** Motorsport Engineering Horizon Footer with technical telemetry directory
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-automotive`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

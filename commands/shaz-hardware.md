@@ -24,21 +24,19 @@ Use this specialized skill when the user triggers `/shaz-hardware [brief]` or re
 
 ## 2. Specialized Sector & Theme Architecture: Physical Hardware, Robotics & Acoustic Devices
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Physical Hardware, Robotics & Acoustic Devices
 * **Typography Pairing:** Druk Wide 700 + Outfit + JetBrains Mono (Exploded Layer Indices)
 * **Calibrated Color & Materiality:** Matte Basalt (#111216), Brushed Anodized Titanium (#A2A6B0), Pure White (#FFFFFF), Amber Hairline
 * **Hero Composition Archetype:** Monolithic Hardware Dossier (Kinetic Spec Showcase)
-* **3D / Ambient Strategy:** CAD Wireframe Inspector & Exploded Assembly (cad-wireframe-inspector.md, monolithic-wireframe-telemetry.md)
+* **3D / Ambient Strategy:** CAD Wireframe Inspector & Exploded Assembly (monolithic-wireframe-telemetry.md, monolithic-wireframe-telemetry.md)
 * **Core Interactive Mechanic:** Acoustic Layer Switcher & Exploded View with sub-pixel crossfade (cart.md)
 * **Navigation Archetype:** Scroll-Morphing Dock with hardware spec drawer trigger
 * **Footer Architecture:** Manufacturing Precision Horizon Footer with ISO certification tolerances
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-hardware`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

@@ -19,9 +19,5 @@ Use this skill when the user runs `/shaz-component [component-type]` (e.g. comma
 3. **Monochrome Vector Icons:** Inline SVG or Lucide React icons with uniform 1.5px–1.75px stroke width (Law 6).
 4. **WAI-ARIA Accessibility:** Semantic HTML tags, complete keyboard navigation (`Tab`, `Escape`, arrow keys), visible focus rings, and explicit ARIA states (`aria-selected`, `aria-expanded`).
 
-## Explanatory Output Protocol (Mandatory in Antigravity, Claude Code, and Codex):
-When executing this command, you must structure your output with clear explanations:
-1. **Component DOM Anatomy & Interaction Design:** Detail the markup hierarchy, state management, and keyboard handling.
-2. **WAI-ARIA & Accessibility Specification:** Explain the roles, attributes, and focus management implemented.
-3. **Applied Design Laws & Tokens:** List the governing laws and specific spacing/color tokens used.
-4. **Production TypeScript Next.js / Tailwind Code:** Output fully typed, accessible, production-grade code with zero placeholders.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

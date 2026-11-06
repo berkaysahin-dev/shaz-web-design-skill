@@ -70,10 +70,10 @@ These patterns are **NOT** banned because they are wrong — they are banned whe
 
 ## 4. The 3-Direction Exploration Protocol
 
-For every new brief, generate **3 genuinely distinct design directions** before writing code:
+For every new brief, consider **3 genuinely distinct design directions** internally before writing code (do not print them; the Design Signature records the outcome):
 
 1. **Direction A (Conservative Mastery):** The most disciplined, direct interpretation of the sector's traditional materiality.
 2. **Direction B (Editorial / Asymmetric):** High-typography, generous negative space, unexpected grid breaks, magazine layout.
 3. **Direction C (Avant-Garde / Kinetic):** High-interaction, experimental canvas, unconventional navigation, extreme contrast.
 
-Document why the chosen direction wins, and state explicitly which common AI defaults were deliberately rejected.
+State the winning concept and the rejected defaults in the Design Signature (`SKILL.md` §5). The axis values themselves come from `rules/variation-engine.md`, so the three directions start from the seeded combination rather than from the skill's favourite look.

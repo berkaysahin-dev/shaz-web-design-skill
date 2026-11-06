@@ -5,8 +5,5 @@ Enforce:
 - Monochrome vector SVG icons (`stroke-current`, 1.5px–1.75px stroke width).
 - Full WAI-ARIA compliance, complete keyboard navigation (`Tab`, `Escape`), and visible focus rings.
 
-## Explanatory Output Protocol:
-1. Component DOM Anatomy: Detail markup structure and state logic.
-2. WAI-ARIA Specification: Explain roles, attributes, and keyboard listeners.
-3. Applied Design Laws: Cite governing laws.
-4. Production TypeScript Next.js Code: Fully typed, accessible component code with zero placeholders.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

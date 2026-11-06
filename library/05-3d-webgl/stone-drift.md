@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-Black basalt rocks drifting and colliding over a white studio field â sweep the cursor to scatter them.
+Black basalt rocks drifting and colliding over a white studio field — sweep the cursor to scatter them.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Stone Drift`
 - **Slug / ID:** `stone-drift`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** Black basalt rocks drifting and colliding over a white studio field â sweep the cursor to scatter them.
+- **Creative Concept:** Black basalt rocks drifting and colliding over a white studio field — sweep the cursor to scatter them.
 - **Atmospheric Tone & Mood:** `LIGHT` palette · `calm, organic`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `basalt, black, boulders, calm, collide, colliding, collision, cursor, drift, drifting, element, field, float, floating, gallery, granite, gravity, grey, minimal, pebbles, quiet, rocks, scatter, soft, stone, stones, studio, sweep, them, weight`

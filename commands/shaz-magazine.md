@@ -24,6 +24,8 @@ Use this specialized skill when the user triggers `/shaz-magazine [brief]` or re
 
 ## 2. Specialized Sector & Theme Architecture: Design Styles: Editorial Magazine & Press
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Design Styles: Editorial Magazine & Press
 * **Typography Pairing:** Newsreader / Playfair Display (Serif Lead) + Plus Jakarta Sans + JetBrains Mono
 * **Calibrated Color & Materiality:** Printer's Newsprint (#F9F8F5), Deep Carbon (#111215), Slate Border (#D1D5DB)
@@ -35,10 +37,6 @@ Use this specialized skill when the user triggers `/shaz-magazine [brief]` or re
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-magazine`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.
