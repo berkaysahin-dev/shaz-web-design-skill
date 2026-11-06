@@ -51,9 +51,6 @@ Selected from the master blueprints in `library/13-web-styles/`:
 
 ---
 
-## 4. Explanatory Output Protocol
+## 4. Output Protocol (compact)
 
-When executing `/shaz-style`:
-1. **Style Anatomy & Materiality:** Explain the historical roots, typographic baseline alignment, and material tokens.
-2. **Applied Design Laws:** Cite the governing laws (Laws 1, 3, 6, 8, 19, 20).
-3. **Production Component Code:** Output the complete, fully responsive Next.js / Tailwind CSS component with zero placeholders.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

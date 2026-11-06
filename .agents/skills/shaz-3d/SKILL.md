@@ -19,8 +19,5 @@ Use this skill when the user runs `/shaz-3d [scene-type]` or requests interactiv
 3. **Graceful Fallback:** Include CSS radial gradient and backdrop-blur fallback for non-WebGL environments.
 4. **Lifecycle Discipline:** Proper cleanup of geometry, materials, and requestAnimationFrame loops on unmount (`useEffect` return hook).
 
-## Explanatory Output Protocol (Mandatory in Antigravity, Claude Code, and Codex):
-When executing this command, you must structure your output with clear explanations:
-1. **Shader & Math Breakdown:** Explain vertex/fragment shader formulas, light positioning, and material properties.
-2. **Performance & Optimization Notes:** Detail buffer geometries, draw calls, particle limits, and GPU memory management.
-3. **Production Next.js / Three.js Code:** Output complete, self-contained React Three Fiber or vanilla Three.js component code with zero placeholders.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

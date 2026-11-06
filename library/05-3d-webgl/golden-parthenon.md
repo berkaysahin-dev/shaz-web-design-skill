@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-The Parthenon at golden hour, with the sun on a leash â sweep the cursor and the light travels across the colonnade.
+The Parthenon at golden hour, with the sun on a leash — sweep the cursor and the light travels across the colonnade.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Golden Parthenon`
 - **Slug / ID:** `golden-parthenon`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** The Parthenon at golden hour, with the sun on a leash â sweep the cursor and the light travels across the colonnade.
+- **Creative Concept:** The Parthenon at golden hour, with the sun on a leash — sweep the cursor and the light travels across the colonnade.
 - **Atmospheric Tone & Mood:** `DARK` palette · `luxe`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `across, antiquity, architecture, cinematic, colonnade, columns, cursor, dusk, element, golden, golden-hour, greece, greek, history, hour, leash, light, marble, museum, parthenon, ruin, ruins, stone, sun, sunset, sweep, temple, travels, vista, warm`

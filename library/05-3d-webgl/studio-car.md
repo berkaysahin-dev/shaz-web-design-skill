@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-A sports car on a dark cyclorama, waiting to be configured â pick a paint, a wheel, a finish, and the camera flies to show you.
+A sports car on a dark cyclorama, waiting to be configured — pick a paint, a wheel, a finish, and the camera flies to show you.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Studio Car`
 - **Slug / ID:** `studio-car`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** A sports car on a dark cyclorama, waiting to be configured â pick a paint, a wheel, a finish, and the camera flies to show you.
+- **Creative Concept:** A sports car on a dark cyclorama, waiting to be configured — pick a paint, a wheel, a finish, and the camera flies to show you.
 - **Atmospheric Tone & Mood:** `DARK` palette · `luxe, technical`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `and, automotive, camera, can, car, chrome, configurator, configured, cyclorama, dark, ecommerce, element, finish, flies, hard, lacquer, light, night, paint, pick, product, show, showroom, spec, sports, sportscar, studio, vehicle, waiting, wet`

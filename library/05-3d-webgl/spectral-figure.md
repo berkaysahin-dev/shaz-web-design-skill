@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-A figure made only of light â thickening to a glow through the torso, dissolving at the feet.
+A figure made only of light — thickening to a glow through the torso, dissolving at the feet.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Spectral Figure`
 - **Slug / ID:** `spectral-figure`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** A figure made only of light â thickening to a glow through the torso, dissolving at the feet.
+- **Creative Concept:** A figure made only of light — thickening to a glow through the torso, dissolving at the feet.
 - **Atmospheric Tone & Mood:** `DARK` palette · `technical, calm`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `additive, apparition, aura, body, calm, diagnostic, dissolving, element, ethereal, feet, figure, ghost, glow, human, light, made, only, person, quiet, rings, scan, scanner, silhouette, spectral, thickening, through, torso, xray`

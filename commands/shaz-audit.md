@@ -1,9 +1,9 @@
 ---
 name: shaz-audit
-description: "TR: Çalışma alanını 22 noktalı evrensel Shaz kalite kapısı denetiminden geçirir (boş laf, logo, yanıp sönen ışık, 50/50 hero, kopya slider hatalarını tespit eder). / EN: Runs the Shaz Agency 22-point universal quality gate audit on the workspace to detect and eliminate all anti-patterns."
+description: "TR: Çalışma alanını 25 noktalı evrensel Shaz kalite kapısı denetiminden geçirir (boş laf, logo, yanıp sönen ışık, 50/50 hero, kopya slider hatalarını tespit eder). / EN: Runs the Shaz Agency 25-point universal quality gate audit on the workspace to detect and eliminate all anti-patterns."
 ---
 
-# /shaz-audit — 22-Point Universal Quality Gate Runner
+# /shaz-audit — 25-Point Universal Quality Gate Runner
 
 Use this skill when the user runs the `/shaz-audit` slash command or requests an automated compliance audit of code quality, design fidelity, and anti-template rules.
 

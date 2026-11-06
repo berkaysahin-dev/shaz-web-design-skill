@@ -24,21 +24,19 @@ Use this specialized skill when the user triggers `/shaz-luxury [brief]` or requ
 
 ## 2. Specialized Sector & Theme Architecture: Haute Horlogerie & Luxury Manufactures
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Haute Horlogerie & Luxury Manufactures
 * **Typography Pairing:** Druk Wide 700 (Display) + Newsreader/Cinzel (Editorial) + Plus Jakarta Sans (Body) + JetBrains Mono (Horological Specs)
 * **Calibrated Color & Materiality:** Deep Obsidian (#070709), Raw Titanium (#A2A6B0), Brushed Champagne Gold (#C5A059 at 0.3 hairline), Basalt Slate (#12141B)
 * **Hero Composition Archetype:** Asymmetric Monumental Typography Hero or Full-Bleed Ambient Canvas
-* **3D / Ambient Strategy:** Optical PBR Glass & Caustics (pbr-dispersion-glass-stage.md, caustic.md, analog-mechanism.md)
+* **3D / Ambient Strategy:** Optical PBR Glass & Caustics (pbr-dispersion-glass-stage.md, caustic.md, gilded-gyre.md)
 * **Core Interactive Mechanic:** 3D Coverflow Monolith (monolith.md) with spring-damped specimen selection or Faceted Spec Drawer
 * **Navigation Archetype:** Scroll-Morphing Collapsible Dock with bespoke vector watch hand favicon
 * **Footer Architecture:** Architectural Master Horizon Footer with discreet local atelier time (zero status dots)
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-luxury`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

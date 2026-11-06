@@ -63,10 +63,6 @@ To guarantee that text links and secondary actions never leak out of the contrac
 
 ---
 
-## 4. Explanatory Output Protocol
+## 4. Output Protocol (compact)
 
-When executing `/shaz-dock`:
-1. **Selected Navigation Archetype:** Declare the chosen archetype and explain why it fits the domain.
-2. **CSS Specificity Breakdown:** Explain how the deterministic scoped rules prevent responsive leaks.
-3. **Vector Favicon Definition:** Include the matching project-specific vector SVG favicon.
-4. **Production TypeScript Code:** Deliver complete, copy-pasteable Next.js client component code.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

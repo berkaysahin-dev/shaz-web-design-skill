@@ -33,8 +33,5 @@ Use this skill when the user runs `/shaz-dock [nav-links or brand]` or requests 
 3. **Expandable Full Drawer:** Scrolled dock features a toggle trigger opening an architectural full-screen drawer on demand.
 4. **Bespoke Vector Favicon Link (Law 18):** Generates matching `<link rel="icon" type="image/svg+xml" href="favicon.svg">` and inline SVG favicon markup.
 
-## Explanatory Output Protocol (Mandatory in Antigravity, Claude Code, and Codex):
-When executing this command, you must structure your output with clear explanations:
-1. **Kinetic State Machine:** Explain the scroll trigger threshold (`scrollY > 80px`), transition durations, and backdrop-blur properties.
-2. **CSS Specificity Breakdown:** Explain how the deterministic scoped rules prevent responsive utility leaks.
-3. **Production Implementation:** Provide complete HTML/CSS/JS or Next.js React component code with zero placeholders.
+## Output Protocol (compact):
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, executable, copy-pasteable code with zero placeholders. No essays, no list of laws.

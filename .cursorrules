@@ -1,32 +1,39 @@
 # Shaz Agency Web Design Engine — Agent Directives
 
-Strictly adhere to the 18 Universal Design Laws for all frontend engineering:
-- Law 1: Zero Fluff Text
-- Law 2: Zero Badges, Pills & Eyebrows
-- Law 3: Category-Driven Color Freedom (Strict Neon Prohibition)
-- Law 4: Zero Generic Templates, AI Clichés, or Dry Wireframes
-- Law 5: Zero Third-Party Branding
-- Law 6: Zero Emojis & Mandatory Monochrome Vector Icons
-- Law 7: Zero Comment Leaks & Clean Background Media
-- Law 8: Selective Surface Hierarchy (Never Force Universal Double-Bezel)
-- Law 9: Zero Post-Hero Telemetry Ticker Strips
-- Law 10: Seamless Atmospheric Section Transitions
-- Law 11: Hero Elements Purity (Strictly Backgroundless & Calm)
-- Law 12: Bespoke Non-Classic Footers
-- Law 13: Absolute Prohibition of Eyebrows & Overlines
-- Law 14: Isolated Transparent Imagery (Zero Boxed Photo Frames)
-- Law 15: Page Architecture Modality (One-Page vs Multi-Page Routing)
-- Law 16: Scroll-Morphing Collapsible Dock Navigation (Deterministic CSS Scoping)
-- Law 17: Ecosystem & Technology Integration Infinite Marquee
-- Law 18: Bespoke Vector Favicon Architecture
+Strictly adhere to the 21 Universal Design Laws in `SKILL.md` for all frontend engineering (every "Banned" item is absolute):
+1. Zero Fluff Text (High-Density Editorial Copy)
+2. Zero Badges, Pills, Eyebrows, or Fake Coordinates
+3. Category-Driven Color Freedom, Anti-Gold Mandate & Light-Mode Equality
+4. Zero Generic Templates, AI Clichés, or Cloned Instrument Curves
+5. Zero Third-Party Branding
+6. Zero Emojis, Zero Graphic Logo Emblems & Mandatory Monochrome Vector Icons
+7. Zero Comment Leaks, Zero Text-Polluted Backgrounds & Authentic Media
+8. Selective Surface Hierarchy (Never Force Universal Double-Bezel)
+9. Zero Post-Hero Telemetry Ticker Strips
+10. Seamless Atmospheric Section Transitions (Zero Razor Cuts)
+11. Hero Elements Purity & Anti-50/50 Cliché Mandate
+12. Architectural Master Horizon Footers (Zero Corporate Micro-Columns & Zero Ghost Watermarks)
+13. Absolute Ban on Eyebrows, Overlines & Micro-Telemetry Clutter (Zero "Üst Küçük Yazılar")
+14. Isolated Transparent Imagery & Zero Broken Asset Paths
+15. Page Architecture Modality (One-Page vs Multi-Page Routing Optionality)
+16. Dynamic Navigation Archetypes (Contextual Selection, Never Blind Capsule Default)
+17. Ecosystem & Technology Integration Infinite Marquee
+18. Bespoke Vector Favicon Architecture (Every Project Demands Tailored Brand Identity)
+19. Tactile Material Depth, Anti-Caricature & Zero Synthetic Slashes (`//`)
+20. Mandatory Anti-Template Layout & Component Diversity
+21. Universal Responsive Architecture & Mobile Fallbacks
+
+## Before any code: Variation Engine (Step 0)
+Run `rules/variation-engine.md`: content inventory from the brief (never invent facts, numbers, addresses or clients) → concept artifact from the subject's own world → seed the axes (grid, type pairing, ground, hero, centerpiece, motion, navigation, footer) → one signature interaction → plain copy (no "elevate / seamless / unlock", no skill vocabulary such as telemetry, obsidian, monolith, atelier on the page) → self-critique (swap test, previous-output test, default-reflex test).
+
+## Output Protocol (compact)
+Print only the Design Signature from `SKILL.md` §5 (Concept · Seed · Tokens · Signature interaction & mobile · Defaults rejected), then complete, unabridged, production-grade code. No essays, no list of laws, no direction tables.
 
 Available Slash Commands:
 - /shaz [brief]: Master autonomous design engine
-- /shaz-audit: 16-point quality gate audit runner
-- /shaz-hero: Backgroundless, high-cinematic hero generator
-- /shaz-3d: 141 WebGL and Three.js shader stage generator
-- /shaz-style: 40 Authentic web style synthesizers
+- /shaz-audit: 25-point quality gate audit runner
+- /shaz-hero: Backgroundless hero generator (6 archetypes, seeded centerpiece)
+- /shaz-3d: 141 WebGL and Three.js shader stages (only when the subject is physical or spatial)
+- /shaz-style: 40 authentic web style synthesizers
 - /shaz-dock: Kinetic scroll-morphing collapsible dock navigation
 - /shaz-component: 114 NameThatUI dictionary components
-
-When executing any command, provide structured architectural explanations before presenting complete, unabridged, production-grade code.
