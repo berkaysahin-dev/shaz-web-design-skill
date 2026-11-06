@@ -1,6 +1,6 @@
 ---
 name: shaz-acid
-description: "TR: Yeraltı tekno festivalleri, deneysel plak şirketleri ve asit grafikler için toksik yeşil, erimiş krom, zifiri siyah ve kinetik bozulmalar üretir. / EN: Generates underground acid graphics, rave techno aesthetics, and experimental audio labels with pitch black voids, toxic acid greens, and molten chrome distortion."
+description: "TR: Yeraltı tekno festivalleri, deneysel plak şirketleri ve asit grafikler için mat asit yeşili, erimiş krom, zifiri siyah ve kinetik bozulmalar üretir. / EN: Generates underground acid graphics, rave techno aesthetics, and experimental audio labels with pitch black voids, matte acid greens, and molten chrome distortion."
 ---
 
 # /shaz-acid — Underground Acid Graphics & Rave Tekno Architect
@@ -24,21 +24,19 @@ Use this specialized skill when the user triggers `/shaz-acid [brief]` or reques
 
 ## 2. Specialized Sector & Theme Architecture: Design Styles: Acid Graphics & Underground Rave
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Design Styles: Acid Graphics & Underground Rave
 * **Typography Pairing:** Tilt Warp (Warped Display) + Druk Wide 700 + Monospace Sci-Fi
-* **Calibrated Color & Materiality:** Pitch Black (#0A0A09), Toxic Acid Green (#91FE01), Molten Liquid Chrome, Hot Magenta (#FF007F)
+* **Calibrated Color & Materiality:** Pitch Black (#0A0A09), Matte Acid Chartreuse (#A8B636, never fluorescent — Law 3), Molten Liquid Chrome, Matte Raspberry (#B2365F)
 * **Hero Composition Archetype:** Experimental Kinetic Distortion Hero with edge-to-edge typography
-* **3D / Ambient Strategy:** Plasma Burst & Viscous Metal (plasma-burst.md, viscous-fluid-metal.md, vortex.md)
+* **3D / Ambient Strategy:** Plasma Burst & Viscous Metal (plasma-burst.md, mercury.md, vortex.md)
 * **Core Interactive Mechanic:** Kinetic Character Glyph Scrubber with mouse coordinate warping (glyph.md)
 * **Navigation Archetype:** Fullscreen Kinetic Overlay Trigger with oversized brutalist index
 * **Footer Architecture:** Monumental Poster Footer with live doors-open countdown timer
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-acid`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

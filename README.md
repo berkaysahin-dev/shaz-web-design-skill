@@ -4,6 +4,21 @@ An autonomous, production-grade AI web design skill engineered for Antigravity, 
 
 ---
 
+## What's New — Variation Engine (Anti-Sameness & Anti-Slop)
+
+**TR:** Önceki sürümde skill'in kendi örnekleri her projenin varsayılanı haline geliyordu: koyu zemin, italik serif vurgu kelimesi, mono etiketler, camsı 3D hero, coverflow, logo şeridi, şehir+saat footer. Sonuç: her seferinde aynı tasarım. Artık her `/shaz` çalışması `rules/variation-engine.md` ile başlıyor. Yasaklar (yanıp sönen ışık, neon, eyebrow, logo, emoji, 50/50 hero vb.) aynen geçerli.
+
+**EN:** Every `/shaz` run now starts with `rules/variation-engine.md`:
+1. **Content inventory** from the brief only. No invented metrics, clients, addresses, coordinates or clocks.
+2. **Concept artifact** from the subject's own world (an order slip, a timetable, a herbarium sheet), not from the skill's luxury vocabulary.
+3. **Seeded axes** (brand name → S / L / F) choose grid, type pairing (24 Google Fonts pairs), ground, hero archetype, visual centerpiece, motion personality, navigation and footer layout, so different briefs land on different combinations.
+4. **One signature interaction**, plain human copy with a banned-word list, and a **self-critique** (swap test, previous-output test, default-reflex test) before delivery.
+5. **Blueprint adaptation table:** neon, glows, pulsing dots and eyebrows found in library blueprints are translated to law-compliant equivalents.
+
+Also fixed: neon hex values that sector rules recommended despite the neon ban, references to 10 blueprint files that did not exist, conflicting output protocols (compact signature vs. long explanations vs. 3-direction tables), and mismatched law/audit counts.
+
+---
+
 ## 1. The Universal Design Laws (25 Architectural Directives)
 
 Every component, page, layout, and prompt produced by this skill adheres to 23 non-negotiable architectural laws across all project categories (SaaS, FinTech, Industrial, Architecture, Biotech, Automotive, Luxury, Portfolios):
@@ -65,10 +80,11 @@ shaz-web-design-skill/
 │   ├── shaz-style.md                               # 40 Authentic design styles synthesizer
 │   ├── shaz-component.md                           # 114 NameThatUI dictionary component generator
 │   ├── shaz-video.md                               # Programmatic 60 FPS React video & motion graphics engine
-│   └── shaz-audit.md                               # 22-Point quality gate & compliance auditor
+│   └── shaz-audit.md                               # 25-Point quality gate & compliance auditor
 │
 ├── rules/
-│   ├── design-rules.md                             # 23 Universal design laws & anti-pattern matrix
+│   ├── variation-engine.md                         # Step 0: concept, seeded axes, copy rules, self-critique
+│   ├── design-rules.md                             # 25 detailed design rules & anti-pattern matrix
 │   ├── section-composition-engine.md               # 6 Hero & section composition archetypes (Anti-50/50 split)
 │   ├── design-diversity-engine.md                  # Automated diversity evaluation & anti-slop enforcement
 │   ├── navigation-footer-archetypes.md             # 5 Nav & 5 bespoke footer archetypes
@@ -81,7 +97,7 @@ shaz-web-design-skill/
 │   └── multi-platform-adaptivity.md                # Mapping Double-Bezel to SwiftUI, React Native & Flutter
 │
 ├── checklists/
-│   ├── quality-gate.md                             # 22-Point pre-delivery quality audit checklist
+│   ├── quality-gate.md                             # 25-Point pre-delivery quality audit checklist
 │   └── diversity-gate.md                           # Design diversity & anti-slop audit checklist
 │
 ├── tests/
@@ -138,7 +154,7 @@ Add the following reference to your agent instruction file (`CLAUDE.md`, `.curso
 When designing user interfaces, sections, landing pages, or web applications, strictly follow the Shaz Agency Web Design skill specification located at:
 https://github.com/berkaysahin-dev/shaz-web-design-skill
 
-Enforce the 23 Universal Design Laws: zero fluff copy, zero badges/pills, zero eyebrows, zero emojis, category-driven color (strict neon ban), selective double-bezel hierarchy, seamless atmospheric transitions, backgroundless hero centerpieces, bespoke non-classic footers, page architecture modality, scroll-morphing collapsible dock, ecosystem marquee, bespoke vector favicon architecture, strict logo prohibition, strict anti-50/50 hero split, anti-formula component diversity, zero toy 3D meshes, and zero blinking lights.
+Enforce the 21 Universal Design Laws: zero fluff copy, zero badges/pills, zero eyebrows, zero emojis, category-driven color (strict neon ban), selective double-bezel hierarchy, seamless atmospheric transitions, backgroundless hero centerpieces, bespoke non-classic footers, page architecture modality, scroll-morphing collapsible dock, ecosystem marquee, bespoke vector favicon architecture, strict logo prohibition, strict anti-50/50 hero split, anti-formula component diversity, zero toy 3D meshes, and zero blinking lights.
 ```
 
 ---
@@ -150,8 +166,8 @@ The skill natively provides **44 specialized slash commands** compatible across 
 ### 5.1 Master Engines & Quality Auditing
 | Slash Command | Compatible Platforms | Purpose & Description (TR / EN) |
 | :--- | :--- | :--- |
-| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Ana otonom web tasarım motoru. 23 evrensel kuralı, çeşitlilik motorunu ve 444+ blueprinti çalıştırır.<br>**EN:** Master autonomous design engine executing all 23 universal design laws, diversity engine, and 444+ blueprints. |
-| **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 22 noktalı kalite ve uyumluluk denetçisi. Boş laf, hap buton, emoji, üst küçük yazılar ve yanıp sönen ışıkları tarar.<br>**EN:** 22-Point pre-delivery quality gate auditor scanning for fluff, pills, emojis, upper micro-labels, and blinking lights. |
+| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Ana otonom web tasarım motoru. 21 evrensel kuralı, çeşitlilik motorunu ve 444+ blueprinti çalıştırır.<br>**EN:** Master autonomous design engine executing all 23 universal design laws, diversity engine, and 444+ blueprints. |
+| **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 25 noktalı kalite ve uyumluluk denetçisi. Boş laf, hap buton, emoji, üst küçük yazılar ve yanıp sönen ışıkları tarar.<br>**EN:** 25-Point pre-delivery quality gate auditor scanning for fluff, pills, emojis, upper micro-labels, and blinking lights. |
 | **`/shaz-hero [industry]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 6 farklı arketipte (50/50 bölünme yasağına uygun) arka plansız sinematik hero bölümü üretici.<br>**EN:** Generates backgroundless cinematic hero sections across 6 distinct composition archetypes (strict anti-50/50 split). |
 | **`/shaz-dock [nav-items]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Kaydırıldığında kompakt yüzen ikon dock'una dönüşen iki aşamalı kinetik navigasyon ve özel vektör favicon üretici.<br>**EN:** Generates two-stage kinetic scroll-morphing collapsible dock navigation with deterministic CSS isolation and bespoke vector favicon. |
 | **`/shaz-3d [scene-type]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 141 doğrulanmış 3D/WebGL sahnesinden sektöre uygun PBR cam, akışkan cıva ve dispersiyon sahneleri üretici.<br>**EN:** Dedicated WebGL & Three.js shader stage generator selecting from 141 3D blueprints with zero toy meshes. |
@@ -218,7 +234,7 @@ When any command is invoked in Antigravity, Claude Code, or Codex, the agent adh
 
 ## 6. Automated Quality Audit & Compliance Gate
 
-To verify that your project complies with all 23 design laws and the 22-point quality gate criteria, run the automated test suite:
+To verify that your project complies with all 21 universal design laws and the 25-point quality gate criteria, run the automated test suite:
 
 ```powershell
 # PowerShell (Windows)

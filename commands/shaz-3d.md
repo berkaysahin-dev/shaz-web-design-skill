@@ -7,6 +7,8 @@ description: "TR: 141 WebGL/Three.js sahnesinden (PBR dispersiyon camı, kostik 
 
 Use this skill when the user runs `/shaz-3d [scene-type]` or requests interactive 3D canvases, custom shaders, or WebGL particle backgrounds adhering to Shaz Agency engineering standards.
 
+> **When to use 3D at all:** inside a full `/shaz` page, a WebGL scene is used only when Variation Engine Axis E lands on WebGL **and** the subject is physical or spatial, and the chosen scene must depict that subject. A generic glass, particle or dispersion blob placed on any site is filler (Law 4). Called directly with `/shaz-3d`, the user has asked for 3D — build it, still under every ban below.
+
 ---
 
 ## 1. Absolute Anti-Pattern Bans (Laws 3, 7, 11, 20, 22)
@@ -28,7 +30,7 @@ Every 3D scene must be selected from the verified blueprints in `library/05-3d-w
 4. **Particle Point Clouds & Galaxy Meshes:** `cosmic-web.md`, `wave-galaxy.md`, `starfield-close.md`, `spiral-galaxy.md`.
 5. **Procedural Terrain & Elevation:** `procedural-topographic-elevation.md`, `scroll-terrain.md`, `tidal-contours.md`.
 6. **2D Canvas Shaders & Dither Fields:** `dither-field.md`, `halftone.md`, `chroma-lattice.md`, `lumen-grid.md`.
-7. **Architectural Monoliths & Geometries:** `monolith-grove.md`, `fluted-veil.md`, `grain-cubes.md`, `onyx-cubes.md`.
+7. **Architectural Monoliths & Geometries:** `orange-monolith-grove.md`, `fluted-veil.md`, `grain-cubes.md`, `onyx-cubes.md`.
 8. **Organic & Molecular Lattices:** `dna-helix.md`, `molecule.md`, `tree-of-life.md`.
 9. **Atmospheric Particle Drift:** `silver-veil.md`, `aurora.md`, `mistral.md`, `sea-sparkle.md`.
 
@@ -52,9 +54,6 @@ Do NOT force WebGL into projects where it contradicts the brand's physical mater
 
 ---
 
-## 5. Explanatory Output Protocol
+## 5. Output Protocol (compact)
 
-When executing `/shaz-3d`:
-1. **Shader & Math Breakdown:** Explain the vertex/fragment shader equations, transmission physics, and lighting vectors.
-2. **Performance Budgeting:** Detail draw calls, buffer geometries, particle limits, and GPU memory footprint.
-3. **Production Next.js / Three.js Code:** Deliver complete, executable TypeScript code with zero placeholders.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-A golden corona of dust erupting from a dark hollow core â a living sun of amber-to-pale-gold motes breathing and flaring on pure black.
+A golden corona of dust erupting from a dark hollow core — a living sun of amber-to-pale-gold motes breathing and flaring on pure black.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Aureole`
 - **Slug / ID:** `aureole`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** A golden corona of dust erupting from a dark hollow core â a living sun of amber-to-pale-gold motes breathing and flaring on pure black.
+- **Creative Concept:** A golden corona of dust erupting from a dark hollow core — a living sun of amber-to-pale-gold motes breathing and flaring on pure black.
 - **Atmospheric Tone & Mood:** `DARK` palette · `luxe, organic`
 - **Core Stack & Tags:** `threejs, particles, interactive`
 - **Visual & Architectural Keywords:** `threejs, particles, corona, gold, sun, aureole, golden, dust, erupting, irregular, spokes, dark, hollow, core, pure, black`

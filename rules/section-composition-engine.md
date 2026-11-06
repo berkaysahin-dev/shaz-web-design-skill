@@ -20,7 +20,7 @@ This guide dictates how sections are sequenced, structured, and visually balance
 
 ### Archetype 2: Experimental & Kinetic Music Festival / Avant-Garde
 * **Best For:** Underground electronic festivals, generative art showcases, experimental sound labs, subculture drops.
-* **Base Palette:** Pitch Black (`#0A0A09`), High-Voltage Acid Lime (`#91FE01`) or Toxic Magenta (`#FF007F`), Molten Chrome, Stark White.
+* **Base Palette:** Pitch Black (`#0A0A09`), Matte Acid Chartreuse (`#A8B636`) or Matte Raspberry (`#B2365F`) — never fluorescent (Law 3), Molten Chrome, Stark White.
 * **Typography:** `Tilt Warp` or `Druk Wide 700` (Deconstructed Headlines) + `JetBrains Mono` (Set Times & Frequencies).
 * **Section Order:**
   1. *Deconstructed Lineup Masthead* (High-speed marquee ticker + brutalist full-bleed date lockup).

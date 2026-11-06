@@ -1,6 +1,6 @@
-# Halcyon Gate â Night
+# Halcyon Gate — Night
 
-![Halcyon Gate â Night]()
+![Halcyon Gate — Night]()
 
 ---
 
@@ -27,17 +27,17 @@ A still midnight sea mirrors a glowing moon and a slender brass arch beneath a d
 ### Complete Architecture Prompt (Ready for Claude Code, OpenAI Codex, Cursor, Antigravity, v0, Lovable)
 
 ```markdown
-# Recreate this site as a single production-grade HTML/CSS/JS file: Halcyon Gate â Night (Templates)
+# Recreate this site as a single production-grade HTML/CSS/JS file: Halcyon Gate — Night (Templates)
 
 You are a Principal Creative Technologist, WebGL Shader Architect, and Design Systems Engineer.
-Produce a **single self-contained `index.html`** (or full Next.js / React + Tailwind + Framer Motion module if requested) that reproduces **"Halcyon Gate â Night"** with 1:1 visual fidelity, real-time GPU physics, fluid viewport scaling, and tactile micro-interactions.
+Produce a **single self-contained `index.html`** (or full Next.js / React + Tailwind + Framer Motion module if requested) that reproduces **"Halcyon Gate — Night"** with 1:1 visual fidelity, real-time GPU physics, fluid viewport scaling, and tactile micro-interactions.
 
 > **RECOMMENDED AI SKILLS:** Ensure **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** skills are active to enforce spring physics, anti-generic layout geometry, and sub-pixel surface polish.
 
 ---
 
 ## 1. Project Identity & Visual Direction
-- **Title:** `Halcyon Gate â Night`
+- **Title:** `Halcyon Gate — Night`
 - **Slug / ID:** `halcyon-night`
 - **Category:** `Templates` (`GetLayers Collection`)
 - **Creative Concept:** A still midnight sea mirrors a glowing moon and a slender brass arch beneath a deep indigo sky dusted with drifting cloud and quiet stars.
@@ -158,7 +158,7 @@ Every floating HUD bar, card, badge, and interactive control must implement dual
 
 ## 3. Dual-Layer Visual Engine: 4K Video Scrim + Real-Time Three.js / WebGL2 Shader Stage
 
-This design (`Halcyon Gate â Night` — Mode: `ORGANIC_FLUID_FIELD`) runs a hybrid background stage inside `.stage-viewport` (`position: fixed; inset: 0; z-index: 0; pointer-events: none;`):
+This design (`Halcyon Gate — Night` — Mode: `ORGANIC_FLUID_FIELD`) runs a hybrid background stage inside `.stage-viewport` (`position: fixed; inset: 0; z-index: 0; pointer-events: none;`):
 
 ### 3.1 Layer A: High-Bitrate Video Backdrop & Optical Edge Mask
 ```html
@@ -341,7 +341,7 @@ Build a focused, full-viewport cinematic showcase:
 
 ### 4.2 Full-Viewport Cinematic Stage (`section.hero-stage`)
 - **Layout:** Centered or asymmetric editorial composition over the live Three.js / WebGL shader stage.
-- **Display Headline:** Clean monumental title `Halcyon Gate â Night` without decorative eyebrow tags or '//' label prefixes.
+- **Display Headline:** Clean monumental title `Halcyon Gate — Night` without decorative eyebrow tags or '//' label prefixes.
 - **Concept Subcopy:** Clear editorial typography explaining the visual concept, set at high contrast without visual clutter.
 - **Zero Slop Directives:** Never inject artificial bento matrices, fake latency benchmarks, flashing indicator dots, or monumental watermark footers. The 3D shader and canvas must remain the undisputed hero of the viewport.
 
@@ -420,7 +420,7 @@ window.addEventListener('resize', () => {
 ---
 
 ## 6. Strict Anti-Slop & Quality Guardrails (Mandatory)
-1. **NO Placeholder Text:** Never output `"placeholder narrative"` or `"Content goes here"`. Every card, metric, telemetry label, and paragraph must contain domain-authentic copy matching **"Halcyon Gate â Night"**.
+1. **NO Placeholder Text:** Never output `"placeholder narrative"` or `"Content goes here"`. Every card, metric, telemetry label, and paragraph must contain domain-authentic copy matching **"Halcyon Gate — Night"**.
 2. **NO Generic Unstyled Scrollbars:** Keep native scrollbars hidden (`scrollbar-width: none`) while preserving smooth wheel/touch scrolling via Lenis.
 3. **NO Flat Opaque Borders:** All borders must use translucent `rgba(255,255,255,0.08)` hairlines paired with `.liquid-glass` specular pseudo-element masks.
 4. **NO Broken Video/Canvas Z-Indexing:** The `.stage-viewport` (`<video>` + `<canvas id="webglCanvas">`) must stay fixed at `z-index: 0` with `pointer-events: none`, while all interactive sections scroll cleanly above at `z-index: 10`.

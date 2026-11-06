@@ -11,7 +11,7 @@ Select the navigation structure that authentically serves the project's reading 
 | Archetype | Real Blueprint ID / File | Best For | Visual Anatomy | Prohibited When |
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Scroll-Morphing Floating Dock** | `02-navigation/scroll-morphing-dock-navbar.md` | Single-page product launches, high-interaction tech apps, compact luxury showrooms. | Spans full-width at top; morphs into centered floating pill (`rounded-full`) with monochrome icon array at `scrollY > 80px`. | Documentation hubs, editorial newspapers, multi-level e-commerce catalogs. |
-| **2. Editorial Masthead & Journal Header** | `02-navigation/minimal-overlay.md` (Variant A) | Cultural journals, literary reviews, fashion magazines, architectural monographs. | Fixed top edge-to-edge rule, bold serif publication title, volume number, issue date, and subtle right-aligned section links. | High-velocity developer platforms, interactive game portals. |
+| **2. Editorial Masthead & Journal Header** | No dedicated blueprint — build it from the anatomy column | Cultural journals, literary reviews, fashion magazines, architectural monographs. | Fixed top edge-to-edge rule, bold serif publication title, volume number, issue date, and subtle right-aligned section links. | High-velocity developer platforms, interactive game portals. |
 | **3. Minimalist Architectural Island** | `02-navigation/minimalist-double-bezel-nav.md` | Architecture studios, industrial furniture, sculpture portfolios. | Centered compact double-bezel island floating at `top-6`, housing only 3–4 minimalist routes with zero status badges. | E-commerce stores with multi-category mega menus. |
 | **4. High-Density Command Bar** | `14-name-that-ui-dictionary/command-palette.md` | FinTech data terminals, developer cloud platforms, AI infrastructure. | Single hairline bar with active system health telemetry, breadcrumb path, and `⌘K` quick search trigger. | High-end luxury perfumes, artistic photography. |
 | **5. Fullscreen Kinetic Overlay Trigger** | `14-name-that-ui-dictionary/hamburger-menu.md` (Variant B) | Avant-garde festivals, experimental music, high-impact fashion campaigns. | Header has only brand wordmark and an oversized brutalist "INDEX +" button; clicking opens full-screen typography takeover. | Utility SaaS platforms, corporate dashboards. |
@@ -39,3 +39,9 @@ Never copy the same footer pattern between unrelated industries. Every footer mu
 > 2. **Zero Status Dots:** Never put green, amber, or blinking dots (`w-1.5 h-1.5 rounded-full bg-emerald-400`) next to status text in footers.
 > 3. **Zero Serial Number / Verification Inputs:** Never clutter footers with fake serial query forms or ledger search boxes.
 > 4. **No Cliché Ghost Watermarks:** Never paste giant faint 15vw text at the bottom just to fill space. Use crisp, optically balanced brand typography.
+
+---
+
+## 4. Geneva Clock Proscription
+
+A live Geneva/CET clock, Swiss coordinates or any "atelier local time" belongs only to Haute Horlogerie and High Jewelry briefs that actually name a Swiss location. On every other project the footer shows a time or place only if the brief gives a real one (a festival's door time, a studio's real city). Inventing a city, clock or coordinate to make a footer look "premium" is a fake coordinate under Law 2.

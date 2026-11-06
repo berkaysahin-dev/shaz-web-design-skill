@@ -24,6 +24,8 @@ Use this specialized skill when the user triggers `/shaz-fashion [brief]` or req
 
 ## 2. Specialized Sector & Theme Architecture: Luxury Fashion, Couture & Runway Ateliers
 
+> **Starting points, not a fixed recipe.** Run `rules/variation-engine.md` first. The values below describe what tends to fit this sector; keep one only when it serves the brief's concept artifact, otherwise use the seeded axis. Two projects from this command must not share more than 3 of: grid, type pairing, ground, hero archetype, centerpiece, motion personality, navigation. Section 1 bans are absolute either way.
+
 * **Target Sector:** Luxury Fashion, Couture & Runway Ateliers
 * **Typography Pairing:** Italiana / Syne (Display) + Plus Jakarta Sans (Body) + Space Mono (Runway Look Indices)
 * **Calibrated Color & Materiality:** Void Noir (#050505), Raw Silk Chalk (#F7F6F2), Smoked Basalt (#18181A), Champagne Accent
@@ -35,10 +37,6 @@ Use this specialized skill when the user triggers `/shaz-fashion [brief]` or req
 
 ---
 
-## 3. Explanatory Output Protocol (Mandatory Before Delivering Code)
+## 3. Output Protocol (compact)
 
-When executing `/shaz-fashion`, adhere to this strict explanatory protocol:
-1. **Architectural Rationale:** Explain the sector-specific layout hierarchy, typography contrast, and spatial balance.
-2. **Applied Universal Design Laws:** Cite the governing laws enforced (Laws 1, 2, 8, 12, 13, 16, 18, 19, 20, 21, 22, 23).
-3. **Blueprint & Token Specifications:** Detail the exact font families, CSS tokens, and motion parameters extracted from the library.
-4. **Production Implementation:** Deliver complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs.
+Run the Variation Engine first (`rules/variation-engine.md`). Print only the Design Signature (`SKILL.md` §5), then complete, unabridged, copy-pasteable Next.js (App Router) + Tailwind CSS + Framer Motion code with zero placeholders and zero unresolved TODOs. No essays, no list of laws.

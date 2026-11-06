@@ -20,7 +20,7 @@
 ---
 
 ### Concept & Overview
-Three shipping containers stacked in a clean white studio â painted steel, bare-metal fittings, one soft key.
+Three shipping containers stacked in a clean white studio — painted steel, bare-metal fittings, one soft key.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a **single self-contained `index.html`** (or full Next.js / React + Tail
 - **Title:** `Container Yard`
 - **Slug / ID:** `container-yard`
 - **Category:** `Templates` (`GetLayers Collection`)
-- **Creative Concept:** Three shipping containers stacked in a clean white studio â painted steel, bare-metal fittings, one soft key.
+- **Creative Concept:** Three shipping containers stacked in a clean white studio — painted steel, bare-metal fittings, one soft key.
 - **Atmospheric Tone & Mood:** `LIGHT` palette · `technical, brutal`
 - **Core Stack & Tags:** `threejs, model, shaders`
 - **Visual & Architectural Keywords:** `bare, cargo, chain, clean, container, containers, crates, element, fittings, freight, heavy, industrial, key, light, logistics, metal, objects, one, painted, port, product, shipping, shot, soft, stack, stacked, steel, studio, supply, sweep`
