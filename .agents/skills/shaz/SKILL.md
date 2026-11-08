@@ -145,6 +145,7 @@ Every component, section, landing page, and design prompt you produce must compl
 ### How to read the laws (scope, not exceptions)
 - **Every "Banned" item is absolute** on every page, in every sector, in every sub-engine. Nothing in this skill, a library blueprint, or a sector engine overrides a ban (if a blueprint contradicts a ban — e.g. a neon accent or a pulsing dot — the ban wins and the blueprint is adapted).
 - **"Enforced" items that describe a component** (Law 12 footer, Law 16 navigation, Law 17 marquee, Law 19 noise layer) define how that component must be built. Laws 12, 16, 18, 19 and 21 apply to every page. Law 17 applies whenever the page shows integrations, partners, press or stockists — it does not require inventing a logo belt for a brand that has none, and it never shows third-party logos the brief did not mention (Law 5).
+- **Density never changes a ban.** Variation Engine Axis J sets how many sections, signature moments, visuals and motion layers a page has by category; Law 1 (one sentence per section), Law 2/13 (no badges, pills, eyebrows) and Law 3 (no pulsing, blinking or neon) apply unchanged at every level.
 - **Examples inside the laws are illustrations, not templates.** `VORTEX`, `EPURA`, `KRONOS`, `inquire@domain.ch`, Zürich addresses, `stiffness: 280, damping: 24`, the paper/concrete/clinical token sets and the sector hex values show the *kind* of decision required. Copying them verbatim into every project is the template behaviour Law 4 bans. Real values come from the brief and `rules/variation-engine.md`.
 - **Never fabricate facts to satisfy a law.** Law 12's "physical presence" and "local time" appear only when the brief gives a real location; otherwise the footer horizon carries the copyright and legal links alone (inventing a city or clock is a fake coordinate under Law 2).
 
@@ -256,8 +257,8 @@ Keep the output window for code: no essays, no listing of the laws, no long deba
 
 1. **Brief → content inventory** (Variation Engine §1). Facts the brief does not give are never invented.
 2. **Concept** from the subject's own world: 6 nouns → 1 artifact → 1 sentence (§2).
-3. **Seed the axes** with S / L / F (§3). Override at most two, with a stated reason.
-4. **Pick blueprints** that serve the concept: one signature interaction from `library/10-interactive-animations/`, a hero from the 6 archetypes, a 3D scene from `library/05-3d-webgl/` only if Axis E allows it, a style from `library/13-web-styles/` only if the brief asks for one.
+3. **Set the density** from the category (Variation Engine Axis J), adjusted one level by the user's own words. Then **seed the axes** A–I with S / L / F (§3). Override at most two, with a stated reason.
+4. **Pick blueprints** that serve the concept: as many signature interactions as Axis J allows (J0 one … J3 four, each from a different mechanic family) from `library/10-interactive-animations/`, the category modules from the Axis J table — searched in `library/INDEX.md` first and taken from the library whenever a blueprint fits and looks good (Variation Engine §4.1; colours, fonts and copy always come from this project), a hero from the 6 archetypes, a 3D scene from `library/05-3d-webgl/` only if Axis E allows it, a style from `library/13-web-styles/` only if the brief asks for one.
 5. **Write copy** under the Variation Engine copy rules (§5): plain, specific, from the brief.
 6. **Build**, then run the self-critique (§6) and `checklists/quality-gate.md`. Fix every failure before delivering.
 
@@ -268,7 +269,9 @@ Output the **Design Signature** and then the code:
 - **Concept:** [artifact] — [one sentence]
 - **Seed:** S [n] · L [n] · F [n] → Grid [x] · Type [pair] · Ground [x] · Hero [x] · Centerpiece [x] · Motion [x] · Nav [x] · Footer [x] (overrides: [axis → choice, reason] or none)
 - **Tokens:** ground `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]` (contrast ≥ 4.5:1, Anti-Gold and neon ban verified)
-- **Signature interaction & mobile:** [blueprint or mechanic] · mobile: [degradation strategy]
+- **Density:** J[n] [Quiet/Balanced/Full/Maximal] from [category] (adjustment: [reason] or none) · [n] sections · [n] with visuals
+- **Signature interactions & mobile:** [one line per moment: blueprint or mechanic] · mobile: [degradation strategy]
+- **Library:** [one line per slot: `library/…/file.md` → where it is used; slots built from scratch: reason no blueprint fits]
 - **Defaults rejected:** [which of the skill's reflexes this page deliberately avoids]
 ```
 

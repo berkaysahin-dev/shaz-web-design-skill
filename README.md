@@ -4,6 +4,18 @@ An autonomous, production-grade AI web design skill engineered for Antigravity, 
 
 ---
 
+## What's New — Density by Category & Library First
+
+**TR:** Siteler her kategoride aynı sakinlikte ve sade çıkıyordu; kütüphanedeki 442 blueprint de çoğu zaman atlanıyordu. Artık yoğunluk kategoriye göre seçiliyor (vinç, dişçi, ajans, eğlenceli site farklı doluluklarda) ve uygun blueprint varsa her seferinde kütüphaneden alınıyor. Yasaklar (yanıp sönen ışık, rozet, başlık üstü yazı, neon) hiç değişmedi.
+
+**EN:**
+1. **Axis J — Density** (`rules/variation-engine.md` §3): set by category, not by the seed. J0 Quiet (4–5 sections, 1 signature moment) · J1 Balanced (6–7, 2) · J2 Full (8–10, 3, a motion layer on every section) · J3 Maximal (9–12, 4, continuous motion). A category table maps law firms, clinics, construction, restaurants, e-commerce, agencies and playful/event sites to a level and to the real modules that fill the page. The user's own words move it one level ("minimal" down, "full / animated" up).
+2. **Fullness without slop:** every moving element must come from the subject's world; signature moments come from different mechanic families and never share a viewport; fillers (particle fields, gradient blobs, invented counters or testimonials, generic icon-card grids, auto-playing carousels) are banned at every level.
+3. **Library first** (§4.1): `library/INDEX.md` lists all 442 blueprints in one line each. Every signature moment, the hero, nav, footer and every visual or interactive section is searched there first; a blueprint that fits and looks good is always used, its structure, mechanics and motion reproduced, while colours, fonts and copy come from the project. Slots built from scratch need a stated reason. Regenerate the index with `node library/build-index.js library`.
+4. **Design Signature** gains **Density** and **Library** lines; `checklists/quality-gate.md` gains a **Density Gate** and a **Library Gate**.
+
+---
+
 ## What's New — Variation Engine (Anti-Sameness & Anti-Slop)
 
 **TR:** Önceki sürümde skill'in kendi örnekleri her projenin varsayılanı haline geliyordu: koyu zemin, italik serif vurgu kelimesi, mono etiketler, camsı 3D hero, coverflow, logo şeridi, şehir+saat footer. Sonuç: her seferinde aynı tasarım. Artık her `/shaz` çalışması `rules/variation-engine.md` ile başlıyor. Yasaklar (yanıp sönen ışık, neon, eyebrow, logo, emoji, 50/50 hero vb.) aynen geçerli.
@@ -12,7 +24,7 @@ An autonomous, production-grade AI web design skill engineered for Antigravity, 
 1. **Content inventory** from the brief only. No invented metrics, clients, addresses, coordinates or clocks.
 2. **Concept artifact** from the subject's own world (an order slip, a timetable, a herbarium sheet), not from the skill's luxury vocabulary.
 3. **Seeded axes** (brand name → S / L / F) choose grid, type pairing (24 Google Fonts pairs), ground, hero archetype, visual centerpiece, motion personality, navigation and footer layout, so different briefs land on different combinations.
-4. **One signature interaction**, plain human copy with a banned-word list, and a **self-critique** (swap test, previous-output test, default-reflex test) before delivery.
+4. **Signature interactions** (count set by Axis J), plain human copy with a banned-word list, and a **self-critique** (swap test, previous-output test, default-reflex test) before delivery.
 5. **Blueprint adaptation table:** neon, glows, pulsing dots and eyebrows found in library blueprints are translated to law-compliant equivalents.
 
 Also fixed: neon hex values that sector rules recommended despite the neon ban, references to 10 blueprint files that did not exist, conflicting output protocols (compact signature vs. long explanations vs. 3-direction tables), and mismatched law/audit counts.
