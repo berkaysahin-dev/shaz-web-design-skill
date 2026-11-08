@@ -17,6 +17,7 @@ Write down (internally) a **content inventory** from the user's words only:
 | Assets | Image/video/logo files or URLs the user supplied (none = none). |
 | Pages | What the visitor must be able to do (buy, book, read, apply, contact). |
 | Unknowns | Everything the page needs that the brief does not say. |
+| Category | The business category (crane hire, dentist, agency, fun/event…). It sets Axis J Density (§3) before any seeding. |
 
 **Unknowns are never invented as facts.** No made-up metrics (`140µs P99`, `12,000 clients`), awards, client logos, testimonials, founding years, street addresses, coordinates, opening hours or team names. Write copy that is true from the brief alone, or mark a replaceable value in the code (`{/* REPLACE: real address */}` inside JSX only, never in rendered HTML text — Law 7).
 
@@ -55,6 +56,7 @@ axis index = (S + L×p + F×q) mod (number of options on that axis)
 | G Nav | 13 | 7 | 5 |
 | H Footer | 1 | 3 | 5 |
 | I Sections (start) | 0 | 1 | 13 |
+| J Density | — | — | 4 (set by category, not seeded) |
 
 (Using three inputs instead of one keeps the axes independent: a single `seed mod n` makes grid, hero and type move together and collapses the variety.)
 
@@ -118,9 +120,59 @@ Only list locations, times or contact details the brief gives. No city, clock or
 Give every section a container shape from this list, never the same shape twice in a row, and use at least 4 different shapes per page: ledger table · full-bleed image band · two-column essay · index list with hover preview · accordion spec · horizontal rail · single statement · Q&A list · diagram/map · form · step sequence · comparison table · quote with source (only if the brief supplies it).
 Start position in the list = Axis I index, then walk forward, skipping shapes that the content cannot fill.
 
-## 4. One signature moment
+### Axis J — Density (set by category, never by the seed)
+Axes A–I decide *what the page looks like*; Axis J decides *how much is on it*. It is chosen from the category, not from S/L/F, so a crane company and a law firm never come out equally sparse. The bans in `SKILL.md` §1 are identical at every level: density is never a licence for pulsing lights, badges, eyebrows, neon, fake stats or filler.
 
-Choose **exactly one** memorable interaction that comes from the concept artifact (the order slip tears off, the timetable rows flip like a split-flap board without blinking, the herbarium label lifts to reveal the specimen). Look for it in `library/10-interactive-animations/` first. Everything else stays quiet. A page with five "wow" effects has none.
+| Level | Sections | Signature moments | Motion layer | Imagery |
+| :-: | :-: | :-: | :--- | :--- |
+| **J0 Quiet** | 4–5 | 1 | State feedback and reveals only | Optional |
+| **J1 Balanced** | 6–7 | 2 | Reveals on every section, one scroll-linked scene | At least 1 visual every 2 sections |
+| **J2 Full** | 8–10 | 3 | Every section has a scroll-linked or interactive behaviour; one pinned/sticky scene | A visual in most sections; at least one full-bleed image band |
+| **J3 Maximal** | 9–12 | 4 | Continuous motion: pinned scroll scenes, kinetic type, cursor-aware hover media, section-to-section transitions | Image- or illustration-led; media in almost every section |
+
+**Category → default level**
+
+| Category | Level | What fills the page (pick from this, never generic) |
+| :--- | :-: | :--- |
+| Law, notary, accounting, documentation, funeral services | J0 | Practice-area index, step sequence, Q&A, contact form |
+| Luxury minimal, editorial, journal, single-product teaser | J0–J1 | Large photography, essay columns, one product interaction |
+| Dentist, clinic, physiotherapy, vet, pharmacy | J1 | Treatment index with prices, before/after slider, visit-flow steps, appointment day picker, Q&A, map of the clinic floor or route |
+| Architecture, interior, hotel, spa, real estate | J1–J2 | Project gallery with hover preview, floorplan or room viewer, materials rail, booking/inquiry form |
+| Fintech, SaaS, developer tools | J1–J2 | Live product UI mock, real data table, interactive pricing, integration list (only real names) |
+| Construction, crane hire, logistics, industrial, automotive, manufacturing | J2 | Fleet/catalogue rail, interactive calculator or load chart, pinned machine scene (SVG or WebGL), project gallery, process timeline, service-area map, quote form |
+| Restaurant, café, bakery, food brand | J2 | Menu as the page structure, dish photography band, reservation picker, kitchen process, location map |
+| E-commerce, retail, product brand | J2 | Product grid with quick view, spec drawer, colour/variant switcher, cart drawer, lifestyle image bands |
+| Agency, studio, portfolio, creative technologist | J3 | Work index with hover video/image, case-study rails, kinetic type hero, pinned showreel scene, services as interactive list, team (only if given) |
+| Fun / playful, kids, games, events, festivals, music | J3 | Illustrated characters or objects that react to scroll and taps, playful springs (Axis F 4), schedule/lineup board, ticket picker, sticker-like collectible interactions |
+
+Adjust **one level** from the user's own words: "sade / minimal / clean" → one level down; "dolu / canlı / animasyonlu / not plain" → one level up. If the user asks for a specific level, use it. Name the level and any adjustment in the Design Signature.
+
+**How a page gets full without slop**
+1. **Fullness comes from modules the business really uses** (the right column above), not from decoration. Law 1 still holds: more sections and more interaction, never longer paragraphs.
+2. **Every moving thing must come from the subject's world**: the crane boom lifts, the tooth whitening slider wipes, the agency's case video scrubs, the festival lineup board flips. A motion that would fit any website unchanged is filler; delete it.
+3. **Signature moments come from different mechanic families** (e.g. one calculator, one pinned scroll scene, one gallery hover, one form interaction) and never two in the same viewport.
+4. **Imagery without fabricated facts:** user assets first, then verified text-free photography or test photos clearly marked `REPLACE` in a data file, then subject SVG illustration. Content modules that need facts (team, testimonials, client logos, stats, awards) appear only when the brief gives them; at J2–J3 fill the page with fact-free modules instead (calculators, galleries, process, catalogue, Q&A, forms, maps).
+5. **Banned fillers at every level:** particle fields, gradient blobs, glass cards with nothing in them, logo marquees without real partners, counters of invented numbers, testimonial carousels with invented people, 3- or 6-card icon "feature" grids, auto-playing carousels, cursor trails.
+6. **Performance stays fixed:** animate `transform`/`opacity` only, at most one WebGL canvas per page, every scroll scene has a `prefers-reduced-motion` static state, mobile keeps the content and drops pinning.
+
+## 4. Signature moments
+
+The number comes from Axis J (J0 one, J1 two, J2 three, J3 four). Each one comes from the concept artifact or the subject's world (the order slip tears off, the timetable rows flip like a split-flap board without blinking, the herbarium label lifts to reveal the specimen, the crane boom swings to the chosen radius). Look for them in `library/10-interactive-animations/` first. At J0 everything else stays quiet; at J1–J3 the rest of the page carries the motion layer from the Axis J table, but no extra effect may compete with a signature moment in the same viewport.
+
+### 4.1 Library first
+
+The library is the skill's main source of interaction, motion and visual craft. Writing a component from scratch when a fitting blueprint exists is a failure, not a style choice.
+
+1. **Search before building.** For every signature moment, the hero, the navigation, the footer and every section with a visual or interactive element, search `library/INDEX.md` (grep it by the subject's nouns, the mechanic you need and the section shape — e.g. `slider`, `calculator`, `gallery`, `drawer`, `truck`, `tooth`, `form`). Shortlist 2–3 candidates per slot.
+2. **Use it whenever it fits and looks good.** A blueprint fits when it can carry this subject's content (swap test), survives the bans after translation (§8), works on mobile and stays within the performance rules. If it fits and is visually strong, it is used — not "sometimes", every time.
+3. **Open the full blueprint** before writing code: its layout, mechanics, motion curves, timing, interaction states, SVG/WebGL technique and visual details are the reference to reproduce. Do not build from the index line alone.
+4. **What changes, what stays.**
+   - Always replaced by the project: colours (tokens from Axis C), fonts (Axis B), copy (§5), brand names and any banned element (§8 table).
+   - Kept from the blueprint: structure, mechanics, physics, choreography, micro-interactions, illustration and shader technique. Exception: the boilerplate `stiffness: 280, damping: 24, mass: 0.8` that most blueprints repeat is replaced by the seeded motion personality (Axis F); any other spring or curve the blueprint specifies stays.
+5. **Coverage.** Every signature moment comes from the library unless no blueprint fits; at J1–J3 at least half of the page's interactive or visual components also come from it. When nothing fits a slot, write it from scratch and say why in the Design Signature.
+6. **Rotation.** Do not reuse a blueprint that an earlier site in the same conversation already used for the same role.
+
+Folders by role: hero `01` · navigation `02` · type `03`, `15` · motion `04` · 3D `05` (only if Axis E allows WebGL) · product `06` · pricing `07` · commerce `08` · forms and footers `09`, `12` · signature mechanics `10` · data `11` · styles `13` (only if the brief names a style) · UI components `14` · icons `16`. If `INDEX.md` is missing or older than the library, regenerate it with `node library/build-index.js library`.
 
 ## 5. Copy rules (plain, specific, human)
 
@@ -137,7 +189,9 @@ Choose **exactly one** memorable interaction that comes from the concept artifac
 2. **Previous-output test:** If you already produced a site earlier in this conversation, list its grid, type pair, ground, hero, centerpiece, motion and nav. The new site must differ on **at least 4** of these 7.
 3. **Default-reflex test:** Count how many of these appear: dark ground · italic serif focal word · mono labels · glass/particle hero blob · coverflow · logo marquee · horizon footer with city + clock · `stiffness 280` · rounded-2xl cards. More than **two** → replace the extras with seeded alternatives.
 4. **Copy test:** Search the copy for every banned word in §5 and every number, name or place not in the brief. Remove or replace.
-5. **Hard-law audit:** run `checklists/quality-gate.md`.
+5. **Density test (Axis J):** count sections, signature moments and sections with a visual against the level's row. At J2–J3, scroll the mobile view: any section that is only a heading and one sentence, with no visual and no interaction, is underfilled; add a real module from the category column. At any level, any effect that fails the swap test is filler; remove it.
+6. **Library test (§4.1):** list every signature moment and every visual/interactive component with the blueprint it came from. A slot written from scratch needs a one-line reason that no blueprint fits; "faster to write" is not a reason. Check that no blueprint colour, font or brand copy leaked through.
+7. **Hard-law audit:** run `checklists/quality-gate.md`.
 
 ## 7. Worked seeds (check your arithmetic against these)
 

@@ -37,3 +37,31 @@ Before any code, section, or complete website design is delivered to the user, r
 | **23** | **Anti-Gold Defaulting & Color Authenticity** | Inspect accent color against sector. | Gold or champagne (`#C5A059`, `#D4AF37`) is STRICTLY FORBIDDEN unless project is explicitly Haute Horlogerie or High Jewelry. Verify color authentically matches sector (Cobalt for FinTech, Basalt/Cyan for SaaS, Sage for Biotech, Concrete for Architecture). Evaluate light mode suitability. |
 | **24** | **Zero Broken Image Paths (Generative Fallbacks)** | Inspect `<img src="...">` and background image paths. | Zero fictitious local paths like `/assets/...` or missing files. If no real assets are supplied, generative code fallbacks (procedural WebGL, inline SVG vector line art, or mathematical canvas) are deployed. |
 | **25** | **Universal Mobile Responsive Fallback** | Audit layout at viewport `< 768px`. | Desktop 3D Coverflow or horizontal tracks smoothly degrade into vertical stacks or native touch-snap rails (`snap-x snap-mandatory`). Main containers enforce `overflow-x-clip`/`overflow-x-hidden`. Zero horizontal layout leaks; minimum 44px touch targets. |
+
+---
+
+## Density Gate (Variation Engine Axis J)
+
+Run after the 25 checks. Density never relaxes a check above; it only decides whether the page carries enough.
+
+| Check | Pass criteria |
+| :--- | :--- |
+| **Level declared** | The Design Signature names J0–J3, the category it came from and any one-level adjustment taken from the user's words. |
+| **Section count** | Within the level's range (J0 4–5 · J1 6–7 · J2 8–10 · J3 9–12), each section a different shape from Axis I. |
+| **Signature moments** | Exactly the level's count (J0 1 · J1 2 · J2 3 · J3 4), each from a different mechanic family, never two in one viewport, each traceable to the subject's world. |
+| **Visual coverage** | J1: a visual at least every 2 sections · J2: a visual in most sections plus one full-bleed band · J3: media in almost every section. Visuals are user assets, verified text-free photos marked `REPLACE`, or subject SVG/WebGL. |
+| **Motion layer** | J2–J3: every section has a scroll-linked or interactive behaviour; every pinned scene has a reduced-motion static state and drops pinning on mobile. |
+| **No filler** | Zero particle fields, gradient blobs, empty glass cards, partner marquees without real partners, invented counters or testimonials, generic icon-card grids, auto-playing carousels, cursor trails. Every effect passes the swap test. |
+| **Underfill scan** | At J2–J3, no section on mobile is only a heading and one sentence without a visual or interaction. |
+
+---
+
+## Library Gate (Variation Engine §4.1)
+
+| Check | Pass criteria |
+| :--- | :--- |
+| **Index searched** | `library/INDEX.md` was searched for every signature moment, the hero, nav, footer and every visual/interactive section, and the full blueprint was opened for each one used. |
+| **Coverage** | Every signature moment comes from a blueprint unless none fits; at J1–J3 at least half of the visual/interactive components do too. Each from-scratch slot has a one-line reason in the Design Signature. |
+| **Fidelity** | The used blueprint's structure, mechanics, choreography and visual technique are recognisable in the build, not reduced to a simple CSS approximation. |
+| **Re-skinned** | Zero blueprint colours, fonts, brand names or demo copy remain; colours come from Axis C tokens, fonts from Axis B, copy from §5. Banned elements were translated through the §8 table. |
+| **Rotation** | No blueprint reused in the same role as an earlier site in the conversation. |
