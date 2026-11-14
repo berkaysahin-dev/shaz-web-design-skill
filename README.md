@@ -1,5 +1,11 @@
 # Shaz Agency Web Design — AI Skill & Architecture Library
 
+<p align="center">
+  <img src="docs/demo-kronos.jpg" alt="Kronos Horology Atelier demo page included in this repository" width="100%" />
+</p>
+
+<p align="center"><sub>Included demo: <a href="demos/kronos-horology-atelier.html">demos/kronos-horology-atelier.html</a></sub></p>
+
 An autonomous, production-grade AI web design skill engineered for Antigravity, Claude Code, Cursor, Windsurf, and modern AI coding assistants. Built on Swiss Utilitarian rigor, editorial typographic refinement, and selective Double-Bezel surface architecture, it generates world-class, uncompromising digital experiences using Next.js (App Router), Tailwind CSS, Framer Motion, and Three.js.
 
 ---
