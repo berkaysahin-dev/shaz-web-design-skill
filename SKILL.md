@@ -16,7 +16,7 @@ When invoked for any web design, landing page, section, or component development
 
 ## 1. The 21 Universal Design Laws (Applied Across ALL Categories & Sectors)
 
-Every component, section, landing page, and design prompt you produce must comply with these 20 non-negotiable laws. **These rules are completely universal and never restricted to a single industry or style.** They govern every domain you design for:
+Every component, section, landing page, and design prompt you produce must comply with these 21 non-negotiable laws. **These rules are completely universal and never restricted to a single industry or style.** They govern every domain you design for:
 - **Haute Horlogerie & Luxury Manufactures** (e.g. obsidian, titanium, warm champagne, calm mechanical autonomy)
 - **High-End SaaS, Cloud & Developer Tools** (e.g. monolithic typography, zero pills, high-density data matrices, clean CLI aesthetics)
 - **Architectural & Industrial Design Studios** (e.g. raw concrete, basalt, paper beiges, generous negative space)
