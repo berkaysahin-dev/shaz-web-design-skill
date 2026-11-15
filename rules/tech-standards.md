@@ -108,3 +108,22 @@ Every section must adhere to the following standards:
     };
     ```
 
+
+---
+
+## 6. Hydration Safety & Build Pitfalls (Next.js App Router)
+
+A page is not finished while the browser console shows errors. These are the failures that actually occurred in generated sites, with the fix for each.
+
+1. **Browser extensions edit `<html>` / `<body>` before React hydrates.** ColorZilla adds `cz-shortcut-listen="true"`, Grammarly adds `data-new-gr-c-s-check-loaded` / `data-gr-ext-installed`, and dark-mode or translation extensions add classes and styles. React then reports *"A tree hydrated but some attributes of the server rendered HTML didn't match"*. Every root layout sets `suppressHydrationWarning` on both tags. It only silences attribute differences on that one element; mismatches inside the page still surface.
+   ```tsx
+   <html lang="en" suppressHydrationWarning>
+     <body suppressHydrationWarning className={...}>
+   ```
+2. **Never render values that differ between server and browser:** `Date.now()`, `new Date()` without a fixed input, `Math.random()`, `typeof window` branches and `toLocaleDateString` / `toLocaleString` (Node and the browser format locales differently, e.g. `Saturday 26 October` vs `Saturday, 26 October`). Format dates with fixed month/day arrays, and create random layouts inside `useEffect` or a canvas.
+3. **Reduced-motion and media-query hooks are `null` on the server.** Framer Motion's `useReducedMotion()` (and any `matchMedia` read) must not change markup on the first render: wrap it so it returns `false` until mounted, and put `<MotionConfig reducedMotion="user">` around the app so transform animations still stop for people who asked for less motion.
+4. **Google Fonts names in `next/font` change.** Check the export exists before using it (`Big_Shoulders_Display` is now `Big_Shoulders`): `grep "function Big_Shoulders" node_modules/next/dist/compiled/@next/font/dist/google/index.d.ts`.
+5. **Tailwind v4 layering.** Custom classes written outside a layer beat every utility, so `hidden sm:inline-flex` stops hiding a `.btn`. Put project component classes inside `@layer components { … }`.
+6. **Turkish (and Azeri) `lang` + `text-transform: uppercase`** turns `i` into `İ`. Brand or English words shown in caps on a `lang="tr"` page are written in capitals in the source (`KITEFALL`), or wrapped in `<span lang="en">`.
+7. **Pinned or transformed art inside a section** (a sticky diagram that slides sideways, a parallax image) adds horizontal scroll on phones. Give that section `overflow-x-clip` (it keeps `position: sticky` working, unlike `overflow-hidden`).
+8. **Verify before delivery:** load the page in a real browser at 1440 px and 375 px, with "reduce motion" on and off, and check: zero console errors (hydration included), no image with `naturalWidth === 0`, and `document.documentElement.scrollWidth - clientWidth === 0`.
