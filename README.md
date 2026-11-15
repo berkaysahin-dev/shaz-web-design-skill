@@ -12,14 +12,26 @@ An autonomous, production-grade AI web design skill engineered for Antigravity, 
 
 ---
 
-## What's New — Density by Category & Library First
+## What's New — The Whole Design Library, and Hydration-Safe Output
+
+**TR:** Skill, tasarım kütüphanesinin (shaz-agency-web-design) yalnızca bir kısmını içeriyordu: 3D sahneler, animasyonlar, stiller ve NameThatUI vardı; 77 sinematik hero, 98 landing page, 55 site şablonu, 10 bölüm kiti, 18 gradyan ve 284 arka plan yoktu. Artık hepsi `library/17`–`23` altında, önizleme görselleriyle birlikte; kütüphane ile skill tek komutla eşitleniyor. Ayrıca üretilen sitelerde tarayıcı eklentilerinin (ColorZilla, Grammarly) yol açtığı hydration hatası ve oturumda karşılaşılan diğer derleme tuzakları kurallara eklendi.
+
+**EN:**
+1. **543 more blueprints (984 in total):** `17-cinematic-heroes` (77), `18-landing-pages` (98), `19-backgrounds` (8), `20-site-templates` (55, with the full-length Lumora), `21-gradients` (18), `22-sections` (10), `23-shader-backgrounds` (276), with their preview images. `library/INDEX.md` lists every one.
+2. **One-command sync:** `node library/sync-from-design-library.js <path-to-shaz-agency-web-design>` then `node library/build-index.js library`. The sync applies the same clean-up as the existing copies (no filler copy, no emoji, repaired encoding) so both audits stay green.
+3. **Wired into the rules:** Variation Engine §4.1 and `SKILL.md` §5 step 4 now send hero, page-structure, section-kit and background decisions to these folders, and state that a blueprint's third-party showcase video is never reused.
+4. **Hydration-safe output** (`rules/tech-standards.md` §6): `suppressHydrationWarning` on `<html>` and `<body>`, no locale date formatting or random values in render, reduced-motion read after mount with `MotionConfig`, `next/font` name checks, Tailwind v4 `@layer components`, Turkish uppercase `i`→`İ`, `overflow-x-clip` for pinned art, and a browser check before delivery (`SKILL.md` §5 step 6).
+
+---
+
+## Earlier — Density by Category & Library First
 
 **TR:** Siteler her kategoride aynı sakinlikte ve sade çıkıyordu; kütüphanedeki 442 blueprint de çoğu zaman atlanıyordu. Artık yoğunluk kategoriye göre seçiliyor (vinç, dişçi, ajans, eğlenceli site farklı doluluklarda) ve uygun blueprint varsa her seferinde kütüphaneden alınıyor. Yasaklar (yanıp sönen ışık, rozet, başlık üstü yazı, neon) hiç değişmedi.
 
 **EN:**
 1. **Axis J — Density** (`rules/variation-engine.md` §3): set by category, not by the seed. J0 Quiet (4–5 sections, 1 signature moment) · J1 Balanced (6–7, 2) · J2 Full (8–10, 3, a motion layer on every section) · J3 Maximal (9–12, 4, continuous motion). A category table maps law firms, clinics, construction, restaurants, e-commerce, agencies and playful/event sites to a level and to the real modules that fill the page. The user's own words move it one level ("minimal" down, "full / animated" up).
 2. **Fullness without slop:** every moving element must come from the subject's world; signature moments come from different mechanic families and never share a viewport; fillers (particle fields, gradient blobs, invented counters or testimonials, generic icon-card grids, auto-playing carousels) are banned at every level.
-3. **Library first** (§4.1): `library/INDEX.md` lists all 442 blueprints in one line each. Every signature moment, the hero, nav, footer and every visual or interactive section is searched there first; a blueprint that fits and looks good is always used, its structure, mechanics and motion reproduced, while colours, fonts and copy come from the project. Slots built from scratch need a stated reason. Regenerate the index with `node library/build-index.js library`.
+3. **Library first** (§4.1): `library/INDEX.md` lists all 984 blueprints in one line each. Every signature moment, the hero, nav, footer and every visual or interactive section is searched there first; a blueprint that fits and looks good is always used, its structure, mechanics and motion reproduced, while colours, fonts and copy come from the project. Slots built from scratch need a stated reason. Regenerate the index with `node library/build-index.js library`.
 4. **Design Signature** gains **Density** and **Library** lines; `checklists/quality-gate.md` gains a **Density Gate** and a **Library Gate**.
 
 ---
@@ -145,7 +157,16 @@ shaz-web-design-skill/
     ├── 14-name-that-ui-dictionary/                 # 114 Shaz Agency UI Architecture dictionary blueprints & VS comparisons
     ├── 15-design-system-typography/                # Master typography hierarchy, Google Fonts & CSS tokens
     ├── 16-iconography-assets/                      # Monochrome vector icon standards, 3D assets & video formulas
-    └── 17-programmatic-video                       # 60 FPS programmatic React video reels & timeline sequences (commands/shaz-video.md)
+    ├── 17-cinematic-heroes/                        # 77 full-viewport hero builds (from the design library)
+    ├── 18-landing-pages/                           # 98 complete landing pages
+    ├── 19-backgrounds/                             # 8 cinematic photo and video grounds
+    ├── 20-site-templates/                          # 55 multi-section site templates
+    ├── 21-gradients/                               # 18 gradient shader grounds
+    ├── 22-sections/                                # 10 card and carousel section kits
+    ├── 23-shader-backgrounds/                      # 276 WebGL and shader backgrounds
+    ├── INDEX.md                                    # one line per blueprint (984), generated
+    ├── build-index.js                              # regenerates INDEX.md
+    └── sync-from-design-library.js                 # pulls folders 17–23 from shaz-agency-web-design
 ```
 
 ---
@@ -184,7 +205,7 @@ The skill natively provides **44 specialized slash commands** compatible across 
 ### 5.1 Master Engines & Quality Auditing
 | Slash Command | Compatible Platforms | Purpose & Description (TR / EN) |
 | :--- | :--- | :--- |
-| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Ana otonom web tasarım motoru. 21 evrensel kuralı, çeşitlilik motorunu ve 442 blueprinti çalıştırır.<br>**EN:** Master autonomous design engine executing all 21 universal design laws, diversity engine, and 442 blueprints. |
+| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Ana otonom web tasarım motoru. 21 evrensel kuralı, çeşitlilik motorunu ve 984 blueprinti çalıştırır.<br>**EN:** Master autonomous design engine executing all 21 universal design laws, diversity engine, and 984 blueprints. |
 | **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 25 noktalı kalite ve uyumluluk denetçisi. Boş laf, hap buton, emoji, üst küçük yazılar ve yanıp sönen ışıkları tarar.<br>**EN:** 25-Point pre-delivery quality gate auditor scanning for fluff, pills, emojis, upper micro-labels, and blinking lights. |
 | **`/shaz-hero [industry]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 6 farklı arketipte (50/50 bölünme yasağına uygun) arka plansız sinematik hero bölümü üretici.<br>**EN:** Generates backgroundless cinematic hero sections across 6 distinct composition archetypes (strict anti-50/50 split). |
 | **`/shaz-dock [nav-items]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Kaydırıldığında kompakt yüzen ikon dock'una dönüşen iki aşamalı kinetik navigasyon ve özel vektör favicon üretici.<br>**EN:** Generates two-stage kinetic scroll-morphing collapsible dock navigation with deterministic CSS isolation and bespoke vector favicon. |

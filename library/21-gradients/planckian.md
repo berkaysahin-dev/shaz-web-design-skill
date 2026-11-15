@@ -1,0 +1,430 @@
+# Planckian
+
+![Planckian]()
+
+---
+
+### Specification & Assets
+* **Collection:** `Shaz Labs / GetLayers Collection`
+* **Item ID:** `planckian`
+* **Category:** `Templates`
+* **Tier:** `Premium`
+* **Tone & Mood:** `Dark` · `cinematic`
+* **Core Tags:** ``
+* **Design Keywords:** ``
+* **Prompt Size:** `20,870 Characters (Complete Full-Stack WebGL + UI Blueprint)`
+* **Live Full Video (MP4):** [Download / Stream Video]()
+* **Preview Video (MP4):** [Download / Stream Preview]()
+* **WebP Poster:** [High-Res Poster]()
+
+---
+
+### Concept & Overview
+The colour of a temperature: hot metal lights one channel at a time, red then green then blue, and the whole sequence from deep cherry through orange to white falls out of the order they switch on in.
+
+---
+
+### Complete Architecture Prompt (Ready for Claude Code, OpenAI Codex, Cursor, Antigravity, v0, Lovable)
+
+```markdown
+# Recreate this site as a single production-grade HTML/CSS/JS file: Planckian (Templates)
+
+You are a Principal Creative Technologist, WebGL Shader Architect, and Design Systems Engineer.
+Produce a **single self-contained `index.html`** (or full Next.js / React + Tailwind + Framer Motion module if requested) that reproduces **"Planckian"** with 1:1 visual fidelity, real-time GPU physics, fluid viewport scaling, and tactile micro-interactions.
+
+> **RECOMMENDED AI SKILLS:** Ensure **`UI UX Pro Max` (`ui-ux-pro-max`)** and **`Framer Motion` (`framer-motion` / `animate`)** skills are active to enforce spring physics, anti-generic layout geometry, and sub-pixel surface polish.
+
+---
+
+## 1. Project Identity & Visual Direction
+- **Title:** `Planckian`
+- **Slug / ID:** `planckian`
+- **Category:** `Templates` (`GetLayers Collection`)
+- **Creative Concept:** The colour of a temperature: hot metal lights one channel at a time, red then green then blue, and the whole sequence from deep cherry through orange to white falls out of the order they switch on in.
+- **Atmospheric Tone & Mood:** `DARK` palette · `cinematic, technical`
+- **Core Stack & Tags:** `webgl, threejs, nextjs`
+- **Visual & Architectural Keywords:** `shader, webgl, interactive, glassmorphism, smooth-scroll`
+- **Primary Media Assets (Built-In 4K CDN Endpoints):**
+  - **Primary Full-Res Video (`.mp4`):** `https://storage.getlayers.ai/templates/planckian.mp4`
+  - **Preview Loop Video (`.mp4`):** `https://storage.getlayers.ai/templates/planckian.mp4`
+  - **High-Res Poster Frame (`.webp`):** `https://storage.getlayers.ai/templates/planckian.webp`
+  *(Note: Use `https://storage.getlayers.ai/templates/planckian.mp4` directly for instant 1:1 reproduction. If replacing with a custom commercial product video, generate a studio keyframe in Midjourney v6/Flux and animate a 6s dolly loop in Higgsfield or Kling AI, then swap the `<video src="...">` URL).*
+
+---
+
+## 2. Calibrated Design Tokens & Fluid Root Scaling
+
+### 2.1 Fluid Viewport Typography & Spacing Engine
+Scale the entire layout proportionally against a `1440px` desktop reference and a `390px` mobile reference so every `rem` unit behaves like a precision cinema frame:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Surface & Atmospheric Palette */
+  --bg-canvas: #070709;
+  --bg-elevated: #101116;
+  --bg-glass: rgba(14, 15, 20, 0.68);
+  --bg-glass-hover: rgba(255, 255, 255, 0.06);
+  --text-primary: #f4f4f6;
+  --text-secondary: #a1a1aa;
+  --text-muted: #63636e;
+  --accent-primary: #34d399;
+  --accent-secondary: #8b5cf6;
+  --border-hairline: rgba(255, 255, 255, 0.08);
+  --border-specular: rgba(255, 255, 255, 0.22);
+
+  /* Typography Families */
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Motion Curves */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout Metrics */
+  --container-max: 84rem;
+  --nav-height: 4.5rem;
+}
+
+html {
+  font-size: clamp(13px, calc(100vw / 1440 * 16), 18px);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar { display: none; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+```
+
+### 2.2 Liquid Glass Surface & Specular Rim System
+Every floating HUD bar, card, badge, and interactive control must implement dual-layer specular refraction rather than flat opaque borders:
+
+```css
+.liquid-glass {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px) saturate(165%);
+  -webkit-backdrop-filter: blur(20px) saturate(165%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14),
+    inset 0 0 0 1px var(--border-hairline),
+    0 24px 60px -12px rgba(0, 0, 0, 0.65);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.45s var(--ease-out-expo), box-shadow 0.45s var(--ease-out-expo), background 0.35s ease;
+}
+
+.liquid-glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.04) 45%,
+    rgba(255, 255, 255, 0.0) 65%,
+    rgba(255, 255, 255, 0.18) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Interactive Cursor Spotlight Card */
+.spotlight-card {
+  position: relative;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255, 255, 255, 0.065),
+    transparent 40%
+  ), var(--bg-elevated);
+  border: 1px solid var(--border-hairline);
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+```
+
+---
+
+## 3. Dual-Layer Visual Engine: 4K Video Scrim + Real-Time Three.js / WebGL2 Shader Stage
+
+This design (`Planckian` — Mode: `PROCEDURAL_VOLUMETRIC_SHADER_STAGE`) runs a hybrid background stage inside `.stage-viewport` (`position: fixed; inset: 0; z-index: 0; pointer-events: none;`):
+
+### 3.1 Layer A: High-Bitrate Video Backdrop & Optical Edge Mask
+```html
+<div class="stage-viewport" id="stageViewport">
+  <video
+    id="heroVideo"
+    src="https://storage.getlayers.ai/templates/planckian.mp4"
+    poster="https://storage.getlayers.ai/templates/planckian.webp"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    style="width:100%; height:100%; object-fit:cover; position:absolute; inset:0; opacity:0.88; transform:scale(1.03); transition:transform 0.1s linear;"
+  ></video>
+  <canvas id="webglCanvas" style="position:absolute; inset:0; width:100%; height:100%; mix-blend-mode:screen; opacity:0.85;"></canvas>
+  <div class="stage-bottom-blur"></div>
+  <div class="stage-vignette"></div>
+</div>
+```
+
+With optical progressive bottom-edge blur and vignette masking so foreground typography maintains WCAG AAA contrast without muddying the center frame:
+```css
+.stage-bottom-blur {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 42vh;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  mask-image: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.65) 45%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.65) 45%, transparent 100%);
+}
+.stage-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 42%, transparent 25%, var(--bg-canvas) 100%),
+    linear-gradient(180deg, rgba(7,7,9,0.55) 0%, transparent 22%, transparent 68%, var(--bg-canvas) 100%);
+}
+```
+
+### 3.2 Layer B: Real-Time Three.js / GLSL Shader Implementation (`#webglCanvas`)
+Implement a live Three.js / WebGL2 particle & shader simulation that responds continuously to scroll progress (`uScroll`: `0.0 -> 1.0`) and normalized damped cursor coordinates (`uMouse`: `[-1, 1]`):
+
+```javascript
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js';
+
+const canvas = document.getElementById('webglCanvas');
+const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'high-performance' });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+camera.position.set(0, 0, 5.2);
+
+// 24,000-Particle Morphing BufferGeometry (Sphere -> Spiral Galaxy -> Neural Cortex / Wave Field)
+const COUNT = 24000;
+const geometry = new THREE.BufferGeometry();
+const posSphere = new Float32Array(COUNT * 3);
+const posGalaxy = new Float32Array(COUNT * 3);
+const posCortex = new Float32Array(COUNT * 3);
+const randomSeed = new Float32Array(COUNT);
+
+for (let i = 0; i < COUNT; i++) {
+  const i3 = i * 3;
+  randomSeed[i] = Math.random();
+
+  // State 0: Breathing Orb / Sphere
+  const u = Math.random();
+  const v = Math.random();
+  const theta = u * 2.0 * Math.PI;
+  const phi = Math.acos(2.0 * v - 1.0);
+  const rSphere = 1.45 + 0.12 * Math.sin(phi * 6.0);
+  posSphere[i3]     = rSphere * Math.sin(phi) * Math.cos(theta);
+  posSphere[i3 + 1] = rSphere * Math.sin(phi) * Math.sin(theta);
+  posSphere[i3 + 2] = rSphere * Math.cos(phi);
+
+  // State 1: 4-Arm Logarithmic Spiral Galaxy
+  const arm = i % 4;
+  const radius = Math.pow(Math.random(), 0.75) * 3.1;
+  const spinAngle = radius * 2.8 + (arm * Math.PI * 0.5);
+  const scatter = (1.0 - radius / 3.2) * 0.28;
+  posGalaxy[i3]     = Math.cos(spinAngle) * radius + (Math.random() - 0.5) * scatter;
+  posGalaxy[i3 + 1] = (Math.random() - 0.5) * scatter * 0.65;
+  posGalaxy[i3 + 2] = Math.sin(spinAngle) * radius + (Math.random() - 0.5) * scatter;
+
+  // State 2: Bi-Hemisphere Cortical Fold / Harmonic Wave Lattice
+  const hemi = (i % 2 === 0) ? 1.0 : -1.0;
+  const foldFreq = 8.0;
+  const gyri = 0.16 * Math.sin(theta * foldFreq) * Math.cos(phi * foldFreq);
+  posCortex[i3]     = (1.25 + gyri) * Math.sin(phi) * Math.cos(theta) * 0.85 + hemi * 0.22;
+  posCortex[i3 + 1] = (1.15 + gyri) * Math.cos(phi) * 0.92;
+  posCortex[i3 + 2] = (1.45 + gyri) * Math.sin(phi) * Math.sin(theta);
+}
+
+geometry.setAttribute('position', new THREE.BufferAttribute(posSphere, 3));
+geometry.setAttribute('aGalaxy', new THREE.BufferAttribute(posGalaxy, 3));
+geometry.setAttribute('aCortex', new THREE.BufferAttribute(posCortex, 3));
+geometry.setAttribute('aSeed', new THREE.BufferAttribute(randomSeed, 1));
+
+const uniforms = {
+  uTime: { value: 0 },
+  uScroll: { value: 0 },
+  uMouse: { value: new THREE.Vector2(0, 0) },
+  uColorA: { value: new THREE.Color('#34d399') },
+  uColorB: { value: new THREE.Color('#8b5cf6') }
+};
+
+const material = new THREE.ShaderMaterial({
+  uniforms,
+  transparent: true,
+  depthWrite: false,
+  blending: THREE.AdditiveBlending,
+  vertexShader: `
+    attribute vec3 aGalaxy;
+    attribute vec3 aCortex;
+    attribute float aSeed;
+    uniform float uTime;
+    uniform float uScroll;
+    uniform vec2 uMouse;
+    varying float vMix;
+    varying float vAlpha;
+
+    void main() {
+      // Smooth 3-stage scroll morph: 0.0->0.5 (Orb to Galaxy), 0.5->1.0 (Galaxy to Cortex)
+      float s1 = smoothstep(0.0, 0.5, uScroll);
+      float s2 = smoothstep(0.5, 1.0, uScroll);
+      vec3 morphed = mix(position, aGalaxy, s1);
+      morphed = mix(morphed, aCortex, s2);
+
+      // Organic curl breathing
+      float pulse = sin(uTime * 1.4 + aSeed * 6.2831) * 0.045;
+      morphed += normalize(morphed + 0.001) * pulse;
+
+      // Cursor magnetic deflection
+      vec2 screenOffset = morphed.xy - uMouse * 2.0;
+      float dist = length(screenOffset);
+      morphed.xy += normalize(screenOffset + 0.001) * smoothstep(1.2, 0.0, dist) * 0.22;
+
+      vec4 mvPosition = modelViewMatrix * vec4(morphed, 1.0);
+      gl_PointSize = (2.2 + aSeed * 2.4) * (4.5 / -mvPosition.z);
+      gl_Position = projectionMatrix * mvPosition;
+      vMix = aSeed * 0.6 + s1 * 0.4;
+      vAlpha = smoothstep(8.0, 1.5, -mvPosition.z) * (0.45 + 0.55 * aSeed);
+    }
+  `,
+  fragmentShader: `
+    uniform vec3 uColorA;
+    uniform vec3 uColorB;
+    varying float vMix;
+    varying float vAlpha;
+
+    void main() {
+      vec2 uv = gl_PointCoord - 0.5;
+      float d = length(uv);
+      if (d > 0.5) discard;
+      float glow = pow(1.0 - d * 2.0, 2.2);
+      vec3 col = mix(uColorA, uColorB, vMix);
+      gl_FragColor = vec4(col, glow * vAlpha);
+    }
+  `
+});
+
+const points = new THREE.Points(geometry, material);
+scene.add(points);
+```
+
+---
+
+## 4. Stage Layout & Viewport Architecture
+
+Build a focused, full-viewport cinematic showcase:
+
+### 4.1 Minimal Glass Navigation (`header.hud-nav`)
+- **Position:** `fixed; top: 1.25rem; left: 50%; transform: translateX(-50%); width: min(92vw, 82rem); z-index: 100;`
+- **Container:** `.liquid-glass` pill bar (`border-radius: 999px; padding: 0.65rem 1.4rem; display: flex; align-items: center; justify-content: space-between;`).
+- **Left:** Geometric brand mark + wordmark `PLANCKIAN` (`font-family: var(--font-display); font-weight: 700; font-size: 0.95rem;`).
+- **Right:** Primary action button (`Explore Scene ` with `background: var(--text-primary); color: var(--bg-canvas); border-radius: 999px; padding: 0.55rem 1.25rem; font-weight: 600;`).
+
+### 4.2 Full-Viewport Cinematic Stage (`section.hero-stage`)
+- **Layout:** Centered or asymmetric editorial composition over the live Three.js / WebGL shader stage.
+- **Display Headline:** Clean monumental title `Planckian` without decorative eyebrow tags or '//' label prefixes.
+- **Concept Subcopy:** Clear editorial typography explaining the visual concept, set at high contrast without visual clutter.
+- **Zero Slop Directives:** Never inject artificial bento matrices, fake latency benchmarks, flashing indicator dots, or monumental watermark footers. The 3D shader and canvas must remain the undisputed hero of the viewport.
+
+---
+
+## 5. Smooth Scroll (Lenis) & Pointer Physics Controller
+
+Include this complete runtime orchestration loop inside `<script type="module">`:
+
+```javascript
+import Lenis from 'https://cdn.jsdelivr.net/npm/lenis@1.1.18/+esm';
+
+const lenis = new Lenis({
+  duration: 1.15,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  smoothWheel: true
+});
+
+let targetScroll = 0;
+let currentScroll = 0;
+let mouseX = 0, mouseY = 0;
+let targetMouseX = 0, targetMouseY = 0;
+
+window.addEventListener('mousemove', (e) => {
+  targetMouseX = (e.clientX / window.innerWidth) * 2 - 1;
+  targetMouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+
+  // Update CSS radial spotlight coordinates on all .spotlight-card elements
+  document.querySelectorAll('.spotlight-card').forEach((card) => {
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+    card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+  });
+});
+
+lenis.on('scroll', ({ progress }) => {
+  targetScroll = progress;
+  const readout = document.getElementById('scrollPhaseReadout');
+  if (readout) readout.textContent = `${(progress * 6.2831).toFixed(3)} RAD`;
+});
+
+const clock = new THREE.Clock();
+function animate(time) {
+  lenis.raf(time);
+  const elapsed = clock.getElapsedTime();
+
+  // Smooth linear interpolation (lerp)
+  currentScroll += (targetScroll - currentScroll) * 0.08;
+  mouseX += (targetMouseX - mouseX) * 0.06;
+  mouseY += (targetMouseY - mouseY) * 0.06;
+
+  uniforms.uTime.value = elapsed;
+  uniforms.uScroll.value = currentScroll;
+  uniforms.uMouse.value.set(mouseX, mouseY);
+
+  points.rotation.y = elapsed * 0.06 + currentScroll * 1.8;
+  points.rotation.x = mouseY * 0.25;
+
+  const heroVideo = document.getElementById('heroVideo');
+  if (heroVideo) {
+    heroVideo.style.transform = `scale(${1.03 + currentScroll * 0.12}) translateY(${currentScroll * 45}px)`;
+  }
+
+  renderer.render(scene, camera);
+  requestAnimationFrame(animate);
+}
+requestAnimationFrame(animate);
+
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+```
+
+---
+
+## 6. Strict Anti-Slop & Quality Guardrails (Mandatory)
+1. **NO Placeholder Text:** Never output `"placeholder narrative"` or `"Content goes here"`. Every card, metric, telemetry label, and paragraph must contain domain-authentic copy matching **"Planckian"**.
+2. **NO Generic Unstyled Scrollbars:** Keep native scrollbars hidden (`scrollbar-width: none`) while preserving smooth wheel/touch scrolling via Lenis.
+3. **NO Flat Opaque Borders:** All borders must use translucent `rgba(255,255,255,0.08)` hairlines paired with `.liquid-glass` specular pseudo-element masks.
+4. **NO Broken Video/Canvas Z-Indexing:** The `.stage-viewport` (`<video>` + `<canvas id="webglCanvas">`) must stay fixed at `z-index: 0` with `pointer-events: none`, while all interactive sections scroll cleanly above at `z-index: 10`.
+5. **100% Self-Contained Execution:** All CSS tokens, keyframe animations, Three.js shaders, Lenis smooth scroll, and DOM sections must run out-of-the-box with zero missing imports or console errors.
+6. **Production Website Reality (Anti-Mockup Rule):** The visual reference defines the aesthetic style and mood. NEVER trap the interface inside a static, isolated mockup card floating on a blank canvas. Deliver a living, full-viewport, responsive production web application with a full-width header (`w-full`), natural vertical scrolling, rich feature sections, and a complete footer. All cards, carousels, tabs, and interactive triggers must be fully clickable and functional.
+
+```
