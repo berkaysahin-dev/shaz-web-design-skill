@@ -101,6 +101,7 @@ Every component, page, layout, and prompt produced by this skill adheres to 21 n
 shaz-web-design-skill/
 ├── SKILL.md                                        # Master AI skill orchestrator & instruction file
 ├── README.md                                       # Repository documentation & architectural index
+├── install.js                                      # One-command installer for Claude Code, Antigravity and other agents
 │
 ├── commands/                                       # High-velocity slash command definitions (TR / EN)
 │   ├── shaz.md                                     # Master autonomous design engine orchestrator
@@ -173,27 +174,43 @@ shaz-web-design-skill/
 
 ## 4. Installation & Agent Setup
 
-### Method A: Install in Antigravity
-Clone or copy this directory directly into your global Antigravity skills configuration:
+Requires [Node.js](https://nodejs.org) 18 or newer and Git.
 
 ```bash
-# Target path on Windows
-%USERPROFILE%\.gemini\config\skills\shaz-agency-web-design
-
-# Target path on macOS / Linux
-~/.gemini/config\skills\shaz-agency-web-design
+git clone https://github.com/berkaysahin-dev/shaz-web-design-skill.git
+cd shaz-web-design-skill
+node install.js
 ```
 
-Ensure `SKILL.md` is present at the root of that folder. Antigravity will automatically index `shaz-agency-web-design`.
+`install.js` copies the master skill (`SKILL.md` with `rules/`, `checklists/`, `library/` and `commands/`), the core sub-skills (`/shaz-hero`, `/shaz-3d`, `/shaz-style`, `/shaz-dock`, `/shaz-component`, `/shaz-audit`), the 44 sector, style and component engines (`/shaz-luxury`, `/shaz-saas`, `/shaz-surrealism` …) and the Claude Code slash commands. Paths inside the sub-skills are pointed at the installed master skill, so every engine can read the rules and the library. Restart your agent, then run `/shaz <brief>`.
 
-### Method B: Install in Claude Code / Cursor / Windsurf
-Add the following reference to your agent instruction file (`CLAUDE.md`, `.cursorrules`, or `.windsurfrules`):
+| Agent | Command | Installs into |
+| :--- | :--- | :--- |
+| Claude Code (default) | `node install.js` | `~/.claude/skills`, `~/.claude/commands` |
+| Shared agent skills (Codex and other agents that read `~/.agents/skills`) | `node install.js --target agents` | `~/.agents/skills` |
+| Antigravity | `node install.js --target gemini` | `~/.gemini/config/skills` |
+| All of the above | `node install.js --target all` | |
+| Any other folder | `node install.js --dir <path>` | `<path>` |
 
-```markdown
-When designing user interfaces, sections, landing pages, or web applications, strictly follow the Shaz Agency Web Design skill specification located at:
-https://github.com/berkaysahin-dev/shaz-web-design-skill
+Update by pulling and running the installer again. Remove with `node install.js --uninstall` (add the same `--target` or `--dir` you installed with).
 
-Enforce the 21 Universal Design Laws: zero fluff copy, zero badges/pills, zero eyebrows, zero emojis, category-driven color (strict neon ban), selective double-bezel hierarchy, seamless atmospheric transitions, backgroundless hero centerpieces, bespoke non-classic footers, page architecture modality, scroll-morphing collapsible dock, ecosystem marquee, bespoke vector favicon architecture, strict logo prohibition, strict anti-50/50 hero split, anti-formula component diversity, zero toy 3D meshes, and zero blinking lights.
+### Cursor, Windsurf and GitHub Copilot
+
+These read rules from the project, not from a skills folder. Copy the matching file into the project you are designing:
+
+- **Cursor:** `.cursor/rules/shaz-commands.mdc` (or `.cursorrules`)
+- **Windsurf:** `.cursorrules`, renamed to `.windsurfrules`
+- **GitHub Copilot:** `.github/copilot-instructions.md`
+
+Keep a copy of this repository next to the project (or install it with `node install.js --dir <path>`) so the rules and the library they reference are on disk.
+
+### Maintainers: refreshing the library
+
+Folders `library/17`–`23` mirror the Shaz Agency design library. With access to that repository, refresh them and rebuild the index:
+
+```bash
+node library/sync-from-design-library.js <path-to-shaz-agency-web-design>
+node library/build-index.js library
 ```
 
 ---
