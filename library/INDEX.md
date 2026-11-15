@@ -485,3 +485,566 @@ One line per blueprint, generated from the files themselves. Read this first, sh
 - `14-name-that-ui-dictionary/vs-toolbar-vs-menu-bar.md` — **Toolbar vs. Menu Bar (macOS) — what's the difference?** (UI Comparison (VS)): Build a production-grade implementation of 'Toolbar vs. Menu Bar (macOS) — what's the difference?' (UI Comparison (VS) — API symbol: vs-toolbar-vs-menu-bar). The menu…
 - `14-name-that-ui-dictionary/vs-tooltip-vs-hover-card.md` — **Tooltip vs. Hover Card — what's the difference?** (UI Comparison (VS)): Build a production-grade implementation of 'Tooltip vs. Hover Card — what's the difference?' (UI Comparison (VS) — API symbol: vs-tooltip-vs-hover-card). Both appear on…
 - `14-name-that-ui-dictionary/window.md` — **Mac Window** (macOS UI): Build this as a native Mac Window (NSWindow; SwiftUI: Window or WindowGroup). Distinguish the draggable title-bar region from NSWindow.title, use an NSToolbar for…
+
+## 17-cinematic-heroes (77)
+
+- `17-cinematic-heroes/aevia.md` — **Aevia** (Hero Section · Precision Longevity)
+- `17-cinematic-heroes/angstrom.md` — **Angstrom** (Hero Section · Inference Silicon)
+- `17-cinematic-heroes/apexplay.md` — **Apexplay** (Hero Section · Esports Gear)
+- `17-cinematic-heroes/arca.md` — **Arca** (Hero Section · Watchmaker)
+- `17-cinematic-heroes/ascend.md` — **Ascend** (Hero Section · Mindfulness)
+- `17-cinematic-heroes/atlas.md` — **Atlas** (Hero Section · Developer)
+- `17-cinematic-heroes/aureum.md` — **Aureum** (Hero Section · Distillery)
+- `17-cinematic-heroes/auric.md` — **Auric** (Hero Section · Fintech)
+- `17-cinematic-heroes/axon.md` — **Axon** (Hero Section · Neural Infrastructure)
+- `17-cinematic-heroes/beacon.md` — **Beacon** (Hero Section · Analytics AI)
+- `17-cinematic-heroes/canopy.md` — **Canopy** (Hero Section · Venture)
+- `17-cinematic-heroes/chromeribbon.md` — **Chrome Ribbon** (Hero Section · Zero-G)
+- `17-cinematic-heroes/cinematic.md` — **Cinematic Hero** (Hero Section · Movie / Streaming)
+- `17-cinematic-heroes/cirrus.md` — **Cirrus** (Hero Section · Real Estate)
+- `17-cinematic-heroes/classica.md` — **Classica** (Hero Section · Auction House)
+- `17-cinematic-heroes/clearing.md` — **Clearing** (Hero Section · Field Recordings)
+- `17-cinematic-heroes/cortex.md` — **Cortex** (Hero Section · AI Platform)
+- `17-cinematic-heroes/deepfield.md` — **Deepfield** (Hero Section · Creative Studio)
+- `17-cinematic-heroes/drift.md` — **Drift** (Hero Section · Travel)
+- `17-cinematic-heroes/ember.md` — **Ember** (Hero Section · Coffee)
+- `17-cinematic-heroes/engram.md` — **Engram** (Hero Section · AI Memory)
+- `17-cinematic-heroes/ferrofluid.md` — **Ferrofluid** (Hero Section · Labs)
+- `17-cinematic-heroes/flock.md` — **Flock** (Hero Section · Generative Imaging)
+- `17-cinematic-heroes/flowstate.md` — **Flowstate** (Hero Section · AI Workflow)
+- `17-cinematic-heroes/flux.md` — **Flux** (Hero Section · Creative Studio)
+- `17-cinematic-heroes/fob.md` — **Fob** (Hero Section · Creative Toolkit)
+- `17-cinematic-heroes/frost.md` — **Frost** (Hero Section · Cold Brew)
+- `17-cinematic-heroes/gambit.md` — **Gambit** (Hero Section · Editorial)
+- `17-cinematic-heroes/graded.md` — **Graded** (Hero Section · Alt-Asset Index)
+- `17-cinematic-heroes/haven.md` — **Haven** (Hero Section · Wellness AI)
+- `17-cinematic-heroes/heartcore.md` — **Heartcore** (Hero Section · Music Drop)
+- `17-cinematic-heroes/helio.md` — **Helio** (Hero Section · Solar Energy)
+- `17-cinematic-heroes/hourglass.md` — **Hourglass** (Hero Section · Planetarium)
+- `17-cinematic-heroes/inkwell.md` — **Inkwell** (Hero Section · AI Writing)
+- `17-cinematic-heroes/kairo.md` — **Kairo** (Hero Section · Field Watch)
+- `17-cinematic-heroes/knead.md` — **Knead** (Hero Section · Bakehouse)
+- `17-cinematic-heroes/knit.md` — **Knit** (Hero Section · Home Robotics)
+- `17-cinematic-heroes/koi.md` — **Koi Garden** (Hero Section · Teahouse)
+- `17-cinematic-heroes/limb.md` — **Limb** (Hero Section · Earth Observation)
+- `17-cinematic-heroes/lumenpoint.md` — **Lumen Point** (Hero Section · Lighthouse)
+- `17-cinematic-heroes/meridian.md` — **Meridian** (Hero Section · Real Estate)
+- `17-cinematic-heroes/meshnet.md` — **Meridian Net** (Hero Section · Global Edge)
+- `17-cinematic-heroes/natsu.md` — **Natsu** (Hero Section · Theatre Company)
+- `17-cinematic-heroes/nebula.md` — **Nebula** (Hero Section · Planetarium)
+- `17-cinematic-heroes/neura.md` — **Neura** (Hero Section · Research Lab)
+- `17-cinematic-heroes/nimbus.md` — **Nimbus** (Hero Section · Sky Lounge)
+- `17-cinematic-heroes/noireparfum.md` — **Noire Parfum** (Hero Section · Parfumerie)
+- `17-cinematic-heroes/nova.md` — **Nova** (Hero Section · Analytics)
+- `17-cinematic-heroes/orbital.md` — **Orbital** (Hero Section · Earthwatch)
+- `17-cinematic-heroes/petalcraft.md` — **Petalcraft** (Hero Section · Floral Atelier)
+- `17-cinematic-heroes/plume.md` — **Plume** (Hero Section · Paperie)
+- `17-cinematic-heroes/prisme.md` — **Prisme** (Hero Section · Digital Art)
+- `17-cinematic-heroes/pulpe.md` — **Pulpe** (Hero Section · Juice Pop-Art)
+- `17-cinematic-heroes/relay.md` — **Relay** (Hero Section · Logistics)
+- `17-cinematic-heroes/reverie.md` — **Reverie** (Hero Section · Dreamcore)
+- `17-cinematic-heroes/rove.md` — **Rove** (Hero Section · Travel AI)
+- `17-cinematic-heroes/sable.md` — **Sable** (Hero Section · Loungewear)
+- `17-cinematic-heroes/seam.md` — **Seam** (Hero Section · Bespoke Tailor)
+- `17-cinematic-heroes/signoff.md` — **Signoff** (Hero Section · Screen Time)
+- `17-cinematic-heroes/slate.md` — **Slate** (Hero Section · Hardware)
+- `17-cinematic-heroes/solstice.md` — **Solstice** (Hero Section · Light Therapy Lamp)
+- `17-cinematic-heroes/sona.md` — **Sona** (Hero Section · Music)
+- `17-cinematic-heroes/sonor.md` — **Sonor** (Hero Section · Audio Lab)
+- `17-cinematic-heroes/stackfolio.md` — **Stackfolio** (Hero Section · Portfolio)
+- `17-cinematic-heroes/stillwater.md` — **Stillwater** (Hero Section · Deep Work)
+- `17-cinematic-heroes/sub2.md` — **Sub2** (Hero Section · Race Campaign)
+- `17-cinematic-heroes/swatch.md` — **Swatch** (Hero Section · Colourway Configurator)
+- `17-cinematic-heroes/tender.md` — **Tender** (Hero Section · Fintech)
+- `17-cinematic-heroes/terra.md` — **Terra** (Hero Section · Wellness)
+- `17-cinematic-heroes/tracking.md` — **Tracking** (Hero Section · Driving Routes)
+- `17-cinematic-heroes/vault.md` — **Vault** (Hero Section · Crypto)
+- `17-cinematic-heroes/verdant.md` — **Verdant** (Hero Section · Overgrown Metro)
+- `17-cinematic-heroes/vesper.md` — **Vesper** (Hero Section · Automotive AI)
+- `17-cinematic-heroes/vitrum.md` — **Vitrum** (Hero Section · Art Glass)
+- `17-cinematic-heroes/volt.md` — **Volt** (Hero Section · Electric Vehicle)
+- `17-cinematic-heroes/volta.md` — **Volta** (Hero Section · Electric Vehicle)
+- `17-cinematic-heroes/vortexink.md` — **Vortex Ink** (Hero Section · Print)
+
+## 18-landing-pages (98)
+
+- `18-landing-pages/abyss.md` — **Abyss** (Landing Page · Depth Horology): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/abyssal.md` — **Abyssal** (Landing Page · Dive Instrument)
+- `18-landing-pages/aegis.md` — **Aegis** (Landing Page · Immersive)
+- `18-landing-pages/alder.md` — **Alder** (Landing Page · AI Design Tool): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/alpenglow.md` — **Alpenglow** (Landing Page · Heli-Skiing): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/america.md` — **America** (Template · Hard Surface)
+- `18-landing-pages/apsis.md` — **Apsis** (Template · Orbital Servicing)
+- `18-landing-pages/ascent.md` — **Ascent** (Landing Page · Alpine)
+- `18-landing-pages/azur.md` — **Azur** (Landing Page · Yacht Charter): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/barrel.md` — **Barrel** (Landing Page · Surf): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/basalt.md` — **Basalt** (Template · Technical Fleece)
+- `18-landing-pages/brae.md` — **Brae** (Landing Page · Property Listing)
+- `18-landing-pages/brandnewday.md` — **Brand New Day** (Landing Page · Scroll Film)
+- `18-landing-pages/brandt.md` — **Brandt** (Template · Portfolio): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/caldera.md` — **Caldera** (Template · Geothermal Power)
+- `18-landing-pages/camber.md` — **Camber** (Template · Army-Pattern Trainer)
+- `18-landing-pages/carbon.md` — **Carbon** (Template · Additive Manufacture)
+- `18-landing-pages/carre.md` — **Carré** (Landing Page · Haute Horlogerie): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/cassette.md` — **Cassette** (Template · Tape Label)
+- `18-landing-pages/chalk.md` — **Chalk** (Landing Page · Strength)
+- `18-landing-pages/char.md` — **Char** (Landing Page · Restaurant)
+- `18-landing-pages/chroma.md` — **Chroma** (Landing Page · Gem-Set Horology): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/circuit.md` — **Circuit** (Landing Page · Motorsport Horology): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/cobalt.md` — **Cobalt** (Landing Page · Hypercar Fly-Through)
+- `18-landing-pages/dev.md` — **Dev** (Landing Page · Developer Portfolio)
+- `18-landing-pages/dewpoint.md` — **Dewpoint** (Landing Page · Skincare): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/dirt.md` — **Dirt** (Landing Page · Motocross): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/dunefall.md` — **Dunefall** (Landing Page · Digital Identity): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/dunescape.md` — **Dunescape** (Landing Page · Expedition)
+- `18-landing-pages/enamel.md` — **Enamel** (Landing Page · Dental Clinic)
+- `18-landing-pages/eventhorizon.md` — **Event Horizon** (Landing Page · Black Hole)
+- `18-landing-pages/facet.md` — **Facet** (Landing Page · Diamond Cutting)
+- `18-landing-pages/fathom.md` — **Fathom** (Landing Page · Freedive School)
+- `18-landing-pages/filament.md` — **Filament** (Landing Page · Fibre Network)
+- `18-landing-pages/fracture.md` — **Fracture** (Landing Page · Gallery Show)
+- `18-landing-pages/gate.md` — **Gate** (Landing Page · Threshold)
+- `18-landing-pages/gimbal.md` — **Gimbal** (Template · Precision Bearings)
+- `18-landing-pages/glare.md` — **Glare** (Landing Page · Eyewear)
+- `18-landing-pages/glassflow.md` — **Glassflow** (Landing Page · Furnace)
+- `18-landing-pages/granular.md` — **Granular** (Landing Page · Audio Instrument)
+- `18-landing-pages/graven.md` — **Graven** (Landing Page · Blueprint Sheet): GRAVEN / DRAFTING WORKS — a studio that draws objects before they are built. The footage is a blueprint sheet coming to life; scroll traces the draft from a blank…
+- `18-landing-pages/halcyon.md` — **Halcyon** (Landing Page · Hydrogen Hypercar)
+- `18-landing-pages/halide.md` — **Halide** (Template · Image Studio)
+- `18-landing-pages/halo.md` — **Halo** (Landing Page · Smart Ring)
+- `18-landing-pages/infinite.md` — **Infinite** (Landing Page · Haute Horlogerie)
+- `18-landing-pages/inflate.md` — **Inflate** (Landing Page · Design Studio)
+- `18-landing-pages/iris.md` — **Iris** (Landing Page · Security Research)
+- `18-landing-pages/lagoon.md` — **Lagoon** (Landing Page · Freediving School): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/lodestone.md` — **Lodestone** (Landing Page · Geophysical Survey)
+- `18-landing-pages/magma.md` — **Magma** (Landing Page · Hypercar Fly-Through)
+- `18-landing-pages/massif.md` — **Massif** (Landing Page · Mountain Guiding)
+- `18-landing-pages/meridiangmt.md` — **Meridian GMT** (Landing Page · Boarding Pass)
+- `18-landing-pages/mirage.md` — **Mirage** (Landing Page · Salt-Flat Crossings)
+- `18-landing-pages/monument.md` — **Monument** (Landing Page · Artifact)
+- `18-landing-pages/murmur.md` — **Murmur** (Template · Interface Studio)
+- `18-landing-pages/nightdesk.md` — **Lantern** (Landing Page · Journalling App): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/nitrate.md` — **Nitrate** (Landing Page · Machine Cinema)
+- `18-landing-pages/noctua.md` — **Noctua** (Landing Page · Night GT)
+- `18-landing-pages/nox.md` — **Nox** (Landing Page · Hypercar Fly-Through)
+- `18-landing-pages/octane.md` — **Octane** (Landing Page · Swiss Catalogue)
+- `18-landing-pages/octant.md` — **Octant** (Landing Page · Haute Horlogerie): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/orrery.md` — **Orrery** (Landing Page · Observatory)
+- `18-landing-pages/pigment.md` — **Pigment** (Landing Page · Paint Makers)
+- `18-landing-pages/plinth.md` — **Plinth** (Landing Page · Object Studio)
+- `18-landing-pages/prisma.md` — **Prisma** (Landing Page · Creative Collective)
+- `18-landing-pages/raster.md` — **Raster** (Landing Page · Night-Shift Agent): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/refract.md` — **Refract** (Landing Page · Optical Bench)
+- `18-landing-pages/ridgeline.md` — **Ridgeline** (Landing Page · Mountain Retreat): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/ringworld.md` — **Ringworld** (Landing Page · Megastructure)
+- `18-landing-pages/riposte.md` — **Riposte** (Landing Page · Athlete Profile)
+- `18-landing-pages/samara.md` — **Samara** (Template · Seed Archive)
+- `18-landing-pages/sanctum.md` — **Sanctum** (Landing Page · Scroll Cinematic)
+- `18-landing-pages/sentry.md` — **Sentry** (Landing Page · Cybersecurity): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/servo.md` — **Servo** (Landing Page · Humanoid Robotics)
+- `18-landing-pages/skeleto.md` — **Skeleto** (Landing Page · X-Ray Horology)
+- `18-landing-pages/skybridge.md` — **Skybridge** (Landing Page · Residences)
+- `18-landing-pages/spectre.md` — **Spectre** (Landing Page · Hypercar Fly-Through)
+- `18-landing-pages/spritz.md` — **Spritz** (Landing Page · Craft Soda)
+- `18-landing-pages/substrate.md` — **Substrate** (Template · Materials Foundry)
+- `18-landing-pages/summit.md` — **Summit** (Landing Page · Immersive)
+- `18-landing-pages/sweep.md` — **Sweep** (Landing Page · LiDAR Survey)
+- `18-landing-pages/tencha.md` — **Tencha** (Landing Page · Matcha Room)
+- `18-landing-pages/terminus.md` — **Terminus** (Template · Night Freight)
+- `18-landing-pages/tinker.md` — **Tinker** (Landing Page · Animation Studio): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/toxin.md` — **Toxin** (Landing Page · Hypercar Fly-Through)
+- `18-landing-pages/tsuki.md` — **Tsuki** (Landing Page · Ryokan / Travel): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/understory.md` — **Understory** (Landing Page · Botanical Infusion): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/updraft.md` — **Updraft** (Landing Page · Travel Spend): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/vellum.md` — **Vellum** (Landing Page · Architecture Studio): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/velorah.md` — **Velorah** (Landing Page · Deep Work): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/velum.md` — **Velum** (Landing Page · Electric Performance)
+- `18-landing-pages/verge.md` — **Verge** (Landing Page · Plant Delivery): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/vermeil.md` — **Vermeil** (Landing Page · Haute Horlogerie): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/vert.md` — **Vert** (Landing Page · Rally Poster)
+- `18-landing-pages/verve.md` — **Verve** (Landing Page · Sparkling Energy)
+- `18-landing-pages/welkin.md` — **Welkin** (Landing Page · Motoring Programme)
+- `18-landing-pages/wisp.md` — **Wisp** (Landing Page · Indie Game): "Ready for deployment. Experience the collection today."
+- `18-landing-pages/wormhole.md` — **Wormhole** (Landing Page · Transit)
+
+## 19-backgrounds (8)
+
+- `19-backgrounds/chrome-flux.md` — **Chrome Flux** (Background · Liquid Chrome): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/elliptical-galaxy.md` — **Elliptical Galaxy** (Background · Deep Space): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/glass-wave.md` — **Glass Wave** (Background · Liquid Glass): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/glowing-dunes.md` — **Glowing Dunes** (Background · Molten Amber): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/lavender-lake.md` — **Lavender Lake** (Background · Violet Water): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/particle-orb.md` — **Particle Orb** (Background · Violet Particles): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/salt-mirror.md` — **Salt Mirror** (Background · Night Flats): "Ready for deployment. Experience the collection today."
+- `19-backgrounds/sea-storm.md` — **Sea Storm** (Background · One Gold Shaft): "Ready for deployment. Experience the collection today."
+
+## 20-site-templates (55)
+
+- `20-site-templates/aerra.md` — **Aerra** (Templates · Light): A house standing alone on a mountain slope at dusk, its name set eight hundred pixels tall behind it — letters that climb apart as you scroll, a valley you repaint by…
+- `20-site-templates/ai-creator.md` — **AI Creator** (Templates · Light): A photogrammetry bust on a porcelain stage that burns in as the curtain lifts, dissolves into a live blue fire-field as you scroll, and sends its own wireframe…
+- `20-site-templates/ai-studio.md` — **AI Studio** (Templates · Light): A chrome star turns in the dark and the whole page becomes one cinematic scroll — violet light, a bloom of drifting particles, and a camera that flies clean through it.…
+- `20-site-templates/altitude.md` — **Altitude** (Templates · Dark): A still mountain night that stirs to life wherever the cursor drifts — warm and cool ink swirls through the dark and bends the starlit sky behind an invitation to stays…
+- `20-site-templates/antipode.md` — **Antipode** (Templates · Dark): Two masses of light leaning against each other, brightest where they still disagree and black where neither reaches.
+- `20-site-templates/artefakt.md` — **Artefakt** (Templates · Dark): A near-black outerwear concept drawn on a lattice that lights up in squares under your cursor, where a lacquered, iridescent jacket travels down the page from one…
+- `20-site-templates/artist.md` — **Kai Nomura** (Templates · Light): A generative artist's portfolio in hushed, monochrome minimalism — works of light, code, and memory drifting past as you scroll.
+- `20-site-templates/ascend.md` — **Ascend** (Templates · Dark): A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every…
+- `20-site-templates/auralis.md` — **Auralis** (Templates · Light): One unbroken camera flight through a silver studio where thousands of glowing beads keep changing their mind about what they are — an X that bursts into violet ribbons,…
+- `20-site-templates/baseline.md` — **Baseline** (Templates · Light): A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the…
+- `20-site-templates/brewns.md` — **Brewns** (Templates · Dark): A specialty coffee house one-pager where a drawn cup fills and pours away to open the page, a bag and cup of beans stand in a lit studio you can grab and spin, four…
+- `20-site-templates/clair.md` — **Clair** (Templates · Dark): A prism-glass lightning bolt hangs in a slow indigo current, splitting the light into violet and amber as it leans toward you — a dark, exacting hero for a product that…
+- `20-site-templates/clarix.md` — **Clarix** (Templates · Light): A cinematic scroll where a holographic ASCII model dissolves into being, words fly through space, and a logo assembles itself from thousands of glowing particles.
+- `20-site-templates/codescan.md` — **Codescan** (Templates · Dark): A dark room where a figure stands watching a wall of televisions — the lens drifts after your cursor and racks focus onto whatever set you touch, then flies past the…
+- `20-site-templates/cortex.md` — **Cortex** (Templates · Dark): Threads of chromatic light bend and sway toward your cursor across the dark, while a colossal wordmark rises from the fold — a landing hero that feels like intelligence…
+- `20-site-templates/creative-director.md` — **Creative Director** (Templates · Dark): A portfolio that smolders — molten reds drift like a lava lamp beneath film grain while case studies glide past in a slow heat haze.
+- `20-site-templates/creative-studio.md` — **Creative Studio** (Templates · Dark): A void-black creative-studio hero where a solar swell of amber particles ripples beneath faint orbital rings — identity and art direction rendered as light in motion.
+- `20-site-templates/dantora.md` — **Dantora** (Templates · Light): A medical clinic told through ink in water — a green double helix that never stops shedding plumes, swirling outward on an evolving noise flow and parting wherever your…
+- `20-site-templates/dringle.md` — **Dringle** (Templates · Light): Chrome hands cradle a slowly turning star over a pour of violet glass, while a light, unhurried hero makes its case — a brand studio polished until it's the one you…
+- `20-site-templates/evolve.md` — **Evolve** (Templates · Dark): A jet-black AI hero where a human head of tens of thousands of glowing particles — blue key, red rim — drifts, breathes and turns to follow the cursor over a hairline…
+- `20-site-templates/flowstate.md` — **Flowstate** (Templates · Dark): A living fluid drifts through ink-dark calm as a single line settles into place — a hero built for focus, stillness, and deep work.
+- `20-site-templates/forma.md` — **Forma** (Templates · Light): A violet lavender valley ripples under your cursor as a studio's contact page assembles itself — heading, form, and cards settling in one by one.
+- `20-site-templates/fromzero.md` — **Fromzero** (Templates · Dark): A midnight valley where a floating screen turns to meet your cursor — an eye framed by falling code, its light spilling onto a black lake that ripples wherever you point.
+- `20-site-templates/gravity-webgl.md` — **Gravity** (Templates · Light): A WebGL field of glossy spheres that drops, scatters, and reassembles into a heart as you scroll — chasing your cursor the whole way.
+- `20-site-templates/gring-x.md` — **GringX** (Templates · Dark): An AI decision layer rendered as a living orb of blue light, cupped in open hands against the dark — calm, luminous, and quietly futuristic.
+- `20-site-templates/halcyon.md` — **Halcyon** (Templates · Light): A pocket watch drifts above an endless sea as the sky burns from dawn to dusk to moonlit night — a slow, cinematic voyage for a timepiece made to outlast generations.…
+- `20-site-templates/halden.md` — **Halden** (Templates · Light): A Danish furniture house on warm paper and brand red, where the hero's photographs uncover and turn red under your hand, a manifesto writes itself letter by letter…
+- `20-site-templates/helion.md` — **Helion** (Templates · Dark): A field of blue particles spirals into a slow vortex and draws together into a single mark — the dark, gravitational hero for a studio that promises to give brands…
+- `20-site-templates/house.md` — **House** (Templates · Dark): A cinematic fly-through of a glass house that you scrub with the scroll, statement words pinned to its corners, an interior riding up behind a frosted panel, stats…
+- `20-site-templates/ichor.md` — **Ichor** (Templates · Dark): A pool with a lip — the liquid stands proud at its own edge and bulges where it is touched.
+- `20-site-templates/kimi.md` — **Kimi** (Templates · Light): A Formula 1 driver's site where the helmet burns off his portrait as the page loads and comes back only where your cursor has just been, the season's circuit runs a lap…
+- `20-site-templates/komorebi.md` — **Komorebi** (Templates · Dark): Leaf shadow where the coarse canopy casts the softest edge and the small gaps project discs of the sun; the hand moves through it like a breeze.
+- `20-site-templates/laminar.md` — **Laminar** (Templates · Dark): A uniform stream flowing past bodies that are never drawn — the streamlines are exact everywhere, so they crowd where the flow crowds and have no edge to find.
+- `20-site-templates/laocoon.md` — **Laocoon** (Templates · Dark): A cinematic WebGL homage to the Laocoön — a glowing bronze sculpture you orbit as you scroll, wrapped in molten forge sparks and a breathing liquid-metal shader that…
+- `20-site-templates/longplay.md` — **Longplay** (Templates · Light): A single screen of blue meadow you can comb with your cursor, a floating television lighting the grass from the crest, cyan motes rising through a cumulus sky, and a…
+- `20-site-templates/loopstack.md` — **Loopstack** (Templates · Dark): A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.
+- `20-site-templates/lumea.md` — **Lumea** (Templates · Dark): A stone monk meditates on a floating rock in a near-black void — ringed by glowing amber orbit lines and a slow spiral of tumbling debris that parts around your cursor,…
+- `20-site-templates/lumen.md` — **Lumen** (Templates · Dark): A debit card surfaces from a moonlit sea, tilting to your touch as ripples fan across the water beneath a brass gate on the horizon — a fintech hero with the calm of…
+- `20-site-templates/lumora.md` — **Lumora — Official Full-Scale Architecture Prompt** (Template / Landing Page)
+- `20-site-templates/marcus-vane.md` — **Marcus Vane** (Templates · Dark): A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.
+- `20-site-templates/negantropy.md` — **Negantropy** (Templates · Dark): A scroll through deep space where cosmic particle fields assemble, ignite, and pour through an hourglass — a cinematic tribute to refusing to fall apart.
+- `20-site-templates/neural-monitor.md` — **Neural Monitor** (Templates · Dark): A luminous point-cloud brain hangs in the dark while the scan glides region by region — then lets go, scattering into a living constellation of signal.
+- `20-site-templates/new-era.md` — **New Era** (Templates · Dark): A luminous swarm of orange-and-blue particles drifts through deep space, endlessly reshaping itself as you scroll — a cinematic voyage from a single point of light to a…
+- `20-site-templates/noema.md` — **Noema** (Templates · Dark): A portrait dissolving into slow-drifting light against deep navy, split by a towering serif headline — a studio hero that feels like a thought catching form.
+- `20-site-templates/northwall.md` — **Northwall** (Templates · Dark): A construction firm's one-pager that opens behind a monogram filling like a gauge while photographs are dealt out like cards, the last one growing out of the deck to…
+- `20-site-templates/pharos.md` — **Pharos** (Templates · Dark): A lighthouse turning inside sea fog — the blades die out where the banks are thick because the light is dimmed by what it crossed, not by how far it came, and a hand…
+- `20-site-templates/soda.md` — **Soda** (Templates · Dark): A 3D soda can floats and follows your cursor while berries scatter from your touch and the whole world shifts color when you pick a flavor.
+- `20-site-templates/stackside.md` — **Stackside** (Templates · Light): A grayscale portrait dissolves into halftone dots and turns beneath your pointer — a cool, editorial hero for a finance product with something to prove.
+- `20-site-templates/stride-nine.md` — **Stride Nine** (Templates · Dark): Two sprinters caught mid-stride against a deep blue sky, a headline set across them in unbroken white caps — and the air itself catching and dragging wherever you move.
+- `20-site-templates/stride.md` — **Stride** (Templates · Light): Modern banking rendered as momentum — a deep-blue fintech landing where a filament of light pulses at the heart of the hero, cool, precise, and quietly in motion.
+- `20-site-templates/strigil.md` — **Strigil** (Templates · Dark): A warm and a cool field dragged sideways until they smear — five taps along an axis that fans across the frame.
+- `20-site-templates/vesper.md` — **Vesper** (Templates · Dark): A cloud of mint and violet light breathes as an orb, blows open into a spiral galaxy, and gathers itself into a thinking brain — a dark, living interface that answers…
+- `20-site-templates/vexon.md` — **Vexon** (Templates · Dark): A black, GPU-particle halo breathes behind a dark AI landing where data resolves into your unfair advantage.
+- `20-site-templates/voxelia.md` — **Voxelia** (Templates · Dark): A cobalt-blue, pixel-art-flavoured hero where twelve glossy chess pieces swarm a glowing white king under real physics — shove them with the cursor and they tumble,…
+- `20-site-templates/wanderlust.md` — **Wanderlust** (Templates · Dark): A dark, windswept travel site that lingers on wide country and quiet mornings — the kind of page that makes leaving feel overdue.
+
+## 21-gradients (18)
+
+- `21-gradients/chatoyance.md` — **Chatoyance** (Templates · Dark): A bundle of fibres lying almost parallel, lit from one side — the sheen is drawn by where each fibre points, and the cursor combs them.
+- `21-gradients/cyanotype.md` — **Cyanotype** (Templates · Dark): A hand-coated print: the brush that laid the sensitizer, the dry edge of the coat, and the tooth of the sheet.
+- `21-gradients/fenestra.md` — **Fenestra** (Templates · Dark): Shafts through a slatted window, made visible by dust smeared along the light rather than speckled across it.
+- `21-gradients/fetch.md` — **Fetch** (Templates · Dark): Ocean swell under a low sun — three long trains fanned off the heading, and what is drawn is the slope of the water rather than its height, which is why the sea is…
+- `21-gradients/hyaline.md` — **Hyaline** (Templates · Dark): Refraction through a height field with one index per channel — the split is in the glass, not painted on.
+- `21-gradients/interference.md` — **Interference** (Templates · Dark): Three slow emitters trading standing waves — bright fringes where the crests agree, black where nothing reaches.
+- `21-gradients/kindle.md` — **Kindle** (Templates · Dark): A fire front creeping across a field — char behind it, an ember line, licks above.
+- `21-gradients/kirlian.md` — **Kirlian** (Templates · Dark): A body ringed by its own corona, spikes crawling around the edge where the field is tightest.
+- `21-gradients/nacre.md` — **Nacre** (Templates · Dark): Thin-film colour over a stretched shell grain — the orders slide as the pointer glances across, pearl one way and blush the other.
+- `21-gradients/occultation.md` — **Occultation** (Templates · Dark): A dark body in front of a light, and only the part of the limb facing the source burns.
+- `21-gradients/opalesce.md` — **Opalesce** (Templates · Dark): A film a few wavelengths thick over a slow flowing ground — the interference tint multiplies the palette instead of replacing it, and the cursor thickens the film so…
+- `21-gradients/orpiment.md` — **Orpiment** (Templates · Dark): Marbled pigment with the warp fed back into itself, veins at one level set and dust drifting along the filaments.
+- `21-gradients/planckian.md` — **Planckian** (Templates · Dark): The colour of a temperature: hot metal lights one channel at a time, red then green then blue, and the whole sequence from deep cherry through orange to white falls out…
+- `21-gradients/quicksilver.md` — **Quicksilver** (Templates · Dark): Liquid metal gathering and breaking, holding its own edge the way mercury does.
+- `21-gradients/raking.md` — **Raking** (Templates · Dark): One broad shaft laid across the frame — the distance to an oriented axis through a tight core and a wide spill, with the far end giving out — and the hand turns the axis.
+- `21-gradients/serigraph.md` — **Serigraph** (Templates · Dark): A print rather than a ramp: five screens, one flat colour each, and what keeps it from reading as banding is where they stop — not at a level line but wherever a coarse…
+- `21-gradients/tombac.md` — **Tombac** (Templates · Dark): Crumpled brass with a warm room on one side and a cold window on the other — facets return whichever they face.
+- `21-gradients/tress.md` — **Tress** (Templates · Dark): Noise combed along a flow field — the walk re-reads its direction at every step, so the strands curve.
+
+## 22-sections (10)
+
+- `22-sections/cards-almanac.md` — **Cards Almanac** (Templates · Light): A premium sticky card-stack where big dated dispatch cards pin to the screen and pile up as you scroll — each cover zooming to life as the next slides over it with a…
+- `22-sections/cards-cascade.md` — **Cards Cascade** (Templates · Light): A scroll-driven 3D card deck that fans flat at the back, rises to an upright crest, then folds forward and cascades straight down into a pit — pure-CSS depth beside a…
+- `22-sections/carousel-spotlight.md` — **Carousel Spotlight** (Templates · Light): A premium editorial gallery built around an infinite concave-arc carousel on a clean light stage, its title, rating and dots staying synced to the front card as you…
+- `22-sections/carousel-under-the-radar.md` — **Carousel Under The Radar** (Templates · Light): A wheel/fan carousel whose image cards fan across the top like a spread hand around a hidden circle, framed by bold editorial type — drag to spin it endlessly or let it…
+- `22-sections/colonnade.md` — **Colonnade** (Templates · Light): An interactive column accordion on warm paper where hovering a chapter slides its lush mesh-gradient panel upward while the last one exits the top — one continuous…
+- `22-sections/mirror-hall.md` — **Mirror Hall** (Templates · Dark): An immersive, infinitely draggable 3D carousel of glowing image-cards standing on a near-black reflective pool, their light rippling across the water as you spin the…
+- `22-sections/roadmap-ascent.md` — **Roadmap Ascent** (Templates · Dark): A scroll-pinned growth timeline where a glowing node glides down a month spine, lighting each milestone and rolling a split-flap counter upward against a lime-lit pixel…
+- `22-sections/showcase-equator.md` — **Showcase Equator** (Templates · Light): A split, scroll-pinned showcase that locks a column of frosted category pills to a shuffling deck of marbled reel-cards — scroll, flick or drag to advance them in…
+- `22-sections/slider-slipstream.md` — **Slider Slipstream** (Templates · Dark): An immersive infinite 3D carousel where portrait cards ride one tilted belt receding diagonally into the dark — near cards looming, far cards dissolving to black — as…
+- `22-sections/slider-spectra.md` — **Slider Spectra** (Templates · Dark): An immersive coverflow eyewear slider on a dark stage where the centre card lifts and casts a colored halo keyed to its own hue — it autoplays, and drag, swipe or…
+
+## 23-shader-backgrounds (276)
+
+- `23-shader-backgrounds/amber-glow-curves.md` — **Amber Glow Curves** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/amber-prism-wall.md` — **Amber Prism Wall** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/ancient-cave.md` — **Ancient Cave** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/artistic-hands.md` — **Artistic Hands** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/balloon-letters-garden.md` — **Balloon Letters Garden** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/bird.md` — **Bird** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/black-leather-glow.md` — **Black Leather Glow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blossom-forest-arch.md` — **Blossom Forest Arch** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-arrow-ribbon.md` — **Blue Arrow Ribbon** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-canyon-stream.md` — **Blue Canyon Stream** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-contour-lines.md` — **Blue Contour Lines** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-cosmic-marble.md` — **Blue Cosmic Marble** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-flame.md` — **Blue Flame** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/blue-galaxy-figure.md` — **Blue Galaxy Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-glass-fan.md` — **Blue Glass Fan** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-glass-panels.md` — **Blue Glass Panels** (Templates · Light): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/blue-iridescent-curve.md` — **Blue Iridescent Curve** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-light-cascade.md` — **Blue Light Cascade** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/blue-light-orbits.md` — **Blue Light Orbits** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-liquid-tubes.md` — **Blue Liquid Tubes** (Templates · Light): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/blue-plasma-burst.md` — **Blue Plasma Burst** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-reeded-glass.md` — **Blue Reeded Glass** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-ripple-marble.md` — **Blue Ripple Marble** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-silver-silk.md` — **Blue Silver Silk** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/blue-swirl.md` — **Blue Swirl** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/bonfire.md` — **Bonfire** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/butterfly-moss-rock.md` — **Butterfly Moss Rock** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/butterfly.md` — **Butterfly** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/cactus-cloud-planet.md` — **Cactus Cloud Planet** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/calm-dusk-shore.md` — **Calm Dusk Shore** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/candy-land-road.md` — **Candy Land Road** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/candy-river-meadow.md` — **Candy River Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chained-blue-figure.md` — **Chained Blue Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/charcoal-silk-folds.md` — **Charcoal Silk Folds** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-charms-hill.md` — **Chrome Charms Hill** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-heart-meadow.md` — **Chrome Heart Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-liquid-sunrise.md` — **Chrome Liquid Sunrise** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-orb-meadow.md` — **Chrome Orb Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-speed-streaks.md` — **Chrome Speed Streaks** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/chrome-swirl-meadow.md` — **Chrome Swirl Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/clay-mushroom-forest.md` — **Clay Mushroom Forest** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/clock-hills.md` — **Clock Hills** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/copper-teal-sparkle.md` — **Copper Teal Sparkle** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/coral-light-arc.md` — **Coral Light Arc** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/coral-neon-coil.md` — **Coral Neon Coil** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/cosmic-aurora-waves.md` — **Cosmic Aurora Waves** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/cosmic-glass-lotus.md` — **Cosmic Glass Lotus** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/crimson-cream-swirl.md` — **Crimson Cream Swirl** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/crystal-star-meadow.md` — **Crystal Star Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/crystal-visor-figure.md` — **Crystal Visor Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/cube.md` — **Cube** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/daisy-face-figure.md` — **Daisy Face Figure** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/dandelion-bokeh-glow.md` — **Dandelion Bokeh Glow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/dark-chrome-waves.md` — **Dark Chrome Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/dark-glass-waves.md` — **Dark Glass Waves** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/dark-ocean-foam.md` — **Dark Ocean Foam** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/dark-rainbow-streaks.md` — **Dark Rainbow Streaks** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/dna.md` — **Dna** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/draped-figure-meadow.md` — **Draped Figure Meadow** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/emerald-crystal-facets.md` — **Emerald Crystal Facets** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/emerald-gold-waves.md` — **Emerald Gold Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/emerald-silk-waves.md` — **Emerald Silk Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/enchanted-garden.md` — **Enchanted Garden** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/fallen-giant-marsh.md` — **Fallen Giant Marsh** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/feather-rainbow-light.md` — **Feather Rainbow Light** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/floating-island.md` — **Floating Island** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/floral-ring-grotto.md` — **Floral Ring Grotto** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/floral-robot-helmet.md` — **Floral Robot Helmet** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/floral-skeleton-eclipse.md` — **Floral Skeleton Eclipse** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/floral-tv-room.md` — **Floral Tv Room** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/flower-arc.md` — **Flower Arc** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/flower-field-anatomy.md` — **Flower Field Anatomy** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/flower-field.md` — **Flower Field** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/flower-hill-chair.md` — **Flower Hill Chair** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/forest-castle-path.md` — **Forest Castle Path** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/forest-light-portal.md` — **Forest Light Portal** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/forest-sprite.md` — **Forest Sprite** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/frosted-bamboo-palms.md` — **Frosted Bamboo Palms** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/frosted-glass-arches.md` — **Frosted Glass Arches** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/frosted-orange-roses.md` — **Frosted Orange Roses** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/fuzzy-lilac-hills.md` — **Fuzzy Lilac Hills** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/galaxy-flow-lines.md` — **Galaxy Flow Lines** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/galaxy-spire-city.md` — **Galaxy Spire City** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-arc.md` — **Glass Arc** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glass-blossom-body.md` — **Glass Blossom Body** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-dream-bubble.md` — **Glass Dream Bubble** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-floral-puffer.md` — **Glass Floral Puffer** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-flower.md` — **Glass Flower** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glass-head-rings.md` — **Glass Head Rings** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-heart-bust.md` — **Glass Heart Bust** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-orb-valley.md` — **Glass Orb Valley** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-swirls-garden.md` — **Glass Swirls Garden** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/glass-wave.md` — **Glass Wave** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glassy-dna.md` — **Glassy Dna** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glassy-horse.md` — **Glassy Horse** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glowing-dunes.md` — **Glowing Dunes** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/glowing-tree-door.md` — **Glowing Tree Door** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-burst-figure.md` — **Golden Burst Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-cosmic-beams.md` — **Golden Cosmic Beams** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-flowing-figure.md` — **Golden Flowing Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-glass-swirl.md` — **Golden Glass Swirl** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-halo-figure.md` — **Golden Halo Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-jungle-temple.md` — **Golden Jungle Temple** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-light-streaks.md` — **Golden Light Streaks** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-ring-silhouette.md` — **Golden Ring Silhouette** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/golden-statue-touch.md` — **Golden Statue Touch** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/green-light-bars.md` — **Green Light Bars** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/green-line-dunes.md` — **Green Line Dunes** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/green-sand-dune.md` — **Green Sand Dune** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/green-swirl-lines.md` — **Green Swirl Lines** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/green-valley-lake.md` — **Green Valley Lake** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/green-vertical-blinds.md` — **Green Vertical Blinds** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/hanging-flowers-sky.md` — **Hanging Flowers Sky** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/hidden-garden-stairs.md` — **Hidden Garden Stairs** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/hills.md` — **Hills** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/holographic-chrome-swirl.md` — **Holographic Chrome Swirl** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/holographic-liquid-flow.md` — **Holographic Liquid Flow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/indigo-glass-pills.md` — **Indigo Glass Pills** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/indoor-garden-window.md` — **Indoor Garden Window** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/iridescent-quartz-crystals.md` — **Iridescent Quartz Crystals** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/iridescent-spirit-forest.md` — **Iridescent Spirit Forest** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/ivy-palace-portal.md` — **Ivy Palace Portal** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/ivy-tunnel-bench.md` — **Ivy Tunnel Bench** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/jungle-light-rays.md` — **Jungle Light Rays** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/jungle-swirl-portal.md` — **Jungle Swirl Portal** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/koi-art.md` — **Koi Art** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/lavender-canyon-river.md` — **Lavender Canyon River** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lightning-storm-cloud.md` — **Lightning Storm Cloud** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-crystal-moon.md` — **Lilac Crystal Moon** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-mushroom-clocks.md` — **Lilac Mushroom Clocks** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-peak-blobs.md` — **Lilac Peak Blobs** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-rainbow-arcs.md` — **Lilac Rainbow Arcs** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-silk-waves.md` — **Lilac Silk Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lilac-thread-waves.md` — **Lilac Thread Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lime-glass-waves.md` — **Lime Glass Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lime-green-swirl.md` — **Lime Green Swirl** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/lime-puffer-flowers.md` — **Lime Puffer Flowers** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/liqued-molecule.md` — **Liqued Molecule** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/liquid-glass.md` — **Liquid Glass** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/magenta-cave-flowers.md` — **Magenta Cave Flowers** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/magic.md` — **Magic** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/material-hills.md` — **Material Hills** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/mauve-folded-planes.md` — **Mauve Folded Planes** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/meadow.md` — **Meadow** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/melting-candy-clocks.md` — **Melting Candy Clocks** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/meow-yawn.md` — **Meow Yawn** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/metal-human.md` — **Metal Human** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/mint-soft-rays.md` — **Mint Soft Rays** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/misty-lotus-swamp.md` — **Misty Lotus Swamp** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/molecules-universe.md` — **Molecules Universe** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/moon-cottage.md` — **Moon Cottage** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/moon-walk.md` — **Moon Walk** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/moonlit-pond.md` — **Moonlit Pond** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/moss-sofa-meadow.md` — **Moss Sofa Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/mossy-river-flow.md` — **Mossy River Flow** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/mossy-rose-statue.md` — **Mossy Rose Statue** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/mossy-stone-rings.md` — **Mossy Stone Rings** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/mushroom-chess-floor.md` — **Mushroom Chess Floor** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/navy-fur-waves.md` — **Navy Fur Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/neon-floral-anatomy.md` — **Neon Floral Anatomy** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/neon-glow-loop.md` — **Neon Glow Loop** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/neon-horizon-flare.md` — **Neon Horizon Flare** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/neon-ribbon-waves.md` — **Neon Ribbon Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/neon-sound-waves.md` — **Neon Sound Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/night-door-meadow.md` — **Night Door Meadow** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/night-flowers.md` — **Night Flowers** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/night-stream.md` — **Night Stream** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/night-tv-head.md` — **Night Tv Head** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/northern-lights-sky.md` — **Northern Lights Sky** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/olive-liquid-waves.md` — **Olive Liquid Waves** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/opal-waterfall-sea.md` — **Opal Waterfall Sea** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/orange-blur-ribbon.md` — **Orange Blur Ribbon** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/orange-puffer-bouquet.md` — **Orange Puffer Bouquet** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/overgrown-skeleton.md` — **Overgrown Skeleton** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/overgrown-stone-face.md` — **Overgrown Stone Face** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/overgrown-tram.md` — **Overgrown Tram** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pale-water-ripples.md` — **Pale Water Ripples** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/palm-shadow-lawn.md` — **Palm Shadow Lawn** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pampas-lake-hills.md` — **Pampas Lake Hills** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/paradise.md` — **Paradise** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/particle-ocean.md` — **Particle Ocean** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/pastel-aurora-waves.md` — **Pastel Aurora Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-blossom-bokeh.md` — **Pastel Blossom Bokeh** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-brush-strokes.md` — **Pastel Brush Strokes** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-cloud-meadow.md` — **Pastel Cloud Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-glass-panels.md` — **Pastel Glass Panels** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-holographic-waves.md` — **Pastel Holographic Waves** (Templates · Light): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/pastel-lava-blobs.md` — **Pastel Lava Blobs** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-mirror-peaks.md` — **Pastel Mirror Peaks** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-prism-streaks.md` — **Pastel Prism Streaks** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pastel-rainbow-haze.md` — **Pastel Rainbow Haze** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pearl-shell-waves.md` — **Pearl Shell Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-blur-waves.md` — **Pink Blur Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-cloud-eye.md` — **Pink Cloud Eye** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-grass.md` — **Pink Grass** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/pink-hills-van.md` — **Pink Hills Van** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-lagoon-figure.md` — **Pink Lagoon Figure** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-light-streaks.md` — **Pink Light Streaks** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-moss-portal.md` — **Pink Moss Portal** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-mushroom-island.md` — **Pink Mushroom Island** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-neon-halo.md` — **Pink Neon Halo** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-pillows-pond.md` — **Pink Pillows Pond** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pink-slime-mountain.md` — **Pink Slime Mountain** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/plum-gold-bokeh.md` — **Plum Gold Bokeh** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/plum-ribbed-glow.md` — **Plum Ribbed Glow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/pool.md` — **Pool** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/potato-lightning-lab.md` — **Potato Lightning Lab** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/prism-star-burst.md` — **Prism Star Burst** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/purple-coral-ribbons.md` — **Purple Coral Ribbons** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/purple-desert.md` — **Purple Desert** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/purple-dream.md` — **Purple Dream** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/purple-glass-stack.md` — **Purple Glass Stack** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/purple-glass.md` — **Purple Glass** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/purple-glossy-coils.md` — **Purple Glossy Coils** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/purple-grid-waves.md` — **Purple Grid Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/purple-moire-petals.md` — **Purple Moire Petals** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/purple-planet.md` — **Purple Planet** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/purple-valley.md` — **Purple Valley** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/rainbow-light-waves.md` — **Rainbow Light Waves** (Templates · Light): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/rainy-palm-glass.md` — **Rainy Palm Glass** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/red-neon-trails.md` — **Red Neon Trails** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/red-particle-wizard.md` — **Red Particle Wizard** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/retro-computer-flowers.md` — **Retro Computer Flowers** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/retro-pop-collage.md` — **Retro Pop Collage** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/rose-covered-figure.md` — **Rose Covered Figure** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sage-room-sunbeam.md` — **Sage Room Sunbeam** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sage-soft-waves.md` — **Sage Soft Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sea-storm.md` — **Sea Storm** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/siloutte.md` — **Siloutte** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/silver-fluted-glass.md` — **Silver Fluted Glass** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/silver-line-waves.md` — **Silver Line Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/skeleton-flower-field.md` — **Skeleton Flower Field** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/skeleton-glass-portal.md` — **Skeleton Glass Portal** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/skylight-fish-swarm.md` — **Skylight Fish Swarm** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sneaker.md` — **Sneaker** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/soft-green-glow.md` — **Soft Green Glow** (Templates · Light): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/soft-grey-waves.md` — **Soft Grey Waves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/soft-monstera-leaves.md` — **Soft Monstera Leaves** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/star-man.md` — **Star Man** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/starlight-cosmic-figure.md` — **Starlight Cosmic Figure** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/starlight-flower-burst.md` — **Starlight Flower Burst** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/starry-night.md` — **Starry Night** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/starry-tree-avenue.md` — **Starry Tree Avenue** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/steel-twist-sculpture.md` — **Steel Twist Sculpture** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/stone-arch.md` — **Stone Arch** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/stone-head-beam.md` — **Stone Head Beam** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/stone-podium-meadow.md` — **Stone Podium Meadow** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/stone-retro-computer.md` — **Stone Retro Computer** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sunken-blue-library.md` — **Sunken Blue Library** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sunken-stone-giant.md` — **Sunken Stone Giant** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sunlit-moss-cathedral.md` — **Sunlit Moss Cathedral** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/sunny-grass-mound.md` — **Sunny Grass Mound** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/teal-aurora-bars.md` — **Teal Aurora Bars** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/teal-bokeh-flare.md` — **Teal Bokeh Flare** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/teal-cloud-rays.md` — **Teal Cloud Rays** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/teal-neon-dashes.md` — **Teal Neon Dashes** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/teal-space.md` — **Teal Space** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/tropical-karst-lagoon.md` — **Tropical Karst Lagoon** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/turquoise-forest-lake.md` — **Turquoise Forest Lake** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/turquoise-paint-strokes.md` — **Turquoise Paint Strokes** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/tv-head-bouquet.md` — **Tv Head Bouquet** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/twin-green-beams.md` — **Twin Green Beams** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/violet-chrome-waves.md` — **Violet Chrome Waves** (Templates · Dark): Source file is a high-resolution poster image, without any watermark.
+- `23-shader-backgrounds/violet-glass-waves.md` — **Violet Glass Waves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/violet-layered-curves.md` — **Violet Layered Curves** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/vivid-sunset.md` — **Vivid Sunset** (Templates · Light): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/warm-slat-light.md` — **Warm Slat Light** (Templates · Dark): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/white-blossoms.md` — **White Blossoms** (Templates · Dark): Source files are include 4K video and 2K poster without any watermarks
+- `23-shader-backgrounds/white-hood-blossoms.md` — **White Hood Blossoms** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/white-room-shadows.md` — **White Room Shadows** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/white-sphere-particles.md` — **White Sphere Particles** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/white-terrace-hills.md` — **White Terrace Hills** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/windswept-golden-hills.md` — **Windswept Golden Hills** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/windy-white-grass.md` — **Windy White Grass** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/wool-hills-path.md` — **Wool Hills Path** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+- `23-shader-backgrounds/yellow-clay-valley.md` — **Yellow Clay Valley** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
