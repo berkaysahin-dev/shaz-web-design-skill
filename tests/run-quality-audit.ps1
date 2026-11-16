@@ -1,4 +1,4 @@
-# Shaz Agency Web Design Quality Gate Runner
+﻿# Shaz Agency Web Design Quality Gate Runner
 $ErrorActionPreference = "Stop"
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -279,6 +279,27 @@ if ($c12Violations -eq 0) {
 } else {
     Write-Host " FAIL ($c12Violations violations)"
     $totalViolations += $c12Violations
+}
+
+# Check 13: Scanning for forbidden filler microcopy and fake status slogans in UI code
+Write-Host "[CHECK 13] Scanning for forbidden filler microcopy and fake status strings..." -NoNewline
+$c13Violations = 0
+$fillerPatterns = @('küme sağlıklı', 'sistem aktif', 'yeni nesil çözümler', 'geleceği şekillendiriyoruz', 'mükemmelliğe odaklanıyoruz')
+foreach ($f in $filesToAudit) {
+    if ($f.Extension -eq ".tsx") {
+        $content = Get-Content -Path $f.FullName -Raw
+        foreach ($pat in $fillerPatterns) {
+            if ($content -match $pat) {
+                $c13Violations++
+            }
+        }
+    }
+}
+if ($c13Violations -eq 0) {
+    Write-Host " PASS (0 violations in UI strings)"
+} else {
+    Write-Host " FAIL ($c13Violations violations)"
+    $totalViolations += $c13Violations
 }
 
 Write-Host "=========================================================="

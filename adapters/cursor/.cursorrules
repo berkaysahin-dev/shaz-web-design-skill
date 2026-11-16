@@ -3,16 +3,19 @@
 Strictly adhere to the Shaz Agency Design Intelligence 2.0 rules for all frontend engineering:
 
 1. Zero Eyebrows & Overlines: Headings lead authoritatively without micro-tags or counters.
-2. Zero Heavy Academic Essays: Stylish, human copy (maximum 1 sentence per section).
-3. Zero Dark-Only Defaulting: Light surfaces are first-class equals.
-4. Zero Blinking, Pulsing, or Strobe Effects.
-5. Zero Neon Halos or Radioactive RGB Extremes.
-6. Zero Repeating Gradients or Cloned 3-Card Bento Boxes.
-7. Zero Emojis: Monochrome vector icons only.
-8. Dynamic Container Metrics: Assign container widths tailored to content type (`max-w-2xl` to `max-w-7xl` / full-bleed).
-9. Mandatory Industry Intelligence (10 distinct sectors).
-10. Mandatory Reference Mining (synthesize at least 5 blueprints from `library/INDEX.md`).
-11. Mandatory 100-Point Visual QA Gate (minimum threshold: 85/100).
+2. Global Content Integrity: Zero meaningless filler phrases (`Küme sağlıklı`, `Sistem aktif`, `Yenilikçi yaklaşım`). Apply the Content Necessity Test.
+3. Zero Heavy Academic Essays: Stylish, human copy (maximum 1 sentence per section).
+4. Global Color Consistency: Centralized semantic color tokens defined upfront. Zero disconnected ad-hoc hex colors.
+5. Global Motion Design: Purposeful tactile feedback (hover lifts, functioning tabs/drawers/forms). Zero lifeless static screenshots or non-working buttons.
+6. Zero Dark-Only Defaulting: Light surfaces are first-class equals.
+7. Zero Blinking, Pulsing, or Strobe Effects.
+8. Zero Neon Halos or Radioactive RGB Extremes.
+9. Zero Repeating Gradients or Cloned 3-Card Bento Boxes.
+10. Zero Emojis: Monochrome vector icons only.
+11. Dynamic Container Metrics: Assign container widths tailored to content type (`max-w-2xl` to `max-w-7xl` / full-bleed).
+12. Mandatory Industry Intelligence (10 distinct sectors).
+13. Mandatory Reference Mining (synthesize at least 5 blueprints from `library/INDEX.md`).
+14. Mandatory 100-Point Visual QA Gate (minimum threshold: 85/100).
 
 Canonical references: `core/design-philosophy.md`, `core/mandatory-rules.md`, `core/layout-composition.md`, `core/industry-intelligence.md`, `core/visual-quality.md`.
 

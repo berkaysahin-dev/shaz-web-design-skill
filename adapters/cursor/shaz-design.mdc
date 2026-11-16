@@ -10,14 +10,17 @@ When engineering web user interfaces, landing pages, or frontend components, str
 
 ## 1. Absolute Prohibitions
 1. **Zero Eyebrows & Overlines:** Never place uppercase micro-tags or counters above headings (`OTONOM SISTEMLER`, `01 · TEMEL`). Headings lead nakedly and authoritatively.
-2. **Zero Heavy Essays:** Maximum 1 stylish, human sentence per section. Never write dense philosophical manifestos.
-3. **Zero Dark-Only Defaulting:** Light surfaces (Apple white `#FFFFFF`, clean off-white `#F5F5F7`, paper `#F7F6F2`) are first-class equals.
-4. **Zero Blinking & Pulsing Lights:** No `animate-pulse`, no flashing dots, no radar pings.
-5. **Zero Glow & Neon:** No fluorescent RGB drop-shadows or laser borders.
-6. **Zero Repeating Gradients:** No purple-to-cyan or blue-to-emerald radial blobs.
-7. **Zero Reflexive 50/50 Splits:** Rotate across distinct hero and section archetypes.
-8. **Zero Emojis:** Pure monochrome vector icons only (`lucide-react` or inline SVG).
-9. **Zero Rigid Container Locks:** Use dynamic container scales (`max-w-2xl` to `max-w-7xl` / full-bleed).
+2. **Global Content Integrity:** Strictly eliminate meaningless filler copy (`Küme sağlıklı`, `Sistem aktif`, `Yenilikçi yaklaşım`). Apply the Content Necessity Test to every text element.
+3. **Zero Heavy Essays:** Maximum 1 stylish, human sentence per section. Never write dense philosophical manifestos.
+4. **Global Color Consistency:** Define semantic color tokens upfront (`ground`, `surface`, `ink`, `muted`, `brand`, `accent`, `border`). Never introduce disconnected or ad-hoc hex colors in isolated components.
+5. **Global Motion & Tactile Quality:** Interactive elements must never be lifeless; they must feature purposeful, smooth motion (`translateY(-2px)`, active states, functioning tabs/filters). No fake buttons or non-working controls.
+6. **Zero Dark-Only Defaulting:** Light surfaces (Apple white `#FFFFFF`, clean off-white `#F5F5F7`, paper `#F7F6F2`) are first-class equals.
+7. **Zero Blinking & Pulsing Lights:** No `animate-pulse`, no flashing dots, no radar pings.
+8. **Zero Glow & Neon:** No fluorescent RGB drop-shadows or laser borders.
+9. **Zero Repeating Gradients:** No purple-to-cyan or blue-to-emerald radial blobs.
+10. **Zero Reflexive 50/50 Splits:** Rotate across distinct hero and section archetypes.
+11. **Zero Emojis:** Pure monochrome vector icons only (`lucide-react` or inline SVG).
+12. **Zero Rigid Container Locks:** Use dynamic container scales (`max-w-2xl` to `max-w-7xl` / full-bleed).
 
 ## 2. Canonical Core References
 - Architecture: `core/design-philosophy.md`
@@ -37,9 +40,11 @@ Before generating code, output the compact **Design Signature**:
 - **Industry & DNA:** [Sector] · [Aesthetic Direction]
 - **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
 - **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition] · Container [dynamic scale]
-- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
+- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · brand `[hex]` · accent `[hex]` · border `[hex]`
+- **Motion Strategy:** [Purposeful tactile interactions: hover lifts, functioning tabs, pause-on-hover marquee]
+- **Content Integrity:** [Verified authentic copy, zero fake telemetry, zero empty marketing slogans]
 - **Reference Mining:** [5 synthesized blueprints from library/]
 - **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
-- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays, zero rigid container lock.
+- **Prohibitions Enforced:** Zero eyebrows, zero fake telemetry, zero disconnected colors, zero lifeless static elements, zero rigid container lock.
 ```
 Follow immediately with complete, unabridged, production-grade Next.js (App Router), Tailwind CSS, and Framer Motion code.

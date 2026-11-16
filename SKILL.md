@@ -25,15 +25,25 @@ These rules are strictly non-negotiable architectural constraints applied across
 5. **Never force identical rounded cards across projects:** Repetitive 3-card rounded grids are banned; design layout-first compositions, horizon ledgers, and asymmetric showcases.
 6. **Zero Glow, Neon, Blur & Radioactive Lighting:** Fluorescent neon borders, CSS neon drop shadows (`drop-shadow-[0_0_15px_#...]`), laser lines, and glowing halos are banned.
 7. **ABSOLUTE BAN ON EYEBROWS, OVERLINES & KICKER LABELS (SIFIR BAŞLIK ÜSTÜ YAZI):**
-   - Strictly forbidden: uppercase micro-labels, category tags, section counters, or telemetry lines placed directly above headings (e.g. `OTONOM SİSTEMLER · BİLİŞSEL ALTYAPI`, `01 · TEMEL DİSİPLİN`, `SECTION 03`, `ATELIER DOCTRINE`, `CATEGORY · SUB`).
+   - Strictly forbidden: uppercase micro-labels, category tags, section counters, or telemetry strings placed directly above headings (e.g. `OTONOM SİSTEMLER · BİLİŞSEL ALTYAPI`, `01 · TEMEL DİSİPLİN`, `SECTION 03`, `ATELIER DOCTRINE`, `CATEGORY · SUB`).
    - Headings lead authoritatively, nakedly, and directly. Hierarchy is achieved exclusively through optical scale and generous whitespace.
-8. **Zero Blinking & Pulsing Lights:** Blinking indicator dots, pulsing circles (`animate-pulse`), radar pings, and strobe effects are banned in UI and 3D stages.
-9. **Zero Heavy Philosophical Walls of Text & Pseudo-Academic Jargon:**
-   - Do NOT write dense, multi-paragraph philosophical essays.
-   - Copy must be **şık (stylish), sharp, concise, and written in natural human language**. Maximum 1 dense, high-impact sentence per section. If layout speaks for itself, use 0 sentences.
-10. **Zero Filler Marketing Slogans:** Eliminate meaningless filler ("Elevate your journey", "Empower next-generation synergy", "Where innovation meets passion").
-11. **Zero Rigid Container Locks (Dynamic Container Scales):** Do NOT force every section into a single narrow container (such as `max-w-5xl`). Use calibrated container scales: `max-w-2xl` for reading, `max-w-6xl` for structured dialogs, `max-w-7xl` for enterprise platforms, and full-bleed (`max-w-[1536px]` / `w-full`) for ambient stages.
-12. **Zero Unjustified Ticker Marquees:** Do not append scrolling badge marquees unless explicitly justified by the client's live ecosystem or streaming telemetry.
+8. **Zero Meaningless Filler Microcopy & Fake Status Indicators (Global Content Integrity):**
+   - Strictly forbidden empty slogans: `Küme sağlıklı`, `Sistem aktif`, `Yüksek performans`, `Yeni nesil çözümler`, `Akıllı sistemler`, `Geleceği şekillendiriyoruz`, `Mükemmelliğe odaklanıyoruz`, `Yenilikçi yaklaşım`, `Güçlü altyapı`, `Dijital dönüşümün geleceği`, `Maksimum verimlilik`.
+   - Never insert fake status dots, artificial telemetry streams, or fictitious server logs just to fill empty visual containers.
+   - **Content Necessity Test:** Every string of copy must communicate real, verifiable business facts or genuine UX actions. If text only serves as visual decoration, delete it immediately.
+9. **Zero Color Inconsistency & Disconnected Palettes (Global Color Consistency):**
+   - Strictly forbidden: introducing arbitrary, unapproved, or one-off hex colors into isolated components (e.g. sudden red/coral buttons on a blue/slate site, random lime tags, inconsistent border shades).
+   - Every project operates on a centralized semantic color token system defined upfront (`ground`, `surface`, `ink`, `ink-muted`, `brand`, `brand-hover`, `accent`, `border`, `divider`).
+10. **Zero Lifeless Static Elements & Zero Fake Interactions (Global Motion Design):**
+    - A website must not feel like a static screenshot. Elements that offer user utility (navigation, tabs, cards, drawers, forms) must feature purposeful motion and tactile feedback.
+    - All interactive controls must actually function: tabs must switch views, filters must filter, buttons must have active press states (`active:scale-[0.98]`), and form submissions must provide tangible feedback.
+    - Strictly forbidden: fake interactive controls that do nothing when clicked.
+11. **Zero Blinking & Pulsing Lights:** Blinking indicator dots, pulsing circles (`animate-pulse`), radar pings, and strobe effects are banned in UI and 3D stages.
+12. **Zero Heavy Philosophical Walls of Text & Pseudo-Academic Jargon:**
+    - Do NOT write dense, multi-paragraph philosophical essays.
+    - Copy must be **şık (stylish), sharp, concise, and written in natural human language**. Maximum 1 dense, high-impact sentence per section. If layout speaks for itself, use 0 sentences.
+13. **Zero Rigid Container Locks (Dynamic Container Scales):** Do NOT force every section into a single narrow container (such as `max-w-5xl`). Use calibrated container scales: `max-w-2xl` for reading, `max-w-6xl` for structured dialogs, `max-w-7xl` for enterprise platforms, and full-bleed (`max-w-[1536px]` / `w-full`) for ambient stages.
+14. **Zero Unjustified Ticker Marquees:** Do not append scrolling badge marquees unless explicitly justified by the client's live ecosystem or streaming telemetry. Continuous tickers must feature smooth pause-on-hover interaction.
 
 ---
 
@@ -76,12 +86,11 @@ Detailed in `core/layout-composition.md` and `rules/visual-pattern-intelligence.
 
 ---
 
-## 5. Creative Production Intelligence
+## 5. Global Motion, Color Consistency & Content Integrity
 
-- **Intelligent Project Discovery:** Diagnose business model, conversion objective, and target audience expectations before drafting sections.
-- **Bespoke Visual Asset Strategy:** Use authentic product mockups, architectural photography, technical blueprints, or sensory culinary visuals; zero generic corporate stock models.
-- **Purposeful Interaction Design:** Implement fluid spring transitions, progressive disclosure, and contextual dialogs; zero spinning badges or radioactive glows.
-- **Realistic Content Intelligence:** Write specific, credible copy grounded in the actual business domain. Never invent fake client logos, fabricated awards, or ungrounded statistics.
+- **Global Motion Design System:** Purposeful micro-interactions, spring transitions, tactile hover lifts (`translateY(-2px)`), functioning tabs and drawers, hardware-accelerated 60 FPS transitions (`transform`, `opacity`), and full `prefers-reduced-motion` compliance.
+- **Global Color Consistency Engine:** Centralized semantic tokens defined upfront. Every section, button, card, and divider derives from this closed palette. Zero random, disconnected hex codes.
+- **Global Content Integrity Engine:** Concise, factual, authentic business copy. All text passes the 5-point Content Necessity Test. Zero fake telemetry ("Küme sağlıklı"), zero fake status dots, zero empty marketing cliches.
 
 ---
 
@@ -142,18 +151,18 @@ Before generating code, establish the project's **Design DNA**:
 ## 7. Visual QA Self-Criticism Engine & 100-Point Scoring Gate
 
 Detailed in `rules/visual-criticism-engine.md` and `checklists/quality-gate.md`.
-Before any code is delivered, execute the **12-Point Self-Audit** and score against the **100-Point Matrix**:
+Before any code is delivered, execute the **15-Point Self-Audit** and score against the **100-Point Matrix**:
 
 | Değerlendirme Kategorisi | Maksimum Puan | Başarı Kriteri |
 | :--- | :---:| :--- |
 | **Visual Design Quality** | 20 | Üst düzey estetik, görsel derinlik, rafine kenarlıklar ve gölgeler. |
 | **Industry Relevance** | 15 | Sektörün DNA'sına tam uyum (Yazılımda Apple/Linear sadeliği, Mimarlıkta Dezeen). |
 | **Originality & Distinct DNA** | 15 | Standart AI şablonlarından, basmakalıp 3-kart düzenlerinden ve önceki projelerden belirgin ayrışma. |
-| **Typography & Copy Discipline** | 10 | Şık, insani, başlık üstü etiketsiz, dengeli font eşleşmesi, orantılı büyüklük. |
+| **Content Integrity & Copy** | 10 | Gerçekçi ve şık içerik, sıfır sahte telemetri/durum ışığı, sıfır boş pazarlama sloganı, sıfır eyebrow. |
+| **Color System Coherence** | 10 | Merkezi semantik token mimarisi, sıfır uyumsuz münferit renk, kusursuz bölüm geçişleri. |
 | **Layout & Composition** | 10 | Layout-first kompozisyon, dinamik konteyner genişlikleri, asimetrik denge, sıfır 50/50 hero. |
-| **Color Harmony & Polarity** | 10 | Aydınlık/koyu polaritesinde sektöre uygunluk, sıfır neon, sıfır ucuz gradyan. |
-| **UX & Usability** | 10 | Net aksiyon butonları, sezgisel etkileşim, erişilebilir dokunma hedefleri (≥ 44px). |
-| **Responsive Quality** | 5 | Sıfır horizontal overflow (`overflow-x-clip`), akıcı mobil düzen. |
+| **Motion & Interaction Quality** | 10 | Amaçlı dokunsal hareket, çalışan interaktif kontroller, gerçek tab/form tepkisi, `prefers-reduced-motion`. |
+| **Responsive Quality** | 5 | Sıfır horizontal overflow (`overflow-x-clip`), dokunma hedefleri ≥ 44px, akıcı mobil düzen. |
 | **Reference Utilization** | 5 | Kütüphanedeki gerçek blueprint mekaniklerinin projeye başarıyla uyarlanması. |
 | **TOPLAM HEDEF** | **100** | **ASGARİ GEÇER PUAN: 85 / 100** |
 
@@ -174,12 +183,12 @@ Detailed in `rules/design-decision-history.md`. Maintains awareness of previous 
 Her projede kod yazılmadan önce bu 8 evre sırasıyla işletilir:
 1. **Phase 1 — Industry & Audience Discovery:** Sektörün DNA'sını, dönüşüm hedefini ve hedef kitle beklentisini belirle.
 2. **Phase 2 — Reference Mining & Semantic Matching:** `library/INDEX.md` üzerinden en az **5 farklı blueprint** seç ve analiz et.
-3. **Phase 3 — Autonomous Art Direction:** 3 stratejik yönden (Safe & Premium / Bold & Distinct / Experimental) en uygununu belirle; renk, tipografi ve grid mimarisini oluştur.
+3. **Phase 3 — Color Architecture & Autonomous Art Direction:** Merkezi semantik renk tokenlarını ve sanat yönünü belirle; rastgele renk kullanımını engelle.
 4. **Phase 4 — Layout-First Composition & Container Scaling:** Sayfa anlatısını ve bölüm bazlı konteyner genişliklerini (`max-w-2xl`, `max-w-6xl`, `max-w-7xl`, full-bleed) kur.
-5. **Phase 5 — Content & Visual System:** Metinleri insan dilinde ve şık tut (maksimum 1 cümle/bölüm, sıfır başlık üstü etiket); sahte metrikleri ele.
-6. **Phase 6 — Full Implementation:** Next.js (App Router), Tailwind CSS ve Framer Motion ile %100 eksiksiz kodla.
-7. **Phase 7 — Visual QA Self-Criticism & 100-Point Audit:** 12 soruluk özeleştiriyi çalıştır ve 100 puanlık matriste puanla.
-8. **Phase 8 — Final Delivery Gate:** Puan ≥ 85 ve 25 maddelik kalite kontrolü yeşilse teslim et.
+5. **Phase 5 — Content Integrity & Copywriting:** Metinleri insan dilinde, net ve şık tut; tüm sahte telemetri ve yapay zeka dolgu ifadelerini ele.
+6. **Phase 6 — Purposeful Motion & Full Implementation:** Next.js (App Router), Tailwind CSS ve Framer Motion ile dokunsal mikro-etkileşimleri ve çalışan kontrolleri kodla.
+7. **Phase 7 — Visual QA Self-Criticism & 100-Point Audit:** 15 soruluk özeleştiriyi çalıştır ve 100 puanlık matriste puanla.
+8. **Phase 8 — Final Delivery Gate:** Puan ≥ 85 ve tüm kalite kontrolleri yeşilse teslim et.
 
 ---
 
@@ -192,8 +201,10 @@ Kod tesliminden önce yalnızca **Design Signature** verilir, ardından **%100 e
 - **Industry & DNA:** [Sektör] · [Seçilen estetik yön: örn. Apple-inspired Light / Editorial Architecture]
 - **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental] — [1 cümlelik gerekçe]
 - **Art Direction:** Layout [x] · Type [font pair] · Ground [hex/tone] · Nav [archetype] · Hero [composition] · Container [dynamic scale]
-- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]` (Kontrast ≥ 4.5:1, neon & altın yasağı onaylı)
-- **Reference Mining:** [Kütüphaneden sentezlenen 5 blueprint: örn. `02-navigation/floating-pill-capsule-nav.md`, `06-product-showcase/tech-stack-pill-marquee.md`, `09-forms-footers/split-inquiry-email-composer.md`, ...]
-- **Visual QA Score:** [X] / 100 (Eşik: ≥ 85) · [Görsel Tasarım: X/20, Sektör DNA: X/15, Özgünlük: X/15, Tipografi: X/10, Kompozisyon: X/10, Renk: X/10, UX: X/10, Responsive: X/5, Referans: X/5]
-- **Prohibitions Enforced:** Sıfır başlık üstü etiket, sıfır blinking, sıfır felsefi karmaşık metin, sıfır neon, sıfır tek-konteyner dayatması.
+- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · brand `[hex]` · accent `[hex]` · border `[hex]`
+- **Motion Strategy:** [Purposeful tactile interactions: örn. spring hover lifts, tab switching, pause-on-hover marquee]
+- **Content Integrity:** [Doğrulanabilir kurumsal veriler, sıfır sahte telemetri, sıfır boş slogan]
+- **Reference Mining:** [Kütüphaneden sentezlenen 5 blueprint]
+- **Visual QA Score:** [X] / 100 (Eşik: ≥ 85) · [Görsel Tasarım: X/20, Sektör DNA: X/15, Özgünlük: X/15, İçerik Dürüstlüğü: X/10, Renk Uyumu: X/10, Kompozisyon: X/10, Hareket & Etkileşim: X/10, Responsive: X/5, Referans: X/5]
+- **Prohibitions Enforced:** Sıfır başlık üstü etiket, sıfır sahte telemetri/durum ışığı, sıfır bağlantısız renk, sıfır cansız/sahte kontrol, sıfır tek-konteyner dayatması.
 ```
