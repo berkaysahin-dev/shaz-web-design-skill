@@ -9,8 +9,9 @@ One line per blueprint, generated from the files themselves. Read this first, sh
 - `01-hero-sections/kinetic-typography-monolith-hero.md` — **Kinetic Typography Monolith Hero — Editorial & Type Foundry** (01-hero-sections): An unapologetic, typography-dominant hero designed for cultural foundations, independent type foundries, or high-end architectural publications. The design rejects all…
 - `01-hero-sections/obsidian-ambient-canvas-hero.md` — **Obsidian Ambient Canvas Hero — Deep Tech & Infrastructure** (01-hero-sections): An authoritative dark-mode hero designed for high-frequency infrastructure, distributed consensus systems, or deep tech engineering platforms. Completely rejects the…
 
-## 02-navigation (2)
+## 02-navigation (3)
 
+- `02-navigation/floating-pill-capsule-nav.md` — **Floating Pill Capsule Navigation — Linear & Apple Minimalist Header** (02-navigation): An ultra-refined, floating pill navigation bar inspired by top-tier modern software engineers, design studios, and product architects (Apple, Linear, Vercel).…
 - `02-navigation/minimalist-double-bezel-nav.md` — **Minimalist Double-Bezel Navigation — Structural Header & Menu** (02-navigation): A persistent, floating or fixed navigation header built for high-end digital studios and luxury product brands. Replaces cluttered navigation bars with an architectural…
 - `02-navigation/scroll-morphing-dock-navbar.md` — **Scroll-Morphing Collapsible Dock Navigation** (02-navigation): An intelligent, scroll-adaptive navigation bar for modern web architectures. At page top, it spans comfortably across the container with full typographic wordmark,…
 
@@ -170,10 +171,11 @@ One line per blueprint, generated from the files themselves. Read this first, sh
 - `05-3d-webgl/wave-galaxy.md` — **Wave Galaxy** (Templates · Dark): A vast disc of glowing blue-and-cyan points rolls in an animated radial wave over deep black.
 - `05-3d-webgl/wormhole.md` — **Wormhole** (Templates · Dark): A hyperspace jump pulled into light: streaks spiral out of a glowing vortex eye and rush past the lens through a haze of drifting colourful bokeh.
 
-## 06-product-showcase (2)
+## 06-product-showcase (3)
 
 - `06-product-showcase/ecosystem-technology-marquee.md` — **Ecosystem & Technology Integration Infinite Marquee** (06-product-showcase): An ultra-clean, continuous brand and integration marquee adapted from the shazagency.com ecosystem standard (GÜCÜNÜ ALDIĞIMIZ TEKNOLOJİLER & ENTEGRASYONLAR). Replaces…
 - `06-product-showcase/kinetic-spec-showcase.md` — **Kinetic Spec Showcase — Precision Hardware & Acoustics** (06-product-showcase): An interactive product showcase designed for high-precision physical instruments, luxury audio equipment, or bespoke industrial devices. Completely avoids generic…
+- `06-product-showcase/tech-stack-pill-marquee.md` — **Tech Stack Pill Marquee — Continuous Infrastructure Stream** (06-product-showcase): An ultra-clean, minimal technology stack ribbon designed for modern software engineers, SaaS developers, and digital product agencies. Instead of loud corporate sponsor…
 
 ## 07-pricing-features (1)
 
@@ -185,10 +187,11 @@ One line per blueprint, generated from the files themselves. Read this first, sh
 - `08-ecommerce/minimal-sliding-cart-drawer.md` — **Minimal Sliding Cart Drawer — Luxury Order Manifest & Direct Acquisition** (08-ecommerce): An authoritative, slide-out acquisition drawer designed for limited-edition furniture, high-end watches, or bespoke industrial machinery. Avoids standard e-commerce…
 - `08-ecommerce/monolithic-luxury-product-card.md` — **Monolithic Luxury Product Card — Bespoke Hardware & Furniture** (08-ecommerce): A high-end product card and collection grid designed for bespoke furniture ateliers, luxury watchmakers, or custom architectural hardware fabricators. Replaces noisy…
 
-## 09-forms-footers (2)
+## 09-forms-footers (3)
 
 - `09-forms-footers/bespoke-luxury-atelier-footer.md` — **Shaz Agency Web Design — Architectural Master Horizon Footer Specification**: 1. Architectural Horizon Dialogue: Opens with an authoritative, quiet editorial invitation sentence paired with a direct, minimalist single-line inquiry action…
 - `09-forms-footers/editorial-split-footer.md` — **Editorial Split Footer — Creative Studio & Direct Inquiry** (09-forms-footers): An architectural, high-impact footer designed for design studios, architecture practices, and premium creative institutions. Replaces cluttered link dumps and social…
+- `09-forms-footers/split-inquiry-email-composer.md` — **Split Inquiry Email Composer — Interactive Client Card** (09-forms-footers): An authoritative, high-conversion contact section designed for independent software engineers, technical consultants, and boutique digital agencies. Replaces generic…
 
 ## 10-interactive-animations (125)
 
@@ -1048,3 +1051,27 @@ One line per blueprint, generated from the files themselves. Read this first, sh
 - `23-shader-backgrounds/windy-white-grass.md` — **Windy White Grass** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
 - `23-shader-backgrounds/wool-hills-path.md` — **Wool Hills Path** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
 - `23-shader-backgrounds/yellow-clay-valley.md` — **Yellow Clay Valley** (Templates · Light): Source files include a 4K video and a 2K poster, without any watermarks.
+
+## 24-dqnamo-kitchen (21)
+
+- `24-dqnamo-kitchen/01_tactile-button.md` — **Tactile Button (Dokunsal 3D Buton) — The Kitchen by dqnamo** (Butonlar ve Eylemler (Buttons & Actions)): Şekillendirilmiş yüzey, sert kenar oluğu ve sıkıştırılabilir fiziksel derinlikten oluşan dokunsal 3D buton çalışması.
+- `24-dqnamo-kitchen/02_receipt-printer.md` — **Receipt Printer (Termal Fiş Yazıcısı & Ödeme Çıkışı) — The Kitchen by dqnamo** (Fiziksel ve İskeomorfi (Physical & Skeuomorphic)): Ödeme tamamlandığında mekanik ses ve kağıt çıkarma fiziğiyle fiziksel termal makbuz basan SaaS ödeme arayüzü.
+- `24-dqnamo-kitchen/03_cassette-player.md` — **Cassette Audio Player (Kasetçalar Ses Oynatıcı) — The Kitchen by dqnamo** (Ses ve Medya (Audio & Media)): Dönen makaralar, gerçek zamanlı ses akışı, VTT altyazı desteği ve kompakt kaset kontrol yüzeyine sahip analog ses oynatıcı.
+- `24-dqnamo-kitchen/04_hold-to-confirm.md` — **Hold to Confirm (Basılı Tut ve Onayla (Zamanlı Geri Al)) — The Kitchen by dqnamo** (Butonlar ve Eylemler (Buttons & Actions)): Kritik eylemler için basılı tutuldukça dolan progress halkası ve ardından zamanlı geri alma (Undo) bildirimi sunan onay butonu.
+- `24-dqnamo-kitchen/05_magnetic-drop-zone.md` — **Magnetic Drop Zone (Manyetik Dosya Bırakma Alanı) — The Kitchen by dqnamo** (Butonlar ve Eylemler (Buttons & Actions)): Dosya sürükleme imleci alana yaklaştıkça hedefi imlece doğru çeken manyetik çekim fiziğine sahip dropzone.
+- `24-dqnamo-kitchen/06_dynamic-button.md` — **Dynamic Button (Dinamik Boyutlanan Buton) — The Kitchen by dqnamo** (Butonlar ve Eylemler (Buttons & Actions)): İçerik, durum veya ikon değiştikçe genişliğini ve yüksekliğini sarsıntısız, akıcı bir yay fiziğiyle ayarlayan dinamik buton.
+- `24-dqnamo-kitchen/07_dynamic-button-v2.md` — **Dynamic Button v2 (Dinamik Buton v2 (Çok Durumlu Morf)) — The Kitchen by dqnamo** (Butonlar ve Eylemler (Buttons & Actions)): Farklı eylem durumları (Yükleniyor, Onaylandı, Hata, İptal) arasında geometrisini, ikonlarını ve etiketini dönüştüren gelişmiş buton.
+- `24-dqnamo-kitchen/08_playing-cards.md` — **Playing Cards (İnteraktif İskambil Kartları ve Yelpaze Deste) — The Kitchen by dqnamo** (Fiziksel ve İskeomorfi (Physical & Skeuomorphic)): Gerçekçi saray kartları (Valeler, Kızlar, Papazlar), pip sembol geometrisi, kart arkası deseni ve parmakla gezilebilen 3D yelpaze deste.
+- `24-dqnamo-kitchen/09_ticket.md` — **Ticket (Delikli Kupon ve Bilet Kartı) — The Kitchen by dqnamo** (Fiziksel ve İskeomorfi (Physical & Skeuomorphic)): Gerçekçi delikli koparma çizgisi, kenar çentikleri, barkod ve imlece duyarlı hafif 3D paralaks derinliğine sahip bilet bileşeni.
+- `24-dqnamo-kitchen/10_stamp.md` — **Stamp (Posta Pulu Çerçevesi) — The Kitchen by dqnamo** (Fiziksel ve İskeomorfi (Physical & Skeuomorphic)): Görseller, metinler ve özel içerikler için CSS maskeleme ile üretilmiş tırtıklı delikli kenarlara sahip nostaljik posta pulu çerçevesi.
+- `24-dqnamo-kitchen/11_scroll-fade-list.md` — **Scroll Fade List (Yumuşak Kenar Solmalı Liste) — The Kitchen by dqnamo** (Seçiciler ve Grafikler (Pickers & Visuals)): Kaydırma pozisyonuna göre üst ve alt sınırlarda yumuşak gradyan maskelemesi uygulayan kompakt liste arayüzü.
+- `24-dqnamo-kitchen/12_model-selector.md` — **Advanced Model Selector (Gelişmiş Yapay Zeka Model Seçici) — The Kitchen by dqnamo** (Seçiciler ve Grafikler (Pickers & Visuals)): Claude, GPT ve Gemini modelleri için benchmark puanları, bağlam penceresi, token maliyetleri ve parametre ayarlarını gösteren seçim aracı.
+- `24-dqnamo-kitchen/13_signature.md` — **Animated Signature (Canlı Çizilen SVG İmza) — The Kitchen by dqnamo** (Yükleyiciler ve Animasyon (Loaders & Animation)): Sayfa yüklendiğinde veya tetiklendiğinde dolmakalem akıcılığıyla kendisini çizen vektörel SVG imza bileşeni.
+- `24-dqnamo-kitchen/14_logo-trace-loader.md` — **Logo Trace Loader (Çizgisel Vektör Logo Yükleyici) — The Kitchen by dqnamo** (Yükleyiciler ve Animasyon (Loaders & Animation)): Logonun dış hatlarını çizerek başlayıp merkezden dolguya dönüşen minimalist ve şık yükleme animasyonu.
+- `24-dqnamo-kitchen/15_iridescent-foil.md` — **Iridescent Foil (Holografik Yanardöner Folyo Efekti) — The Kitchen by dqnamo** (Yükleyiciler ve Animasyon (Loaders & Animation)): İmleç ve kaydırma açısına göre spektrum renklerini yansıtan, metalik parlaklık ve prizmatik ışıma veren CSS holografik folyo katmanı.
+- `24-dqnamo-kitchen/16_scramble-text.md` — **Scramble Text (Kriptografik Karışan Metin Çözücü) — The Kitchen by dqnamo** (Yükleyiciler ve Animasyon (Loaders & Animation)): Metin veya kod değiştiğinde harfleri rastgele karakterlerle karıştırarak hedef metne çözen siber güvenlik / hacker tarzı metin efekti.
+- `24-dqnamo-kitchen/17_agent-dock.md` — **Agent Dock (Yapay Zeka Ajanı Kontrol Yuvası) — The Kitchen by dqnamo** (Seçiciler ve Grafikler (Pickers & Visuals)): Sesli komut, sohbet girişi, metin yazarı ve çalışma durumu etkileşimlerine sahip kompakt yüzen yapay zeka ajan kontrol yuvası.
+- `24-dqnamo-kitchen/18_animated-banner.md` — **Animated Banner (Animasyonlu Dünya Kupası Bannerı) — The Kitchen by dqnamo** (Ses ve Medya (Audio & Media)): Arka planda video akışı, dokusal katmanlar ve dinamik tipografik hiyerarşi içeren Dünya Kupası 2026 tanıtım bannerı.
+- `24-dqnamo-kitchen/19_animated-loading-state.md` — **Animated Loading State (Game of Life) (Game of Life Hücresel Yükleme Durumu) — The Kitchen by dqnamo** (Yükleyiciler ve Animasyon (Loaders & Animation)): Conway'in Hayat Oyunu (Game of Life) hücresel simülasyonunu yükleme ekranı olarak kullanan ve grafiğe dönüşen yaratıcı yükleyici.
+- `24-dqnamo-kitchen/20_animated-sparkline.md` — **Animated Sparkline (Dinamik Animasyonlu Kıvılcım Çizgi Grafiği) — The Kitchen by dqnamo** (Seçiciler ve Grafikler (Pickers & Visuals)): Trend değişimleri arasında eğri geçişlerini sarsıntısız morflayan ve pozitif/negatif yönelimlere göre renk değiştiren SVG mini grafiği.
+- `24-dqnamo-kitchen/21_color-picker.md` — **Harmonic Color Picker (Harmonik Renk Seçici ve Palet Eşleyici) — The Kitchen by dqnamo** (Seçiciler ve Grafikler (Pickers & Visuals)): Radix UI renk skalalarını, kontrast oranlarını ve açık/koyu mod harmonik ton eşleşmelerini canlı önizleyen renk seçim aracı.
