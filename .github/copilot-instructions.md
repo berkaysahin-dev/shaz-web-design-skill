@@ -1,25 +1,46 @@
-# GitHub Copilot & Codex Instructions — Shaz Agency Web Design
+# GitHub Copilot Instructions — Shaz Agency Web Design
 
-When generating frontend components, full pages, or visual interfaces, adhere to the Shaz Agency Web Design specification.
+When generating frontend components, full landing pages, or web interfaces, strictly adhere to the Shaz Agency Design Intelligence 2.0 specification.
 
-## Core Rules:
-1. Zero Fluff Text: Concise, authoritative headlines. Body text <= 1-2 dense sentences.
-2. Zero Badges, Pills & Eyebrows: No floating tags, status chips, or eyebrow kickers above titles.
-3. Strict Neon Prohibition: Use optical, material-grounded colors (titanium, basalt, raw concrete). No radioactive RGB neon.
-4. Selective Double-Bezel: Double-bezel (`.bezel-tray` -> `.bezel-core`) is for focal accent tiers only. Never in hero sections.
-5. Strictly Backgroundless Hero Specimens: Products and HUD telemetry float directly on canvas with `bg-transparent`.
-6. Bespoke Vector Favicons: Every site requires a custom SVG vector favicon matching brand materiality.
-7. Navigation Archetypes: Choose one of the 5 navigation archetypes per project (seeded in `rules/variation-engine.md`). When the scroll-morphing dock is chosen, it must collapse snugly using deterministic CSS scoping (`display: none !important` on text links).
-8. Zero Blinking Lights, Zero Emojis, Zero Graphic Logos, Zero `//`, Anti-Gold unless horology/jewelry.
-9. Variation Engine first: derive a concept from the subject's own world and seed grid, type, palette, hero, centerpiece and motion so no two projects share the same look. Never invent facts, numbers, addresses or client logos.
+---
 
-## Slash Commands:
-- `/shaz`: Full autonomous page design engine
-- `/shaz-audit`: 25-point pre-delivery quality audit
-- `/shaz-hero`: Backgroundless cinematic hero generator
-- `/shaz-3d`: 141 WebGL/Three.js shader stages
-- `/shaz-style`: 40 Authentic web design styles
-- `/shaz-dock`: Two-stage scroll-morphing collapsible dock
-- `/shaz-component`: 114 NameThatUI dictionary components
+## 1. Non-Negotiable Invariants
 
-Output only the compact Design Signature (`SKILL.md` §5) and then complete, executable code.
+1. **Zero Eyebrows & Overlines:** Never place uppercase micro-labels, tags, or section counters above headings (`OTONOM SISTEMLER`, `01 · TEMEL`). Headings lead authoritatively.
+2. **Zero Heavy Essays:** Keep copy stylish, natural, and human. Maximum 1 sentence per section.
+3. **Zero Dark-Only Defaulting:** Light surfaces (Apple white, warm paper, clinical stone) are equal first-class citizens.
+4. **Zero Blinking Lights & Pulsing Dots:** No `animate-pulse` or radar pings.
+5. **Zero Neon & Glow Effects:** No fluorescent RGB drop-shadows or laser lines.
+6. **Zero Repeating Gradients & Cloned 3-Card Bento Boxes.**
+7. **Zero Emojis:** Use monochrome SVG vector icons only.
+8. **No Fabricated Data:** Never invent fake client logos or statistics.
+
+---
+
+## 2. Canonical Core References
+
+- Architecture & Philosophy: `core/design-philosophy.md`
+- Non-Negotiable Rules: `core/mandatory-rules.md`
+- Sector DNA: `core/industry-intelligence.md`
+- Art Director & Exploration: `core/design-diversity.md`
+- 1008 Blueprint Knowledge Base: `core/reference-intelligence.md` & `library/INDEX.md`
+- 100-Point Scoring Gate: `core/visual-quality.md`
+- Accessibility & Motion: `core/accessibility.md`
+- Capability Fallbacks: `core/capability-detection.md`
+
+---
+
+## 3. Output Protocol
+
+Print the compact **Design Signature** and then complete, production-grade Next.js (App Router), Tailwind CSS, and Framer Motion code:
+
+```markdown
+### Design Signature
+- **Industry & DNA:** [Sector] · [Aesthetic Direction]
+- **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
+- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition]
+- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
+- **Reference Mining:** [5 synthesized blueprints from library/]
+- **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
+- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays.
+```

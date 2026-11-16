@@ -12,8 +12,8 @@ Before any code, section, or complete website design is delivered to the user, r
 
 | # | Check Item | Verification Command / Observation | Pass Criteria |
 | :-: | :--- | :--- | :--- |
-| **1** | **Zero Fluff Text** | Scan headings and body copy across all components. | No multi-sentence marketing paragraphs. Every heading is concise and purposeful. Body text is 1 dense sentence maximum per section (or 0 sentences if layout speaks for itself). |
-| **2** | **Zero Badges, Pills, Eyebrows & Corner Micro-Labels (Zero 'Üst Küçük Yazılar')** | Inspect DOM for `rounded-full` pills, status chips, eyebrow kicker labels (`SECTION 03`), corner micro-labels (`BENCH 04`, `CHAMBER 01`), floating canvas telemetry tags (`REAL-TIME ISO...`), or card-header subtitle strips (`SERIES 01 · BASALT`). | Zero decorative pills, zero kicker micro-labels above titles, zero corner micro-tags on canvases or cards, zero card-header subtitle strips. Visual surfaces and cards breathe purely and nakedly. |
+| **1** | **Zero Fluff Text & Zero Heavy Academic Essays** | Scan headings and body copy across all components. | No multi-sentence marketing paragraphs. No heavy academic philosophical essays. Every heading is concise, stylish, and purposeful. Body text is 1 clear, natural sentence maximum per section (or 0 sentences if layout speaks for itself). |
+| **2** | **Zero Badges, Pills, Eyebrows & Corner Micro-Labels (Zero 'Üst Küçük Yazılar')** | Inspect DOM for `rounded-full` pills, status chips, eyebrow kicker labels (`SECTION 03`, `OTONOM SİSTEMLER · BİLİŞSEL ALTYAPI`, `01 · TEMEL DİSİPLİN`), corner micro-labels (`BENCH 04`, `CHAMBER 01`), floating canvas telemetry tags (`REAL-TIME ISO...`), or card-header subtitle strips (`SERIES 01 · BASALT`). | Zero decorative status chips, zero kicker micro-labels above titles, zero corner micro-tags on canvases or cards, zero card-header subtitle strips. Headings start directly, nakedly, and authoritatively. Visual surfaces breathe cleanly. |
 | **3** | **Zero Blinking & Neon Strobes** | Inspect CSS and Tailwind animations (`animate-pulse`, `@keyframes`, `drop-shadow neon`, radar pings). | Zero blinking indicator dots, pulsing circles, or flashing neon elements anywhere in UI, 3D stages, or telemetry boxes. Colors are matte, optical, and balanced. |
 | **4** | **Zero Emojis & Mandatory Vector Icons** | Audit UI code for emojis (🚀, ✨, 🎉, ⌚). Verify vector icon usage. | Zero emojis in UI or copy. Pure monochrome vector icons only (Lucide React or inline SVG, `stroke-current`, 1.5px–1.75px stroke). |
 | **5** | **Selective Surface Hierarchy (No Universal Bezel)** | Check container borders and nesting architecture across the whole page. | Double-Bezel (`.bezel-tray` -> `.bezel-core`) is used **selectively** as a prestigious focal accent (e.g. flagship tier or signature stage). Never dogmatically applied to every box. Secondary items use clean single hairline borders, flat panels, or open editorial typography. |
@@ -65,3 +65,37 @@ Run after the 25 checks. Density never relaxes a check above; it only decides wh
 | **Fidelity** | The used blueprint's structure, mechanics, choreography and visual technique are recognisable in the build, not reduced to a simple CSS approximation. |
 | **Re-skinned** | Zero blueprint colours, fonts, brand names or demo copy remain; colours come from Axis C tokens, fonts from Axis B, copy from §5. Banned elements were translated through the §8 table. |
 | **Rotation** | No blueprint reused in the same role as an earlier site in the conversation. |
+
+---
+
+## Visual QA Self-Criticism & 100-Point Scoring Gate (Design Intelligence 2.0)
+
+Before any design or code is delivered to the user, execute the 10-Question Self-Audit and compute the Visual QA Score across all 9 dimensions:
+
+| Değerlendirme Kategorisi | Maksimum Puan | Başarı Kriteri |
+| :--- | :---:| :--- |
+| **Visual Design Quality** | 20 | Üst düzey estetik, görsel derinlik, rafine kenarlıklar ve gölgeler. |
+| **Industry Relevance** | 15 | Sektörün DNA'sına tam uyum (Yazılımda Apple/Linear sadeliği, Mimarlıkta Dezeen). |
+| **Originality & Distinct DNA** | 15 | Standart AI şablonlarından ve önceki projelerden belirgin ayrışma. |
+| **Typography & Copy Discipline** | 10 | Şık, insani, başlık üstü etiketsiz, dengeli font eşleşmesi, max 1 cümle/bölüm. |
+| **Layout & Composition** | 10 | Asimetrik denge, doğru grid kullanımı, kusursuz hizalama, sıfır 50/50 hero. |
+| **Color Harmony & Polarity** | 10 | Aydınlık/koyu polaritesinde sektöre uygunluk, sıfır neon, sıfır ucuz gradyan. |
+| **UX & Usability** | 10 | Net aksiyon butonları, sezgisel etkileşim, erişilebilir dokunma hedefleri (≥ 44px). |
+| **Responsive Quality** | 5 | Sıfır horizontal overflow (`overflow-x-clip`), akıcı mobil düzen. |
+| **Reference Utilization** | 5 | Kütüphanedeki gerçek blueprint mekaniklerinin (en az 5 referans) başarıyla uyarlanması. |
+| **TOPLAM HEDEF** | **100** | **ASGARİ GEÇER PUAN: 85 / 100** |
+
+### 10-Question Autonomous Self-Audit
+1. **Swap Test:** Bu tasarım marka ismi değiştirilip başka bir sektördeki rakibe verilse sırıtır mı? (Evet = Başarısız).
+2. **AI Cliché Test:** Mor-cyan gradyan, gereksiz parlayan ikon veya standart bento grid var mı? (Evet = Başarısız).
+3. **Eyebrow & Clutter Test:** Başlık üstünde `OTONOM SİSTEMLER` gibi etiket veya overline var mı? (Evet = Başarısız).
+4. **Heavy Essay Test:** Akademik felsefe manifestoları var mı? (Evet = Başarısız, max 1 şık cümle).
+5. **Görsel Hiyerarşi:** Başlık ilk bakışta otoriter mi? İkincil öğeler başlığı gölgeliyor mu?
+6. **Renk Uyumu:** Renkler sektörün fiziksel malzemesini yansıtıyor mu? (Sıfır neon).
+7. **Tipografi Kalitesi:** Font eşleşmesi, satır yüksekliği ve negatif tracking dengeli mi?
+8. **Negatif Alan:** Bölümler arasında 120px–180px dikey nefes alanı var mı?
+9. **Kütüphane Entegrasyonu:** En az 5 blueprint semantik olarak sentezlendi mi?
+10. **Mobil Akış:** Yatay taşma olmaksızın en az 44px dokunma alanları sağlandı mı?
+
+> **ZORUNLU KURAL:** Toplam puanı **85'in altında** kalan tasarım kullanıcıya teslim edilemez; eksikler derhal giderilip yeniden puanlanır.
+

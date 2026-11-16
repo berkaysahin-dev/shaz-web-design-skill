@@ -4,16 +4,17 @@ This document defines the strict, non-negotiable design laws governing all user 
 
 ---
 
-## 1. Zero Fluff Text (High-Density Editorial Copy)
+## 1. Zero Fluff Text & Zero Heavy Academic Wall of Text (Şık & İnsani Dil)
 
 ### Forbidden Anti-Patterns:
 - Multi-sentence explanatory paragraphs describing what the product does in generic marketing terms (e.g., *"We leverage cutting-edge paradigms to empower next-generation stakeholders with seamless synergy..."*).
+- **Heavy Philosophical / Academic Wall of Text:** Writing dense, multi-paragraph philosophical lectures or convoluted essays (e.g., *"Yazılım mimarisi bir süsleme sanatı değil; matematiksel doğruluk, düşük gecikme ve sıfır tavizli determinizm rejimidir..."*).
 - Repetitive feature descriptions where the title and description say the exact same thing.
 - Generic placeholders like *"Lorem ipsum dolor sit amet"* or *"Your journey starts here"*.
 
 ### Authorized Patterns:
-- **Title-Dominant Layout:** The headline carries 80% of the message. Make it sharp, direct, and authoritative (e.g., *"Distributed Consensus at Sub-Millisecond Latency"*).
-- **Single-Sentence Telemetry:** If body text is required, limit it to a single sentence that conveys a technical fact, concrete outcome, or architectural metric.
+- **Şık, Net ve İnsani İfade:** Headlines carry 80% of the narrative weight. Make them sharp, direct, stylish, and human.
+- **Single-Sentence Telemetry:** If body text is required, limit it to at most ONE clear, natural, high-impact sentence. If layout speaks for itself, use ZERO sentences.
 - **Data Over Adjectives:** Replace descriptive words with concrete parameters (e.g., instead of *"Extremely fast engine"*, use *"140µs P99 Execution"*).
 
 ---
@@ -22,7 +23,7 @@ This document defines the strict, non-negotiable design laws governing all user 
 
 ### Forbidden Anti-Patterns:
 - Small floating pill containers placed above headings (e.g., `<span class="rounded-full bg-blue-100 text-blue-700 px-3 py-1">✨ New Release v2.0</span>`).
-- **Eyebrow / Kicker Sub-Labels Above Headings:** Small monospaced tags or category text directly above titles (e.g., `ATELIER DOCTRINE · SECTION 03`, `OBSERVATORY SPECIFICATION`, `SECTION 02`). Headings must stand clean, authoritative, and direct without decorative micro-labels.
+- **Eyebrow / Kicker Sub-Labels Above Headings (ABSOLUTE PROHIBITION):** Small monospaced tags, uppercase category text, or section markers directly above titles (e.g., `OTONOM SİSTEMLER · BİLİŞSEL ALTYAPI`, `01 · TEMEL DİSİPLİN`, `ATELIER DOCTRINE · SECTION 03`, `OBSERVATORY SPECIFICATION`, `SECTION 02`). Headings must stand clean, authoritative, and direct without any decorative micro-labels above them.
 - **Fake Telemetry & Coordinates:** Decorative GPS coordinates (e.g., `46°12'09"N · 6°08'44"E`), synthetic serial numbers, machine IDs, or fake sensor logs used as filler text.
 - Status chips or pill tags placed inside navigation bars or headers.
 - "Best Choice", "Most Popular", "Recommended" decorative badges stuck onto pricing cards.
@@ -263,6 +264,10 @@ Navigation must adapt to viewport kinetic intent. When exploring a page, heavy h
 - **Jerky CSS Discontinuities:** Toggling navigation modes with abrupt class jumps instead of smooth spring/cubic-bezier geometric transforms.
 
 ### Authorized Patterns:
+- **Refined Floating Capsule Nav (Software / Personal Brand / Studio):**
+  * Inspired by Apple, Linear, and Vercel standards (`library/02-navigation/floating-pill-capsule-nav.md`).
+  * Floating capsule (`rounded-full bg-white/90 dark:bg-[#121216]/90 backdrop-blur-md border border-black/5 dark:border-white/10 shadow-sm px-4 py-2`).
+  * Houses avatar / circular identity marker, concise menu links, language selector, and high-contrast pill CTA action button.
 - **Kinetic Two-Stage State Machine:**
   * **Top State (`scrollY <= 80px`):** Full-width or container-aligned (`max-w-7xl`) luxury header displaying brand typographic insignia, primary section text links, status indicators, and call-to-action buttons.
   * **Scrolled Dock State (`scrollY > 80px`):** Smoothly contracts (`transition-all duration-300 ease-out`) into a centered, compact floating dock (`width: auto !important; max-width: fit-content !important;`, `rounded-full`, `bg-[#08090C]/94 backdrop-blur-xl border border-white/18 shadow-2xl px-4 py-2`).
@@ -289,6 +294,10 @@ For modern technology agencies, enterprise platforms, and digital architectures 
 - **Visible Seam Breaks:** Marquees that stutter, jump, or show empty gaps between loop iterations.
 
 ### Authorized Patterns:
+- **Clean Tech Stack Pill Marquee (Software & Personal Brand):**
+  * As featured in modern developer suites (`library/06-product-showcase/tech-stack-pill-marquee.md`).
+  * Bold, confident, human headline (e.g. *"Her gün açık olanlar."* / *"Technologies in daily production"*) with ZERO uppercase kicker labels.
+  * Soft rounded capsule chips (`rounded-full bg-white dark:bg-[#141418] border border-black/5 dark:border-white/10 shadow-sm px-4 py-2.5`) with authentic monochrome or subtle brand color markers.
 - **Continuous Sub-Pixel Marquee Belt:**
   * Dual-track infinite CSS marquee (`animation: ecosystemMarquee 35s linear infinite`) moving seamlessly from right to left (`transform: translateX(0)` to `translateX(-50%)`).
   * Seamless pause-on-hover (`:hover { animation-play-state: paused; }`) allowing deliberate inspection.

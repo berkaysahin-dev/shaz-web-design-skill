@@ -1,0 +1,43 @@
+---
+description: Shaz Agency Web Design Design Intelligence 2.0 and mandatory design laws for Cursor and Windsurf
+globs: **/*.{tsx,jsx,ts,js,html,css}
+alwaysApply: true
+---
+
+# Shaz Agency Web Design — Cursor & Windsurf Rules
+
+When engineering web user interfaces, landing pages, or frontend components, strictly enforce the Shaz Agency Design Intelligence 2.0 rules:
+
+## 1. Absolute Prohibitions
+1. **Zero Eyebrows & Overlines:** Never place uppercase micro-tags or counters above headings (`OTONOM SISTEMLER`, `01 · TEMEL`). Headings lead nakedly and authoritatively.
+2. **Zero Heavy Essays:** Maximum 1 stylish, human sentence per section. Never write dense philosophical manifestos.
+3. **Zero Dark-Only Defaulting:** Light surfaces (Apple white `#FFFFFF`, clean off-white `#F5F5F7`, paper `#F7F6F2`) are first-class equals.
+4. **Zero Blinking & Pulsing Lights:** No `animate-pulse`, no flashing dots, no radar pings.
+5. **Zero Glow & Neon:** No fluorescent RGB drop-shadows or laser borders.
+6. **Zero Repeating Gradients:** No purple-to-cyan or blue-to-emerald radial blobs.
+7. **Zero Reflexive 50/50 Splits:** Rotate across distinct hero and section archetypes.
+8. **Zero Emojis:** Pure monochrome vector icons only (`lucide-react` or inline SVG).
+
+## 2. Canonical Core References
+- Architecture: `core/design-philosophy.md`
+- Mandatory Rules: `core/mandatory-rules.md`
+- Sector DNA: `core/industry-intelligence.md`
+- Art Director & Exploration: `core/design-diversity.md`
+- 1008 Blueprint Index: `core/reference-intelligence.md` & `library/INDEX.md`
+- 100-Point Scoring Gate: `core/visual-quality.md`
+- Accessibility & Motion: `core/accessibility.md`
+- Capability Fallbacks: `core/capability-detection.md`
+
+## 3. Output Protocol
+Before generating code, output the compact **Design Signature**:
+```markdown
+### Design Signature
+- **Industry & DNA:** [Sector] · [Aesthetic Direction]
+- **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
+- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition]
+- **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
+- **Reference Mining:** [5 synthesized blueprints from library/]
+- **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
+- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays.
+```
+Follow immediately with complete, unabridged, production-grade Next.js (App Router), Tailwind CSS, and Framer Motion code.

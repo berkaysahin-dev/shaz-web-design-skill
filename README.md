@@ -1,303 +1,160 @@
-# Shaz Agency Web Design — AI Skill & Architecture Library
+# Shaz Design System
 
 <p align="center">
-  <img src="docs/demo-kronos.jpg" alt="Kronos Horology Atelier demo page included in this repository" width="100%" />
+  <img src="docs/demo-kronos.jpg" alt="Shaz Design System — Kronos Horology Atelier" width="100%" />
 </p>
 
-<p align="center"><a href="https://skill.shazagency.com"><b>skill.shazagency.com</b></a> — try the seed with your own brand name</p>
+<p align="center">
+  <b>A curated production library, component architecture, and design engineering framework for Next.js, Tailwind CSS, and Framer Motion.</b>
+</p>
 
-<p align="center"><sub>Included demo: <a href="demos/kronos-horology-atelier.html">demos/kronos-horology-atelier.html</a></sub></p>
-
-An autonomous, production-grade AI web design skill engineered for Antigravity, Claude Code, Cursor, Windsurf, and modern AI coding assistants. Built on Swiss Utilitarian rigor, editorial typographic refinement, and selective Double-Bezel surface architecture, it generates world-class, uncompromising digital experiences using Next.js (App Router), Tailwind CSS, Framer Motion, and Three.js.
-
----
-
-## What's New — The Whole Design Library, and Hydration-Safe Output
-
-**TR:** Skill, tasarım kütüphanesinin (shaz-agency-web-design) yalnızca bir kısmını içeriyordu: 3D sahneler, animasyonlar, stiller ve NameThatUI vardı; 77 sinematik hero, 98 landing page, 55 site şablonu, 10 bölüm kiti, 18 gradyan ve 284 arka plan yoktu. Artık hepsi `library/17`–`23` altında, önizleme görselleriyle birlikte; kütüphane ile skill tek komutla eşitleniyor. Ayrıca üretilen sitelerde tarayıcı eklentilerinin (ColorZilla, Grammarly) yol açtığı hydration hatası ve oturumda karşılaşılan diğer derleme tuzakları kurallara eklendi.
-
-**EN:**
-1. **543 more blueprints (984 in total):** `17-cinematic-heroes` (77), `18-landing-pages` (98), `19-backgrounds` (8), `20-site-templates` (55, with the full-length Lumora), `21-gradients` (18), `22-sections` (10), `23-shader-backgrounds` (276), with their preview images. `library/INDEX.md` lists every one.
-2. **One-command sync:** `node library/sync-from-design-library.js <path-to-shaz-agency-web-design>` then `node library/build-index.js library`. The sync applies the same clean-up as the existing copies (no filler copy, no emoji, repaired encoding) so both audits stay green.
-3. **Wired into the rules:** Variation Engine §4.1 and `SKILL.md` §5 step 4 now send hero, page-structure, section-kit and background decisions to these folders, and state that a blueprint's third-party showcase video is never reused.
-4. **Hydration-safe output** (`rules/tech-standards.md` §6): `suppressHydrationWarning` on `<html>` and `<body>`, no locale date formatting or random values in render, reduced-motion read after mount with `MotionConfig`, `next/font` name checks, Tailwind v4 `@layer components`, Turkish uppercase `i`→`İ`, `overflow-x-clip` for pinned art, and a browser check before delivery (`SKILL.md` §5 step 6).
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-black.svg" alt="License" /></a>
+  <img src="https://img.shields.io/badge/Next.js-14%2B-black.svg" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v3%20%2F%20v4-black.svg" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-11%2B-black.svg" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Three.js-WebGL-black.svg" alt="Three.js" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue.svg" alt="TypeScript" />
+</p>
 
 ---
 
-## Earlier — Density by Category & Library First
+## Overview
 
-**TR:** Siteler her kategoride aynı sakinlikte ve sade çıkıyordu; kütüphanedeki 442 blueprint de çoğu zaman atlanıyordu. Artık yoğunluk kategoriye göre seçiliyor (vinç, dişçi, ajans, eğlenceli site farklı doluluklarda) ve uygun blueprint varsa her seferinde kütüphaneden alınıyor. Yasaklar (yanıp sönen ışık, rozet, başlık üstü yazı, neon) hiç değişmedi.
+Most modern web templates look interchangeable: identical card grids, default purple-to-cyan gradients, and predictable hero layouts. 
 
-**EN:**
-1. **Axis J — Density** (`rules/variation-engine.md` §3): set by category, not by the seed. J0 Quiet (4–5 sections, 1 signature moment) · J1 Balanced (6–7, 2) · J2 Full (8–10, 3, a motion layer on every section) · J3 Maximal (9–12, 4, continuous motion). A category table maps law firms, clinics, construction, restaurants, e-commerce, agencies and playful/event sites to a level and to the real modules that fill the page. The user's own words move it one level ("minimal" down, "full / animated" up).
-2. **Fullness without slop:** every moving element must come from the subject's world; signature moments come from different mechanic families and never share a viewport; fillers (particle fields, gradient blobs, invented counters or testimonials, generic icon-card grids, auto-playing carousels) are banned at every level.
-3. **Library first** (§4.1): `library/INDEX.md` lists all 984 blueprints in one line each. Every signature moment, the hero, nav, footer and every visual or interactive section is searched there first; a blueprint that fits and looks good is always used, its structure, mechanics and motion reproduced, while colours, fonts and copy come from the project. Slots built from scratch need a stated reason. Regenerate the index with `node library/build-index.js library`.
-4. **Design Signature** gains **Density** and **Library** lines; `checklists/quality-gate.md` gains a **Density Gate** and a **Library Gate**.
+**Shaz** is an opinionated, production-ready design engineering framework built on Swiss typographic rigor, physical materiality, and layout diversity. Designed for frontend engineers and design technologists, it provides **1,008 curated production blueprints**, layout primitives, motion mechanics, and design tokens for building distinctive, award-winning digital experiences.
 
 ---
 
-## What's New — Variation Engine (Anti-Sameness & Anti-Slop)
+## Core Pillars
 
-**TR:** Önceki sürümde skill'in kendi örnekleri her projenin varsayılanı haline geliyordu: koyu zemin, italik serif vurgu kelimesi, mono etiketler, camsı 3D hero, coverflow, logo şeridi, şehir+saat footer. Sonuç: her seferinde aynı tasarım. Artık her `/shaz` çalışması `rules/variation-engine.md` ile başlıyor. Yasaklar (yanıp sönen ışık, neon, eyebrow, logo, emoji, 50/50 hero vb.) aynen geçerli.
+### 1. Industry-Derived Design DNA
+Every project possesses its own authentic visual language derived from its sector's physical materiality:
+- **Software & Tech:** Clean Apple-inspired white (`#FFFFFF`) and slate surfaces, crisp grotesque typography, and live UI showcases.
+- **Architecture & Interiors:** Raw stone (`#EFECE6`), linen cream, asymmetric editorial grids, and generous negative space.
+- **Corporate & Advisory:** Deep navy (`#0F172A`), warm parchment, and balanced corporate serifs.
+- **Hospitality & Dining:** Terracotta, olive leaf, espresso tones, and gastronomy-magazine typography.
+- **Automotive & Engineering:** Brushed aluminum, metallic silver, aerodynamic contours, and telemetry tables.
+- **Fashion & Luxury:** Warm paper beige, monochrome contrast, and magazine cover typography.
 
-**EN:** Every `/shaz` run now starts with `rules/variation-engine.md`:
-1. **Content inventory** from the brief only. No invented metrics, clients, addresses, coordinates or clocks.
-2. **Concept artifact** from the subject's own world (an order slip, a timetable, a herbarium sheet), not from the skill's luxury vocabulary.
-3. **Seeded axes** (brand name → S / L / F) choose grid, type pairing (24 Google Fonts pairs), ground, hero archetype, visual centerpiece, motion personality, navigation and footer layout, so different briefs land on different combinations.
-4. **Signature interactions** (count set by Axis J), plain human copy with a banned-word list, and a **self-critique** (swap test, previous-output test, default-reflex test) before delivery.
-5. **Blueprint adaptation table:** neon, glows, pulsing dots and eyebrows found in library blueprints are translated to law-compliant equivalents.
+### 2. Editorial Typography & Optical Hierarchy
+- **Zero Kicker Clutter:** Headings lead authoritatively and directly. We eliminate repetitive uppercase micro-labels and artificial telemetry tags above titles.
+- **Natural Copy Discipline:** Purposeful, concise copy (maximum 1 dense sentence per section).
+- **Proportional Tracking & Leading:** Hand-tuned optical scales pairing high-contrast display faces with legible text grotesks.
 
-Also fixed: neon hex values that sector rules recommended despite the neon ban, references to 10 blueprint files that did not exist, conflicting output protocols (compact signature vs. long explanations vs. 3-direction tables), and mismatched law/audit counts.
+### 3. Comprehensive Blueprint Library (1,008 Blueprints)
+A structured library indexed across 12 semantic axes in `library/INDEX.md`:
+- `01-hero-sections`: Full-bleed ambient canvases, asymmetric typography, and horizontal strips.
+- `02-navigation`: Floating pill capsule docks, editorial horizons, and split drawers.
+- `05-3d-webgl`: 141 WebGL shader stages (PBR dispersion glass, caustics, liquid mercury, procedural terrains).
+- `06-product-showcase`: Tech stack marquees, product carousels, and interactive cards.
+- `09-forms-footers`: Split inquiry composers, architectural horizon footers, and validation cards.
+- `10-interactive-animations`: 125 physics-based motion mechanics with spring dynamics and drag inertia.
+- `13-web-styles`: 40 authentic design styles (Swiss Utilitarian, Neobrutalism, Editorial, Bento, Spatial).
+- `24-dqnamo-kitchen`: 21 tactile micro-interactions (cassette players, ticket printers, magnetic drop zones).
 
----
+### 4. Multi-Editor & IDE Integration
+Ready-to-use configurations and rules for modern developer environments:
+- **Cursor & Windsurf:** Native MDC rules (`.cursor/rules/shaz-design.mdc`) and `.cursorrules`.
+- **VS Code & Copilot:** Structured instructions (`.github/copilot-instructions.md`).
+- **Claude & Codex:** Project configuration (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md`).
 
-## 1. The 21 Universal Design Laws
-
-Every component, page, layout, and prompt produced by this skill adheres to 21 non-negotiable architectural laws across all project categories (SaaS, FinTech, Industrial, Architecture, Biotech, Automotive, Luxury, Portfolios):
-
-1. **Zero Fluff Text:** Headlines carry 80% of the narrative weight. Body text is strictly limited to 1 dense, factual sentence (or 0 sentences if the layout speaks for itself). No generic marketing slogans or filler paragraphs.
-2. **Zero Badges, Pills & Eyebrows:** Absolute ban on floating pill tags (`rounded-full bg-blue-100`), status chips, decorative tags ("NEW", "AI POWERED", "BEST SELLER"), and eyebrow kicker labels (`SECTION 03`, `CATEGORY · SUB`) above headings.
-3. **Category-Driven Color with Strict Neon Prohibition:** Palettes are derived directly from physical materiality (titanium, basalt, obsidian, raw concrete, paper beiges, clinical sage). Blinking indicator dots, pulsing circles, neon halos (`drop-shadow-[0_0_15px_#00ff00]`), and fluorescent RGB extremes are permanently banned.
-4. **Zero Generic Templates & AI Clichés:** Banned are generic purple-to-cyan radial gradients, identical 3-card bento grids, and dry wireframes using concentric SVG circles. All designs use authentic assets and active physics-based kinematics.
-5. **Zero Third-Party Branding:** 100% original, proprietary engineering standards and clean prompt specifications.
-6. **Zero Emojis & Mandatory Monochrome Vector Icons:** Emojis are strictly banned anywhere in UI code and copy. All icons must be monochrome vector strokes (Lucide React or inline SVG, 1.5px–1.75px stroke width).
-7. **Zero Comment Leaks, Zero Text-Polluted Video & Zero Irrelevant Imagery:** No JSX comment syntax in raw HTML. Background media must contain no burned-in text or logos. Stock imagery must be verified and authentically relevant.
-8. **Selective Surface Hierarchy (Strictly Banned in Hero):** Double-Bezel (`.bezel-tray` housing `.bezel-core`) is an occasional high-status accent reserved solely for deep lower-page containers (such as flagship tier pricing matrices or settings sheets). It is STRICTLY FORBIDDEN in hero sections.
-9. **Zero Post-Hero Telemetry Ticker Strips:** No horizontal monospace stat bars, ticker ribbons, or status bands placed directly beneath hero banners. Technical specifications belong inside dedicated architectural dossiers.
-10. **Seamless Atmospheric Section Transitions (Zero Razor Cuts):** Slicing consecutive sections with heavy 1px full-bleed horizontal dividing lines is prohibited. Sections transition naturally through deep vertical gradients, ambient lighting, and spacious negative space (120px–180px).
-11. **Hero Elements Purity (Strictly Backgroundless & Never Double-Layered):** Hero centerpieces, execution engines, HUDs, and visual specimens float strictly backgroundless (`bg-transparent`) directly on canvas or ambient gradients with delicate hairline dividers, zero double layers, and zero dark background boxes. Kinematics operate with calm, serene mechanical precision without cursor tilt jitter.
-12. **The Architectural Master Horizon Footer:** Generic 4-column corporate sitemaps, uppercase micro-titles (`PHYSICAL ATELIERS`, `DIRECT DESK`), fake serial inputs, status dots, and faint ghost watermarks are banned. Footers open with an authoritative dialogue invitation sentence, clean symmetrical navigation deck without micro-labels, physical presence in pure typography, and a balanced horizon baseline with discrete time.
-13. **Absolute Prohibition of Eyebrows, Overlines & Micro-Telemetry Clutter (Zero "Üst Küçük Yazılar"):** Absolute ban on upper/corner micro-labels (`BENCH 04`, `CHAMBER 01`), floating canvas status lines (`REAL-TIME ISO...`), card-header subtitle strips (`SERIES 01 · BASALT`), and section eyebrow prefixes. Visual surfaces, canvases, and cards breathe cleanly and purely.
-14. **Isolated Transparent Imagery & Zero Broken Asset Paths:** Hardware, mechanisms, and product specimens must be isolated cutouts with transparent backgrounds when assets are provided. Inventing non-existent local image paths (/assets/...) is banned; when no real image assets exist, code-based generative fallbacks (procedural WebGL, inline SVG vector line art, or mathematical canvas) are strictly enforced.
-15. **Page Architecture Modality (One-Page vs Multi-Page Routing Optionality):** Single-page is never forced dogmatically. One-page mode is deployed for tight single-objective launch landing pages and compact showrooms; multi-page application mode is deployed for SaaS platforms, enterprise hubs, and complex catalogs using Next.js App Router multi-page routing with layout persistence and smooth sub-pixel page transitions.
-16. **Dynamic Navigation Archetypes (Contextual Selection):** Navigation is chosen from 5 archetypes (Full-Bleed Editorial Horizon, Kinetic Two-Stage Scroll-Morphing Dock, Minimal Corner Anchors, Dual-Tier Precision Utility Header, Asymmetric Split with Fullscreen Drawer) to fit the sector. The floating capsule dock is never the blind default.
-17. **Ecosystem & Technology Integration Infinite Marquee:** Clean, continuous sub-pixel dual-track infinite marquee belt (`animation: ecosystemMarquee 35s linear infinite`), pause-on-hover, bilateral edge alpha feathering masks, and precision monochromatic SVGs with subtle individual brand hover luminescence.
-18. **Bespoke Vector Favicon Architecture:** Every website and digital application must possess an original, scalable SVG favicon tailored directly to its brand identity, material palette, and sector motif. Generic browser defaults, missing icons, and emojis are banned.
-19. **Tactile Material Depth, Anti-Caricature & Zero Synthetic Slashes:** Interactive mechanics use real spring physics instead of watered-down CSS transitions, surfaces carry a procedural tactile noise layer, styles are never reduced to flat caricatures, and `//` is banned in titles, tags, headings, and navigation.
-20. **Mandatory Anti-Template Layout & Component Diversity:** Banned are the 50/50 left-text / right-specimen hero, the "3-KPI + 2D canvas curve + range slider" formula, rudimentary toy 3D meshes, blinking or pulsing status dots, and graphic logos or emblem badges in headers. Heroes rotate across the 6 composition archetypes, interactions come from the library blueprints, and brand identity is a pure typographic wordmark.
-21. **Universal Responsive Architecture & Mobile Fallbacks:** Zero horizontal document overflow, desktop mechanics (coverflow, drag scrubbers, drawers) degrade into a vertical stack or a native snap slider below 768px, touch targets are at least 44x44px, and nothing depends on hover on touch devices.
+### 5. Performance & Accessibility
+- **WCAG 2.1 AA Compliant:** Accessible contrast ratios (≥ 4.5:1), visible focus rings, and full keyboard navigation.
+- **60 FPS Motion:** Hardware-accelerated transforms and opacity with `prefers-reduced-motion` support.
+- **Mobile First:** Strict zero horizontal overflow (`overflow-x-clip`) and minimum 44x44px touch targets.
 
 ---
 
-## 2. Architectural Comparison: Shaz Web Design vs Dictionary Skills
+## Quick Start
 
-| Dimension | Dictionary / Rulebook Skills | Shaz Agency Web Design Skill |
-| :--- | :--- | :--- |
-| **Execution Model** | Conceptual design dictionary; searches CSV token rules for 22 stacks and 192 product types. | **Direct Code Execution Engine:** Generates complete, production-ready, interactive Next.js, Three.js, GSAP, and Tailwind applications across 442 blueprints. |
-| **3D & WebGL Capabilities** | Theoretical guidelines only; no executable 3D shaders or WebGL code. | **141 Production 3D/WebGL Blueprints:** PBR dispersion glass, caustics, mercury liquid metals, procedural elevation shaders, DNA helices, galaxy meshes, and CAD wireframe inspectors. |
-| **Interactive Animations** | Generic CSS transitions and standard bento descriptions. | **125 Curated Interactive Motion Mechanics:** 82 interactive components and 43 application templates with GSAP timelines, spring physics, and drag inertia. |
-| **Web Design Styles** | High-level aesthetic labels without code. | **40 Authentic Web Design Styles:** Acid Graphics, Neobrutalism, Bento Grid, Claymorphism, Cyber Pop, Editorial Magazine, Japanese Web Design, Kinetic Typography, Luxury Editorial, Maximalism, Spatial UI, Surrealism, Y2K. |
-| **UI Component Dictionary** | Conceptual definitions without agent prompts. | **114 Shaz Agency UI Architecture Dictionary Blueprints:** Complete DOM anatomy, WAI-ARIA standards, exact framework symbols, agent coding prompts, debug prompts, and architectural VS comparisons. |
-| **Programmatic Video** | None. | **60 FPS React Video Engine (`shaz-video`):** Frame-accurate motion canvas, kinetic timeline sequences, and dynamic video textures. |
-| **Design System & Typography** | Generic system fonts and standard scales. | **Master Typography & Token System:** Druk Wide 700 display, Tilt Warp creative, Neue Haas Grotesk 330 subheading, Spline Sans & Plus Jakarta Sans body, JetBrains Mono telemetry, Outfit controls, and calibrated CSS `:root` variables. |
-| **Surface Architecture** | Standard card borders and generic container padding. | **Hardware Double-Bezel & Selective Elevation:** Precision-calibrated tray-to-core radii mathematics and surface plurality. |
-| **Anti-Slop Enforcement** | Allows pills, badges, floating tags, and standard AI SaaS templates. | **Automated 25-Check Quality Gate:** Enforces zero fluff, zero pills, zero emojis, zero eyebrows, zero comment leaks, zero post-hero tickers, zero hero 50/50 splits, zero formula sliders, and zero blinking lights. |
+### Installation
+
+Clone the repository and install into your workspace:
+
+```bash
+# Clone the repository
+git clone https://github.com/berkaysahin-dev/shaz-web-design-skill.git
+
+# Install into your preferred environment
+node install.js --target cursor     # Cursor MDC rules and .cursorrules
+node install.js --target copilot    # GitHub Copilot instructions
+node install.js --target claude     # Claude Code environment
+node install.js --target agents     # Codex / Agent skills
+node install.js --target all        # All detected environments
+```
 
 ---
 
-## 3. Repository Directory Structure
+## Multi-Platform Compatibility
+
+| Environment / Platform | Config Entry Point | Native Adapter | Quality Standards | Status |
+| :--- | :--- | :--- | :---: | :--- |
+| **Claude Code** | `CLAUDE.md` | `adapters/claude/` | Verified | **PASS** |
+| **Cursor & Windsurf** | `.cursor/rules/shaz-design.mdc` + `.cursorrules` | `adapters/cursor/` | Verified | **PASS** |
+| **OpenAI Codex** | `AGENTS.md` | `adapters/codex/` | Verified | **PASS** |
+| **Gemini CLI / Antigravity** | `GEMINI.md` + `SKILL.md` | `adapters/gemini/` | Verified | **PASS** |
+| **GitHub Copilot** | `.github/copilot-instructions.md` | `adapters/copilot/` | Verified | **PASS** |
+
+---
+
+## Repository Structure
 
 ```text
 shaz-web-design-skill/
-├── SKILL.md                                        # Master AI skill orchestrator & instruction file
-├── README.md                                       # Repository documentation & architectural index
-│
-├── commands/                                       # High-velocity slash command definitions (TR / EN)
-│   ├── shaz.md                                     # Master autonomous design engine orchestrator
-│   ├── shaz-hero.md                                # Cinematic backgroundless hero section generator
-│   ├── shaz-dock.md                                # Scroll-morphing collapsible dock navigation generator
-│   ├── shaz-3d.md                                  # WebGL & Three.js shader stage generator (141 blueprints)
-│   ├── shaz-style.md                               # 40 Authentic design styles synthesizer
-│   ├── shaz-component.md                           # 114 NameThatUI dictionary component generator
-│   ├── shaz-video.md                               # Programmatic 60 FPS React video & motion graphics engine
-│   └── shaz-audit.md                               # 25-Point quality gate & compliance auditor
-│
-├── rules/
-│   ├── variation-engine.md                         # Step 0: concept, seeded axes, copy rules, self-critique
-│   ├── design-rules.md                             # 25 detailed design rules & anti-pattern matrix
-│   ├── section-composition-engine.md               # 6 Hero & section composition archetypes (Anti-50/50 split)
-│   ├── design-diversity-engine.md                  # Automated diversity evaluation & anti-slop enforcement
-│   ├── navigation-footer-archetypes.md             # 5 Nav & 5 bespoke footer archetypes
-│   ├── 3d-webgl-selection-engine.md                # 9 3D shader families & Zero-WebGL mandate
-│   ├── animation-injection-engine.md               # Mathematical physics & curated animation injection
-│   ├── tactile-depth-texture-system.md             # SVG grain overlay, anti-caricature & zero slashes
-│   ├── contextual-activation-matrix.md             # Sector-to-asset dispatching (fonts, 3D, motion, icons)
-│   ├── tech-standards.md                           # Next.js, Tailwind CSS, TypeScript & WAI-ARIA standards
-│   ├── accessibility-standards.md                  # WCAG 2.1 AA/AAA compliance & form engineering
-│   └── multi-platform-adaptivity.md                # Mapping Double-Bezel to SwiftUI, React Native & Flutter
-│
-├── checklists/
-│   ├── quality-gate.md                             # 25-Point pre-delivery quality audit checklist
-│   └── diversity-gate.md                           # Design diversity & anti-slop audit checklist
-│
-├── tests/
-│   ├── run-quality-audit.ps1                       # Automated PowerShell quality audit runner
-│   ├── test-page-1.tsx                             # Next.js App Router verification page (Hero & Nav)
-│   ├── test-page-2.tsx                             # Next.js App Router verification page (3D Stage & Spec)
-│   └── test-page-3.tsx                             # Next.js App Router verification page (Pricing & Footer)
-│
-├── demos/
-│   ├── kronos-horology-atelier.html                # Live standalone Swiss Haute Horlogerie atelier demo
-│   └── kronos-horology-atelier.tsx                 # Production React / Framer Motion implementation
-│
-└── library/
-    ├── 01-hero-sections/                           # 4 Cinematic hero architectures
-    ├── 02-navigation/                              # Minimalist double-bezel navbars & overlays
-    ├── 03-typography/                              # Editorial serif grids & kinetic glyph scrubbers
-    ├── 04-motion/                                  # Parallax timeline scrubbers & sub-pixel reveals
-    ├── 05-3d-webgl/                                # 141 Production Three.js & WebGL shader prompts
-    ├── 06-product-showcase/                        # Kinetic hardware & acoustic layer switchers
-    ├── 07-pricing-features/                        # Inverted surface core capability matrices
-    ├── 08-ecommerce/                               # Monolithic luxury product cards & slide-out drawers
-    ├── 09-forms-footers/                           # Asymmetric editorial footers & bespoke luxury footers
-    ├── 10-interactive-animations/                  # 125 Curated interactive motion mechanics (82 components + 43 templates)
-    ├── 11-dashboards-data-viz/                     # High-density financial telemetry & stepped area charts
-    ├── 12-forms-validation-wcag/                   # Progressive disclosure wizards & accessible inline validation
-    ├── 13-web-styles/                              # 40 Authentic web design styles (Acid, Bento, Y2K, Brutalism...)
-    ├── 14-name-that-ui-dictionary/                 # 114 Shaz Agency UI Architecture dictionary blueprints & VS comparisons
-    ├── 15-design-system-typography/                # Master typography hierarchy, Google Fonts & CSS tokens
-    ├── 16-iconography-assets/                      # Monochrome vector icon standards, 3D assets & video formulas
-    ├── 17-cinematic-heroes/                        # 77 full-viewport hero builds (from the design library)
-    ├── 18-landing-pages/                           # 98 complete landing pages
-    ├── 19-backgrounds/                             # 8 cinematic photo and video grounds
-    ├── 20-site-templates/                          # 55 multi-section site templates
-    ├── 21-gradients/                               # 18 gradient shader grounds
-    ├── 22-sections/                                # 10 card and carousel section kits
-    ├── 23-shader-backgrounds/                      # 276 WebGL and shader backgrounds
-    ├── INDEX.md                                    # one line per blueprint (984), generated
-    ├── build-index.js                              # regenerates INDEX.md
-    └── sync-from-design-library.js                 # pulls folders 17–23 from shaz-agency-web-design
+├── core/                           # Canonical design engineering rules
+│   ├── design-philosophy.md        # Swiss Utilitarian principles
+│   ├── mandatory-rules.md          # Non-negotiable architectural standards
+│   ├── industry-intelligence.md    # 8 industry DNA systems
+│   ├── design-diversity.md         # Layout composition & creative direction
+│   ├── reference-intelligence.md   # Blueprint synthesis methodology
+│   ├── visual-quality.md           # 100-point quality audit matrix
+│   ├── accessibility.md            # WCAG AA, focus & 60 FPS motion
+│   └── capability-detection.md     # Tool and environment adaptation
+├── adapters/                       # Native IDE and editor adapters
+│   ├── cursor/                     # Cursor MDC rules & .cursorrules
+│   ├── claude/                     # Claude Code configuration
+│   ├── codex/                      # OpenAI Codex / AGENTS.md
+│   ├── gemini/                     # Gemini CLI & Antigravity
+│   └── copilot/                    # GitHub Copilot instructions
+├── library/                        # 1,008 production blueprints
+│   ├── 01-hero-sections/
+│   ├── 02-navigation/
+│   ├── 05-3d-webgl/
+│   ├── 06-product-showcase/
+│   ├── 09-forms-footers/
+│   ├── 10-interactive-animations/
+│   ├── 13-web-styles/
+│   ├── 24-dqnamo-kitchen/
+│   └── INDEX.md
+├── scripts/                        # Automated validation & installer
+│   ├── validate-skill.js           # Structural validation
+│   ├── check-compatibility.js      # Cross-platform compatibility check
+│   └── install-shaz.js             # Universal installer
+├── tests/                          # Automated quality audit suite
+│   ├── compatibility/              # Platform test harness
+│   └── run-quality-audit.ps1       # 25-point compliance audit
+├── CHANGELOG.md                    # Release history & semantic versions
+└── LICENSE                         # MIT License
 ```
 
 ---
 
-## 4. Installation & Agent Setup
+## Quality Gate & Verification
 
-### Method A: Install in Antigravity
-Clone or copy this directory directly into your global Antigravity skills configuration:
+Every component and layout in this library passes an automated 25-point design audit ensuring zero marketing fluff, zero synthetic slashes, zero radioactive neon halos, and zero layout leaks:
 
 ```bash
-# Target path on Windows
-%USERPROFILE%\.gemini\config\skills\shaz-agency-web-design
+# Run the automated compliance audit across 1,000+ files
+powershell -ExecutionPolicy Bypass -File tests/run-quality-audit.ps1
 
-# Target path on macOS / Linux
-~/.gemini/config\skills\shaz-agency-web-design
-```
-
-Ensure `SKILL.md` is present at the root of that folder. Antigravity will automatically index `shaz-agency-web-design`.
-
-### Method B: Install in Claude Code / Cursor / Windsurf
-Add the following reference to your agent instruction file (`CLAUDE.md`, `.cursorrules`, or `.windsurfrules`):
-
-```markdown
-When designing user interfaces, sections, landing pages, or web applications, strictly follow the Shaz Agency Web Design skill specification located at:
-https://github.com/berkaysahin-dev/shaz-web-design-skill
-
-Enforce the 21 Universal Design Laws: zero fluff copy, zero badges/pills, zero eyebrows, zero emojis, category-driven color (strict neon ban), selective double-bezel hierarchy, seamless atmospheric transitions, backgroundless hero centerpieces, bespoke non-classic footers, page architecture modality, scroll-morphing collapsible dock, ecosystem marquee, bespoke vector favicon architecture, strict logo prohibition, strict anti-50/50 hero split, anti-formula component diversity, zero toy 3D meshes, and zero blinking lights.
+# Run the cross-platform adapter verification
+powershell -ExecutionPolicy Bypass -File tests/compatibility/test-platform-adapters.ps1
 ```
 
 ---
 
-## 5. Universal Slash Commands Catalog (44 Production Engines)
+## License
 
-The skill natively provides **44 specialized slash commands** compatible across **Antigravity**, **Claude Code**, **Cursor**, **Windsurf**, and **OpenAI Codex**:
-
-### 5.1 Master Engines & Quality Auditing
-| Slash Command | Compatible Platforms | Purpose & Description (TR / EN) |
-| :--- | :--- | :--- |
-| **`/shaz [brief]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Ana otonom web tasarım motoru. 21 evrensel kuralı, çeşitlilik motorunu ve 984 blueprinti çalıştırır.<br>**EN:** Master autonomous design engine executing all 21 universal design laws, diversity engine, and 984 blueprints. |
-| **`/shaz-audit`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 25 noktalı kalite ve uyumluluk denetçisi. Boş laf, hap buton, emoji, üst küçük yazılar ve yanıp sönen ışıkları tarar.<br>**EN:** 25-Point pre-delivery quality gate auditor scanning for fluff, pills, emojis, upper micro-labels, and blinking lights. |
-| **`/shaz-hero [industry]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 6 farklı arketipte (50/50 bölünme yasağına uygun) arka plansız sinematik hero bölümü üretici.<br>**EN:** Generates backgroundless cinematic hero sections across 6 distinct composition archetypes (strict anti-50/50 split). |
-| **`/shaz-dock [nav-items]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Kaydırıldığında kompakt yüzen ikon dock'una dönüşen iki aşamalı kinetik navigasyon ve özel vektör favicon üretici.<br>**EN:** Generates two-stage kinetic scroll-morphing collapsible dock navigation with deterministic CSS isolation and bespoke vector favicon. |
-| **`/shaz-3d [scene-type]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 141 doğrulanmış 3D/WebGL sahnesinden sektöre uygun PBR cam, akışkan cıva ve dispersiyon sahneleri üretici.<br>**EN:** Dedicated WebGL & Three.js shader stage generator selecting from 141 3D blueprints with zero toy meshes. |
-| **`/shaz-video [scene-spec]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** Programatik 60 FPS React video ve kinetik hareket motoru. Dinamik video dokuları ve kare hassasiyetli animasyonlar üretir.<br>**EN:** Programmatic 60 FPS React video engine for kinetic motion graphics, dynamic video textures, and timeline sequences. |
-| **`/shaz-style [style-name]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 40 özgün web tasarım stilinden birini projeye uygular.<br>**EN:** Synthesizes and applies any of the 40 authentic design styles with calibrated typography and CSS tokens. |
-| **`/shaz-component [type]`** | Antigravity, Claude Code, Cursor, Codex | **TR:** 114 NameThatUI sözlüğünden yüksek erişilebilirlikli mikro bileşenler üretici.<br>**EN:** Generates precision UI components from the 114 NameThatUI dictionary blueprints with WAI-ARIA standards. |
-
-### 5.2 Sector-Specific Architectural Engines (16 Commands)
-| Slash Command | Target Industry | Purpose & Description (TR / EN) |
-| :--- | :--- | :--- |
-| **`/shaz-luxury`** | Haute Horlogerie & High Jewelry | **TR:** Bağımsız saat atölyeleri, yüksek mücevher ve lüks zanaat için obsidyen, titanyum ve şampanya altın tonlarında editoryal siteler.<br>**EN:** Haute Horlogerie and bespoke luxury manufacture platforms with obsidian, titanium, and champagne palettes. |
-| **`/shaz-fintech`** | Quant Finance & Asset Management | **TR:** Kurumsal quant fonları, varlık yönetimi ve algoritmik ticaret için kademeli SVG alan grafikleri ve çift çerçeveli KPI kartları.<br>**EN:** Quant asset management and institutional trading interfaces with stepped SVG area charts and telemetry matrices. |
-| **`/shaz-saas`** | Developer Infrastructure & AI Cloud | **TR:** Yazılım altyapısı ve bulut sistemleri için sıfır hap etiketli, CLI terminal estetikli ve monolitik tipografili SaaS arayüzleri.<br>**EN:** Zero-pill developer infrastructure, cloud tools, and AI platforms with command palettes and terminal aesthetics. |
-| **`/shaz-industrial`** | Heavy Machinery & Crane Logistics | **TR:** Vinç kiralama, ağır sanayi makineleri ve liman lojistiği için monolitik brütalist, yüksek tonaj yük tablolu siteler.<br>**EN:** Heavy machinery, crane rental, and logistics platforms with monolithic specs and load calculation drawers. |
-| **`/shaz-architecture`** | Architectural Studios & Monographs | **TR:** Mimarlık ofisleri ve mekânsal tasarım stüdyoları için ham beton, bazalt ve negatif alanla nefes alan monolitik monografiler.<br>**EN:** Architectural monographs and spatial studio portfolios with raw concrete, basalt, and floorplan viewports. |
-| **`/shaz-biotech`** | Life Sciences & Clinical Research | **TR:** Biyoteknoloji ve klinik tıp için klinik beyaz, derin petrol ve sakin adaçayı tonlarında WCAG AAA uyumlu siteler.<br>**EN:** Life sciences, genomic research, and clinical medicine interfaces with calm sage palettes and WCAG 2.1 AAA accessibility. |
-| **`/shaz-aerospace`** | Hypersonic Robotics & Deep Space | **TR:** Yörünge mekaniği, uydu telemetrisi ve hipersonik robotik donanımlar için derin kozmik boşluk ve titanyum hatlı sistemler.<br>**EN:** Deep space, orbital mechanics, and hypersonic robotics platforms with cosmic void backgrounds and CAD stages. |
-| **`/shaz-automotive`** | Hypercars & EV Mobility Engineering | **TR:** Hiper arabalar ve elektrikli hiper araçlar için karbon monokok, aerodinamik rüzgar tüneli ve kinetik hız göstergeli siteler.<br>**EN:** Hypercar and electric hypercraft platforms with carbon monocoque stages, slipstream shaders, and kinetic telemetry. |
-| **`/shaz-editorial`** | Cultural Journals & Press Reviews | **TR:** Kültür dergileri ve editoryal monografiler için tipo baskısı zarafetinde, serif odaklı ve sıfır 3D gürültülü siteler.<br>**EN:** Cultural journals and editorial publications with Swiss letterpress elegance, authoritative serif typography, and zero 3D noise. |
-| **`/shaz-fashion`** | Luxury Fashion Maisons & Runways | **TR:** Lüks moda evleri ve haute couture lookbook'ları için yüksek kontrastlı tipografi, tam boy modeller ve ipeksi geçişler.<br>**EN:** High fashion maisons, couture runway lookbooks, and fashion ateliers with extreme typographic scale and silk transitions. |
-| **`/shaz-hospitality`** | Private Sanctuaries & Retreats | **TR:** Özel adalar ve ultra lüks inziva otelleri için kumtaşı, okyanus bazaltı ve fısıltılı konsiyerj rezervasyonlu siteler.<br>**EN:** Luxury private island retreats, architectural sanctuaries, and anechoic wellness hotels with sandstone and whisper concierge desks. |
-| **`/shaz-organic`** | Biodynamic Terroir & Food Estates | **TR:** Biyodinamik bağlar, organik tarım ve gastronomi için kraft kağıdı, zeytin yeşili ve sıfır 3D kurallı dokunsal siteler.<br>**EN:** Biodynamic wine estates and organic food platforms with natural kraft, forest olive, terracotta, and tactile soil photography. |
-| **`/shaz-ecom`** | Monolithic Luxury E-Commerce | **TR:** Monolitik lüks e-ticaret için kayar sepet çekmeceli, fasetli özellik kartlı ve taktil renk paletli siteler.<br>**EN:** Monolithic luxury e-commerce platforms with spring cart drawers, faceted specification sheets, and zero-slop checkout. |
-| **`/shaz-creative-studio`** | Generative Art & Creative Studios | **TR:** Yaratıcı teknoloji stüdyoları ve üretken sanatçılar için spektral prizma, krom ve interaktif shader sahneleri.<br>**EN:** Creative technologist studios, generative art archives, and interactive WebGL laboratories with spectral prism shaders. |
-| **`/shaz-hardware`** | Physical Hardware & Spec Switchers | **TR:** Fiziksel donanım ürünleri ve robotik parçalar için katman katman açılan patlatılmış montaj ve malzeme seçicili sistemler.<br>**EN:** Physical hardware showcases, acoustic devices, and robotics components with kinetic layer switchers and exploded assemblies. |
-| **`/shaz-audio`** | Architectural Spatial Audio | **TR:** Mekânsal ses heykelleri ve audiophile sistemler için Fourier dalga simülasyonu, 3D coverflow ve frekans seçiciler.<br>**EN:** Architectural spatial audio and audiophile monitor monoliths with Fourier wavefield canvases and 3D coverflow decks. |
-
-### 5.3 Specialized Aesthetic & Web Style Engines (12 Commands)
-| Slash Command | Aesthetic Style | Purpose & Description (TR / EN) |
-| :--- | :--- | :--- |
-| **`/shaz-neobrutalism`** | High-End Swiss Neobrutalism | **TR:** 1.5px keskin siyah konturlar, Druk Wide tipografi ve analog gren katmanıyla lüks İsviçre Neobrutalizmi.<br>**EN:** High-end Swiss Neobrutalism with 1.5px crisp black borders, monumental Druk Wide typography, and tactical depth. |
-| **`/shaz-acid`** | Underground Acid & Rave Tekno | **TR:** Toksik yeşil, erimiş krom, zifiri siyah ve kinetik bozulmalarla yeraltı asit grafikleri.<br>**EN:** Underground acid graphics and rave techno aesthetics with pitch black voids, toxic acid greens, and molten chrome distortion. |
-| **`/shaz-bento`** | Architectural Flat Bento Grid | **TR:** Asimetrik ağırlıklı (2:1, 1:2), saç teli konturlu ve fizik tabanlı yaylanmalı mimari Bento ızgaraları.<br>**EN:** Architectural flat bento grids with asymmetric module weighting, hairline borders, and physical spring transitions. |
-| **`/shaz-spatial`** | VisionOS Spatial UI & Liquid Glass | **TR:** Yarı saydam kırılmalı buzlu cam paneller, derinlik katmanları ve pürüzsüz optik sıvı cam efektleri.<br>**EN:** Apple VisionOS spatial UI experiences with translucent refractive glass surfaces and optical liquid glass physics. |
-| **`/shaz-cyber`** | Cyber-Pop & Y2K Cyber Void | **TR:** Y2K siber uzay, hologram ızgaraları, krom tipografi ve karanlık siber boşluk sistemleri.<br>**EN:** Cyber-pop and Y2K futuristic web interfaces with holographic wireframe grids, iridescent liquid chrome, and calm telemetry. |
-| **`/shaz-minimal`** | Swiss Utilitarian Minimalism | **TR:** Sıfır süs, devasa negatif boşluk, Druk Wide ve Neue Haas Grotesk tipografiyle saf İsviçre editoryal minimalizmi.<br>**EN:** Swiss Utilitarian minimalism with zero decorative ornaments, extreme negative space, and pure monochrome rigor. |
-| **`/shaz-japanese`** | Japanese Editorial & Zen Grid | **TR:** Dikey tipografi kolonları (tategaki), asimetrik ızgaralar, wabi-sabi boşlukları ve dingin sadelik.<br>**EN:** Japanese editorial web layouts with vertical typography columns, asymmetric zen grids, and tranquil material depth. |
-| **`/shaz-magazine`** | Editorial Magazine & Press Press | **TR:** Çok sütunlu ızgaralar, drop-cap baş harfler ve editoryal cetvellerle yayıncılık düzenleri.<br>**EN:** Multi-column editorial magazine and newspaper layouts with drop-caps and hairline editorial separator rules. |
-| **`/shaz-surrealism`** | Avant-Garde Surrealism & Caustics | **TR:** Sıvı metal, akışkan cıva, optik kostik kırılmalar ve heykelsi kompozisyonlar.<br>**EN:** Avant-garde surrealism and dreamscape experiences with fluid mercury, optical caustic refraction, and sculptural forms. |
-| **`/shaz-claymorphism`** | Soft Matte Pneumatic Tactile | **TR:** Yumuşak mat pnömatik hacimler, pastel kontrastlar, içbükey derinlikler ve yaylanmalı butonlar.<br>**EN:** Tactile claymorphism with soft matte pneumatic volumes, inner bevel depths, and spring physics. |
-| **`/shaz-artdeco`** | Symmetrical Luxury Art Deco | **TR:** Geometrik altın saç telleri, güneş patlaması desenleri, simetrik şivronlar ve anıtsal serifler.<br>**EN:** Architectural Art Deco luxury layouts with geometric champagne gold hairlines, sunburst chevrons, and monumental serifs. |
-| **`/shaz-nostalgic`** | Retro Computing & CRT Phosphor | **TR:** Retro bilgisayar terminalleri, analog CRT fosfor ışıltıları ve tarama çizgileri (scanlines).<br>**EN:** Nostalgic computing interfaces with subtle analog CRT scanlines and monospace terminal rigor. |
-
-### 5.4 Core Architectural Component Engines (8 Commands)
-| Slash Command | Component Type | Purpose & Description (TR / EN) |
-| :--- | :--- | :--- |
-| **`/shaz-coverflow`** | 3D Monolith Coverflow Deck | **TR:** Mouse tekerleğiyle taranan, sürükleme ataletli ve 3D eğimli kart destesi (Coverflow) bileşenleri.<br>**EN:** 3D coverflow monolith card decks with drag inertia, sub-pixel wheel scrubbing, and 3D perspective tilts. |
-| **`/shaz-drawer`** | Faceted Sliding Drawer | **TR:** Sağdan pürüzsüzce kayan, yaylanma fizikli ve çok katmanlı mimari şartname/sepet çekmeceleri.<br>**EN:** Faceted sliding architectural drawers with spring physics, layered specification disclosure, and zero layout shift. |
-| **`/shaz-kinetic-type`** | Kinetic Glyph Scrubber | **TR:** Mouse hareketlerine dinamik olarak harf harf yanıt veren ve elastik yayılan kinetik tipografi sahneleri.<br>**EN:** Kinetic typography stages and interactive character glyph scrubbers dynamically responding to cursor physics. |
-| **`/shaz-dashboard`** | High-Density Telemetry Matrix | **TR:** Finansal terminaller için kademeli SVG alan grafikleri, çift çerçeveli KPI kartları ve telemetriler.<br>**EN:** High-density telemetry dashboards with stepped SVG area charts and double-bezel KPI elevation cards. |
-| **`/shaz-refraction`** | Optical Caustics & Liquid Glass | **TR:** Optik cam dispersiyonu, SVG dalgalanma filtreleri ve sıvı kostik kırılmalar.<br>**EN:** Optical caustic wavefields, liquid glass refraction shaders, chromatic dispersion, and SVG displacement filters. |
-| **`/shaz-marquee`** | Infinite Sub-Pixel Marquee Belt | **TR:** Kesintisiz çift kanallı, kenarları transparan maskelenmiş, hover duraklamalı sonsuz kayan bantlar.<br>**EN:** Dual-track sub-pixel infinite marquee belts with bilateral edge alpha feathering masks and pause-on-hover physics. |
-| **`/shaz-horizon-footer`** | Architectural Master Horizon Footer | **TR:** Sakin diyalog ufku, tek satır konsiyerj iletişim aksiyonu ve dengeli ufuk çizgisiyle lüks kapanışlar.<br>**EN:** Architectural Master Horizon Footers with quiet dialogue invitations, single-line inquiry desks, and balanced baselines. |
-| **`/shaz-monolith`** | Monolithic Architectural Card | **TR:** Katı bazalt, işlenmiş titanyum ve mineral kütle hissi veren tekil mimari monolitik kartlar ve vitrinler.<br>**EN:** Monolithic architectural cards and heavy mineral specimen showcases crafted from volcanic basalt and aerospace titanium. |
-
-### Explanatory Output Protocol:
-When any command is invoked in Antigravity, Claude Code, or Codex, the agent adheres to a strict explanatory protocol before delivering implementation code:
-1. **Architectural Rationale:** Explains the design decisions, layout hierarchy, and spatial balance.
-2. **Applied Universal Design Laws:** Explicitly lists the governing laws (e.g. Laws 1, 8, 11, 16, 18, 20, 21).
-3. **Blueprint & Token Specifications:** Identifies exact blueprint IDs, typography pairings, and kinetic parameters.
-4. **Production Implementation:** Delivers complete, unabridged, copy-pasteable Next.js / Tailwind / Three.js code with zero placeholders.
-
----
-
-## 6. Automated Quality Audit & Compliance Gate
-
-To verify that your project complies with all 21 universal design laws and the 25-point quality gate criteria, run the automated test suite:
-
-```powershell
-# PowerShell (Windows)
-powershell -ExecutionPolicy Bypass -File .\tests\run-quality-audit.ps1
-```
-
-The script performs automated static analysis checks across all markdown blueprints, TSX test pages, and live HTML demos:
-- Check 1: Forbidden platform names and external scraping traces
-- Check 2: Forbidden badges and pills in UI code (`rounded-full bg-`, `badge-pill`)
-- Check 3: Forbidden blinking and pulsing lights (`animate-pulse`, `strobe`, radar pings)
-- Check 4: Forbidden tacky neon glows and laser borders (`#00ff00`, `drop-shadow neon`)
-- Check 5: Forbidden Lorem Ipsum and filler marketing copy
-- Check 6: Hardware Double-Bezel and surface geometry verification
-- Check 7: Production TypeScript Next.js App Router compilation integrity
-- Check 8: Forbidden eyebrow kicker labels and fake coordinates
-- Check 9: Forbidden emojis in UI code
-- Check 10: Forbidden JSX comment leaks in HTML files
-- Check 11: Forbidden post-hero telemetry ticker strips
-- Check 12: Hero composition diversity & anti-50/50 split verification
-- Check 13: Strict logo prohibition in headers & navigation
-- Check 14: Bespoke SVG vector favicon presence
-
----
-
-## 7. License & Distribution
-
-Released under the **MIT License**. Engineered for autonomous AI agents and elite creative engineers.
+MIT © [Berkay Şahin](https://github.com/berkaysahin-dev)

@@ -174,14 +174,16 @@ The library is the skill's main source of interaction, motion and visual craft. 
 
 Folders by role: hero `01`, full-viewport hero builds `17` · whole landing pages `18` and multi-section site templates `20` (read them for section order and category modules, never copy a layout) · section kits `22` (cards, carousels) · backgrounds `19`, gradients `21`, shader backgrounds `23` (only when Axis C/E call for an atmospheric ground) · navigation `02` · type `03`, `15` · motion `04` · 3D `05` (only if Axis E allows WebGL) · product `06` · pricing `07` · commerce `08` · forms and footers `09`, `12` · signature mechanics `10` · data `11` · styles `13` (only if the brief names a style) · UI components `14` · icons `16`. If `INDEX.md` is missing or older than the library, regenerate it with `node library/build-index.js library`. Folders `17`–`23` mirror the design library (github.com/berkaysahin-dev/shaz-agency-web-design); refresh them with `node library/sync-from-design-library.js <path-to-that-repo>` and rebuild the index. Their prompts often point at another site's showcase video for "1:1 reproduction": per §8, that video is never used — take the composition, motion and section logic, and supply the brief's own media or a generative fallback.
 
-## 5. Copy rules (plain, specific, human)
+## 5. Copy rules (plain, specific, human & şık)
 
-- Write like the brand's best employee explaining it to a friend: concrete nouns, short verbs, no metaphors stacked on metaphors.
+- **Absolute Ban on Eyebrows / Kickers Above Headings:** Never insert uppercase micro-labels, category tags, or section counters above any heading (e.g. `OTONOM SİSTEMLER · BİLİŞSEL ALTYAPI`, `01 · TEMEL DİSİPLİN`, `SECTION 02`). Headings lead directly, cleanly, and authoritatively.
+- **Zero Heavy Philosophical Wall of Text:** Banned are dense philosophical lectures, academic essays, and pompous manifestos (e.g. "Yazılım mimarisi bir süsleme sanatı değil; matematiksel doğruluk, düşük gecikme ve sıfır tavizli determinizm rejimidir...").
+- **Şık, Doğal ve İnsani Ton:** Write like the brand's best employee explaining it to a friend: concrete nouns, short verbs, stylish elegance, no metaphors stacked on metaphors.
 - Headline test: it must contain something only this brand can say (a product, place, method or fact from the brief).
 - **Banned words in page copy:** elevate, seamless, unlock, empower, revolutionize, next-generation, cutting-edge, world-class, game-changing, effortless, reimagine(d), redefine, journey, curated (unless literally curation), crafted for, built for the future, where X meets Y, the future of X, synergy, holistic, paradigm.
 - **The skill's internal vocabulary is not copy.** Never put these on the page unless the brief is literally about them: *telemetry, obsidian, monolith, dossier, atelier, sanctuary, calibrated, kinetic, orchestration, protocol, manifold, horizon, specimen, tectonic, sovereign, bezel*.
 - No three-word fragment slogans (`Fast. Simple. Yours.`), no rhetorical questions as headlines, no `//`, no emojis.
-- Buttons say what happens: `Book a table`, `Read the docs`, `See prices` — not `Get started`, `Learn more`, `Discover`.
+- Buttons say what happens: `Book a table`, `Read the docs`, `See prices`, `İletişime Geç`, `Projeyi İncele` — not `Get started`, `Learn more`, `Discover`.
 
 ## 6. Self-critique before delivery (run silently, fix, then deliver)
 

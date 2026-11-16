@@ -79,6 +79,18 @@ This guide dictates how sections are sequenced, structured, and visually balance
   5. *Deep Space Archive Grid* (Monochrome vector constellation maps and telescope capture logs).
   6. *Observatory Network Footer* (Ground station links: Atacama, Mauna Kea, La Palma; open-source data telemetry feed).
 
+### Archetype 7: Modern Software & Creative Developer Portfolio (Apple, Linear & Vercel)
+* **Best For:** Software engineers, AI architects, product designers, full-stack builders, modern creative technologists.
+* **Base Palette:** Clean White (`#FFFFFF`), Off-White (`#F5F5F7`), Crisp Graphite (`#1D1D1F`), Coral / Orange-Red accent (`#FF4D36` or `#FF5722`) or Apple Blue (`#0071E3`).
+* **Typography:** Modern Grotesk (`Inter`, `Geist`, `Plus Jakarta Sans`, `Manrope`). Zero uppercase eyebrow tags above headings!
+* **Section Order:**
+  1. *Floating Minimalist Capsule Nav* (`library/02-navigation/floating-pill-capsule-nav.md` with avatar, status marker, navigation links, and pill CTA).
+  2. *Authoritative Direct Headline Hero* (Bold, human, confident statement; 1 punchy sentence; quick contact trigger; zero eyebrow labels!).
+  3. *Featured Works & Production Software Modules* (High-contrast case study cards or interactive live preview drawers).
+  4. *Daily Tech Stack Pill Marquee* (`library/06-product-showcase/tech-stack-pill-marquee.md` with "Her gün açık olanlar." headline and continuous soft capsule chips).
+  5. *Split Inquiry & Interactive Email Composer Card* (`library/09-forms-footers/split-inquiry-email-composer.md` with "Bir fikriniz mi var? Konuşalım." + direct email copy + interactive email client window with category tags).
+  6. *Minimal Balanced Baseline Footer* (Copyright, social links, location, discrete time).
+
 ---
 
 ## 2. Dynamic Section Sequencing Protocol

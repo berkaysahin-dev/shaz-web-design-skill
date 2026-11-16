@@ -1,79 +1,128 @@
-# Shaz Agency Web Design — Design Diversity Engine
+# Shaz Agency Web Design — Radical Design Diversity & Industry Intelligence Engine
 
-This decision engine breaks the "AI Landing Page Homogeneity Trap" — preventing autonomous agents from repeatedly defaulting to the same dark background, left-headline/right-visual split hero, 3-column card grid, floating capsule dock, and orbiting 3D model across disparate client domains.
+This engine breaks the "AI Landing Page Homogeneity Trap" — ensuring autonomous agents never default to the same dark background, left-headline/right-visual split hero, 3-column card grid, floating capsule dock, and orbiting 3D model across disparate client domains.
 
----
+**Design is not a template. Design is a decision.**
 
-## 1. The 10-Dimensional Project Topology Analysis
-
-Before writing any code or selecting components, every project MUST be evaluated across these 10 architectural dimensions:
-
-| Dimension | Spectrum & Range | Direct Architectural Impact |
-| :--- | :--- | :--- |
-| **1. Primary Objective & Audience** | Utilitarian Utility &rarr; Deep Contemplation &rarr; High-Adrenaline Kinetic &rarr; Luxury Reverence | Dictates interaction pacing, button prominence, reading rhythm. |
-| **2. Sector & Subject Materiality** | Organic Agriculture &rarr; Heavy Aerospace &rarr; Liquid Music &rarr; Concrete Architecture &rarr; Pure Data | Dictates base background tone, tactile textures, border styles. |
-| **3. Brand Persona & Voice** | Authoritative Sovereign &rarr; Wild Avant-Garde &rarr; Quiet Stoic &rarr; Scientific Precision &rarr; Earthy Honest | Determines typographic tone (Monolithic Sans, Classical Serif, Brutalist Display, or Monospace Data). |
-| **4. Emotional Resonance** | Clinical Cold &rarr; Warm Humanistic &rarr; Electric Hyperactive &rarr; Serene Meditative | Determines color temperature (cool slate vs. warm paper vs. vivid acid vs. deep mineral). |
-| **5. Information Density** | Ultra-Sparse Editorial (80% void) &rarr; Balanced Commercial &rarr; Hyper-Dense Telemetry (95% data/grid) | Determines layout density: open posters vs. multi-column data sheets. |
-| **6. Visual Gravity Center** | Typography-First &rarr; Material Cutout &rarr; Generative Code/Canvas &rarr; Data Interface &rarr; Story Narrative | Determines what commands the hero: giant headline vs. interactive instrument vs. whitespace. |
-| **7. Motion & Interaction Cadence** | Static Serene (0% idle motion) &rarr; Scroll-Scrubbed Kinematics &rarr; Spring Physics &rarr; Hyper-Kinetic Infinite Loops | Controls whether motion is invisible, spring-damped, or continuous. |
-| **8. 3D / WebGL Purpose** | Zero WebGL (Forbidden) &rarr; Subtle Atmospheric Canvas &rarr; Interactive Tool &rarr; Hero Specimen &rarr; Full World | Dictates if 3D adds genuine value or is gratuitous GPU bloat. |
-| **9. Viewport Modality & Flow** | Horizontal Linear &rarr; Asymmetric Bento &rarr; Magazine Masthead &rarr; Multi-Page Portal &rarr; Sticky Split Column | Dictates vertical scroll vs. horizontal rail vs. split-screen sticky storytelling. |
-| **10. Chromatic Polarity** | Pure Light Paper &rarr; Warm Raw Stone &rarr; Saturated Dual-Tone &rarr; High-Contrast Neobrutal &rarr; Deep Obsidian | Breaks the assumption that every high-end site must be pitch black. |
+A software company, an architectural atelier, a law firm, a boutique restaurant, and an automotive manufacturer must **never** share the same visual language.
 
 ---
 
-## 2. The 8 Architectural Composition Archetypes
+## 1. Industry-Based Design Intelligence (Sektörel Tasarım Zekâsı & Design DNA)
 
-Never apply the same layout pattern to different sectors. The skill provides 8 distinct composition archetypes:
+Before writing any code or selecting components, evaluate the industry across these criteria:
+- **Target Audience:** Enterprise buyers, design purists, everyday consumers, developers, high-net-worth patrons.
+- **Brand Positioning:** Premium, utilitarian, corporate, avant-garde, or honest craft.
+- **Evoked Emotion:** Trust, awe, appetite, speed, clarity, serenity, or technical precision.
+- **Visual Culture:** Sektörün estetik normları ve rakiplerin tasarım tuzakları.
+- **Primary Conversion Action:** Book table, schedule call, read docs, purchase product, request commission.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        8 SECTION COMPOSITION ARCHETYPES                               │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ 1. Editorial Magazine      │ 2. Kinetic Neobrutalism     │ 3. Minimalist Architectural │
-│ High typography, serif,    │ Raw borders, offset shadows,│ Generative whitespace,      │
-│ warm paper, asymmetric     │ vivid clash, sticker tags,  │ stone/concrete tones,       │
-│ columns, full bleed art.   │ monospaced bold headlines.  │ horizontal case-study rail. │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ 4. Data-Dense Telemetry    │ 5. Organic Earth & Tactile  │ 6. Cosmic / Scientific Exp. │
-│ 90% data density, tables,  │ Natural paper, terracotta,  │ Deep void, particle points, │
-│ charts, command palettes,  │ clay, olive, zero 3D,       │ interactive nodes, shader   │
-│ monospace, split views.    │ focus on typography & soil. │ distortions, camera drift.  │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ 7. Haute Horlogerie Luxury │ 8. High-Velocity Dev Studio │                             │
-│ Obsidian, titanium, gold,  │ CLI-first, terminal typing, │                             │
-│ micro-mechanical tourbillon│ code blocks, dark void with │                             │
-│ and Geneva clock closing.  │ electric signal arrays.     │                             │
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+### Sektörel Tasarım DNA Rehberi
+
+#### A. Software / Technology / SaaS
+*Referans Estetik: Apple, Linear, Stripe, Vercel*
+- **Yüzey:** Saf beyaz (`#FFFFFF`), off-white (`#F5F5F7`), açık gri (`#F8FAFC`) veya son derece rafine derin grafit (`#0E0E11`).
+- **Renk Paleti:** `#FFFFFF`, `#F5F5F7`, `#1D1D1F`, `#0071E3` (Apple mavisi) veya monokrom yüksek kontrast.
+- **Tipografi:** SF Pro / Inter / Geist / Plus Jakarta Sans. Sıfır başlık üstü etiket! Başlıklar doğrudan ve cesur.
+- **Kompozisyon:** Yüzen minimalist kapsül navigasyon (`library/02-navigation/floating-pill-capsule-nav.md`), canlı teknoloji hapları marvisi (`library/06-product-showcase/tech-stack-pill-marquee.md`), ürün arayüz kartları ve interaktif e-posta kompozisyon formu (`library/09-forms-footers/split-inquiry-email-composer.md`).
+
+#### B. Architecture / Interior Design
+*Referans Estetik: Architectural Digest, Dezeen, Studio KO, Vincent Van Duysen*
+- **Yüzey:** Doğal taş (`#EFECE6`), traverten beji, keten kağıt, füme bazalt, mineral antrasit.
+- **Renk Paleti:** `#EAE4DA`, `#C8BDAA`, `#35332F`, `#171717`.
+- **Tipografi:** Editoryal serif (Fraunces, Newsreader, Cormorant Garamond) + sade humanist sans (Karla, Manrope).
+- **Kompozisyon:** Tam boy mimari fotoğraf bantları, asimetrik sütunlar, geniş negatif alan, yatay proje fihristi.
+
+#### C. Law / Consulting / Corporate
+- **Yüzey:** Derin lacivert (`#0F172A`), koyu bordo (`#450A0A`), krem paper (`#F7F6F2`), kömür arduvazı.
+- **Renk Paleti:** `#F7F6F2`, `#172B4D`, `#A6A9AE`, `#8B7455`.
+- **Tipografi:** Güven veren serif veya kurumsal grotesk (Libre Caslon, EB Garamond, Archivo).
+- **Kompozisyon:** Düzenli ve anlaşılır bilgi mimarisi, net uzmanlık listeleri, formel ve saygın hiyerarşi.
+
+#### D. Restaurant / Cafe / Hospitality
+- **Yüzey:** Sıcak terracotta (`#A65E42`), zeytin yeşili (`#59634A`), kavrulmuş kahve (`#2D2925`), ılık krem kağıt (`#F3EBDD`).
+- **Renk Paleti:** `#F3EBDD`, `#A65E42`, `#59634A`, `#2D2925`.
+- **Tipografi:** Gastronomi dergisi başlıkları (DM Serif, Syne, Young Serif) + net sans-serif.
+- **Kompozisyon:** Menü odaklı sayfa mimarisi, gerçek tabak/mekân fotoğrafları, doğrudan rezervasyon butonu.
+
+#### E. Automotive / Motorsports
+- **Yüzey:** Fırçalanmış gümüş (`#E8E8E8`), titanyum füme, derin siyah (`#111111`), mat yarış kırmızısı veya yarış yeşili.
+- **Renk Paleti:** `#111111`, `#E8E8E8`, `#A8A8A8`, mat vurgu rengi.
+- **Tipografi:** Güçlü, karakterli grotesk (Chivo, Anton, Work Sans).
+- **Kompozisyon:** Sinematik araç kadrajları, aerodinamik detaylar, teknik performans özellikleri.
+
+#### F. E-commerce / Fashion / Beauty
+- **Yüzey:** Fildişi, yumuşak vizon, sıcak kağıt beji (`#FAF9F6`), monokrom kontrast (`#1B1B1B`).
+- **Renk Paleti:** `#FAF9F6`, `#1B1B1B`, `#C8C0B5`, sezonluk vurgu tonu.
+- **Tipografi:** Yüksek kontrastlı display serif (Bodoni Moda, Cormorant) + minimal grotesk.
+- **Kompozisyon:** Ürün odaklı kompozisyonlar, editoryal katalog ızgarası, pürüzsüz sepet çekmecesi.
+
+#### G. Construction / Industrial / Engineering
+- **Yüzey:** Ham beton (`#F4F4F2`), çelik antrasit (`#242729`), mat endüstriyel turuncu (`#E76B32`).
+- **Renk Paleti:** `#F4F4F2`, `#242729`, `#73797B`, `#E76B32`.
+- **Tipografi:** Güven veren sağlam grotesk (Archivo, Space Grotesk).
+- **Kompozisyon:** Saha ve makine fotoğrafları, teknik hesaplama tabloları, sıfır dekoratif süs.
+
+#### H. Creative Agency / Branding / Design Studio
+- **Yüzey:** Cesur kontrastlar, deneysel renk kombinasyonları, asimetrik gridler.
+- **Tipografi:** Cesur ve özgün tipografi (Bricolage Grotesque, Syne, Unbounded).
+- **Kompozisyon:** Dinamik vaka analizleri, interaktif imleç mekanikleri, özgün sanat yönetimi.
 
 ---
 
-## 3. Anti-Defaulting Rule Matrix (Banned Laziness Patterns)
+## 2. The 4 Dimensions of Structural Diversity
 
-These patterns are **NOT** banned because they are wrong — they are banned when chosen out of **unthinking habit**:
+Gerçek çeşitlilik, sadece renkleri değiştirmekle elde edilemez. Bir projenin yapısal olarak da farklı olması zorunludur:
 
-| Defaulting Reflex (Forbidden when ungrounded) | Required Creative Alternative |
-| :--- | :--- |
-| **Reflex 1: Pitch black `#070709` and champagne gold `#C5A059` on every project** | FORBIDDEN unless explicitly specified for Haute Horlogerie. Evaluate **Warm Paper** (`#F7F6F2`), **Raw Concrete** (`#EFECE6`), **Clinical White** (`#FAFAFA`), **Deep Petroleum** (`#0F172A`), or **Cobalt Slate** (`#090A0E` with `#3B82F6`). |
-| **Reflex 2: Left Headline + Right 3D Model Hero** | Deploy **Centered Monolithic Typography** (`01-hero-sections/kinetic-typography-monolith-hero.md`), **Asymmetric Editorial Masthead**, **Full-Bleed Photographic Curtain**, or **Split-Screen Sticky Monograph**. |
-| **Reflex 3: Identical 3-Card Bento Grid** | Deploy **Single-Column Wide Technical Dossiers**, **Horizontal Case-Study Sliders**, **Asymmetric 2/3 + 1/3 Split Paneling**, or **Continuous Data Ledger Tables**. |
-| **Reflex 4: Same Section Order (Hero &rarr; Features &rarr; Specs &rarr; CTA &rarr; Footer)** | Derive section sequence from audience intent: e.g., Festival: Lineup First &rarr; Soundstage Matrix &rarr; Tickets &rarr; Venue; Minimalist Studio: Projects Rail First &rarr; Manifesto &rarr; Publications &rarr; Contact. |
-| **Reflex 5: Forcing Scroll-Morphing Dock on every site** | Deploy **Editorial Top Banner**, **Sticky Architectural Monolith Bar**, **Floating Minimal Island**, or **Fullscreen Overlay Trigger** according to navigation depth. |
-| **Reflex 6: Sticking a 3D Canvas in the Hero for no reason** | If a product has no physical mechanism or spatial geometry, **ELIMINATE 3D ENTIRELY** or restrict it to subtle procedural background grain or 2D canvas shaders. |
-| **Reflex 7: Putting a Geneva Clock in non-horology footers** | Only watch manufactures need a Geneva timekeeper. Music festivals need a **Live Countdown to Doors**; Architecture needs an **Office Timezone Matrix**; SaaS needs a **System Operational Status**; Organic food needs **Harvest Season Telemetry**. |
-| **Reflex 8: Inventing broken image paths (`/assets/...`)** | FORBIDDEN. Deploy **Generative Asset Fallbacks**: procedural WebGL glass/particles, inline SVG vector schematics, or generative CSS caustics. |
-| **Reflex 9: Ignoring mobile viewport in complex mechanics** | FORBIDDEN. Desktop Coverflow or horizontal scrubbers must gracefully degrade on `< 768px` into vertical stacks or native touch-snap rails (`snap-x snap-mandatory`). |
+### 1. Layout Diversity (Yerleşim Çeşitliliği):
+- **Split Hero:** Editoryal diyalog, asimetrik metin ve görsel dengesi.
+- **Full-Bleed Image / Video Hero:** Ekranı kaplayan yüksek çözünürlüklü sinematik açılış.
+- **Minimalist Floating Capsule:** Yüzen ada navbar ve merkezlenmiş net tipografi.
+- **Asymmetric 5-Column Grid:** 3 sütun içerik, 2 sütun boşluk (air).
+- **Typography-Led Monolith:** Görsel yerine devasa tipografik mimari.
+- **Product UI-Led Canvas:** Doğrudan yazılım arayüzünü sergileyen sahne.
+- **Modular Architectural Ledger:** Kart yerine çizgi ve tablolardan oluşan yüksek yoğunluklu defter.
+
+### 2. Visual Diversity (Görsel Yaklaşım Çeşitliliği):
+- Açık zemin (Apple white, warm paper `#F7F6F2`, clinical `#FAFAFA`).
+- Koyu zemin (Obsidian charcoal, deep slate `#0F172A`).
+- İki tonlu zemin (Açık ve renkli bölümlerin ardışık ritmi).
+- Gerçek fotoğraf odaklı.
+- Yazılım arayüzü (UI mock) odaklı.
+- Prosedürel WebGL veya saf vektörel SVG odaklı.
+
+### 3. Typography Diversity (Tipografi Sistemleri):
+- **Modern Grotesk:** SF Pro, Inter, Geist, Manrope, Plus Jakarta Sans.
+- **Geometric Sans:** Syne, Space Grotesk, Unbounded.
+- **Editoryal Serif:** Fraunces, Newsreader, Cormorant Garamond, Libre Caslon.
+- **Condensed & Display:** Anton, Big Shoulders, Archivo Narrow, Darker Grotesque.
+
+### 4. Composition Diversity (Kompozisyon Çeşitliliği):
+- Left-aligned editorial
+- Centered stark minimalism
+- Asymmetric brutalist split
+- Edge-to-edge broadsheet
+- Overlapping sticky cards
 
 ---
 
-## 4. The 3-Direction Exploration Protocol
+## 3. Anti-Repetition Mechanism (Tekrar Önleme Algoritması)
 
-For every new brief, consider **3 genuinely distinct design directions** internally before writing code (do not print them; the Design Signature records the outcome):
+Her yeni tasarım üretiminde, daha önce üretilen sitelerle karşılaştırma yapılır:
+- **Zemin Kontrolü:** Önceki proje koyu zemin ise, yeni proje için mutlaka açık veya renkli zemin alternatifini önceliklendir.
+- **Navigasyon Kontrolü:** Önceki proje dock kullandıysa, bu projede full-bleed horizon veya floating capsule kullan.
+- **Tipografi Kontrolü:** Önceki projede sans-serif başlık kullanıldıysa, bu projede serif veya condensed grotesk değerlendir.
+- **Kart ve Bölüm Sıralaması:** "Hero -> Features -> Specs -> CTA" şablonunu kır. Sektörün gerçek ihtiyaçlarına göre sırala (Örn. Restoran: Menü -> Mekân -> Rezervasyon; Mimarlık: Projeler -> Materyaller -> İletişim).
 
-1. **Direction A (Conservative Mastery):** The most disciplined, direct interpretation of the sector's traditional materiality.
-2. **Direction B (Editorial / Asymmetric):** High-typography, generous negative space, unexpected grid breaks, magazine layout.
-3. **Direction C (Avant-Garde / Kinetic):** High-interaction, experimental canvas, unconventional navigation, extreme contrast.
+---
 
-State the winning concept and the rejected defaults in the Design Signature (`SKILL.md` §5). The axis values themselves come from `rules/variation-engine.md`, so the three directions start from the seeded combination rather than from the skill's favourite look.
+## 4. The 8-Phase Mandatory Decision Workflow
+
+1. **PHASE 1 — INDUSTRY ANALYSIS:** Sektörün kitlesi, duygusu ve görsel kültürü saptanır.
+2. **PHASE 2 — REFERENCE RESEARCH:** `library/INDEX.md` üzerinden en az 3 ilgili blueprint seçilir.
+3. **PHASE 3 — ART DIRECTION:** Renk, tipografi, zemin ve grid netleştirilir.
+4. **PHASE 4 — DESIGN DIFFERENTIATION:** Önceki tasarımlardan en az 4 temel boyutta ayrışma doğrulanır.
+5. **PHASE 5 — DESIGN SYSTEM:** CSS değişkenleri ve tokenlar kurulur.
+6. **PHASE 6 — IMPLEMENTATION:** Eksiksiz Next.js + Tailwind + Framer Motion kodu üretilir.
+7. **PHASE 7 — DESIGN AUDIT:** 25 noktalı kalite kapısı çalıştırılır.
+8. **PHASE 8 — FINAL QUALITY GATE:** Sıfır başlık üstü etiket, sıfır neon, sıfır felsefi karmaşık metin sağlandığında teslim edilir.
