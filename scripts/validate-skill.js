@@ -53,7 +53,8 @@ const coreModules = [
   'reference-intelligence.md',
   'visual-quality.md',
   'accessibility.md',
-  'capability-detection.md'
+  'capability-detection.md',
+  'layout-composition.md'
 ];
 
 for (const mod of coreModules) {

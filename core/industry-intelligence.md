@@ -10,6 +10,7 @@ Design begins with sector reality. Every industry possesses its own customer psy
 - **Navigation:** Floating minimalist capsule dock (`bg-white/90 dark:bg-[#121216]/90 border border-black/5 dark:border-white/10 rounded-full shadow-sm`), profile avatar, clean menu links, language selector, and contrast pill CTA button (`library/02-navigation/floating-pill-capsule-nav.md`).
 - **Typography:** Modern grotesk (Inter, Geist, Plus Jakarta Sans) with confident, naked headings. Zero eyebrows!
 - **Showcase:** Real product UI mocks, smooth tech stack marquee (`library/06-product-showcase/tech-stack-pill-marquee.md`), and split contact inquiry composer (`library/09-forms-footers/split-inquiry-email-composer.md`).
+- **Layout:** Expanded horizon container (`max-w-7xl`), asymmetric system telemetry, and deep technical dossiers.
 - **Critical Mandate:** Do NOT force dark mode on every software brand. Light, airy, clinical precision is a first-class equal.
 
 ---
@@ -29,7 +30,7 @@ Design begins with sector reality. Every industry possesses its own customer psy
 
 ---
 
-## 4. Restaurant / Gastronomy / Hospitality
+## 4. Restaurant / Gastronomy / Culinary
 - **Surfaces:** Terracotta, olive leaf, espresso roast, warm cream paper tones.
 - **Atmosphere:** Gastronomy magazine aesthetic. Large typographic titles, seasonal menu ledger, reservation flow. Authentic culinary photography.
 
@@ -41,7 +42,7 @@ Design begins with sector reality. Every industry possesses its own customer psy
 
 ---
 
-## 6. E-Commerce / Fashion / Beauty
+## 6. E-Commerce / Fashion / High-End Apparel
 - **Surfaces:** Ivory, soft mink, monochrome contrast, warm paper beige.
 - **Visuals:** Product-centered editorial cover layouts, fluid cart drawers, high-fashion typography, generous white space.
 
@@ -56,3 +57,19 @@ Design begins with sector reality. Every industry possesses its own customer psy
 ## 8. Creative Agency / Branding / Digital Studio
 - **Surfaces:** Bold contrasts, experimental asymmetry, high typographic contrast, dynamic grid transitions.
 - **Visuals:** Project showcase interactions, kinetic typography, bespoke art direction.
+
+---
+
+## 9. Luxury Hospitality / Boutique Hotels / Private Estates
+*Reference Aesthetics: Aman, Belmond, Cheval Blanc*
+- **Surfaces:** Raw limestone (`#F4F1EA`), aged ivory, deep bronze, warm champagne muted tones.
+- **Typography:** Refined high-bracket serif (Ogg, Cormorant Garamond) paired with whisper-quiet geometric sans.
+- **Visuals:** Cinematic room suites, tactile material close-ups (linen, teak, stone), frictionless private concierge inquiry. Zero noisy badges or flashy counters.
+
+---
+
+## 10. Healthcare / Medical Science / Wellness
+*Reference Aesthetics: One Medical, Forward, Roche Scientific*
+- **Surfaces:** Pure clinical white (`#FFFFFF`), serene soft sky (`#F0F7FA`), subtle eucalyptus, deep medical navy.
+- **Atmosphere:** Absolute clinical calm, cryptographic data safety, physician accessibility, empathetic human clarity.
+- **Typography:** High-legibility humanist sans (Inter, Figtree, Plus Jakarta Sans) with generous line heights and high-contrast WCAG AAA compliance.

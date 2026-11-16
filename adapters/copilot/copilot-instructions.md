@@ -14,6 +14,7 @@ When generating frontend components, full landing pages, or web interfaces, stri
 6. **Zero Repeating Gradients & Cloned 3-Card Bento Boxes.**
 7. **Zero Emojis:** Use monochrome SVG vector icons only.
 8. **No Fabricated Data:** Never invent fake client logos or statistics.
+9. **Zero Rigid Container Locks:** Apply dynamic container scales (`max-w-2xl` to `max-w-7xl` / full-bleed).
 
 ---
 
@@ -21,6 +22,7 @@ When generating frontend components, full landing pages, or web interfaces, stri
 
 - Architecture & Philosophy: `core/design-philosophy.md`
 - Non-Negotiable Rules: `core/mandatory-rules.md`
+- Layout & Container Scaling: `core/layout-composition.md`
 - Sector DNA: `core/industry-intelligence.md`
 - Art Director & Exploration: `core/design-diversity.md`
 - 1008 Blueprint Knowledge Base: `core/reference-intelligence.md` & `library/INDEX.md`
@@ -38,9 +40,9 @@ Print the compact **Design Signature** and then complete, production-grade Next.
 ### Design Signature
 - **Industry & DNA:** [Sector] · [Aesthetic Direction]
 - **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
-- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition]
+- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition] · Container [dynamic scale]
 - **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
 - **Reference Mining:** [5 synthesized blueprints from library/]
 - **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
-- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays.
+- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays, zero rigid container lock.
 ```

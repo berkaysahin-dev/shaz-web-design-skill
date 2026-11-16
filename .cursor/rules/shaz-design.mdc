@@ -17,10 +17,12 @@ When engineering web user interfaces, landing pages, or frontend components, str
 6. **Zero Repeating Gradients:** No purple-to-cyan or blue-to-emerald radial blobs.
 7. **Zero Reflexive 50/50 Splits:** Rotate across distinct hero and section archetypes.
 8. **Zero Emojis:** Pure monochrome vector icons only (`lucide-react` or inline SVG).
+9. **Zero Rigid Container Locks:** Use dynamic container scales (`max-w-2xl` to `max-w-7xl` / full-bleed).
 
 ## 2. Canonical Core References
 - Architecture: `core/design-philosophy.md`
 - Mandatory Rules: `core/mandatory-rules.md`
+- Layout & Container Scaling: `core/layout-composition.md`
 - Sector DNA: `core/industry-intelligence.md`
 - Art Director & Exploration: `core/design-diversity.md`
 - 1008 Blueprint Index: `core/reference-intelligence.md` & `library/INDEX.md`
@@ -34,10 +36,10 @@ Before generating code, output the compact **Design Signature**:
 ### Design Signature
 - **Industry & DNA:** [Sector] · [Aesthetic Direction]
 - **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
-- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition]
+- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition] · Container [dynamic scale]
 - **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
 - **Reference Mining:** [5 synthesized blueprints from library/]
 - **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
-- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays.
+- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays, zero rigid container lock.
 ```
 Follow immediately with complete, unabridged, production-grade Next.js (App Router), Tailwind CSS, and Framer Motion code.

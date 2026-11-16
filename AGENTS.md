@@ -17,6 +17,7 @@ When generating frontend designs, web applications, landing pages, or UI compone
   6. No repetitive purple-cyan gradients or cookie-cutter 3-card bento grids.
   7. No emojis in UI code. Use monochrome SVG vector icons.
   8. No invented facts, clients, coordinates, or statistics.
+  9. No rigid single-container lock. Apply dynamic container scales (`max-w-2xl` to `max-w-7xl` / full-bleed).
 
 ---
 
@@ -25,6 +26,7 @@ When generating frontend designs, web applications, landing pages, or UI compone
 Reference the modular core system:
 - Core Architecture: `core/design-philosophy.md`
 - Non-Negotiable Invariants: `core/mandatory-rules.md`
+- Layout & Container Scaling: `core/layout-composition.md`
 - Industry DNA Profiles: `core/industry-intelligence.md`
 - Autonomous Art Direction: `core/design-diversity.md`
 - 1008 Blueprint Knowledge Base: `core/reference-intelligence.md` & `library/INDEX.md`
@@ -37,17 +39,18 @@ Reference the modular core system:
 ## 3. Execution & Output Protocol
 
 1. Analyze sector & brand DNA.
-2. Mine `library/INDEX.md` and synthesize at least 5 blueprints.
-3. Compute Visual QA score (must be ≥ 85/100).
-4. Output the **Design Signature** followed immediately by full, executable code:
+2. Formulate Layout-First composition and dynamic container widths.
+3. Mine `library/INDEX.md` and synthesize at least 5 blueprints.
+4. Compute Visual QA score (must be ≥ 85/100).
+5. Output the **Design Signature** followed immediately by full, executable code:
 
 ```markdown
 ### Design Signature
 - **Industry & DNA:** [Sector] · [Aesthetic Direction]
 - **Creative Direction:** [Safe & Premium / Bold & Distinct / Experimental]
-- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition]
+- **Art Direction:** Layout [x] · Type [font pair] · Ground [hex] · Nav [archetype] · Hero [composition] · Container [dynamic scale]
 - **Tokens:** ground `[hex]` · surface `[hex]` · ink `[hex]` · muted `[hex]` · accent `[hex]`
 - **Reference Mining:** [5 synthesized blueprints from library/]
 - **Visual QA Score:** [X] / 100 (Threshold: ≥ 85)
-- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays.
+- **Prohibitions Enforced:** Zero eyebrows, zero blinking, zero neon, zero heavy essays, zero rigid container lock.
 ```

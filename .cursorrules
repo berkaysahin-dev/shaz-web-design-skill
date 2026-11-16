@@ -9,10 +9,11 @@ Strictly adhere to the Shaz Agency Design Intelligence 2.0 rules for all fronten
 5. Zero Neon Halos or Radioactive RGB Extremes.
 6. Zero Repeating Gradients or Cloned 3-Card Bento Boxes.
 7. Zero Emojis: Monochrome vector icons only.
-8. Mandatory Industry Intelligence (8 distinct sectors).
-9. Mandatory Reference Mining (synthesize at least 5 blueprints from `library/INDEX.md`).
-10. Mandatory 100-Point Visual QA Gate (minimum threshold: 85/100).
+8. Dynamic Container Metrics: Assign container widths tailored to content type (`max-w-2xl` to `max-w-7xl` / full-bleed).
+9. Mandatory Industry Intelligence (10 distinct sectors).
+10. Mandatory Reference Mining (synthesize at least 5 blueprints from `library/INDEX.md`).
+11. Mandatory 100-Point Visual QA Gate (minimum threshold: 85/100).
 
-Canonical references: `core/design-philosophy.md`, `core/mandatory-rules.md`, `core/industry-intelligence.md`, `core/visual-quality.md`.
+Canonical references: `core/design-philosophy.md`, `core/mandatory-rules.md`, `core/layout-composition.md`, `core/industry-intelligence.md`, `core/visual-quality.md`.
 
 Output Protocol: Print the Design Signature and then complete, unabridged, production-grade Next.js / React code.
